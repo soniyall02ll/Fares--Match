@@ -1,0 +1,316 @@
+/* CSS Document */
+::placeholder { color: #fff; }
+.search_inside{ width:100%; height:auto; float:left; background:#1d2a38; padding:30px; border-radius:5px;} 
+.search_field{width:100%; height:auto; float:left; display:none;} 
+.search_field h1{ font-family:Broadway; color:#fff; font-size:50px; font-weight:bold; text-decoration:none; text-align:center; padding:100px 0 0 0;}
+.exp{ width:100%; float:left; text-align:center; padding:50px 0 0 0;} 
+.search_outer{ width:100%;height:260px; background:none; padding:28px; background-size:cover; margin-top:0px; position:absolute; top:167px; left: 0;right: 0;}
+.search_inp{ width:100%; height:auto; float:left; margin-bottom:0px; font-size:16px; position: relative;}
+.inp_fld{
+	width: 100%;
+    float: left;
+    background: #2e3a47;
+    border: 1px solid #ffffff4d;
+    padding: 15px 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 14px; height: 50px;}
+.inp_fld_cl{ 
+	width: 100%;
+    float: left;
+    background: #2e3a47;
+    border: 1px solid #ffffff4d;
+    padding: 15px 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 14px; height: 50px;}
+.inp_fld_ps{ width: 100%;
+    float: left;
+    background: #2e3a47;
+    border: 1px solid #ffffff4d;
+    padding: 15px 20px;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 4px;
+    font-size: 14px; height: 50px;} 
+.inp_eco{ width: 100%;
+    float: left;
+    background: #2e3a47;
+    border: 1px solid #ffffff4d;
+    padding: 15px 20px;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 4px;
+    font-size: 14px; height: 50px;}
+
+.search_inp span{ color:#ffffff9e; text-transform:uppercase; font-weight:bold; font-size:12px;}
+.pass_btn{ width:100%; height:auto; float:left; text-align:right;}
+.pax_btn{    background: #1886f4;
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 3px;}
+
+.dest_box{ width:100%; height:auto; float:left;} 
+.dest_box h3{ font-family:Century Gothic; font-size:30px; color:#31124b; text-decoration:none; font-weight:normal; text-align:center; margin-top:10px;}
+.dest_box p{ font-size:14px; color:#31124b; text-decoration:none; font-weight:normal; text-align:left; padding-bottom:0px;}
+
+.box_btn{width:100%; height:auto; float:left; background:#31124b; margin-bottom:20px; color:#fff; padding:10px 10px; cursor:pointer;}
+.box_btn span{ float:right; padding:0 10px 0 0;} 
+
+
+.flight_tab{ width:100%; height:auto; float:left; position:relative; top:260px;}
+.flight_tab ul{ margin:0px; padding:0px;}
+.flight_tab ul li{ list-style:none; display:inline-block; margin-right:10px; margin-top:6px;}
+.flight_tab ul li a{ background:#fff; padding:10px; font-size:16px; text-align:center; border-radius:10px 0px; padding:10px 20px;}
+.flight_tab ul li a.active{ background:#fa9e1b; color:#fff;}
+
+.contact_info{width:100%; height:auto; float:left; margin-bottom:20px;} 
+.inp_details{ width:100%; height:60px; float:left; background:#f7f7f7; padding:0 0 0 20px; color:#999; border:none; margin-bottom:10px;}
+.msg{ border:none; background:#247bdd; color:#fff; font-size:20px; padding:10px 30px;} 
+
+
+/*Search Engine*/
+
+
+.passenger_details_box{ width: 360px;
+    height: auto;
+    float: left;
+    border: solid 1px #ffffff4f;
+    padding: 10px;
+    display: none;
+    background: #2e3a47;
+    z-index: 10000;
+    top: 95px;
+    position: absolute;
+    border-radius: 3px;}
+.passenger_details_box h3{ width:100%; height:auto; float:left; font-size:20px; color:#fff; text-decoration:none; font-weight:bold; margin-top:0px; margin-bottom:20px;}
+.pass_heading{width:100%; height:auto; float:left; font-size:12px; color:#fff; font-weight:bold; text-decoration:none; padding:9px 0 0 0; margin-bottom:25px;}
+.bt_dt{border: solid 1px #ffffff29;
+    padding: 10px;
+    background:#ffffff1f;
+    color: #fff;
+    width: 47px;
+    display: inline-block;
+    border-radius: 3px;}
+.bt_new{ border: solid 1px #ffffff29;
+    padding: 7px;
+    font-size: 20px;
+    background: #ffffff1f;
+    color: #fff;
+    width: 47px;
+    display: inline-block;
+    border-radius: 2px;}
+.bt_dt:hover{ text-decoration:none; color:#fff;} 
+.bt_new:hover{ text-decoration:none;} 
+.pass_box_dt{ width:100%; height:auto; float:left;} 
+.pass_box_dt a{ text-align:center;} 
+
+
+.contt {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size:14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; width:100%; float:left; color:#fff;
+}
+
+.rd{ margin-left:-27px!important;}
+
+/* Hide the browser's default radio button */
+.contt input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color:#ffffff40;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.contt:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.contt input:checked ~ .checkmark {
+  background-color: #1886f4;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content:"";
+  position:absolute;
+  display:none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.contt input:checked ~ .checkmark:after {
+  display:block;
+}
+
+/* Style the indicator (dot/circle) */
+.contt .checkmark:after {
+ 	top:5px;
+    left:5px;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:white;
+}
+
+
+
+.search-btn { border: 0;
+    border-radius: 3px;
+    background: #1886f4;
+    color: #fff;
+    padding: 10px 35px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    width: 100%;
+    text-transform: uppercase;
+    height: 50px;
+    margin-top: 34px;}
+
+.ui-widget-content {
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #333;
+}.ui-datepicker .ui-datepicker-header {
+    position: relative;
+    padding: 5px 0 8px;
+}.ui-widget-header {
+    border-radius: 0 !important;
+    background: #fff;
+    color: #3d3d3d;
+    font-weight: 600;
+    font-size: 14px;
+}.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+    position: absolute;
+    top: 7px;
+    width: 2.8em;
+    height: 2.8em; cursor: pointer;
+}.ui-state-disabled {
+    cursor: default !important;
+    pointer-events: none;
+}.ui-datepicker .ui-datepicker-prev { left: 15px;  }
+.ui-datepicker .ui-datepicker-next {
+    right: 15px;
+}.ui-datepicker .ui-datepicker-title {
+    margin: 0 2.3em;
+    line-height: 1.8em;
+    text-align: center;
+}.ui-datepicker .ui-datepicker-title {
+    margin: 0 2.3em;
+    line-height: 1.8em;
+    text-align: center;
+}.ui-datepicker table {
+    width: 100%;
+    font-size: .9em;
+    border-collapse: collapse;
+    margin: 0 0 .4em;
+}thead {
+    background: #fff;
+    color: #8d8d8d;
+}tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}.ui-datepicker th {
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: 500;
+    border: 0;
+}.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled {
+    opacity: .35;
+    filter: Alpha(Opacity=35);
+    background-image: none;
+}.ui-datepicker td {
+    border: 0;
+    padding: 1px;
+    border: 1px solid #fff;
+}.ui-state-default:hover {
+    background:#1886f4;
+    color: #fff;
+}.ui-datepicker td span, .ui-datepicker td a {
+    display: block;
+    padding: 10px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600 !important;
+    text-align: center;
+    
+}.ui-autocomplete {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: default;    max-height: 500px;
+    overflow-x: hidden;
+}.ui-front {
+    z-index: 100;
+}.ui-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    outline: 0;
+}.ui-menu .ui-menu-item-wrapper {
+    position: relative;
+    padding: 10px;
+}.ui-menu-item-wrapper:hover { background: #1886f4; color: #fff;}
+
+
+@media screen and (max-width:767px) {
+
+.search_inside{ margin-top:-78px;}
+.container_new{ width:100%; height:auto; float:left;}
+.search_field h1{ font-size:27px; padding-top:50px;}
+.exp{ padding: 2px 0 30px 0;}
+.search_outer{ width:100%; height:auto; float:left; padding:10px;}
+.inp_fld{ margin-bottom:10px;}
+.search_inp{ text-align:left;}
+.rd{ margin-left:0px!important;}
+
+.search-btn { margin-top: 0px; }
+.search_inp { margin-bottom: 0px; }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,198 @@
+﻿@using Viman.Models
+@{
+    //ViewBag.StaticURL = Common.StaticURL;
+}
+<!DOCTYPE html>
+<html lang="en-gb">
+<head> 
+<link href="./css/fontawesome/css/all.css" rel="stylesheet" />
+    <link href="./css/fontawesome/css/all.min.css" rel="stylesheet" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://www.faresmatch.com/images/favicon-96x96.png">   
+    <link href="https://www.faresmatch.com/fmcss/style.css" rel="stylesheet">
+    <link href="https://www.faresmatch.com/fmcss/index.css" rel="stylesheet">
+    <link href="https://www.faresmatch.com/fmcss/new.css" rel="stylesheet">
+    <link href="https://www.faresmatch.com/fmcss/homepax.css" rel="stylesheet">
+    <link href="https://www.faresmatch.com/fmcss/main.css" rel="stylesheet">
+    @RenderSection("metatags", required: false)
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NVZJ7347');</script>
+<!-- End Google Tag Manager -->
+</head>
+
+<style>
+    .bg1 {
+        background-image: linear-gradient(to right, rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0), rgba(20, 20, 20, 0)), url(./images/bus.jpg);
+        h1
+
+    {
+        text-shadow: 0 4px 4px rgba(20, 20, 20, 0.5);
+    }
+
+    }
+
+    .grid1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        .column
+
+    {
+        margin: auto 0;
+    }
+
+    img {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    }
+
+    .uspsss {
+        margin-top: 20px;
+        .column
+
+    {
+        box-shadow: 0 0 2px 2px rgba(20, 20, 20, 0.1);
+        padding: 18px;
+        border-radius: 10px;
+        background-color: #ededed;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    i {
+        background: linear-gradient(45deg, var(--third-color), var(--sixth-color), var(--third-color));
+        padding: 10px;
+        border-radius: 50%;
+        color: var(--fourth-color);
+    }
+
+    }
+
+    .helicopter {
+        .column
+
+    {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        border-radius: 10px;
+        height: 250px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    h3 {
+        color: var(--fourth-color) !important;
+    }
+
+    a:hover {
+        .column
+
+    {
+        box-shadow: 0 0 5px 5px rgba(20, 20, 20, 0.3);
+    }
+
+    }
+    }
+
+    .grid2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .textcon {
+        ul
+
+    {
+        list-style-type: disc;
+        margin-left: 18px;
+    }
+
+    ol {
+        margin-left: 18px;
+    }
+
+    table {
+        margin-top: 20px;
+        th, td
+
+    {
+        padding: 10px;
+        text-align: center;
+        width: 33.33%;
+    }
+
+    }
+    }
+
+    @@media only screen and (max-width: 1024px) {
+
+        .grid1,
+        .grid2 {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+</style>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVZJ7347"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    @{Html.RenderPartial("~/Views/Shared/header.cshtml");}
+    <!-- WRAPPER CONTENT -->
+    <!-- FOOTER-->
+    <div class="clearfix"></div>
+
+    @RenderBody()
+
+
+
+
+    <div class="clearfix"></div>
+
+
+
+    <div class="clearfix"></div>
+    @{Html.RenderPartial("~/Views/Shared/footer.cshtml");}
+
+    <a href="tel:+1-800-918-3039">
+        <div class="mobilecta">
+            <div class="img">
+                <img src="https://www.faresmatch.com/fmimages/customer-support.jpg" alt="customer-support">
+            </div>
+            <div>
+                <p><b>Need Help Booking</b></p>
+                <p>Our agent is ready! Call us 24/7</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone-volume fa-beat"></i>
+            </div>
+        </div>
+    </a>
+
+
+
+
+</body>
+<script src="https://www.faresmatch.com/fmcss/file.js"></script>
+<script src="https://www.faresmatch.com/fmcss/slider.js"></script>
+<script src="https://www.faresmatch.com/fmcss/bootstrap.js"></script>
+<script src="https://www.faresmatch.com/fmcss/jquery.js"></script>
+<script src="https://kit.fontawesome.com/513bc71f1a.js" crossorigin="anonymous"></script>
+
+
+
+</html>

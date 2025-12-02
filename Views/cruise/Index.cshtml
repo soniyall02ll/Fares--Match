@@ -1,0 +1,376 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout cruise.cshtml";
+}
+@section metatags{
+    <title>Find Cheap & Best Cruise Vacation Deals | FaresMatch</title>
+<meta name="description" content="Find cheap cruise vacation deals and discount cruises for your dream vacation. Discover top destinations and save big on your next cruise at FaresMatch." />
+<link rel="canonical" href="https://www.faresmatch.com/cruise" />
+<meta property="og:title" content="Find Cheap & Best Cruise Vacation Deals | FaresMatch" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://www.faresmatch.com/assets/images/logo.png" />
+<meta name="og:locale" content="en_US" />
+<meta property="og:site_name" content="Faresmatch" />
+<meta property="og:description" content="Find cheap cruise vacation deals and discount cruises for your dream vacation. Discover top destinations and save big on your next cruise at FaresMatch." />
+<meta property="og:url" content="https://www.faresmatch.com/cruise" />
+<meta name="author" content="faresmatch.com" />
+<meta name="geo.region" content="US-GA" />
+<meta name="language" content="English" />
+<meta name="robots" content="index,follow" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="faresmatch"/>
+<meta name="twitter:title" content="Find Cheap & Best Cruise Vacation Deals | FaresMatch" />
+<meta name="twitter:description" content="Find cheap cruise vacation deals and discount cruises for your dream vacation. Discover top destinations and save big on your next cruise at FaresMatch."/>
+<meta name="twitter:image" content="https://www.faresmatch.com/assets/images/logo.png"/>
+
+
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://www.faresmatch.com/images/favicon-96x96.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">    
+    <script defer src="./css/slider.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+}
+
+<div class="container2">
+    <div class="row" style="padding-top: 40px !important;">
+        <div class="column cruisecol">
+            <h1>Find the Perfect Cruise Vacation for You</h1>
+            <p>For expert cruise advice, call <a href="tel:+18887274569">+1-888-727-4569</a>.</p>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEnginecruise.cshtml");}
+
+        </div>
+
+
+        <hr>
+
+        <div class="column cruisedestinations">
+            <h2>Popular Cruise Destinations</h2>
+
+            <div class="grid">
+                <a href="https://www.faresmatch.com/cruises-to-bermuda.aspx">
+                    <div class="cruiseinnercol"
+                         style="background-image: linear-gradient(to top, rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)), url(/cruise-images/Bermuda1.jpg); ">
+                        <p><b>Bermuda</b></p>
+                    </div>
+                </a>
+                <a href="https://www.faresmatch.com/cruises-to-iceland.aspx">
+                    <div class="cruiseinnercol"
+                         style="background-image: linear-gradient(to top, rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)), url(/cruise-images/Iceland1.jpg); ">
+                        <p><b>Iceland</b></p>
+                    </div>
+                </a>
+                <a href="https://www.faresmatch.com/cruises-to-mexico.aspx">
+                    <div class="cruiseinnercol"
+                         style="background-image: linear-gradient(to top, rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)), url(/cruise-images/Mexico1.jpg); ">
+                        <p><b>Mexico</b></p>
+                    </div>
+                </a>
+                <a href="https://www.faresmatch.com/cruises-to-puerto-rico.aspx">
+                    <div class="cruiseinnercol"
+                         style="background-image: linear-gradient(to top, rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)), url(/cruise-images/PuertoRico1.jpg); ">
+                        <p><b>Puerto Rico</b></p>
+                    </div>
+                </a>
+                <a href="https://www.faresmatch.com/cruises-to-virgin-islands.aspx">
+                    <div class="cruiseinnercol"
+                         style="background-image: linear-gradient(to top, rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)), url(/cruise-images/VirginIslands1.jpg); ">
+                        <p><b>Virgin Islands</b></p>
+                    </div>
+                </a>
+                <a href="https://www.faresmatch.com/cruises-to-jamaica.aspx">
+                    <div class="cruiseinnercol"
+                         style="background-image: linear-gradient(to top, rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)), url(/cruise-images/Jamacia1.jpg); ">
+                        <p><b>Jamaica  </b></p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- <h2>Departure Ports with Great Cruises Leaving from</h2>
+
+                <div class="grid">
+                    <a href="#">
+                        <div class="cruiseinnercol"
+                            style="background-image: linear-gradient(to top, rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)), url(./images/7.jpg);">
+                            <p><b>Maxico</b></p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="cruiseinnercol"
+                            style="background-image: linear-gradient(to top, rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)), url(./images/8.jpg);">
+                            <p><b>Maxico</b></p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="cruiseinnercol"
+                            style="background-image: linear-gradient(to top, rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)), url(./images/9.jpg);">
+                            <p><b>Maxico</b></p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="cruiseinnercol"
+                            style="background-image: linear-gradient(to top, rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)), url(./images/10.jpg);">
+                            <p><b>Maxico</b></p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="cruiseinnercol"
+                            style="background-image: linear-gradient(to top, rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)), url(./images/11.jpg);">
+                            <p><b>Maxico</b></p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="cruiseinnercol"
+                            style="background-image: linear-gradient(to top, rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)), url(./images/12.jpeg);">
+                            <p><b>Maxico</b></p>
+                        </div>
+                    </a>
+                </div>
+            </div>-->
+
+            <div class="column cruisetext">
+                <h2>When is the cheapest time to take a cruise?</h2>
+                <p>
+                    Is there any best time to find budget-friendly cruises for various destinations? Yes, there are some
+                    particular times when the prices are very low for cruise booking, and summers are the typically
+                    affordable time because it is hurricane season. The same formula is applicable for those
+                    destinations that have off-season time, and they offer discounted prices now.
+                </p>
+                <h2>Can I cancel my cruise booking on Faresmatch?</h2>
+                <p>
+                    There are some terms and conditions on the cancellation, which are also visible while you book a
+                    cruise at the Faresmatch. While following our policy, you can cancel the cruise booking, but make
+                    sure to do this in advance because last-minute booking cancellation does not allow a full refund.
+                    The most popular river cruises for travellers who are looking for scenic views and diverse
+                    experiences to explore the culture. Multiple stops along the river offer more interference
+                    exploration of the surrounding regions. Lines like Viking River Cruises excel in providing a
+                    luxurious and enriching river cruise experience.
+                </p>
+                <h2>What are the best cruises for families?</h2>
+                <p>
+                    Yes, even there are many family-friendly cruises available that offer unforgettable experiences for
+                    all ages. When you visit the Disney cruises then, you can explore the live shows, interactive
+                    attractions, and the different cartoon characters.
+                </p>
+                <h2>How much does a cruise cost?</h2>
+                <p>
+                    Now, let’s talk about the cost of the cruise. the cruise prices range widely depending on the line,
+                    cabin type, and Itinerary. Low-budget cruises start from $50 per night, and luxury options can go up
+                    to $1000 per night. Faresmatch always offers low-budget premium options.
+                </p>
+                <h3>Which cruise lines are the best?</h3>
+                <p>
+                    Viking Cruises is the perfect example of a top cruise line, and it includes luxury and intimate
+                    experiences with Royal Caribbean for adventurous activities. For example, Disney Cruise Line for
+                    families and Norwegian Cruise Line for the different entertainment options. Each cruise options have
+                    a unique experience with the tailored demands of the travelers.
+                </p>
+                <h3>When should I book a cruise?</h3>
+                <p>
+                    Booking a cruise in advance is an important aspect to save money, and the ideal booking time is 6 to
+                    12 months in advance to secure the best deals and availability. Last-minute cruise deals are not
+                    always cost-effective.
+                </p>
+                <h3>Are cruise trips budget-friendly?</h3>
+                <p>
+                    Yes, cruise trips are actually budget-friendly, when you know this fact that how to make these trips
+                    budget-friendly to match your budget. You can check the cruise prices by using and sorting the
+                    options of price, cabin type, and duration.
+                </p>
+                <h2>What is the cruise experience like?</h2>
+                <p>
+                    Relaxation, peace, and entertainment: there are many options that you can avail of as the cruise
+                    experience, and you can also enjoy live performances, gourmet dining, and shopping. There is
+                    something good for everything.
+                </p>
+                <h3>Are cruises a good way to travel?</h3>
+                <p>
+                    Cruises mix transportation and entertainment, offering the chance to visit multiple destinations
+                    while enjoying the journey. This makes them a unique and worthwhile way to travel.
+                </p>
+                <h2>What is the most affordable cruise line?</h2>
+                <p>
+                    The most affordable cruise line is Carnival Cruise Line. This is a budget-friendly cruise option for
+                    people. This cruise offers competitive pricing for those who are looking for affordable luxury.
+                </p>
+                <h3>How can I get the best cruise deals on Faresmatch?</h3>
+                <p>
+                    At Faresmatch, you can find the deals for cruise booking while searching and using the different
+                    filters of cruise price, features, and facility; you must stay updated with the latest deals and
+                    offers for cruise booking.
+                </p>
+
+            </div>
+
+            <div class="column faqs">
+                <h2>Frequently asked questions</h2>
+                <div class="grid">
+                    <div class="column">
+                        <div class="faq">
+                            <div class="faqhead flex">
+                                <h3 style="flex: 1;">How can I find affordable cruise deals?</h3>
+                                <h3><i class="fa-solid fa-caret-down"></i><i class="fa-solid fa-caret-up"></i></h3>
+                            </div>
+                            <div class="faqdetail">
+                                <p>
+                                    At Faresmatch, you can explore and filter top cruise offers based on your
+                                    preferences, such as cabin type, cruise length, and destination. Choosing fewer
+                                    luxury features can help save costs.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <div class="faqhead flex">
+                                <h3 style="flex: 1;">When is the cheapest time to take a cruise?</h3>
+                                <h3><i class="fa-solid fa-caret-down"></i><i class="fa-solid fa-caret-up"></i></h3>
+                            </div>
+                            <div class="faqdetail">
+                                <p>
+                                    The cheapest time is during the off-season, like summer, which coincides with
+                                    hurricane season for some regions. Off-season cruises often have discounted prices.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <div class="faqhead flex">
+                                <h3 style="flex: 1;">Can I cancel my cruise booking on Faresmatch?</h3>
+                                <h3><i class="fa-solid fa-caret-down"></i><i class="fa-solid fa-caret-up"></i></h3>
+                            </div>
+                            <div class="faqdetail">
+                                <p>
+                                    Yes, cancellations are possible, but they follow specific terms and conditions.
+                                    Ensure you cancel in advance, as last-minute cancellations may not qualify for a
+                                    full refund.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <div class="faqhead flex">
+                                <h3 style="flex: 1;">What are the best cruises for families?</h3>
+                                <h3><i class="fa-solid fa-caret-down"></i><i class="fa-solid fa-caret-up"></i></h3>
+                            </div>
+                            <div class="faqdetail">
+                                <p>
+                                    Disney Cruise Line is great for families, offering live shows, interactive
+                                    attractions, and cartoon character experiences that delight all ages.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <div class="faqhead flex">
+                                <h3 style="flex: 1;">How much does a cruise cost?</h3>
+                                <h3><i class="fa-solid fa-caret-down"></i><i class="fa-solid fa-caret-up"></i></h3>
+                            </div>
+                            <div class="faqdetail">
+                                <p>
+                                    Cruise prices vary widely. Budget-friendly cruises start at $50 per night, while
+                                    luxury options can go up to $1,000 per night. Faresmatch offers affordable premium
+                                    options.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <div class="faqhead flex">
+                                <h3 style="flex: 1;">Which cruise lines are the best?</h3>
+                                <h3><i class="fa-solid fa-caret-down"></i><i class="fa-solid fa-caret-up"></i></h3>
+                            </div>
+                            <div class="faqdetail">
+                                <p>
+                                    Top cruise lines include Viking Cruises for luxury, Royal Caribbean for adventure,
+                                    Disney Cruise Line for families, and Norwegian Cruise Line for entertainment.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="faq">
+                            <div class="faqhead flex">
+                                <h3 style="flex: 1;">When should I book a cruise?</h3>
+                                <h3><i class="fa-solid fa-caret-down"></i><i class="fa-solid fa-caret-up"></i></h3>
+                            </div>
+                            <div class="faqdetail">
+                                <p>
+                                    Book 6–12 months in advance to secure the best deals and availability. Last-minute
+                                    deals might not always be budget-friendly.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <div class="faqhead flex">
+                                <h3 style="flex: 1;">Are cruise trips budget-friendly?</h3>
+                                <h3><i class="fa-solid fa-caret-down"></i><i class="fa-solid fa-caret-up"></i></h3>
+                            </div>
+                            <div class="faqdetail">
+                                <p>
+                                    Yes, cruise trips can be budget-friendly. Use Faresmatch to sort by price, cabin
+                                    type, and duration to find options that fit your budget.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <div class="faqhead flex">
+                                <h3 style="flex: 1;">What is the cruise experience like?</h3>
+                                <h3><i class="fa-solid fa-caret-down"></i><i class="fa-solid fa-caret-up"></i></h3>
+                            </div>
+                            <div class="faqdetail">
+                                <p>
+                                    Cruises offer relaxation, entertainment, and gourmet dining, with live performances,
+                                    shopping, and scenic views. There’s something for everyone.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <div class="faqhead flex">
+                                <h3 style="flex: 1;">Are cruises a good way to travel?</h3>
+                                <h3><i class="fa-solid fa-caret-down"></i><i class="fa-solid fa-caret-up"></i></h3>
+                            </div>
+                            <div class="faqdetail">
+                                <p>
+                                    Yes, cruises combine transportation and entertainment, allowing you to visit multiple
+                                    destinations while enjoying the journey.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <div class="faqhead flex">
+                                <h3 style="flex: 1;">What is the most affordable cruise line?</h3>
+                                <h3><i class="fa-solid fa-caret-down"></i><i class="fa-solid fa-caret-up"></i></h3>
+                            </div>
+                            <div class="faqdetail">
+                                <p>
+                                    Carnival Cruise Line is the most affordable option, offering competitive pricing and
+                                    budget-friendly luxury.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq">
+                            <div class="faqhead flex">
+                                <h3 style="flex: 1;">How can I get the best cruise deals on Faresmatch?</h3>
+                                <h3><i class="fa-solid fa-caret-down"></i><i class="fa-solid fa-caret-up"></i></h3>
+                            </div>
+                            <div class="faqdetail">
+                                <p>
+                                    Use Faresmatch filters for price, features, and facilities. Stay updated with the
+                                    latest offers to find the best cruise deals.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

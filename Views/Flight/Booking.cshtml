@@ -1,0 +1,1864 @@
+﻿@model Viman.Models.FlightsBooking
+@using Viman.Models
+@{
+    ViewBag.Title = "Booking";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.WebsiteURL = Common.WebsiteURL;
+    ViewBag.StaticURL = Common.StaticURL;
+    ViewBag.Currency = Common.Currency;
+    FlightsSearch flightSearch = ViewBag.flightSearch;
+    Flights flights = ViewBag.flights;
+   
+    int mm = 0, nn = 0, pass = 0;
+    <link type="text/css" rel="stylesheet" href="@(ViewBag.StaticURL + "Content/css/owl.carousel.min.css")" />
+    <link type="text/css" rel="stylesheet" href="@(ViewBag.StaticURL + "Content/css/owl.theme.default.min.css")" />
+}
+
+<div class="page">
+    <div class="listing">
+        <form method="post" id="booking_frm" name="booking_frm" action="@Url.Content("~/Flight/Payment")">
+            <input type="hidden" id="hsearchId" name="hsearchId" value="@(Model.FlightsSearch.SearchId)" />
+            <div class="row" style="padding: 25px 20px !important;">
+                <div class="bookingCol">
+                    <div class="d-flex">
+                        <div class="list flightDlt">
+                            <h3>Depart</h3>
+                            <div>
+                                @{ int cntOB = 1;
+                                    foreach (FlightsSegment outboundArr in flights.Outbound)
+                                    {
+                                        if (cntOB == 1)
+                                        {
+                                            <div class="DataRow">
+                                                <p style="flex: 1;">@(@flightSearch.DepDate.ToString("dd MMMM yyyy"))</p>
+                                                <p><bdo>@((flights.Outbound.Count == 1) ? "Non" : (flights.Outbound.Count - 1) + "") stop(s) <i aria-hidden="true" class="fa fa-clock-o"></i> @(Math.Floor(double.Parse(flights.Outbound[flights.Outbound.Count - 1].TotalTime) / 60))h @(double.Parse(flights.Outbound[flights.Outbound.Count - 1].TotalTime) % 60)m</bdo></p>
+                                            </div>
+                                        }
+
+                                        double stop_time = 0;
+                                        if (flights.Outbound.Count > 1)
+                                        {
+                                            stop_time = double.Parse(Common.GetTime(flights.Outbound[flights.Outbound.Count - 1].DepartureDate, flights.Outbound[flights.Outbound.Count - 2].ArrivalDate) + "");
+                                        }
+
+                                        <div class="ResultDetailRow flex" style="width: 100%;display:flex;">
+                                            <div style="flex:1;">
+                                                @if (@flights.Airline.Code == "WN")
+                                                {
+
+                                                    <img src="@(ViewBag.StaticURL + "Content/airline/fit/" + flights.Airline.Code + ".gif")" width="20px" />
+
+                                                }
+
+                                                else
+                                                {
+                                                    <img src="@("https://images.kiwi.com/airlines/64x64/" + flights.Airline.Code + ".png")" width="20px" />
+                                                }
+
+                                                <p>@(flights.Airline.Name) - @(outboundArr.FlightNo)</p>
+                                                <p>@(outboundArr.Airline.Name) @(outboundArr.CabinClass)</p>
+                                                <p><i class="fa fa-suitcase" aria-hidden="true"></i> @(outboundArr.BaggageAllowance),  Cabin: 7 KG</p>
+                                            </div>
+                                            <div style="flex:1;">
+                                                <p><b>@(outboundArr.FromAirport.Code) - @(outboundArr.ToAirport.Code)</b></p>
+                                                <p>@(outboundArr.DepartureDate.ToString("HH:mm")) - @(outboundArr.ArrivalDate.ToString("HH:mm"))</p>
+                                                <p>@(outboundArr.DepartureDate.ToString("dd-MMM")) - @(outboundArr.ArrivalDate.ToString("dd-MMM"))</p>
+                                            </div>
+                                        </div>
+                                        if (cntOB < flights.Outbound.Count)
+                                        {
+                                            cntOB++;
+                                            <div class="stopover-row"><i class="fa fa-hourglass-half"></i> Stop: @(Math.Floor(stop_time / 60))Hrs @(Math.Floor(stop_time % 60))Mins</div>
+                                        }
+                                    }
+                                }
+                            </div>
+                        </div>
+
+                        @if (flightSearch.FlightWay == FlightWay.RoundTrip)
+                        {
+                            <div class="list flightDlt">
+                                <h3>RETURN</h3>
+                                <div>
+                                    @{ int cntIB = 1;
+                                        foreach (FlightsSegment inboundArr in flights.Inbound)
+                                        {
+                                            if (cntIB == 1)
+                                            {
+                                                <div class="DataRow">
+                                                    <p style="flex: 1;">@(@flightSearch.RetDate.ToString("dd MMMM yyyy"))</p>
+                                                    <p><bdo>@((flights.Inbound.Count == 1) ? "Non" : (flights.Inbound.Count - 1) + "") stop(s) <i aria-hidden="true" class="fa fa-clock-o"></i> @(Math.Floor(double.Parse(flights.Inbound[flights.Inbound.Count - 1].TotalTime) / 60))h @(double.Parse(flights.Inbound[flights.Inbound.Count - 1].TotalTime) % 60)m</bdo></p>
+                                                </div>
+                                            }
+
+                                            double stop_time = 0;
+                                            if (flights.Inbound.Count > 1)
+                                            {
+                                                stop_time = double.Parse(Common.GetTime(flights.Inbound[flights.Inbound.Count - 1].DepartureDate, flights.Inbound[flights.Inbound.Count - 2].ArrivalDate) + "");
+                                            }
+
+                                            <div class="ResultDetailRow flex" style="width: 100%;display:flex;">
+                                                <div style="flex:1;">
+                                                    @if (@flights.Airline.Code == "WN")
+                                                    {
+
+                                                        <img src="@(ViewBag.StaticURL + "Content/airline/fit/" + flights.Airline.Code + ".gif")" width="20px" />
+
+                                                    }
+
+                                                    else
+                                                    {
+                                                        <img src="@("https://images.kiwi.com/airlines/64x64/" + flights.Airline.Code + ".png")" width="20px" />
+                                                    }
+
+
+                                                    <p>@(flights.Airline.Name)- @(inboundArr.FlightNo)</p>
+                                                    <p>@(inboundArr.Airline.Name) @(inboundArr.CabinClass)</p>
+                                                    <p><i class="fa fa-suitcase" aria-hidden="true"></i> @(inboundArr.BaggageAllowance),  Cabin: 7 KG</p>
+                                                </div>
+                                                <div style="flex:1;">
+                                                    <p>@(inboundArr.FromAirport.Code) - @(inboundArr.ToAirport.Code)</p>
+                                                    <p>@(inboundArr.DepartureDate.ToString("HH:mm")) - @(inboundArr.ArrivalDate.ToString("HH:mm"))</p>
+                                                    <p>@(inboundArr.DepartureDate.ToString("dd-MMM")) - @(inboundArr.ArrivalDate.ToString("dd-MMM"))</p>
+                                                </div>
+                                            </div>
+
+                                            if (cntIB < flights.Inbound.Count)
+                                            {
+                                                cntIB++;
+                                                <div class="stopover-row"><i class="fa fa-hourglass-half"></i> Stop: @(Math.Floor(stop_time / 60))Hrs @(Math.Floor(stop_time % 60))Mins</div>
+                                            }
+                                        }
+                                    }
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                    <div class="TravelProtect d-flex">
+                        <div>
+                            <img src="~/fmimages/protection.png" />
+                        </div>
+                        <div style="flex:1;">
+                            <h3>Travel Protection</h3>
+                            <p>Reasons you might need travel protection</p>
+                            <ul class="grid2">
+                                <li><i class="fa-solid fa-check"></i> Trip cancellation</li>
+                                <li><i class="fa-solid fa-check"></i> Baggage delay</li>
+                                <li><i class="fa-solid fa-check"></i> Inclement weather</li>
+                                <li><i class="fa-solid fa-check"></i> Mechanical breakdown</li>
+                                <li><i class="fa-solid fa-check"></i> Travel delay</li>
+                                <li><i class="fa-solid fa-check"></i> Trip interruption</li>
+                                <li><i class="fa-solid fa-check"></i> Airline bankruptcy</li>
+                            </ul>
+                            <div class="d-flex" style="gap:15px !important;">
+                                <p style="font-size:13px !important;line-height: 1.5 !important;">View Plan Details & Important Disclaimers (Non-Insurance services and assistance fee included in the total travel protection plan cost). Terms & Conditions Apply.</p>
+                                <div class="TravelPrice">
+                                    <h3>USD 15.95</h3>
+                                    <p>per person</p>
+                                </div>
+                                <div class="ProtectCheck">
+                                    <input type="checkbox" id="chkProtection" />
+                                    <label for="chkProtection">Add Travel Protection</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bookingBox">
+                        <h3><i class="fa fa-user" aria-hidden="true"></i> Traveller Adult (12+)</h3>
+                        <p>The names given must match with the names on the passport.</p>
+
+                        @for (int aa = 1; aa <= Model.FlightsSearch.Adult; aa++)
+                        {
+                            pass++;
+                            <div class="form-group">
+                                <div class="d-flex">
+                                    <div>
+                                        <label>Title</label>
+                                        <select class="form-select" id="title_@(pass)" name="title_@(pass)">
+                                            <option value="MR">Mr</option>
+                                            <option value="MRS">Mrs</option>
+                                            <option value="MISS">Miss</option>
+                                            <option value="MASTER">Master</option>
+                                        </select>
+                                    </div>
+                                    <div class="flex" style="flex:1;">
+                                        <div style="flex:1;">
+                                            <label>First Name</label>
+                                            <input type="text" name="fname_@(pass)" id="fname_@(pass)" class="form-control" placeholder="First Name" value="" autocomplete="off" />
+                                        </div>
+                                        <div style="flex:1;">
+                                            <label>Last Name</label>
+                                            <input type="text" name="lname_@(pass)" id="lname_@(pass)" class="form-control" placeholder="Last Name" value="" autocomplete="off" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid grid2">
+                                    <div>
+                                        <label>Date Of Birth</label>
+                                        <div class="flex">
+                                            <div style="flex:1;">
+                                                <span>
+                                                    <select class="form-select" id="pDay_1" name="pDay_1">
+                                                        <option selected="selected" value="">Day</option>
+                                                        <option value="01">01</option>
+                                                        <option value="02">02</option>
+                                                        <option value="03">03</option>
+                                                        <option value="04">04</option>
+                                                        <option value="05">05</option>
+                                                        <option value="06">06</option>
+                                                        <option value="07">07</option>
+                                                        <option value="08">08</option>
+                                                        <option value="09">09</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+                                                        <option value="13">13</option>
+                                                        <option value="14">14</option>
+                                                        <option value="15">15</option>
+                                                        <option value="16">16</option>
+                                                        <option value="17">17</option>
+                                                        <option value="18">18</option>
+                                                        <option value="19">19</option>
+                                                        <option value="20">20</option>
+                                                        <option value="21">21</option>
+                                                        <option value="22">22</option>
+                                                        <option value="23">23</option>
+                                                        <option value="24">24</option>
+                                                        <option value="25">25</option>
+                                                        <option value="26">26</option>
+                                                        <option value="27">27</option>
+                                                        <option value="28">28</option>
+                                                        <option value="29">29</option>
+                                                        <option value="30">30</option>
+                                                        <option value="31">31</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div style="flex:1;">
+                                                <span>
+                                                    <select class="form-select" id="pMonth_1" name="pMonth_1">
+                                                        <option selected="selected" value="">Month</option>
+                                                        <option value="01">Jan</option>
+                                                        <option value="02">Feb</option>
+                                                        <option value="03">Mar</option>
+                                                        <option value="04">Apr</option>
+                                                        <option value="05">May</option>
+                                                        <option value="06">Jun</option>
+                                                        <option value="07">Jul</option>
+                                                        <option value="08">Aug</option>
+                                                        <option value="09">Sep</option>
+                                                        <option value="10">Oct</option>
+                                                        <option value="11">Nov</option>
+                                                        <option value="12">Dec</option>
+                                                    </select>
+                                                </span>
+
+                                            </div>
+                                            <div style="flex:1;">
+                                                <span>
+                                                    <select class="form-select" id="pYear_1" name="pYear_1">
+                                                        <option value="2014">2014</option>
+                                                        <option value="2013">2013</option>
+                                                        <option value="2012">2012</option>
+                                                        <option value="2011">2011</option>
+                                                        <option value="2010">2010</option>
+                                                        <option value="2009">2009</option>
+                                                        <option value="2008">2008</option>
+                                                        <option value="2007">2007</option>
+                                                        <option value="2006">2006</option>
+                                                        <option value="2005">2005</option>
+                                                        <option value="2004">2004</option>
+                                                        <option value="2003">2003</option>
+                                                        <option value="2002">2002</option>
+                                                        <option value="2001">2001</option>
+                                                        <option value="2000">2000</option>
+                                                        <option value="1999">1999</option>
+                                                        <option value="1998">1998</option>
+                                                        <option value="1997">1997</option>
+                                                        <option value="1996">1996</option>
+                                                        <option value="1995">1995</option>
+                                                        <option value="1994">1994</option>
+                                                        <option value="1993">1993</option>
+                                                        <option value="1992">1992</option>
+                                                        <option value="1991">1991</option>
+                                                        <option value="1990">1990</option>
+                                                        <option value="1989">1989</option>
+                                                        <option value="1988">1988</option>
+                                                        <option value="1987">1987</option>
+                                                        <option value="1986">1986</option>
+                                                        <option value="1985">1985</option>
+                                                        <option value="1984">1984</option>
+                                                        <option value="1983">1983</option>
+                                                        <option value="1982">1982</option>
+                                                        <option value="1981">1981</option>
+                                                        <option value="1980">1980</option>
+                                                        <option value="1979">1979</option>
+                                                        <option value="1978">1978</option>
+                                                        <option value="1977">1977</option>
+                                                        <option value="1976">1976</option>
+                                                        <option value="1975">1975</option>
+                                                        <option value="1974">1974</option>
+                                                        <option value="1973">1973</option>
+                                                        <option value="1972">1972</option>
+                                                        <option value="1971">1971</option>
+                                                        <option value="1970">1970</option>
+                                                        <option value="1969">1969</option>
+                                                        <option value="1968">1968</option>
+                                                        <option value="1967">1967</option>
+                                                        <option value="1966">1966</option>
+                                                        <option value="1965">1965</option>
+                                                        <option value="1964">1964</option>
+                                                        <option value="1963">1963</option>
+                                                        <option value="1962">1962</option>
+                                                        <option value="1961">1961</option>
+                                                        <option value="1960">1960</option>
+                                                        <option value="1959">1959</option>
+                                                        <option value="1958">1958</option>
+                                                        <option value="1957">1957</option>
+                                                        <option value="1956">1956</option>
+                                                        <option value="1955">1955</option>
+                                                        <option value="1954">1954</option>
+                                                        <option value="1953">1953</option>
+                                                        <option value="1952">1952</option>
+                                                        <option value="1951">1951</option>
+                                                        <option value="1950">1950</option>
+                                                        <option value="1949">1949</option>
+                                                        <option value="1948">1948</option>
+                                                        <option value="1947">1947</option>
+                                                        <option value="1946">1946</option>
+                                                        <option value="1945">1945</option>
+                                                        <option value="1944">1944</option>
+                                                        <option value="1943">1943</option>
+                                                        <option value="1942">1942</option>
+                                                        <option value="1941">1941</option>
+                                                        <option value="1940">1940</option>
+                                                        <option value="1939">1939</option>
+                                                        <option value="1938">1938</option>
+                                                        <option value="1937">1937</option>
+                                                        <option value="1936">1936</option>
+                                                        <option value="1935">1935</option>
+                                                        <option value="1934">1934</option>
+                                                        <option value="1933">1933</option>
+                                                        <option value="1932">1932</option>
+                                                        <option value="1931">1931</option>
+                                                        <option value="1930">1930</option>
+                                                        <option value="1929">1929</option>
+                                                        <option value="1928">1928</option>
+                                                        <option value="1927">1927</option>
+                                                        <option value="1926">1926</option>
+                                                        <option value="1925">1925</option>
+                                                        <option value="1924">1924</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label>Gender</label>
+                                        <div class="flex" style="margin-top:12px;">
+                                            <div>
+                                                <label for="radio_male_@(pass)">
+                                                    <input type="radio" name="radio_gender_@(pass)" class="checkbox" style=" width: 15px !important; height: auto !important; margin: 2px 5px !important;" id="radio_male_@(pass)" value="1" checked>
+                                                    <span class="radias"></span>
+                                                    Male
+                                                </label>
+                                            </div>
+                                            <div>
+                                                <label for="radio_female_@(pass)">
+                                                    <input type="radio" name="radio_gender_@(pass)" class="checkbox" style=" width: 15px !important; height: auto !important; margin: 2px 5px !important;" id="radio_female_@(pass)" value="2">
+                                                    <span class="radias"></span>
+                                                    Female
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                    @for (int aa = 1; aa <= Model.FlightsSearch.Child; aa++)
+                    {
+                        pass++;
+                        <div class="bookingBox">
+                            <h3><i class="fa fa-user" aria-hidden="true"></i> Traveller Child (2-12)</h3>
+                            <div class="form-group">
+                                <div class="d-flex">
+                                    <div>
+                                        <label>Title</label>
+                                        <span>
+                                            <select class="form-select" id="title_@(pass)" name="title_@(pass)">
+                                                <option value="MASTER">Master</option>
+                                                <option value="MISS">Miss</option>
+                                            </select>
+                                        </span>
+                                    </div>
+                                    <div class="flex" style="flex:1;">
+                                        <div style="flex:1;">
+                                            <label>First Name</label>
+                                            <input type="text" name="fname_@(pass)" id="fname_@(pass)" class="form-control" placeholder="First Name" value="" autocomplete="off" />
+                                        </div>
+                                        <div style="flex:1;">
+                                            <label>Last Name</label>
+                                            <input type="text" name="lname_@(pass)" id="lname_@(pass)" class="form-control" placeholder="Last Name" value="" autocomplete="off" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid grid2">
+                                    <div>
+                                        <label>Date Of Birth</label>
+                                        <div class="flex">
+                                            <div style="flex:1;">
+                                                <span>
+                                                    <select class="form-select" id="pDay_2" name="pDay_2">
+                                                        <option selected="selected" value="">Day</option>
+                                                        <option value="01">01</option>
+                                                        <option value="02">02</option>
+                                                        <option value="03">03</option>
+                                                        <option value="04">04</option>
+                                                        <option value="05">05</option>
+                                                        <option value="06">06</option>
+                                                        <option value="07">07</option>
+                                                        <option value="08">08</option>
+                                                        <option value="09">09</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+                                                        <option value="13">13</option>
+                                                        <option value="14">14</option>
+                                                        <option value="15">15</option>
+                                                        <option value="16">16</option>
+                                                        <option value="17">17</option>
+                                                        <option value="18">18</option>
+                                                        <option value="19">19</option>
+                                                        <option value="20">20</option>
+                                                        <option value="21">21</option>
+                                                        <option value="22">22</option>
+                                                        <option value="23">23</option>
+                                                        <option value="24">24</option>
+                                                        <option value="25">25</option>
+                                                        <option value="26">26</option>
+                                                        <option value="27">27</option>
+                                                        <option value="28">28</option>
+                                                        <option value="29">29</option>
+                                                        <option value="30">30</option>
+                                                        <option value="31">31</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div style="flex:1;">
+                                                <span>
+                                                    <select class="form-select" id="pMonth_2" name="pMonth_2">
+                                                        <option selected="selected" value="">Month</option>
+                                                        <option value="01">Jan</option>
+                                                        <option value="02">Feb</option>
+                                                        <option value="03">Mar</option>
+                                                        <option value="04">Apr</option>
+                                                        <option value="05">May</option>
+                                                        <option value="06">Jun</option>
+                                                        <option value="07">Jul</option>
+                                                        <option value="08">Aug</option>
+                                                        <option value="09">Sep</option>
+                                                        <option value="10">Oct</option>
+                                                        <option value="11">Nov</option>
+                                                        <option value="12">Dec</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div style="flex:1;">
+                                                <span>
+                                                    <select class="form-select" id="pYear_2" name="pYear_2">
+                                                        <option value="2013">2013</option>
+                                                        <option value="2014">2014</option>
+                                                        <option value="2015">2015</option>
+                                                        <option value="2016">2016</option>
+                                                        <option value="2017">2017</option>
+                                                        <option value="2018">2018</option>
+                                                        <option value="2019">2019</option>
+                                                        <option value="2020">2020</option>
+                                                        <option value="2021">2021</option>
+                                                        <option value="2022">2022</option>
+                                                        <option value="2023">2023</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label>Gender</label>
+                                        <div class="flex" style="margin-top:12px;">
+                                            <div>
+                                                <label for="radio_male_@(pass)">
+                                                    <input type="radio" name="radio_gender_@(pass)" class="checkbox" style=" width: 15px !important; height: auto !important; margin: 2px 5px !important;" id="radio_male_@(pass)" value="1" checked>
+                                                    <span class="radias"></span>
+                                                    Male
+                                                </label>
+                                            </div>
+                                            <div>
+                                                <label for="radio_female_@(pass)">
+                                                    <input type="radio" name="radio_gender_@(pass)" class="checkbox" style=" width: 15px !important; height: auto !important; margin: 2px 5px !important;" id="radio_female_@(pass)" value="2">
+                                                    <span class="radias"></span>
+                                                    Female
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                    @for (int aa = 1; aa <= Model.FlightsSearch.Infant; aa++)
+                    {
+                        pass++;
+                        <div class="bookingBox">
+                            <h3><i class="fa fa-user" aria-hidden="true"></i> Traveller Infant (0-2)</h3>
+                            <div class="form-group">
+                                <div class="d-flex">
+                                    <div>
+                                        <label>Title</label>
+                                        <span>
+                                            <select class="form-select" id="title_@(pass)" name="title_@(pass)">
+                                                <option value="MASTER">Master</option>
+                                                <option value="MISS">Miss</option>
+
+                                            </select>
+                                        </span>
+                                    </div>
+                                    <div class="flex" style="flex:1;">
+                                        <div style="flex:1;">
+                                            <label>First Name</label>
+                                            <input type="text" name="fname_@(pass)" id="fname_@(pass)" class="form-control" placeholder="First Name" value="" autocomplete="off" />
+                                        </div>
+                                        <div style="flex:1;">
+                                            <label>Last Name</label>
+                                            <input type="text" name="lname_@(pass)" id="lname_@(pass)" class="form-control" placeholder="Last Name" value="" autocomplete="off" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid grid2">
+                                    <div>
+                                        <label>Date Of Birth</label>
+                                        <div class="flex">
+                                            <div style="flex:1;">
+                                                <span>
+                                                    <select class="form-select" id="pDay_3" name="pDay_3">
+                                                        <option selected="selected" value="">Day</option>
+                                                        <option value="01">01</option>
+                                                        <option value="02">02</option>
+                                                        <option value="03">03</option>
+                                                        <option value="04">04</option>
+                                                        <option value="05">05</option>
+                                                        <option value="06">06</option>
+                                                        <option value="07">07</option>
+                                                        <option value="08">08</option>
+                                                        <option value="09">09</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+                                                        <option value="13">13</option>
+                                                        <option value="14">14</option>
+                                                        <option value="15">15</option>
+                                                        <option value="16">16</option>
+                                                        <option value="17">17</option>
+                                                        <option value="18">18</option>
+                                                        <option value="19">19</option>
+                                                        <option value="20">20</option>
+                                                        <option value="21">21</option>
+                                                        <option value="22">22</option>
+                                                        <option value="23">23</option>
+                                                        <option value="24">24</option>
+                                                        <option value="25">25</option>
+                                                        <option value="26">26</option>
+                                                        <option value="27">27</option>
+                                                        <option value="28">28</option>
+                                                        <option value="29">29</option>
+                                                        <option value="30">30</option>
+                                                        <option value="31">31</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div style="flex:1;">
+                                                <span>
+                                                    <select class="form-select" id="pMonth_3" name="pMonth_3">
+                                                        <option selected="selected" value="">Month</option>
+                                                        <option value="01">Jan</option>
+                                                        <option value="02">Feb</option>
+                                                        <option value="03">Mar</option>
+                                                        <option value="04">Apr</option>
+                                                        <option value="05">May</option>
+                                                        <option value="06">Jun</option>
+                                                        <option value="07">Jul</option>
+                                                        <option value="08">Aug</option>
+                                                        <option value="09">Sep</option>
+                                                        <option value="10">Oct</option>
+                                                        <option value="11">Nov</option>
+                                                        <option value="12">Dec</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                            <div style="flex:1;">
+                                                <span>
+                                                    <select class="form-select" id="pYear_3" name="pYear_3">
+                                                        <option value="2025">2025</option>
+                                                        <option value="2024">2024</option>
+                                                        <option value="2023">2023</option>
+                                                    </select>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label>Gender</label>
+                                        <div class="flex" style="margin-top:12px;">
+                                            <div>
+                                                <label for="radio_male_@(pass)">
+                                                    <input type="radio" name="radio_gender_@(pass)" class="checkbox" style=" width: 15px !important; height: auto !important; margin: 2px 5px !important;" id="radio_male_@(pass)" value="1" checked>
+                                                    <span class="radias"></span>
+                                                    Male
+                                                </label>
+                                            </div>
+                                            <div>
+                                                <label for="radio_female_@(pass)">
+                                                    <input type="radio" name="radio_gender_@(pass)" class="checkbox" style=" width: 15px !important; height: auto !important; margin: 2px 5px !important;" id="radio_female_@(pass)" value="2">
+                                                    <span class="radias"></span>
+                                                    Female
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                    <div class="bookingBox">
+                        <h3><i class="fa fa-phone-square" aria-hidden="true"></i> Contact Details</h3>
+                        <div class="form-group">
+                            <div class="grid grid1">
+                                <div>
+                                    <label>Email</label>
+                                    <input type="text" name="email" id="email" class="form-control" placeholder="Email" value="" autocomplete="off" />
+                                </div>
+                                <div>
+                                    <label>Phone</label>
+                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone" value="" autocomplete="off" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="bookingBox">
+                        <h3><i class="fa fa-map-marker" aria-hidden="true"></i> Address Detail (Billing Address)</h3>
+                        <div class="form-group">
+                            <div class="grid grid1">
+                                <div>
+                                    <label>Address</label>
+                                    <input type="text" name="address" id="address" class="form-control" placeholder="Address" value="" autocomplete="off" />
+                                </div>
+                                <div>
+                                    <label>Country</label>
+                                    <select class="form-select" name="countryCode" id="countryCode">
+                                        <option value="">Select Country</option>
+                                        <option value="AF">Afghanistan</option>
+                                        <option value="AX">Åland Islands</option>
+                                        <option value="AL">Albania</option>
+                                        <option value="DZ">Algeria</option>
+                                        <option value="AS">American Samoa</option>
+                                        <option value="AD">Andorra</option>
+                                        <option value="AO">Angola</option>
+                                        <option value="AI">Anguilla</option>
+                                        <option value="AQ">Antarctica</option>
+                                        <option value="AG">Antigua and Barbuda</option>
+                                        <option value="AR">Argentina</option>
+                                        <option value="AM">Armenia</option>
+                                        <option value="AW">Aruba</option>
+                                        <option value="AU">Australia</option>
+                                        <option value="AT">Austria</option>
+                                        <option value="AZ">Azerbaijan</option>
+                                        <option value="BS">Bahamas</option>
+                                        <option value="BH">Bahrain</option>
+                                        <option value="BD">Bangladesh</option>
+                                        <option value="BB">Barbados</option>
+                                        <option value="BY">Belarus</option>
+                                        <option value="BE">Belgium</option>
+                                        <option value="BZ">Belize</option>
+                                        <option value="BJ">Benin</option>
+                                        <option value="BM">Bermuda</option>
+                                        <option value="BT">Bhutan</option>
+                                        <option value="BO">Bolivia</option>
+                                        <option value="BQ">Bonaire</option>
+                                        <option value="BA">Bosnia and Herzegovina</option>
+                                        <option value="BW">Botswana</option>
+                                        <option value="BV">Bouvet Island</option>
+                                        <option value="BR">Brazil</option>
+                                        <option value="IO">British Indian Ocean Territory</option>
+                                        <option value="VG">British Virgin Islands</option>
+                                        <option value="BN">Brunei</option>
+                                        <option value="BG">Bulgaria</option>
+                                        <option value="BF">Burkina Faso</option>
+                                        <option value="BI">Burundi</option>
+                                        <option value="KH">Cambodia</option>
+                                        <option value="CM">Cameroon</option>
+                                        <option value="CA">Canada</option>
+                                        <option value="CV">Cape Verde</option>
+                                        <option value="KY">Cayman Islands</option>
+                                        <option value="CF">Central African Republic</option>
+                                        <option value="TD">Chad</option>
+                                        <option value="CL">Chile</option>
+                                        <option value="CN">China</option>
+                                        <option value="CX">Christmas Island</option>
+                                        <option value="CC">Cocos (Keeling) Islands</option>
+                                        <option value="CO">Colombia</option>
+                                        <option value="KM">Comoros</option>
+                                        <option value="CG">Congo</option>
+                                        <option value="CK">Cook Islands</option>
+                                        <option value="CR">Costa Rica</option>
+                                        <option value="CI">Côte d'Ivoire</option>
+                                        <option value="HR">Croatia</option>
+                                        <option value="CU">Cuba</option>
+                                        <option value="CW">Curaçao</option>
+                                        <option value="CY">Cyprus</option>
+                                        <option value="CZ">Czech Republic</option>
+                                        <option value="CD">Democratic Republic of the Congo</option>
+                                        <option value="DK">Denmark</option>
+                                        <option value="DJ">Djibouti</option>
+                                        <option value="DM">Dominica</option>
+                                        <option value="DO">Dominican Republic</option>
+                                        <option value="EC">Ecuador</option>
+                                        <option value="EG">Egypt</option>
+                                        <option value="SV">El Salvador</option>
+                                        <option value="GQ">Equatorial Guinea</option>
+                                        <option value="ER">Eritrea</option>
+                                        <option value="EE">Estonia</option>
+                                        <option value="ET">Ethiopia</option>
+                                        <option value="FK">Falkland Islands (Malvinas)</option>
+                                        <option value="FO">Faroe Islands</option>
+                                        <option value="FJ">Fiji</option>
+                                        <option value="FI">Finland</option>
+                                        <option value="FR">France</option>
+                                        <option value="GF">French Guiana</option>
+                                        <option value="PF">French Polynesia</option>
+                                        <option value="TF">French Southern Territories</option>
+                                        <option value="GA">Gabon</option>
+                                        <option value="GM">Gambia</option>
+                                        <option value="GE">Georgia</option>
+                                        <option value="DE">Germany</option>
+                                        <option value="GH">Ghana</option>
+                                        <option value="GI">Gibraltar</option>
+                                        <option value="GR">Greece</option>
+                                        <option value="GL">Greenland</option>
+                                        <option value="GD">Grenada</option>
+                                        <option value="GP">Guadeloupe</option>
+                                        <option value="GU">Guam</option>
+                                        <option value="GT">Guatemala</option>
+                                        <option value="GG">Guernsey</option>
+                                        <option value="GN">Guinea</option>
+                                        <option value="GW">Guinea-Bissau</option>
+                                        <option value="GY">Guyana</option>
+                                        <option value="HT">Haiti</option>
+                                        <option value="HM">Heard Island and McDonald Islands</option>
+                                        <option value="VA">Holy See (Vatican City State)</option>
+                                        <option value="HN">Honduras</option>
+                                        <option value="HK">Hong Kong</option>
+                                        <option value="HU">Hungary</option>
+                                        <option value="IS">Iceland</option>
+                                        <option value="IN">India</option>
+                                        <option value="ID">Indonesia</option>
+                                        <option value="IR">Iran</option>
+                                        <option value="IQ">Iraq</option>
+                                        <option value="IE">Ireland</option>
+                                        <option value="IM">Isle of Man</option>
+                                        <option value="IL">Israel</option>
+                                        <option value="IT">Italy</option>
+                                        <option value="JM">Jamaica</option>
+                                        <option value="JP">Japan</option>
+                                        <option value="JE">Jersey</option>
+                                        <option value="JO">Jordan</option>
+                                        <option value="KZ">Kazakhstan</option>
+                                        <option value="KE">Kenya</option>
+                                        <option value="KI">Kiribati</option>
+                                        <option value="XK">Kosovo</option>
+                                        <option value="KW">Kuwait</option>
+                                        <option value="KG">Kyrgyzstan</option>
+                                        <option value="LA">Laos</option>
+                                        <option value="LV">Latvia</option>
+                                        <option value="LB">Lebanon</option>
+                                        <option value="LS">Lesotho</option>
+                                        <option value="LR">Liberia</option>
+                                        <option value="LY">Libya</option>
+                                        <option value="LI">Liechtenstein</option>
+                                        <option value="LT">Lithuania</option>
+                                        <option value="LU">Luxembourg</option>
+                                        <option value="MO">Macau</option>
+                                        <option value="MK">Macedonia</option>
+                                        <option value="MG">Madagascar</option>
+                                        <option value="MW">Malawi</option>
+                                        <option value="MY">Malaysia</option>
+                                        <option value="MV">Maldives</option>
+                                        <option value="ML">Mali</option>
+                                        <option value="MT">Malta</option>
+                                        <option value="MH">Marshall Islands</option>
+                                        <option value="MQ">Martinique</option>
+                                        <option value="MR">Mauritania</option>
+                                        <option value="MU">Mauritius</option>
+                                        <option value="YT">Mayotte</option>
+                                        <option value="MX">Mexico</option>
+                                        <option value="FM">Micronesia</option>
+                                        <option value="MD">Moldova</option>
+                                        <option value="MC">Monaco</option>
+                                        <option value="MN">Mongolia</option>
+                                        <option value="ME">Montenegro</option>
+                                        <option value="MS">Montserrat</option>
+                                        <option value="MA">Morocco</option>
+                                        <option value="MZ">Mozambique</option>
+                                        <option value="MM">Myanmar</option>
+                                        <option value="NA">Namibia</option>
+                                        <option value="NR">Nauru</option>
+                                        <option value="NP">Nepal</option>
+                                        <option value="NL">Netherlands</option>
+                                        <option value="AN">Netherlands Antilles</option>
+                                        <option value="NC">New Caledonia</option>
+                                        <option value="NZ">New Zealand</option>
+                                        <option value="NI">Nicaragua</option>
+                                        <option value="NE">Niger</option>
+                                        <option value="NG">Nigeria</option>
+                                        <option value="NU">Niue</option>
+                                        <option value="NF">Norfolk Island</option>
+                                        <option value="KP">North Korea</option>
+                                        <option value="MP">Northern Mariana Islands</option>
+                                        <option value="NO">Norway</option>
+                                        <option value="OM">Oman</option>
+                                        <option value="PK">Pakistan</option>
+                                        <option value="PW">Palau</option>
+                                        <option value="PS">Palestinian Territory</option>
+                                        <option value="PA">Panama</option>
+                                        <option value="PG">Papua New Guinea</option>
+                                        <option value="PY">Paraguay</option>
+                                        <option value="PE">Peru</option>
+                                        <option value="PH">Philippines</option>
+                                        <option value="PN">Pitcairn</option>
+                                        <option value="PL">Poland</option>
+                                        <option value="PT">Portugal</option>
+                                        <option value="PR">Puerto Rico</option>
+                                        <option value="QA">Qatar</option>
+                                        <option value="RE">Réunion</option>
+                                        <option value="RO">Romania</option>
+                                        <option value="RU">Russia</option>
+                                        <option value="RW">Rwanda</option>
+                                        <option value="BL">Saint Barthélemy</option>
+                                        <option value="SH">Saint Helena</option>
+                                        <option value="KN">Saint Kitts and Nevis</option>
+                                        <option value="LC">Saint Lucia</option>
+                                        <option value="MF">Saint Martin</option>
+                                        <option value="PM">Saint Pierre and Miquelon</option>
+                                        <option value="VC">Saint Vincent and the Grenadines</option>
+                                        <option value="WS">Samoa</option>
+                                        <option value="SM">San Marino</option>
+                                        <option value="ST">Sao Tome and Principe</option>
+                                        <option value="SA">Saudi Arabia</option>
+                                        <option value="SN">Senegal</option>
+                                        <option value="RS">Serbia</option>
+                                        <option value="SC">Seychelles</option>
+                                        <option value="SL">Sierra Leone</option>
+                                        <option value="SG">Singapore</option>
+                                        <option value="SK">Slovakia</option>
+                                        <option value="SI">Slovenia</option>
+                                        <option value="SB">Solomon Islands</option>
+                                        <option value="SO">Somalia</option>
+                                        <option value="ZA">South Africa</option>
+                                        <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                        <option value="KR">South Korea</option>
+                                        <option value="SS">South Sudan</option>
+                                        <option value="ES">Spain</option>
+                                        <option value="LK">Sri Lanka</option>
+                                        <option value="SD">Sudan</option>
+                                        <option value="SR">Suriname</option>
+                                        <option value="SJ">Svalbard and Jan Mayen</option>
+                                        <option value="SZ">Swaziland</option>
+                                        <option value="SE">Sweden</option>
+                                        <option value="CH">Switzerland</option>
+                                        <option value="SY">Syria</option>
+                                        <option value="TW">Taiwan</option>
+                                        <option value="TJ">Tajikistan</option>
+                                        <option value="TZ">Tanzania</option>
+                                        <option value="TH">Thailand</option>
+                                        <option value="TL">Timor-Leste</option>
+                                        <option value="TG">Togo</option>
+                                        <option value="TK">Tokelau</option>
+                                        <option value="TO">Tonga</option>
+                                        <option value="TT">Trinidad and Tobago</option>
+                                        <option value="TN">Tunisia</option>
+                                        <option value="TR">Turkey</option>
+                                        <option value="TM">Turkmenistan</option>
+                                        <option value="TC">Turks and Caicos Islands</option>
+                                        <option value="TV">Tuvalu</option>
+                                        <option value="UG">Uganda</option>
+                                        <option value="UA">Ukraine</option>
+                                        <option value="AE">United Arab Emirates</option>
+                                        <option value="GB">United Kingdom</option>
+                                        <option selected="" value="US">United States</option>
+                                        <option value="UM">United States Minor Outlying Islands</option>
+                                        <option value="UY">Uruguay</option>
+                                        <option value="VI">US Virgin Islands</option>
+                                        <option value="UZ">Uzbekistan</option>
+                                        <option value="VU">Vanuatu</option>
+                                        <option value="VE">Venezuela</option>
+                                        <option value="VN">Vietnam</option>
+                                        <option value="WF">Wallis and Futuna</option>
+                                        <option value="EH">Western Sahara</option>
+                                        <option value="YE">Yemen</option>
+                                        <option value="ZM">Zambia</option>
+                                        <option value="ZW">Zimbabwe</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label>City</label>
+                                    <input type="text" name="city" id="city" class="form-control" placeholder="City" value="" autocomplete="off" />
+                                </div>
+                                <div>
+                                    <label>Postal Code</label>
+                                    <input type="text" name="postcode" id="postcode" class="form-control" placeholder="Postal Code" value="" autocomplete="off" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    @if (Session["com"] != null && Session["com"] != "")
+                    {
+                        <div class="booking-price">
+                            <span class="rltPrice"><small>You Pay:</small> <bdo id="spTotal"> $@(((Model.FlightsFare.GrandTotal) - 10).ToString("0.00"))</bdo></span>
+                            <p>incl. taxes &amp; fees</p>
+                            <input type="submit" class="btn btn-primary" name="make_payment1" id="make_payment1" value="Continue to Book">
+                            <p><small><i class="fa fa-lock"></i> Your payment is 100% safe</small></p>
+                        </div>
+                    }
+
+                    else
+                    {
+                        <div class="booking-price">
+                            <span class="rltPrice"><small>You Pay:</small> <bdo id="spTotal"> $@(((Model.FlightsFare.GrandTotal )).ToString("0.00"))</bdo></span>
+                            <p>incl. taxes &amp; fees</p>
+                            <input type="submit" class="btn btn-primary" name="make_payment1" id="make_payment1" value="Continue to Book">
+                            <p><small><i class="fa fa-lock"></i> Your payment is 100% safe</small></p>
+                        </div>
+                    }
+
+                </div>
+                <div class="summaryCol">
+                    <div class="bookingCall">
+                        <img src="/content/images/bookingCall.jpg" />
+                        <div class="bookingCall-txt">
+                            <a href="tel:+1800 918 3039">
+                                <p>Need Any Help? Call Now</p>
+                                <span>Call us+1-800-918-3039</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="summaryDiv">
+                        <div class="summaryHead">
+                            <h4>Trip Summary</h4>
+                            <h5>@(Model.FlightsFare.Adult) Adult(s) , @(Model.FlightsFare.Child) Child(ren), @(Model.FlightsFare.Infant) Infant(s)</h5>
+                        </div>
+                        <div class="SummaryFlt flex">
+                            <div style="flex:1;">
+
+                                @if (@flights.Airline.Code == "WN")
+                                {
+
+
+                                    <img src="@(ViewBag.StaticURL + "Content/airline/fit/" + Model.Flights.Outbound[0].Airline.Code + ".gif")" />
+                                }
+
+                                else
+                                {
+                                    <img src="@("https://images.kiwi.com/airlines/64x64/" + Model.Flights.Outbound[0].Airline.Code + ".png")" />
+                                }
+
+
+                                <span>@(Model.Flights.Outbound[0].Airline.Code)-@(Model.Flights.Outbound[0].FlightNo)</span>
+                                <p>@(Model.Flights.Outbound[0].DepartureDate.ToString("HH:mm")) - @(Model.Flights.Outbound[Model.Flights.Outbound.Count - 1].ArrivalDate.ToString("HH:mm"))</p>
+                            </div>
+                            <div style="flex:1;">
+                                <p><b>@(Model.Flights.Outbound[0].FromAirport.Code) - @(Model.Flights.Outbound[Model.Flights.Outbound.Count - 1].ToAirport.Code)</b></p>
+                                <p>@(Model.Flights.Outbound[0].DepartureDate.ToString("dd MMM")) - @(Model.Flights.Outbound[Model.Flights.Outbound.Count - 1].ArrivalDate.ToString("dd MMM"))</p>
+                            </div>
+                        </div>
+
+                        @if (Model.FlightsSearch.FlightWay == FlightWay.RoundTrip)
+                        {
+                            <div class="SummaryFlt flex">
+                                <div style="flex:1;">
+
+                                    @if (@flights.Airline.Code == "WN")
+                                    {
+
+
+                                        <img src="@(ViewBag.StaticURL + "Content/airline/fit/" + Model.Flights.Inbound[0].Airline.Code + ".gif")" />
+                                    }
+
+                                    else
+                                    {
+                                        <img src="@("https://images.kiwi.com/airlines/64x64/" + Model.Flights.Inbound[0].Airline.Code + ".png")" />
+                                    }
+
+
+                                    <span>@(Model.Flights.Inbound[0].Airline.Code)-@(Model.Flights.Inbound[0].FlightNo)</span>
+                                    <p>@(Model.Flights.Inbound[0].DepartureDate.ToString("HH:mm")) - @(Model.Flights.Inbound[Model.Flights.Inbound.Count - 1].ArrivalDate.ToString("HH:mm"))</p>
+                                </div>
+                                <div style="flex:1;">
+                                    <p><b>@(Model.Flights.Inbound[0].FromAirport.Code) - @(Model.Flights.Inbound[Model.Flights.Inbound.Count - 1].ToAirport.Code)</b></p>
+                                    <p>@(Model.Flights.Inbound[0].DepartureDate.ToString("dd MMM")) - @(Model.Flights.Inbound[Model.Flights.Inbound.Count - 1].ArrivalDate.ToString("dd MMM"))</p>
+                                </div>
+                            </div>
+                        }
+
+                        <div class="sumBaggage-row">
+                            <span style="flex:1;"><i class="fa fa-suitcase" aria-hidden="true"></i> @(Model.Flights.Outbound[0].BaggageAllowance), Cabin: 7 KG</span>
+                            <span><i class="fa fa-university"></i> @(Model.Flights.Outbound[0].CabinClass)</span>
+                        </div>
+                        @if (Session["com"] != null && Session["com"] != "")
+                        {
+                            <div class="sumPrice">
+                                <h4><i class="fa fa-gbp" aria-hidden="true"></i> Price Detail (GBP)</h4>
+                                <div class="sumPrice-row">
+                                    <span><i class="fa fa-male" aria-hidden="true"></i> @(Model.FlightsFare.Adult) X Adult</span>
+                                    <bdo>@(ViewBag.Currency) @((((Model.FlightsFare.AdultFare + Model.FlightsFare.AdultTax + Model.FlightsFare.AdultMarkup) * Model.FlightsFare.Adult)-10).ToString("0.00"))</bdo>
+                                </div>
+                                @if (Model.FlightsFare.Child > 0)
+                                {
+                                    <div class="sumPrice-row">
+                                        <span><i class="fa fa-child" aria-hidden="true"></i> @(Model.FlightsFare.Child) X Child(ren)</span>
+                                        <bdo>@(ViewBag.Currency) @((((Model.FlightsFare.ChildFare + Model.FlightsFare.ChildTax + Model.FlightsFare.ChildMarkup) * Model.FlightsFare.Child)-10).ToString("0.00"))</bdo>
+                                    </div>
+                                }
+
+                                @if (Model.FlightsFare.Infant > 0)
+                                {
+                                    <div class="sumPrice-row">
+                                        <span><i class="fa fa-infant" aria-hidden="true"></i> @(Model.FlightsFare.Infant) X Infant(s)</span>
+                                        <bdo>@(ViewBag.Currency) @((((Model.FlightsFare.InfantFare + Model.FlightsFare.InfantTax + Model.FlightsFare.InfantMarkup) * Model.FlightsFare.Infant)-10).ToString("0.00"))</bdo>
+                                    </div>
+                                }
+
+                                <div class="sumPrice-row travelProtection" style="display:none;">
+                                    <span><i class="fa fa-infant" aria-hidden="true"></i> Travel Protection</span>
+                                    <bdo>@(ViewBag.Currency) 15.95</bdo>
+                                </div>
+                            </div>
+
+                            <div class="sumTotal-row"><span>Total</span><bdo class="spTotal">$@(((Model.FlightsFare.GrandTotal )-10).ToString("0.00"))</bdo></div>
+                            <p class="summTxt" style="padding: 10px !important;font-size: 12px !important;background:#fff;">All prices (including taxes &amp; fees) are quoted in Dollar</p>
+                            <div class="guarantee"><i class="fa fa-check-square-o" aria-hidden="true"></i> Price Guarantee</div>
+                            <input type="hidden" id="hdnBaggagePrice" name="hdnBaggagePrice" value="0" />
+                            <input type="hidden" id="hdnBaggagePcs" name="hdnBaggagePcs" value="0" />
+                            <input type="hidden" id="hdnFreeChangeAmt" name="hdnFreeChangeAmt" value="0" />
+                            <input type="hidden" id="hdnFinalfare" name="hdnFinalfare" value="@(((flights.FlightFare.GrandTotal)-10).ToString("0.00"))" />
+                        }
+
+
+                        else
+                        {
+                            <div class="sumPrice">
+                                <h4>Price Detail</h4>
+                                <div class="sumPrice-row">
+                                    <span><i class="fa fa-male" aria-hidden="true"></i> @(Model.FlightsFare.Adult) X Adult</span>
+                                    <bdo>@(ViewBag.Currency) @(((Model.FlightsFare.AdultFare + Model.FlightsFare.AdultTax + Model.FlightsFare.AdultMarkup) * Model.FlightsFare.Adult).ToString("0.00"))</bdo>
+                                </div>
+                                @if (Model.FlightsFare.Child > 0)
+                                {
+                                    <div class="sumPrice-row">
+                                        <span><i class="fa fa-child" aria-hidden="true"></i> @(Model.FlightsFare.Child) X Child(ren)</span>
+                                        <bdo>@(ViewBag.Currency) @(((Model.FlightsFare.ChildFare + Model.FlightsFare.ChildTax + Model.FlightsFare.ChildMarkup) * Model.FlightsFare.Child).ToString("0.00"))</bdo>
+                                    </div>
+                                }
+
+                                @if (Model.FlightsFare.Infant > 0)
+                                {
+                                    <div class="sumPrice-row">
+                                        <span><i class="fa fa-infant" aria-hidden="true"></i> @(Model.FlightsFare.Infant) X Infant(s)</span>
+                                        <bdo>@(ViewBag.Currency) @(((Model.FlightsFare.InfantFare + Model.FlightsFare.InfantTax + Model.FlightsFare.InfantMarkup) * Model.FlightsFare.Infant).ToString("0.00"))</bdo>
+                                    </div>
+                                }
+
+                                <div class="sumPrice-row travelProtection" style="display:none;">
+                                    <span><i class="fa fa-infant" aria-hidden="true"></i> Travel Protection</span>
+                                    <bdo>@(ViewBag.Currency) 15.95</bdo>
+                                </div>
+                            </div>
+
+                            <div class="sumTotal-row"><span>Total</span><bdo class="spTotal"> $@(((Model.FlightsFare.GrandTotal )).ToString("0.00"))</bdo></div>
+                            <p class="summTxt" style="padding: 10px !important; font-size: 12px !important; background: #fff;line-height: 14px !important;">All prices (including taxes &amp; fees) are quoted in Dollar</p>
+                            <div class="guarantee"><i class="fa fa-check-square-o" aria-hidden="true"></i> Price Guarantee</div>
+                            <input type="hidden" id="hdnBaggagePrice" name="hdnBaggagePrice" value="0" />
+                            <input type="hidden" id="hdnBaggagePcs" name="hdnBaggagePcs" value="0" />
+                            <input type="hidden" id="hdnFreeChangeAmt" name="hdnFreeChangeAmt" value="0" />
+                            <input type="hidden" id="hdnFinalfare" name="hdnFinalfare" value="@((flights.FlightFare.GrandTotal).ToString("0.00"))" />
+                        }
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        <div class="flights-loading" style="display:none;" id="search_popup">
+            <section class="process_banner">
+                <div class="search-details">
+                    <div class="container">
+                        <div class="search-logo"><img src="~/Content/images/logo.png" alt=""></div>
+
+                        <h3>Please wait while we are processing...</h3>
+
+                        <div class="search-flightDetail">
+                            <div class="flightDlt-row">
+                                <div class="search-city" id="spFrom"></div>
+                                <div class="search-date">
+                                    <span class="plane_main">
+                                        <bdo id="spFromDate">Fri 02 Jun 2023</bdo>
+                                    </span>
+                                </div>
+                                <div class="search-city" id="spTo"></div>
+                            </div>
+
+                            <div class="flightDlt-row" id="spFLightway">
+
+                                <div class="search-city" id="spFrom2"></div>
+                                <div class="search-date">
+                                    <span class="plane_main">
+                                        <bdo id="spToDate">Mon 10 Jun 2023</bdo>
+                                    </span>
+                                </div>
+                                <div class="search-city" id="spTo2"></div>
+                            </div>
+                        </div>
+                        <h3>Passengers</h3>
+                        <p><strong id="spADT"></strong> Adult(s), <strong id="spCHD">0</strong> Child(ren), <strong id="spINF">0</strong> Infant</p>
+
+                        <div class="progressBar">
+                            <div class="meter red">
+                                <span></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+
+    @section scripts{
+        <script type="text/javascript" src="@(ViewBag.StaticURL + "Content/js/jquery.payment.min.js")"></script>
+        <script type="text/javascript" src="@(ViewBag.StaticURL + "Content/js/jquery.validate.min.js")"></script>
+        <script type="text/javascript">
+        $(document).ready(function () {
+            $("#idpmt").hide();
+            $("#show_cvv_code_detail").click(function(){
+                $("#cvv_code_detail").show();
+            });
+            $("#cvv_code_close").click(function(){
+                $("#cvv_code_detail").hide();
+            });
+            $(".adult_datepicker").datepicker({
+                dateFormat: 'dd-mm-yy',
+                minDate: "-90Y",
+                maxDate: '@DateTime.Now.AddYears(+12).ToString("dd-MM-yyyy")',
+                autoHide: true,
+                yearRange: "-100:+0",
+                changeMonth: true,
+                changeYear: true
+            });
+            $(".child_datepicker").datepicker({
+                dateFormat: 'dd-mm-yy',
+                minDate: '@DateTime.Now.AddYears(-12).ToString("dd-MM-yyyy")',
+                maxDate: '@DateTime.Now.AddYears(0).ToString("dd-MM-yyyy")',
+                autoHide: true,
+                changeMonth: true,
+                changeYear: true
+            });
+            $(".infant_datepicker").datepicker({
+                dateFormat: 'dd-mm-yy',
+                minDate: '@DateTime.Now.AddYears(-2).ToString("dd-MM-yyyy")',
+                maxDate: '@DateTime.Now.ToString("dd-MM-yyyy")',
+                autoHide: true,
+                changeMonth: true,
+                changeYear: true
+            });
+
+            $(".bk_smry_view_detail").click(function(){
+                $("html, body").animate({ scrollTop: "650px" });
+                $(".bk_main_bro").slideDown();
+            });
+
+            $("#pass_cont_next").click(function () {
+                var pass_flag = true;
+                $(".chk_pass").each(function(i){
+                    if($(this).val().trim(' ') == "")
+                    {
+                        alert("Please enter your passenger detail.");
+                        $(this).focus();
+                        pass_flag = false;
+                        return false;
+                    }
+                });
+            });
+
+            $("#pass_addr_back").click(function () {
+                $("#addr_detail").slideUp(function(){ $("#cont_detail").slideDown(); });
+            });
+            $("#pass_addr_next").click(function(){
+                if(addr_flag)
+                {
+                    $("#addr_detail").slideUp(function(){ $("#card_detail").slideDown(); });
+                    $("#addr_detail_edit").show();
+                }
+            });
+            $("#addr_detail_edit").click(function(){
+                $(this).hide();
+                $("#cont_detail_edit").show();
+                $("#card_detail").slideUp(function(){ $("#cont_detail").slideUp(function(){ $("#addr_detail").slideDown(); }); });
+            });
+        });
+        </script>
+        <script type="text/javascript">
+            $("[data-numeric]").payment('restrictNumeric');
+            $(".cc_number").payment('formatCardNumber');
+            $(".cc_exp").payment('formatCardExpiry');
+            $(".cc_cvc").payment('formatCardCVC');
+            function SetCvvNo() {
+                var _cardType = $('#cardType').val();
+                if (_cardType === "amex") {
+                    $("#cc_cvv").attr('maxlength', '4');
+                }
+                else {
+                    $("#cc_cvv").attr('maxlength', '3');
+                }
+            }
+            function SetCardType() {
+                var cardType = $.payment.cardType($('.cc_number').val());
+                $("#cc_card_type").val(cardType);
+                $('#cardType').val(cardType).change();
+            }
+        </script>
+        <script>
+        $(document).ready(function(){
+            $(".baggage").click(function(){
+                $(".baggage").removeClass("baggage-select");
+                $(this).addClass("baggage-select");
+            });
+        });
+
+        $(document).ready(function(){
+            $('#spBaggagePrice').text($('#hdnhand_weight').val()+ ' kg PP');
+            $('#spBagname').text('Cabin Bag');
+            if($('#baggage_0').prop("checked") == true)
+            {
+                $('#spBagname1').text('Check In Luggage');
+                $("#spBaggagePrice1").html("Not Included");
+            }
+            if($('#baggage_1').prop("checked") == true)
+            {
+                $('#spBagname1').text('Check In Luggage');
+                $("#spBaggagePrice1").html($('#hdnhold_weight').val()+" kg Included");
+            }
+        });
+        $(document).ready(function(){
+            $("#makePayment_Totalfare").text($("#spntotfare").text());
+            if($('#chkFreeChange').prop("checked") == true)
+            {
+            }
+            $('#chkFreeChange').change(function(){
+                var finalfare=parseFloat($("#spntotfare").text());
+                var freechange=parseFloat(0.0);
+                if($('#chkFreeChange').prop("checked") == true)
+                {
+                    freechange= parseFloat($('#spfreechange').text());
+                    $('#hdnFreeChangeAmt').val(freechange);
+                    finalfare=finalfare+freechange;
+                }
+                else
+                {
+                    freechange= parseFloat($('#spfreechange').text());
+                    finalfare=finalfare-freechange;
+                }
+                $("#makePayment_Totalfare").text(finalfare);
+                $("#spntotfare").html(finalfare);
+                $("#spntotfare1").html(finalfare);
+                $("#hdnFinalfare").val(finalfare);
+            });
+        });
+        function BaggagePrice(Pcs,BagPrice,GrandTotal,weight)
+        {    $('#spBagname1').text('Check In Luggage');
+            var freechange=parseFloat(0.0);
+            if($('#chkFreeChange').prop("checked") == true)
+            {
+                freechange= parseFloat($('#spfreechange').text());
+            }
+            var grandTotal = (@((Model.FlightsFare.Adult + Model.FlightsFare.Child + Model.FlightsFare.Infant))+freechange+ parseFloat(BagPrice)+ parseFloat(GrandTotal)).toFixed(2);
+            if(BagPrice==="0")
+            {
+                $("#makePayment_Totalfare").text($("#spntotfare").text());
+                $("#spntotfare").html(grandTotal);
+                $("#spntotfare1").html(grandTotal);
+                $("#hdnFinalfare").val(grandTotal);
+                $("#hdnBaggagePrice").val(BagPrice);
+                $("#hdnBaggagePcs").val(Pcs);
+            }
+            else
+            {
+                $("#makePayment_Totalfare").text($("#spntotfare").text());
+                $("#spntotfare").html(grandTotal);
+                $("#spntotfare1").html(grandTotal);
+                $("#hdnFinalfare").html(grandTotal);
+                $("#hdnBaggagePrice").val(BagPrice);
+                $("#hdnBaggagePcs").val(Pcs);
+            }
+
+            if((parseInt(BagPrice)==0) && parseInt(Pcs)==0)
+            {  $("#spBaggagePrice1").html("Not Included");
+            }
+            if((parseInt(BagPrice)>=0) && parseInt(Pcs)==1)
+            { $("#spBaggagePrice1").html(weight+" kg Included");
+            }
+            if((parseInt(BagPrice)>=0) && parseInt(Pcs)==2)
+            {  $("#spBaggagePrice1").html((parseInt(weight) *2)+" kg Included");
+            }
+        }
+        </script>
+        <script>
+        $(document).ready(function(){
+            $('#PassengerInfo').show();
+            $('#addressSec').show();
+            $('#paymentSec').show();
+        });
+
+        $(document).ready(function(){
+            $('#fname_1').keypress(function(){
+                $('#fname_1').css('border-color', '');
+            });
+            $('#lname_1').keypress(function(){
+                $('#lname_1').css('border-color', '');
+            });
+            $('#dob_1').keypress(function(){
+                $('#dob_1').css('border-color', '');
+            });
+            $('#phone').keypress(function(){
+                $('#phone').css('border-color', '');
+            });
+            $('#email').keypress(function(){
+                $('#email').css('border-color', '');
+            });
+            $('#postcode').keypress(function(){
+                $('#postcode').css('border-color', '');
+            });
+            $('#state').keypress(function(){
+                $('#state').css('border-color', '');
+            });
+            $('#city').change(function(){
+                $('#city').css('border-color', '');
+            });
+            $('#address').keypress(function(){
+                $('#address').css('border-color', '');
+            });
+        });
+
+        $('#btnContinue').click(function(){
+            var lboolcheck = true;
+            if ($('#title_1').val().trim() == '') {
+                lboolcheck = false;
+                $('#addressSec').hide();
+                $('#title_1').css('border-color', 'red');
+                alert("Plese Select Title.... ");
+            }
+            if($('#fname_1').val().trim()=='')
+            {   lboolcheck=false;
+                $('#addressSec').hide();
+                $('#fname_1').css('border-color', 'red');
+            }
+            if($('#lname_1').val().trim()=='')
+            {   lboolcheck=false;
+
+                $('#addressSec').hide();
+                $('#lname_1').css('border-color', 'red');
+            }
+            if($('#dob_1').val().trim()=='')
+            {lboolcheck=false;
+                $('#addressSec').hide();
+                $('#dob_1').css('border-color', 'red');
+            }
+            if($('#phone').val().trim()=='')
+            {lboolcheck=false;
+                $('#addressSec').show();
+                $('#phone').css('border-color', 'red');
+            }
+            if($('#email').val().trim()=='')
+            {lboolcheck=false;
+                $('#addressSec').show();
+                $('#email').css('border-color', 'red');
+            }
+            if ($('#address').val().trim() == '') {
+                lboolcheck = false;
+                $('#addressSec').show();
+                $('#address').css('border-color', 'red');
+            }
+            if ($('#city').val().trim() == '') {
+                lboolcheck = false;
+                $('#addressSec').show();
+                $('#city').css('border-color', 'red');
+            }
+            if ($('#postcode').val().trim() == '') {
+                lboolcheck = false;
+                $('#addressSec').show();
+                $('#postcode').css('border-color', 'red');
+            }
+            if(lboolcheck)
+            {
+                $('#PassengerInfo').show();
+                $('#addressSec').show();
+                $('#fname_1').css('border-color', '');
+                $('#lname_1').css('border-color', '');
+                $('#email').css('border-color', '');
+                $('#phone').css('border-color', '');
+                $('#dob_1').css('border-color', '');
+                $('#postcode').css('border-color', '');
+                $('#btnContinue').hide();
+                $('#lblbook').hide();
+                $('#idpmt').show();
+                $.ajax(
+                   {
+                       type: "POST",
+                       url: "@(ViewBag.StaticURL+ "flight/bookingalert")",
+                       data: {
+                           Phone: $("#phone").val(),
+                           Email: $("#email").val(),
+                           FULLname: $("#title_1").val()+" "+$("#fname_1").val()+" "+$("#lname_1").val(),
+                       },
+                       success: function (data) {
+                       }
+                   });
+            }
+        });
+
+        $('#btnNext1').click(function(){
+            var lboolcheck=true;
+            if($('#fname_1').val().trim()=='')
+            {   lboolcheck=false;
+                $('#addressSec').hide();
+                $('#fname_1').css('border-color', 'red');
+            }
+            if($('#lname_1').val().trim()=='')
+            {   lboolcheck=false;
+
+                $('#addressSec').hide();
+                $('#lname_1').css('border-color', 'red');
+            }
+            if($('#dob_1').val().trim()=='')
+            {lboolcheck=false;
+                $('#addressSec').hide();
+                $('#dob_1').css('border-color', 'red');
+            }
+            if($('#phone').val().trim()=='')
+            {lboolcheck=false;
+                $('#addressSec').show();
+                $('#phone').css('border-color', 'red');
+            }
+            if($('#email').val().trim()=='')
+            {lboolcheck=false;
+                $('#addressSec').show();
+                $('#email').css('border-color', 'red');
+            }
+
+            if(lboolcheck)
+            {
+                $('#PassengerInfo').show();
+                $('#addressSec').show();
+                $('#fname_1').css('border-color', '');
+                $('#lname_1').css('border-color', '');
+                $('#email').css('border-color', '');
+                $('#phone').css('border-color', '');
+                $('#dob_1').css('border-color', '');
+                $.ajax(
+                   {
+                       type: "POST",
+                       url: "@(ViewBag.StaticURL+ "flight/bookingalert")",
+                       data: {
+                           Phone: $("#phone").val(),
+                           Email: $("#email").val(),
+                           FULLname: $("#title_1").val()+" "+$("#fname_1").val()+" "+$("#lname_1").val(),
+                       },
+                       success: function (data) {
+                       }
+                   });
+            }
+
+            var lboolcheck = true;
+            if ($('#address').val().trim() == '') {
+                lboolcheck = false;
+                $('#paymentSec').show();
+                $('#address').css('border-color', 'red');
+            }
+            if ($('#city').val().trim() == '') {
+                lboolcheck = false;
+                $('#paymentSec').show();
+                $('#city').css('border-color', 'red');
+            }
+            if ($('#postcode').val().trim() == '') {
+                lboolcheck = false;
+                $('#paymentSec').show();
+                $('#postcode').css('border-color', 'red');
+            }
+            if (lboolcheck) {
+                $('#paymentSec').show();
+                $('#addressSec').hide();
+                $('#postcode').css('border-color', '');
+                $('#city').css('border-color', '');
+                $('#address').css('border-color', '');
+            }
+
+            if ($('#phone').val().trim() == '') {
+                lboolcheck = false;
+                alert("please enter a valid Phone No")
+                $('#phone').focus();
+                return false;
+            }
+            if ($('#email').val().trim() == '') {
+                lboolcheck = false;
+                alert("please enter a valid EmailId")
+                $('#email').focus();
+                return false;
+            }
+        });
+        $('#btnNext2').click(function(){
+            var lboolcheck=true;
+            if($('#address').val().trim()=='')
+            {   lboolcheck=false;
+                $('#paymentSec').show();
+                $('#address').css('border-color', 'red');
+            }
+            if($('#city').val().trim()=='')
+            {   lboolcheck=false;
+                $('#paymentSec').show();
+                $('#city').css('border-color', 'red');
+            }
+            if($('#postcode').val().trim()=='')
+            {
+                lboolcheck=false;
+                $('#paymentSec').show();
+                $('#postcode').css('border-color', 'red');
+            }
+            if(lboolcheck)
+            {   $('#paymentSec').show();
+                $('#addressSec').hide();
+                $('#postcode').css('border-color', '');
+                $('#city').css('border-color', '');
+                $('#address').css('border-color', '');
+            }
+        });
+
+        $(document).ready(function(){
+            $('#paxinfo').click(function(){
+                $('#PassengerInfo').show();
+                $('#addressSec').show();
+                $('#paymentSec').show();
+            });
+            $('#addressinfo').click(function(){
+
+                 if($('#phone').val().trim()=='')
+                 {
+                     lboolcheck = false;
+                     alert("please enter a valid Phone No")
+                     $('#phone').focus();
+                     return false;
+                 }
+                 if($('#email').val().trim()=='')
+                 {
+                    lboolcheck = false;
+                     alert("please enter a valid EmailId")
+                     $('#email').focus();
+                    return false;
+                }
+
+                $('#PassengerInfo').show();
+                 $('#addressSec').show();
+                $('#paymentSec').show();
+                 $.ajax(
+                   {
+                       type: "POST",
+                       url: "@(ViewBag.StaticURL+ "flight/bookingalert")",
+                       data: {
+                           Phone: $("#phone").val(),
+                           Email: $("#email").val(),
+                           FULLname: $("#title_1").val()+" "+$("#fname_1").val()+" "+$("#lname_1").val(),
+                       },
+                       success: function (data) {
+                       }
+                     });
+            });
+            $('#paymentinfo').click(function(){
+
+                $('#PassengerInfo').show();
+                $('#addressSec').show();
+                $('#paymentSec').show();
+            });
+        });
+
+        function IsValidate()
+        {
+            if($('#fname_1').val().trim()=='')
+            {   alert("Please enter your first name.");
+                $('#fname_1').css('border-color', 'red');
+                $('#PassengerInfo').show();
+                $('#addressSec').show();
+                $('#paymentSec').show();
+                return false;
+            }
+            if($('#lname_1').val().trim()=='')
+            {    alert("Please enter your last name.");
+                $('#lname_1').css('border-color', 'red');
+                return false;
+            }
+
+            if ($('#pDay_1').val().trim() == '') {
+                alert("Please Select Date of Birth.");
+                $('#pDay_1').css('border-color', 'red');
+                $('#pDay_1').focus();
+                return false;
+            }
+
+            if ($("#email").val().trim(' ') == "")
+            {
+                alert("Please enter your email.");
+                $('#email').css('border-color', 'red');
+                $("#email").focus();
+                return false;
+            }
+            else if ($("#email").val().trim(' ') != "")
+            {
+                var filter = @("/^[a-zA-Z0-9_.-]+@[a-zA-Z0-9]+[a-zA-Z0-9.-]+[a-zA-Z0-9]+.[a-z]{0,4}$/");
+                if (!filter.test(document.getElementById("email").value)) {
+                    alert("Please enter your valid email.");
+                    $('#email').css('border-color', 'red');
+                    document.getElementById("email").focus();
+                    return false;
+                }
+            }
+
+            if ($("#phone").val().trim(' ') == "") {
+                alert("Please enter your phone number.");
+                $("#phone").focus();
+                $('#phone').css('border-color', 'red');
+
+                return false;
+            }
+            else if ($("#phone").val().trim(' ') != "") {
+                var phoneNum = $("#phone").val().replace(/[^\d]/g, '');
+                if (!(phoneNum.length > 7 && phoneNum.length < 15)) {
+                    alert("Please enter your valid phone number.");
+                    $("#phone").focus();
+                    $('#phone').css('border-color', 'red');
+                    return false;
+                }
+            }
+
+            if ($("#address").val().trim(' ') == "")
+            {
+                alert("Please enter your full address.");
+                $('#address').css('border-color', 'red');
+                $("#address").focus();
+                return false;
+            }
+            if ($("#countryCode").val().trim(' ') == "")
+            {
+                alert("Please select your country.");
+                $('#countryCode').css('border-color', 'red');
+                $("#countryCode").focus();
+                return false;
+            }
+            if ($("#city").val().trim(' ') == "")
+            {
+                alert("Please enter your city.");
+                $('#city').css('border-color', 'red');
+                $("#city").focus();
+                return false;
+            }
+            if ($("#postcode").val().trim(' ') == "")
+            {
+                alert("Please enter your postcode.");
+                $('#postcode').css('border-color', 'red');
+                $("#postcode").focus();
+                return false;
+            }
+            return true;
+        }
+        </script>
+
+        <script>
+
+            $("#make_payment1").click(function () {
+                debugger;
+                if (!IsValidate()) {
+                    return false;
+                }
+                else {
+                    $("#spFLightway").hide();
+                    $("#spFrom").text($("#flight_from").val());
+                    $("#spTo").text($("#flight_to").val());
+                    $("#spFromDate").text($("#flight_from_date").val().split(" ")[0]);
+                    $("#spToDate").text($("#flight_to_date").val().split(" ")[0]);
+                    $("#spTo2").text($("#flight_from").val());
+                    $("#spFrom2").text($("#flight_to").val());
+                    $("#spADT").text($("#flight_adult").val());
+                    $("#spCHD").text($("#flight_child").val());
+                    $("#spINF").text($("#flight_infant").val());
+                    var flight_way = $("#flight_way").val();
+                    if (flight_way == "RoundTrip") {
+                        $("#spFLightway").show();
+                    }
+                    $("#search_popup").show();
+                    return true;
+                }
+            });
+            $("#make_payment").click(function () {
+                if (!IsValidate()) {
+                    return false;
+                }
+                else {
+                    return true;
+                }
+            });
+            $("#flight_submit").click(function () {
+              if ($("#flight_from").val().trim(' ') == "") {
+                    alert("Please enter your departure airport");
+                    $("#flight_from").focus();
+                    return false;
+                }
+                else if ($("#flight_to").val().trim(' ') == "") {
+                    alert("Please enter your destination airport");
+                    $("#flight_to").focus();
+                    return false;
+                }
+                else if ($("#flight_to").val().trim(' ') == $("#flight_from").val().trim(' ')) {
+                    alert("Departure Airport and Destination Airport can't be same!!");
+                    $("#flight_to").focus();
+                    return false;
+                }
+              else {
+                  var fway = 1;
+                  if ($('#flight_way').val() == "RoundTrip") {
+                      var fway = 2;
+                  }
+                  var fcls ="4"
+                  if ($('#flight_class').val() == "Economy") {
+                      fcls = "4";
+                  }
+                  if ($('#flight_class').val() == "Premimum Economy") {
+                      fcls = "3";
+                  }
+                  if ($('#flight_class').val() == "Business") {
+                      fcls = "2";
+                  }
+                  if ($('#flight_class').val() == "First") {
+                      fcls = "1";
+                  }
+                    var from = "&From=" + $("#flight_from").val();
+                    var to = "&To=" + $("#flight_to").val();
+                  var fromDate = "&DepDate=" + $("#flight_from_date").val().split("/")[2].split(" ")[0] + "-" + $("#flight_from_date").val().split("/")[0] + "-" + $("#flight_from_date").val().split("/")[1];
+                  var toDate = "&RetDate=";
+                    $("#spFrom").text($("#flight_from").val());
+                    $("#spTo").text($("#flight_to").val());
+                  $("#spFromDate").text($("#flight_from_date").val().split(" ")[0]);
+                    $("#spFLightway").hide();
+                  if (fway == "2") {
+                      toDate = "&RetDate=" + $("#flight_to_date").val().split("/")[2].split(" ")[0] + "-" + $("#flight_to_date").val().split("/")[0] + "-" + $("#flight_to_date").val().split("/")[1];
+                      $("#spToDate").text($("#flight_to_date").val().split(" ")[0]);
+                      $("#spTo2").text($("#flight_from").val().split("-")[0].split(" ")[0]);
+                      $("#spFrom2").text($("#flight_to").val().split("-")[0].split(" ")[0]);
+                        $("#spFLightway").show();
+                    }
+                    var adult = "&Adult=" + $("#flight_adult").val();
+                    var child = "&Child=" + $("#flight_child").val();
+                    var infant = "&Infant=" + $("#flight_infant").val();
+                    $("#spADT").text($("#flight_adult").val());
+                    $("#spCHD").text($("#flight_child").val());
+                    $("#spINF").text($("#flight_infant").val());
+                    var airline = "&Airline=" + ""; //$("#flight_airline").val();
+                    var isdirect = "&IsDirect=" + (($("input[name=is_direct]:checked").val() == "1") ? "true" : "false");
+                    var isflexi = "&IsFlexi=" + (($("input[name=flight_flexi]:checked").val() == "1") ? "true" : "false");
+                    fway_s = "&FlightWay=" + fway;
+                    fcls_s = "&FlightClass=" + fcls;
+                    var tolPass = $("#flight_adult").val() + "Adt," + $("#flight_child").val() + "Chd," + $("#flight_infant").val() + "Inf";
+                    $("#spPass").text(tolPass);
+                    var str = "@(ViewBag.WebsiteURL + "flight/search?")SiteCode=VIMAN&SourceMedia=VIMAN" + from + to + fromDate + toDate + adult + child + infant + fway_s + fcls_s + airline + isdirect + isflexi + "&Currency=GBP";
+                    var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+                    $("#fp_from_name").html($("#flight_from").val().split(",")[1]);
+                    $("#fp_from_code").html($("#flight_from").val().split("-")[0]);
+                    $("#fp_to_name").html($("#flight_to").val().split(",")[1]);
+                    $("#fp_to_code").html($("#flight_to").val().split("-")[0]);
+                    var dd_tp = $("#flight_from_date").val().split("-");
+                    $("#fp_dep_date").html(dd_tp[0] + " " + monthNames[dd_tp[1] - 1] + ", " + dd_tp[2]);
+                    if (fway == "2") {
+                        var rd_tp = $("#flight_to_date").val().split("-");
+                        $("#fp_ret_date").html(rd_tp[0] + " " + monthNames[rd_tp[1] - 1] + ", " + rd_tp[2]);
+                    } else {
+                        $("#fp_ret_date").html("-");
+                    }
+                    var fc_tp = (parseInt(fcls) == 1) ? "First" : (parseInt(fcls) == 2) ? "Business" : (parseInt(fcls) == 3) ? "Premimum Economy" : "Economy";
+                    $("#fp_flight_class").html(fc_tp);
+                    var ps_tp = $("#flight_adult").val() + " Adult" + ((parseInt($("#flight_child").val()) > 0) ? ", " + $("#flight_child").val() + " Child" : "") + ((parseInt($("#flight_infant").val()) > 0) ? ", " + $("#flight_infant").val() + " Infant" : "");
+                    $("#fp_passenger").html(ps_tp);
+                    $("#search_popup").show();
+                    $('#plane').css({ 'left': '0%' }).animate({ 'left': '88%' }, 15000);
+                    $('#plane_color').css({ 'width': '10%' }).animate({ 'width': '98%' }, 15000);
+                    window.location = str;
+                }
+            });
+        </script>
+
+
+
+    }
+
+<script>
+$(document).ready(function () {
+    var baseTotal = parseFloat("@Model.FlightsFare.GrandTotal.ToString(System.Globalization.CultureInfo.InvariantCulture)");
+    var protectionCost = 15.95;
+
+    // Restore previous selection if user navigated back
+    var savedTotal = localStorage.getItem("FinalFare");
+    if (savedTotal && parseFloat(savedTotal) > baseTotal) {
+        $("#chkProtection").prop("checked", true);
+        $(".travelProtection").show();
+        $("#spTotal").text("$" + parseFloat(savedTotal).toFixed(2));
+        $("#hdnFinalfare").val(parseFloat(savedTotal).toFixed(2));
+    }
+
+    // Handle checkbox change
+    $("#chkProtection").change(function () {
+        if ($(this).is(":checked")) {
+            $(".travelProtection").show();
+
+            var newTotal = (baseTotal + protectionCost).toFixed(2);
+            $("#spTotal").text("$" + newTotal);
+            $(".spTotal").text("$" + newTotal);
+            $("#hdnFinalfare").val(newTotal);
+
+            // Save updated total to localStorage
+            localStorage.setItem("FinalFare", newTotal);
+        } else {
+            $(".travelProtection").hide();
+
+            $("#spTotal").text("$" + baseTotal.toFixed(2));
+            $(".spTotal").text("$" + baseTotal.toFixed(2));
+            $("#hdnFinalfare").val(baseTotal.toFixed(2));
+
+            // Reset in localStorage
+            localStorage.setItem("FinalFare", baseTotal.toFixed(2));
+        }
+    });
+});
+</script>

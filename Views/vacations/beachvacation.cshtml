@@ -1,0 +1,416 @@
+﻿
+@{
+    ViewBag.Title = "beachvacation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    DateTime dt1 = DateTime.Now.Date.AddDays(2);
+    DateTime dt2 = DateTime.Now.Date.AddDays(9);
+}
+
+@section metatags{
+
+    <title>Beach Vacations and Tour Packages | Cheap Hotel Deals</title>
+    <meta name="description" content="Book cheap beach vacations. FaresMatch offers the best tour package including hotel+flight booking at the best price. Visit Goa, Maldives, or Pattaya for a romantic beach vacation." />
+    <link rel="canonical" href="https://www.faresmatch.com/vacations/beach-vacation.aspx ">
+    <meta name="author" content="faresmatch.com">
+    <meta name="subject" content="Air Travel">
+    <meta name="geo.region" content="US-CA">
+    <meta name="language" content="English">
+    <meta name="designer" content="Faresmatch">
+    <meta name="publisher" content="Faresmatch">
+    <meta name="country" content="USA">
+    <meta name="rating" content="general" />
+    <meta name="robots" content="index,follow">
+    <meta property="og:url" content="https://www.faresmatch.com/vacations/beach-vacation.aspx">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Beach Vacations and Tour Packages | Cheap Hotel Deals">
+    <meta property="og:description" content="Book cheap beach vacations. FaresMatch offers the best tour package including hotel+flight booking at the best price. Visit Goa, Maldives, or Pattaya for a romantic beach vacation." />
+    <meta property="og:image" content="https://www.faresmatch.com/assets/images/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="faresmatch.com">
+    <meta property="twitter:url" content="https://www.faresmatch.com/vacations/beach-vacation.aspx ">
+    <meta name="twitter:title" content="Beach Vacations and Tour Packages | Cheap Hotel Deals" />
+    <meta name="twitter:description" content="Book cheap beach vacations. FaresMatch offers the best tour package including hotel+flight booking at the best price. Visit Goa, Maldives, or Pattaya for a romantic beach vacation." />
+    <meta name="twitter:image" content="https://www.faresmatch.com/assets/images/logo.png">
+
+}
+
+
+<script type="application/ld+json">
+			{
+			 "@@context": "https://schema.org/",
+			 "@@type": "WebPage",
+			 "name": "Beach Vacations and Tour Packages | Cheap Hotel Deals",
+			 "speakable":
+			 {
+			  "@@type": "SpeakableSpecification",
+			  "xpath": [
+				"/html/head/title",
+				"/html/head/meta[@@name='description']/@@content"
+				]
+			  },
+			 "url":"https://www.faresmatch.com/vacations/beach-vacation.aspx "
+			 }
+</script>
+
+<div class="container2  bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>Beach Vacation</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+<section class="trvl_bug">
+    <div class="container2 newbg">
+        <div class="row" style="padding-bottom: 0 !important;">
+            <div class="column">
+                <div class="detail">
+                    <h2>Beach Vacation Flight Deals</h2>
+                </div>
+                <div class="innerrow grid1">
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Goa</h4>
+                                <p>DEL - GOI</p>
+                                <input type="hidden" id="flight_from1" value="DEL" />
+                                <input type="hidden" id="flight_to1" value="GOI" />
+                                <input type="hidden" id="flight_from_date1" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date1" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 99*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 99</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 99</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="1"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Goa</h4>
+                                <p>JFK - GOI</p>
+                                <input type="hidden" id="flight_from2" value="JFK" />
+                                <input type="hidden" id="flight_to2" value="GOI" />
+                                <input type="hidden" id="flight_from_date2" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date2" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 699*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 65</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 699</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="2"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Maldives</h4>
+                                <p>SGF - IRU</p>
+                                <input type="hidden" id="flight_from3" value="SGF" />
+                                <input type="hidden" id="flight_to3" value="IRU" />
+                                <input type="hidden" id="flight_from_date3" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date3" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 199*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 149</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 199</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="3"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Bangkok</h4>
+                                <p>LON - BKK</p>
+                                <input type="hidden" id="flight_from4" value="LON" />
+                                <input type="hidden" id="flight_to4" value="BKK" />
+                                <input type="hidden" id="flight_from_date4" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date4" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 499*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 149</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 499</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="4"><b>Book Now</b></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2 textcon">
+        <div class="row">
+            <div class="column">
+                <h2>Beach Vacation</h2>
+
+                <p>Vacations help us take a break from the daily routine of our life, giving us time to heal ourselves and spend time with our loved ones. Just like this, summer vacations are everyone's favourite. A trip to the beach is just a cherry on top to enjoy with your family or loved ones. Dipping your feet in the warm turquoise water or getting a sunbathe while lying on the sand can be very relaxing. </p>
+                <p>To have the best trip of your lifetime, choosing an excellent vacation package is a must which ranges from luxury family vacation packages and <a href="https://www.faresmatch.com/vacations/luxury-vacation.aspx">cheap luxury vacation packages</a> to all exclusive <a href="https://www.faresmatch.com/vacations.aspx">vacation packages</a> and <a href="https://www.faresmatch.com/vacations/beach-vacation.aspx">beach vacation packages</a>.</p>
+
+                <h2>Best places for a Beach Vacation</h2>
+                <h5><b>Goa</b></h5>
+                <p>This place is also known as the party capital of India. Being home to 6+ boho beaches, historic churches, ancient forts and fantastic nightlife. The thing you can experience there includes: </p>
+                <ul>
+                    <li><b>Scuba Diving in Netrani Islands</b>- Where you will get to swim with the exotic marine animals. </li>
+                    <li><b>River Cruise</b>- Enjoy a beautiful sunset with a glass of wine on the cruise. </li>
+                    <li><b>Houseboat</b>- Who gets to see a houseboat with all the luxurious facilities? Get yourself lucky with the fantastic experience of being in a houseboat. </li>
+                </ul>
+                <h5><b>Maldives</b></h5>
+                <p>It is a series of beautiful islands and beaches. The coral reefs, luxurious resorts, warm water, and water sports. It is a complete package of thrills for a vacation. Things you can experience there include: </p>
+                <ul>
+                    <li><b>Island Hopping</b>- As mentioned, it is an archipelago of almost more than 1000 coral islands, and island hopping can be fun. </li>
+                    <li><b>Dolphin or Whale Watching</b>- Whales and Dolphin sightings are very frequent in the Maldives, so get yourself binoculars and start watching out for them. </li>
+                    <li><b>Spa and Resorts</b>- Maldives consists of numerous exotic spas and resorts, so get yourself a relaxing spa massage. </li>
+                </ul>
+                <h5><b>Pattaya</b></h5>
+                <p>It is a delight for vacations, with its all-famous architectural temples, vibrant nightlife, weekend shops, floating markets and beautiful beaches. Things you can experience there include: </p>
+                <ul>
+                    <li><b>Buddha Mountain</b>- It is located about 25 minutes from Pattaya. The mountain is almost 130 meters high and is considered the most extensive picture of Buddha in the world. </li>
+                    <li><b>Elephant Village</b>- To know about the daily habitat of these enormous creatures, visit the elephant village. </li>
+                    <li><b>Khao Kheow Zoo</b>- It is home to almost 8000 birds and animals belonging to more than 250 species. </li>
+                </ul>
+                <h2>Cheap Hotel Deals for Beach Vacation</h2>
+                <div class="bg4 grid1" style="background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url(https://www.faresmatch.com/vacation-packages/images/Pattaya-Garden-Resort.jpg);">
+                    <div class="column">
+                        <h2>Pattaya Garden Resort, Pattaya</h2>
+                        <h4>$ 256.50</h4>
+                        <div class="flex gap1">
+                            <h3>$ 202 (Per Night)</h3>
+                        </div>
+                        <p>
+                            <i class="fa-solid fa-star" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        </p>
+                        <a href="tel:+18009183039"><button>Book Now</button></a>
+                    </div>
+                    <div class="column">
+                        <p>
+                            <i class="fa-solid fa-location-dot" aria-hidden="true"></i> 157/77 Soi 18/1 Pattaya Naklua Rd. Tambon Naklua Amphur Banglamung Chonburi, 20150 Pattaya North, Thailand
+                        </p>
+                        <p><i class="fa-solid fa-check" aria-hidden="true"></i> Breakfast Included</p>
+                        <p><i class="fa-solid fa-check" aria-hidden="true"></i> Fully Refundable</p>
+                        <p>Surrounded by trees & offering an outdoor pool, Pattaya Garden Resort is located in Pattaya North. It is a 5-minute walk to Pattaya Beach & 5km from various shopping and dining outlets at Central Festival Pattaya. Free WiFi access is available in the lobby.</p>
+                    </div>
+                </div>
+                <br><br>
+                <div class="bg4 grid1" style="background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url(https://www.faresmatch.com/vacation-packages/images/Taj-Exotica-Resort.jpg);">
+                    <div class="column">
+                        <h2>Taj Exotica Resort & Spa</h2>
+                        <h4>$ 2560.50</h4>
+                        <div class="flex gap1">
+                            <h3>$ 2020 (Per Night)</h3>
+                        </div>
+                        <p>
+                            <i class="fa-solid fa-star" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        </p>
+                        <a href="tel:+18009183039"><button>Book Now</button></a>
+                    </div>
+                    <div class="column">
+                        <p>
+                            <i class="fa-solid fa-location-dot" aria-hidden="true"></i> PO Box 2117 South Male Atoll, 08480 South Male Atoll, Maldives
+                        </p>
+                        <p><i class="fa-solid fa-check" aria-hidden="true"></i> Breakfast Included</p>
+                        <p><i class="fa-solid fa-check" aria-hidden="true"></i> Fully Refundable</p>
+                        <p>5-star exclusivity awaits at Taj Exotica Resort & Spa, with luxurious villas & a large infinity pool with clear lagoon views. It features 2 restaurants, a bar and a fitness centre. Free WiFi access is available in all rooms. Staff are able to converse in Chinese.</p>
+                    </div>
+                </div>
+                <br><br>
+                <div class="bg4 grid1" style="background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url(https://www.faresmatch.com/vacation-packages/images/La-Vaiencia-Beach-Resort.jpg);">
+                    <div class="column">
+                        <h2>La Vaiencia Beach Resort</h2>
+                        <h4>$ 256.50</h4>
+                        <div class="flex gap1">
+                            <h3>$ 202 (Per Night)</h3>
+                        </div>
+                        <p>
+                            <i class="fa-solid fa-star" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i> <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        </p>
+                        <a href="tel:+18009183039"><button>Book Now</button></a>
+                    </div>
+                    <div class="column">
+                        <p>
+                            <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Near Morjim Last Bus Stand, Tembwada, 403512 Morjim, India
+                        </p>
+                        <p><i class="fa-solid fa-check" aria-hidden="true"></i> Breakfast Included</p>
+                        <p><i class="fa-solid fa-check" aria-hidden="true"></i> Fully Refundable</p>
+                        <p>
+                            Offering an outdoor pool and 24-hour front desk, Lavaiencia Beach Resort is situated in Morjim. Guests can enjoy the on-site restaurant. Free private parking and free WiFi is available on site.
+
+                            The rooms have a flat-screen TV with cable channels. Views of the sea, pool or garden are featured in certain rooms.
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h3>Major Airlines that are flying to vacation spots</h3>
+                <p>Vacation time is a peak time for all airlines, so during the period, the operation of flights increases so; that you can reach your destinations within the due time. </p>
+                <p><b>Listed below are a few of them</b></p>
+                <div class="grid2">
+                    <div class="column">
+                        <p><a href="https://www.faresmatch.com/delta-airlines-flights-reservations.aspx">Delta Airlines</a> </p>
+                        <p><a href="https://www.faresmatch.com/emirates-airlines.aspx">Emirates</a></p>
+                        <p><a href="https://www.faresmatch.com/jetblue-airlines-flights.aspx">JetBlue Airways</a></p>
+                    </div>
+                    <div class="column">
+                        <p><a href="https://www.faresmatch.com/major-airlines.aspx">Qatar Airways</a> </p>
+                        <p><a href="https://www.faresmatch.com/southwest-airlines.aspx">Southwest Airlines</a> </p>
+                        <p><a href="https://www.faresmatch.com/united-airlines-flights-reservations.aspx">United Airlines</a> </p>
+                    </div>
+                    <div class="column">
+                        <p><a href="https://www.faresmatch.com/alaska-airlines-flights-reservations.aspx">Alaska Airlines</a></p>
+                        <p><a href="https://www.faresmatch.com/spirit-airlines-flights-reservations.aspx">Spirit Airlines</a> </p>
+                    </div>
+                </div>
+
+                <p>The most famous vacation packages the airlines provide are the <a href="https://www.faresmatch.com/delta-vacation-packages.aspx">Delta vacation package</a>, the <a href="https://www.faresmatch.com/united-vacations-packages.aspx">United vacation package</a> and the <a href="https://www.faresmatch.com/jetblue-vacations.aspx">JetBlue vacation package</a>.</p>
+                <h3>Why are Delta Airlines the most preferred airline for vacations?</h3>
+                <p>One of the most dependable airlines, which is Delta Airlines promises an extraordinary journey and offer top-rated amenities. Their practices develop trustworthiness and friendliness to their passengers. Delta airlines are considered the most famous airline for various vacations because of its simple and hassle-free booking procedure. </p>
+                <p>They never stop improving themselves, so they are deserving enough to offer their passengers the best facilities at a cheaper cost. Passengers' comfort and safety are their top focus, which allows them to take suitable precautions accordingly. They also provide various discounts and offers occasionally. </p>
+                <h3>Things to consider before flying with Delta Airlines</h3>
+                <ul>
+                    <li><b>Delta app-</b> To ensure a safe and pleasant trip, make sure to download the official Delta Airlines application before your flight. This app will allow you to check the status of your flight quickly and obtain your boarding pass. </li>
+                    <li><b>Travel checklist-</b> Delta Airlines takes the security of its customers very seriously. To prevent unneeded complications, you must always read the list of prohibited items before you board your flight. </li>
+                    <li><b>Basic Economy-</b> In most instances, tickets are not refundable unless mentioned otherwise. Only from the viewpoint of the passenger are the prices displayed. The Basic Economy price will have a few constraints and no guaranteed seat. </li>
+                    <li><b>Cancellations-</b> Last-minute <a href="https://www.faresmatch.com/cancellation-policy.aspx">flight cancellations</a> of your flight may result in non-refundable fees or other extra costs. It may be less likely that you will not get a refund if you cancel your flight a week or two before the scheduled departure date. </li>
+                    <li><b>Baggage charges-</b> The introductory travelling price of baggage within the United States will be $30 for a single checked bag and $40 or more for multiple checked bags. The cost will vary according to the place you are in. </li>
+                    <li><b>Taxes and fees-</b> The passengers are supposed to pay government-imposed taxes during their ticket booking. The charges may differ depending on the place. </li>
+                </ul>
+                <p>Now that you have all the information to plan your trip, get started immediately to take advantage of the best deal and opportunity. Also, review the list of activities or destinations to organise your ideal holiday and please your loved ones, family, and friends. Remember to reserve your tickets with Delta Airlines for a low-cost travel experience with first-rate amenities. </p>
+
+                <h2>FAQs</h2>
+                <h3>What are the benefits of Beach Vacation bookings? </h3>
+                <p>Beach vacations are the most demanding packages during summer vacation. The vacation packages are designed in a way that includes all the amenities. From luxury hotels to comfortable vehicles, everything will be included. Also, the vacation packages will focus on the beach activities which you can enjoy during your vacations. </p>
+                <h3>How do I book a beach vacation package? </h3>
+                <p>Vacations can be very costly as you will have to pay separately for flight, accommodation and other expenses. This is why most people opt for vacation packages that include all the costs simultaneously. You can book your packages through online travel websites or airlines. And you can also take advantage of travel agencies for the bookings. </p>
+                <h3>What is included in the beach vacation packages? </h3>
+                <p>Beach vacations are one the most demanding packages; it is planned very carefully so that every essential need of an individual is fulfilled. It includes unlimited dining at multiple restaurants, providing breakfast, lunch, and dinner, snacks, and liquors. Also, the types of equipment needed to participate in the activities like kayaking, paddle boards, or snorkeling. The airfare, accommodation, and transportation services will be included too. </p>
+                <h3>Is travel insurance compulsory? </h3>
+                <p>Travel insurance is highly recommended for everyone as it will protect you against penalties for cancellation of the trip beforehand; additionally, it will also cover baggage, medical and other expenses that may happen before departure. </p>
+                <h3>Can an adjoining room be requested? </h3>
+                <p>Going on a vacation with family and friends is the most enjoyable time of our life, but what if we get separated only because of the non-availability of rooms? It can cause a significant problem if it includes children. That is why most of the packages accept requests for room adjoined. But it may not be fully guaranteed. You can make the request during the package booking process. </p>
+                <h3>Are pets accepted? </h3>
+                <p>Many people want their furry babies to accompany them on their vacations so that they can make beautiful memories together. But unfortunately, not all packages allow pets on the trip, even if they are fully vaccinated and have all the documents required. </p>
+
+                <h3>Do we need to pay extra for anything? </h3>
+                <p>The packages are pre-planned according to the budget set, and there is no need to pay for anything extra other than the souvenirs or personal things you might buy while on vacation. You only need to pay once while booking the package. And also, no tipping is required as the guides are paid accordingly. Your coordination and valuable feedback will be appreciated. </p>
+
+                <h3>What are the cancellation policies? </h3>
+                <p>The advanced deposit will be 100% refunded if the booking is cancelled 1 to 2 weeks before the scheduled date. No extra charges will cost if anyone decides to shift their reservations. Lastly, the guests who are not able to arrive at the scheduled date then the advanced deposits will not be refunded. </p>
+
+                <h3>What will be the responsibilities of an individual during checkout? </h3>
+                <p>An individual will have to ensure that the trash is bagged and disposed of in recycling bins correctly. Close all the doors and windows before moving out, and also don't forget to switch off the air conditioners. Also, please remember that not a single water source is left open, like the sink and bathroom taps. </p>
+                <h3>What are some of the best beaches all around the world? </h3>
+                <p>Summer vacations are all about the beaches and sands; choosing a particular place to spend your holidays is a tough decision, but do not worry, we got you there. Some of the best beaches you will find worldwide are Saud Beach, Philippines; Nungwi Beach, Tanzania; Hanalei Bay, Hawaii, etc. </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+
+
+
+    $(".deep_btn").click(function () {
+              var flight_opt = $(this).data("id");
+                var fway = "2";
+                var fcls = "4";
+                var from = "&From=" + $("#flight_from" + flight_opt).val();
+                var to = "&To=" + $("#flight_to" + flight_opt).val();
+                var fromDate = "&DepDate=" + $("#flight_from_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[0];
+                var toDate = "&RetDate=";
+
+
+              $("#spFrom").text($("#flight_from" + flight_opt).val());
+              $("#spTo").text($("#flight_to" + flight_opt).val());
+              $("#spFromDate").text($("#flight_from_date" + flight_opt).val());
+
+                if (fway == "2") {
+                        toDate = "&RetDate=" + $("#flight_to_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[0];
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+                    $("#spTo2").text($("#flight_from" + flight_opt).val());
+                    $("#spFrom2").text($("#flight_to" + flight_opt).val());
+              }
+
+
+                var adult = "&Adult=" + 1;
+                var child = "&Child=" + 0;
+                var infant = "&Infant=" + 0;
+                var airline = "&Airline=" + ""; // $("#flight_airline").val();
+                var isdirect = "&IsDirect=" + ("false");
+                var isflexi = "&IsFlexi=" + ("false");
+                fway_s = "&FlightWay=" + fway;
+              fcls_s = "&FlightClass=" + fcls;
+
+
+              $("#spADT").text(1);
+              $("#spCHD").text($("#flight_child").val());
+              $("#spINF").text($("#flight_infant").val());
+
+                var tolPass =  1 + "Adult";
+                $("#spPass").text(tolPass);
+
+
+
+                          var str = "../flight/search?SiteCode=VIMAN&SourceMedia=VIMAN" + from + to + fromDate + toDate + adult + child + infant + fway_s + fcls_s + airline + isdirect + isflexi + "&Currency=USD";
+
+
+$("#search_popup").show();
+
+window.location = str;
+ });
+
+
+</script>

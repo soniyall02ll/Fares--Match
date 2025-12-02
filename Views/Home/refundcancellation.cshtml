@@ -1,0 +1,179 @@
+﻿
+@{
+    ViewBag.Title = "refundcancellation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section metatags{
+    <title>Refund and Cancellation Policy | FaresMatch</title>
+    <meta name="description" content="We understand that travel plans can change unexpectedly. Our refund and cancellation policy is designed to help you manage your booking with ease and transparency." />
+    <link rel="canonical" href="https://www.faresmatch.com/refund-cancellation.aspx" />
+    <meta property="og:title" content="Refund and Cancellation Policy | FaresMatch" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.faresmatch.com/assets/images/logo.png" />
+    <meta name="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Faresmatch" />
+    <meta property="og:description" content="We understand that travel plans can change unexpectedly. Our refund and cancellation policy is designed to help you manage your booking with ease and transparency." />
+    <meta property="og:url" content="https://www.faresmatch.com/refund-cancellation.aspx" />
+    <meta name="author" content="faresmatch.com" />
+    <meta name="geo.region" content="US-GA" />
+    <meta name="language" content="English" />
+    
+    <meta name="robots" content="index,follow" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="faresmatch" />
+    <meta name="twitter:title" content="Refund and Cancellation Policy | FaresMatch" />
+    <meta name="twitter:description" content="We understand that travel plans can change unexpectedly. Our refund and cancellation policy is designed to help you manage your booking with ease and transparency." />
+    <meta name="twitter:image" content="https://www.faresmatch.com/assets/images/logo.png" />
+}
+
+<style>
+        .grid1 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 15px;
+        }
+
+        .grid2 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 15px;
+            p {
+                font-size: 14px !important;
+            }
+        }
+
+        ol {
+                margin-left: 15px !important;
+            }
+
+        @@media only screen and (max-width: 1024px) {
+            .grid1, .grid2 {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+</style>
+
+
+<div class="container2 bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>Refund and Cancellation Policy</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+
+<div class="container2">
+    <div class="row">
+        <div class="column">
+            <h2>Refund and Cancellation Policy</h2>
+            <p>At FaresMatch.com, we understand that travel plans can change unexpectedly. Our Refund and Cancellation Policy is designed to assist you in managing your bookings with ease and transparency. Please read this page carefully to understand our policies and the steps you need to take for cancellations and refunds. By using our services, you agree to the terms outlined below.</p>
+
+            <h2>1. General Overview</h2>
+            <p>FaresMatch acts as an intermediary between travelers and third-party travel providers, including airlines, online travel agencies, and other service providers. Cancellation and refund requests are subject to the terms and conditions of the respective travel provider. FaresMatch facilitates the process and provides support but cannot guarantee a refund if the travel provider’s policies do not allow it.</p>
+
+            <h2>2. Cancellation Policy</h2>
+            <h3>a. Flight Cancellations by Customers</h3>
+            <div class="grid2">
+                <div>
+                    <h4>Eligibility</h4>
+                    <p>Customers can request cancellations for tickets booked through FaresMatch. However, cancellations are governed by the airline's specific policies.</p>
+                </div>
+                <div>
+                    <h4>Non-Refundable Tickets</h4>
+                    <p>Some tickets, such as promotional fares or discounted tickets, may be non-refundable. These terms will be communicated at the time of booking.</p>
+                </div>
+                <div>
+                    <h4>Cancellation Window</h4>
+                    <p>Airlines typically allow cancellations up to a certain time before departure. Ensure you check the cancellation cut-off period in your booking details.</p>
+                </div>
+            </div>
+
+            <h3>b. How to Request a cancellation</h3>
+            <p>To initiate a cancellation:</p>
+            <ol>
+                <li>Contact our customer support team at <b><a href="tel:+18009183039">+1-800-918-3039</a></b> or email <b><a href="mailto:support@faresmatch.com">support@faresmatch.com</a></b>.</li>
+                <li>Provide your booking details, including your ticket number and itinerary.</li>
+                <li>Our team will guide you through the process and inform you of applicable cancellation fees.</li>
+            </ol>
+            <br>
+            <h3>c. Airline-Initiated Cancellations</h3>
+            <p>In the event of a flight cancellation initiated by the airline, FaresMatch will assist you in securing a refund or rebooking your ticket as per the airline’s policy. Additional services, such as compensation or alternative travel arrangements, are at the discretion of the airline.</p>
+            <br>
+            <h2>3. Refund Policy</h2>
+            <h3>a. Refund Eligibility</h3>
+            <div class="grid2">
+                <div>
+                    <h4>Refund Policy</h4>
+                    <p>Refunds are processed in accordance with the airline or travel provider’s refund policy.</p>
+                </div>
+                <div>
+                    <h4>Refundable Tickets</h4>
+                    <p>If your ticket qualifies for a refund, the amount will be processed after deducting applicable fees.</p>
+                </div>
+                <div>
+                    <h4>Non-Refundable Tickets</h4>
+                    <p>For non-refundable tickets, only applicable taxes and fees may be refunded, depending on the airline’s policy.</p>
+                </div>
+            </div>
+            <br>
+            <h3>b. Refund Processing Time</h3>
+            <p>
+                FaresMatch processes refund requests promptly; however, the actual time for receiving your refund depends on the travel provider.
+                <br>
+                <b>Generally, refunds may take:</b>
+                <br>
+                <b>5-7 business days</b>: For most airlines and travel providers. <br><b>Up to 30 days</b>: In cases requiring additional verification or processing time.
+            </p>
+            <br>
+            <h3>c. Refund for Partially Used Tickets</h3>
+            <p>If you cancel a partially used ticket, the refund amount will be calculated based on the airline’s rules for partially used fares.</p>
+            <h2>4. Fees and Charges</h2>
+            <div class="grid2">
+                <div>
+                    <h3>a. Airline Penalties</h3>
+                    <p>Airlines may charge a cancellation or change fee based on their fare rules. These fees will vary depending on the ticket type and airline policy.</p>
+                </div>
+                <div>
+                    <h3>b. FaresMatch Service Fees</h3>
+                    <p>FaresMatch charges a nominal service fee for processing cancellations and refunds. This fee will be communicated at the time of your request.</p>
+                </div>
+                <div>
+                    <h3>c. Non-Refundable Fees</h3>
+                    <p>Certain fees, such as booking service charges or add-ons (e.g., seat selection, baggage fees), are non-refundable.</p>
+                </div>
+            </div>
+            <br>
+            <h2>5. Steps to Cancel or Request a Refund</h2>
+            <ol>
+                <li><b>Review Booking Terms</b>: Check the cancellation and refund policy of your booking before proceeding.</li>
+                <li><b>Contact Us</b>: <br><b>Phone</b>: Call us at <b><a href="tel:+18009183039">+1-800-918-3039</a></b> for immediate assistance. <br><b>Email</b>: Send a request to <b><a href="mailto:support@faresmatch.com">support@faresmatch.com</a></b> with your booking details.</li>
+                <li>Verification: Provide all necessary information, including your booking reference number, traveler name, and ticket details.</li>
+                <li>Processing: Our team will verify the eligibility of your request and initiate the cancellation or refund process.</li>
+            </ol>
+            <h2>6. Changes to Your Booking</h2>
+            <h3>a. Voluntary Changes</h3>
+            <p>For flight date, time, or route changes initiated by you, contact our team. Airlines may charge a modification fee based on their policies. Fare differences may apply for new bookings.</p>
+            <h3>b. Involuntary Changes</h3>
+            <p>If the airline modifies your itinerary (e.g., schedule changes or route cancellations), we will assist you in rebooking or claiming a refund.</p>
+            <h2>7. No-Show Policy</h2>
+            <p>Failure to check-in or board your flight as scheduled will result in the ticket being marked as a "no-show." <br><b>In such cases</b>: The ticket value may be forfeited, depending on the airline’s policy. Refunds for no-show tickets are typically not allowed.</p>
+            <h2>8. Travel Insurance</h2>
+            <p>FaresMatch strongly recommends purchasing travel insurance to cover unexpected changes, cancellations, or emergencies. Travel insurance can provide additional protection beyond the airline’s policies.</p>
+            <h2>9. Contact Information</h2>
+            <p>For assistance with cancellations or refunds, reach out to us:</p>
+            <p><b>Phone: </b><a href="tel:+18009183039">+1-800-918-3039</a></p>
+            <p><b>Email:</b> <a href="mailto:support@faresmatch.com">support@faresmatch.com</a></p>
+            <p><b>Address: </b>6355 Haystack CT Cumming, GA 30040, USA</p>
+            <h2>10. Final Notes</h2>
+            <p>
+                FaresMatch serves as a facilitator and is not responsible for the final decision made by airlines or other travel providers regarding cancellations or refunds. Always review the terms and conditions of your ticket before booking or requesting changes.
+                Thank you for choosing FaresMatch. We are committed to providing the support and guidance you need to manage your travel plans seamlessly.
+            </p>
+        </div>
+    </div>
+</div>
+

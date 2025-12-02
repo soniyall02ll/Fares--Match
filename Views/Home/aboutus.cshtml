@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewBag.Title = "aboutus";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section metatags{
+    <title>Fares Match: Best Fare Finder in the United States</title>
+    <meta name="Description" content="Fares Match is the best fare finder in the United States for airline ticket booking at an economical cost." />
+    <meta name="Keywords" content="Airline Flight Tickets" />
+    <link rel="canonical" href="https://www.faresmatch.com/about-us.aspx" />
+    <meta name="robots" content="Index, Follow" />
+    <meta name="author" content="Fares Match" />
+    <meta property="og:title" content="Fares Match: Best Fare Finder in the United States" />
+    <meta property="og:description" content="Fares Match is the best fare finder in the United States for airline ticket booking at an economical cost." />
+
+   
+
+
+
+
+}
+
+<style>
+    .grid1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin-top: 15px;
+        img
+
+    {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    div {
+        margin: auto 0;
+    }
+
+    }
+
+    .grid2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-top: 15px;
+    }
+
+    ol {
+        margin-left: 15px !important;
+    }
+
+    @@media only screen and (max-width: 1024px) {
+
+        .grid1,
+        .grid2 {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+</style>
+
+<div class="container2 bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>About Us</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+
+<div class="container2">
+    <div class="row">
+        <div class="column">
+            <div class="grid1">
+                <div><img src="https://www.faresmatch.com/images/non-stop.jpg" alt=""></div>
+                <div>
+                    <h2>Fares Match: An Ideal Airlines Reservations Fare Finder</h2>
+                    <p>
+                        Landing on the Fares Match website means we are dedicated to your queries passionately. To
+                        provide hassle-free support for flight booking assistance, our organization is consistently
+                        working to accomplish this objective. Customer exhilaration is the focal point of our
+                        company. That’s why deals and offers on the various Airlines Reservations reduce your travel
+                        budget cost. We justify every travel aspect for passengers at our portal, from destination
+                        guides to airline policies terms. As a beginner, getting the help of airfare partner which
+                        can filter out best travel opportunities for you can become a worthy notion.
+                    </p>
+                </div>
+                <div>
+                    <h2>We Manage Your Domestic and International Travel:</h2>
+                    <p>
+                        We filter the results of your lowest fares for particular destinations. That means you don’t
+                        need to put much effort into comparing the ideal fares for your travel because it can
+                        quickly be done through the fares match airlines reservations fare finder. Filter the best
+                        deals on the airfare for your destination and book a flight now. There are so many people in
+                        this world who have not enough time to book flight tickets, and that’s why they are looking
+                        for the ideal option to book cheap air tickets. A travel agency is working as the travel
+                        partner for those people because without doing anything or without investing too much time
+                        in travel searching, they can complete all travel tasks within few minutes from hotel
+                        booking to flight booking. With the Vision of Worldwide Travel Opportunities in the lowest
+                        budget, Fares Match is gaining popularity among travelers every year. You can plan for the
+                        travel systematically on an affordable budget with us.
+                    </p>
+                </div>
+                <div><img src="https://www.faresmatch.com/images/domestic.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+</div>
+

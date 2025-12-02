@@ -1,0 +1,522 @@
+﻿
+@{
+    ViewBag.Title = "adventurevacation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    DateTime dt1 = DateTime.Now.Date.AddDays(2);
+    DateTime dt2 = DateTime.Now.Date.AddDays(9);
+}
+
+@section metatags{
+    <title>Adventure Vacations | USA Tour Packages- FaresMatch</title>
+    <meta name="description" content="USA Adventure Vacations and Tour Packages.  Enjoy paragliding, river rafting, rock climbing, skiing, and camping with United Vacations and Delta Vacation Packages." />
+    <link rel="canonical" href="https://www.faresmatch.com/vacations/adventure-vacation.aspx">
+    <meta name="author" content="faresmatch.com">
+    <meta name="subject" content="Air Travel">
+    <meta name="geo.region" content="US-CA">
+    <meta name="language" content="English">
+    <meta name="designer" content="Faresmatch">
+    <meta name="publisher" content="Faresmatch">
+    <meta name="country" content="USA">
+    <meta name="rating" content="general" />
+    <meta name="robots" content="index,follow">
+    <meta property="og:url" content="https://www.faresmatch.com/vacations/adventure-vacation.aspx">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Adventure Vacations | USA Tour Packages- FaresMatch">
+    <meta property="og:description" content="USA Adventure Vacations and Tour Packages.  Enjoy paragliding, river rafting, rock climbing, skiing, and camping with United Vacations and Delta Vacation Packages." />
+    <meta property="og:image" content="https://www.faresmatch.com/assets/images/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="faresmatch.com">
+    <meta property="twitter:url" content="https://www.faresmatch.com/vacations/adventure-vacation.aspx">
+    <meta name="twitter:title" content="Adventure Vacations | USA Tour Packages- FaresMatch" />
+    <meta name="twitter:description" content="USA Adventure Vacations and Tour Packages.  Enjoy paragliding, river rafting, rock climbing, skiing, and camping with United Vacations and Delta Vacation Packages." />
+    <meta name="twitter:image" content="https://www.faresmatch.com/assets/images/logo.png">
+
+
+    
+}
+
+<script type="application/ld+json">
+				{
+				 "@@context": "https://schema.org/",
+				 "@@type": "WebPage",
+				 "name": "Adventure Vacations | USA Tour Packages- FaresMatch",
+				 "speakable":
+				 {
+				  "@@type": "SpeakableSpecification",
+				  "xpath": [
+					"/html/head/title",
+					"/html/head/meta[@@name='description']/@@content"
+					]
+				  },
+				 "url":"https://www.faresmatch.com/vacations/adventure-vacation.aspx"
+				 }
+</script>
+
+<div class="container2  bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>Adventure Vacations</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+<section class="trvl_bug">
+    <div class="container2 newbg">
+        <div class="row" style="padding-bottom: 0 !important;">
+            <div class="column">
+                <div class="detail">
+                    <h2>Adventure Vacations Flight Deals</h2>
+                </div>
+                <div class="innerrow grid1">
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Costa Rica</h4>
+                                <p>JFK - SJO</p>
+                                <input type="hidden" id="flight_from1" value="JFK" />
+                                <input type="hidden" id="flight_to1" value="SJO" />
+                                <input type="hidden" id="flight_from_date1" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date1" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 229*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 99</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 229</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a  href="javascript:void(0);" class="button deep_btn" data-id="1"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Lisbon</h4>
+                                <p>JFK - LIS</p>
+                                <input type="hidden" id="flight_from2" value="JFK" />
+                                <input type="hidden" id="flight_to2" value="LIS" />
+                                <input type="hidden" id="flight_from_date2" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date2" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 555*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 65</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 555</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="2"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Argentina</h4>
+                                <p>LAX - EZE</p>
+                                <input type="hidden" id="flight_from3" value="LAX" />
+                                <input type="hidden" id="flight_to3" value="EZE" />
+                                <input type="hidden" id="flight_from_date3" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date3" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 1555*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 149</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 1555</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="3"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Rio De Janeiro</h4>
+                                <p>LAX - SDU</p>
+                                <input type="hidden" id="flight_from4" value="LAX" />
+                                <input type="hidden" id="flight_to4" value="SDU" />
+                                <input type="hidden" id="flight_from_date4" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date4" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 499*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 149</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 499</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="4"><b>Book Now</b></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2 textcon">
+        <div class="row">
+            <div class="column">
+                <h2>Adventure Vacations</h2>
+
+                <p>
+                    During the pandemic, everyone was forced to stay inside their home with nothing to do and endless
+                    dull days. Now that everything is under control, it is time to break out of the monotonous life and
+                    have some adventurous fun!
+                </p>
+                <p>
+                    Adventure Vacation is all you need to have loads of fun. Go on for all the daring yet safe adventures
+                    like hiking, scuba diving, etc. Find a perfect <a href="https://www.faresmatch.com/vacations/adventure-vacation.aspx">
+                        Adventure Vacation
+                        Package
+                    </a> with the help of different travel websites or agencies. You can choose from <a href="https://www.faresmatch.com/vacation-packages.aspx">cheap luxury vacation packages</a> to
+                    luxury family vacation packages and many more.
+                </p>
+
+                <h2>Things to do in an Adventures Vacation</h2>
+                <p>
+                    Outdoor adventure can be exhilarating and intimidating. Selecting what activities to do while on
+                    vacation can be confusing sometimes, but we got you there; mentioned below are some of the
+                    adventurous activities you can experience.
+                </p>
+                <ul>
+                    <li>
+                        <b>Paragliding-</b> it is one of the most exciting activities, yet a little bit scary that
+                        exists! The beautiful view you get to see from above can make you feel like you are on the top
+                        of the world. You don't need to panic; you will not be doing this on your own; there will be an
+                        expert along with you.
+                    </li>
+                    <li>
+                        <b>River rafting-</b> It is a rough and tough activity to experience, but it will help you
+                        explore the wild side of nature. Rafting through the mountain terrains is worth experiencing.
+                    </li>
+                    <li>
+                        <b>Rock climbing-</b> It is an excellent physical and one of the most challenging activities;
+                        this adventure will help you figure out your strengths and make you feel like a true
+                        mountaineer.
+                    </li>
+                    <li>
+                        <b>Skiing-</b> A perfect activity for winter lovers, skiing can be considered enjoyable yet
+                        tricky; skiing through the thick snow on the mountains can make you experience the beauty of the
+                        winter wonderland.
+                    </li>
+                    <li>
+                        <b>Camping-</b> It is a perfect activity for people who love nature and adventure together.
+                        Camping can be very peaceful and mind-freshening and an ideal way to spend time with your family
+                        and friends.
+                    </li>
+                </ul>
+                <h2>Places for Adventure Vacation </h2>
+                <div class="grid2">
+                    <div class="column">
+                        <img src="../vacation-images/Costa-Rica.jpg" alt="">
+                        <br><br>
+                        <h3>Costa Rica</h3>
+                        <p style="line-height:1.7 !important;font-size: 14px !important;">
+                            Although Costa Rica is a small
+                            country, most of the land is covered with jungle. You can experience various adventurous
+                            activities like hiking, stand-up paddle boarding, etc.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/Portugal.jpg" alt="">
+                        <br><br>
+                        <h3>Portugal</h3>
+                        <p>
+                            Portugal has very vigorous activities like surfing, paddling down the Tua River, and horse
+                            riding.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/Brazil.jpg" alt="">
+                        <br><br>
+                        <h3>Brazil</h3>
+                        <p>
+                            Brazil is home to the famous Carnival of Rio and has many activities to contribute
+                            to, like snorkeling, boating, and riding dunes.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/Australia.jpg" alt="">
+                        <br><br>
+                        <h3>Australia</h3>
+                        <p>
+                            Australia- has many adventure activity opportunities like scuba diving, hiking, and
+                            swimming under the waterfalls.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/Argentina.jpg" alt="">
+                        <br><br>
+                        <h3>Argentina</h3>
+                        <p>
+                            Argentina tops the list for family vacation spots with activities like fly fishing,
+                            skiing, and horse riding.
+                        </p>
+                    </div>
+                </div>
+
+                <h3>Major Airlines that are flying to vacation spots</h3>
+                <p>
+                    There are a vast number of airlines operating every day so that you can reach your destination in
+                    time; mentioned below are a few of them:-
+                </p>
+                <div class="grid2">
+                    <div>
+                        <p><a href="https://www.faresmatch.com/jetblue-airlines-flights.aspx">JetBlue Airways</a></p>
+                        <p>
+                            <a href="https://www.faresmatch.com/spirit-airlines-flights-reservations.aspx">
+                                Spirit
+                                Airlines
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://www.faresmatch.com/delta-airlines-flights-reservations.aspx">
+                                Delta
+                                Airlines
+                            </a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <a href="https://www.faresmatch.com/united-airlines-flights-reservations.aspx">
+                                United
+                                Airlines
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://www.faresmatch.com/alaska-airlines-flights-reservations.aspx">
+                                Alaska
+                                Airlines
+                            </a>
+                        </p>
+                        <p><a href="https://www.faresmatch.com/emirates-airlines.aspx">Emirates</a></p>
+                    </div>
+                    <div>
+                        <p><a href="https://www.faresmatch.com/southwest-airlines.aspx">Southwest Airlines</a> </p>
+                        <p><a href="https://www.faresmatch.com/major-airlines.aspx">Qatar Airways</a> </p>
+                        <p><a href="https://www.faresmatch.com/air-india-flights.aspx">Air India</a></p>
+                    </div>
+                </div>
+                <p>
+                    In this <a href="https://www.faresmatch.com/delta-vacation-packages.aspx">Delta vacation packages</a>
+                    and <a href="https://www.faresmatch.com/jetblue-vacations.aspx">JetBlue vacation packages</a> are
+                    very famous for their affordable price and provided facilities.
+                </p>
+                <h2>What makes Delta Airlines the most preferred airline for vacation</h2>
+                <p>
+                    Delta Airlines is one of the most trustable travel partners; they assure you of a great experience on
+                    board with their excellent facilities. Delta Airlines' policies and easy-to-book process make them
+                    user-friendly and preferred airlines for vacations. They are improving themselves so they can
+                    provide the best facilities to their passengers at an affordable cost.
+                </p>
+                <p>
+                    One of the famous packages is the beach vacation package. They prioritize their passengers' comfort
+                    and safety so that they can take necessary safety measures before and after the flight. They provide
+                    you with various offers and discounts from time to time.
+                </p>
+                <h2>Things to know before flying with Delta Airlines</h2>
+                <p>
+                    Basic Economy- tickets are nonrefundable unless otherwise stated. The prices are shown as per the
+                    passengers only. The Basic Economy fare will not include a seat assignment and few restrictions.
+                </p>
+                <p>
+                    Taxes and Fees- The passengers must pay government-imposed taxes while booking the tickets. The
+                    charges may vary according to the place.
+                </p>
+                <p>
+                    Cancellations- Cancelling your <a href="https://www.faresmatch.com/flights.aspx">flight</a>
+                    at the last moment may be nonrefundable or add a few extra charges.
+                </p>
+                <p>
+                    Baggage charges- Travelling within the United States will charge $30 for 1 checked bag and $40 for a
+                    second checked bag. For other places, the price may vary.
+                </p>
+                <p>
+                    Travel checklist- <a href="https://www.faresmatch.com/delta-airlines-flights-reservations.aspx">
+                        Delta
+                        Airlines
+                    </a> is very much serious about the safety of the passengers, so make sure to check the
+                    list of the things you can carry or not avoid unnecessary situations.
+                </p>
+                <p>
+                    Delta app- make sure to download the official application of Delta Airlines for a smooth travel
+                    experience; you can access your boarding pass and check the status of your airplane with only one
+                    single click.
+                </p>
+                <p>
+                    Now that you have all the information about Adventure vacations, start planning it without any
+                    further delay to get the best price. Also, remember to book your flights with delta airlines so that
+                    you can enjoy their best facilities at a cheaper cost. Also, look into the <a href="https://www.faresmatch.com/united-vacations-packages.aspx">United vacation package</a>,
+                    which is currently trending and might catch your interest. Let's step out and go for an adventure.
+                </p>
+
+
+                <h2>FAQs</h2>
+                <h3>How do I book an Adventure Vacation package? </h3>
+                <p>
+                    There are multiple travel websites available on the internet for you to choose from, from which you
+                    can browse through their <a href="https://www.faresmatch.com/vacation-packages.aspx">
+                        Vacation
+                        packages
+                    </a> and decide which one to select for your trip. Different websites offer prices that
+                    can be variable, so you should check all their terms and conditions and the facilities they provide
+                    in the package.
+                </p>
+                <h3>What are the cancelation policies of the vacation package? </h3>
+                <p>
+                    The packages are organized in a way that is suitable for everyone equally; however, sometimes sudden
+                    plan changes can result in canceling the vacation. The cancelation policies for vacation packages
+                    are straightforward to process, you can cancel your package without any charges 1 week before the
+                    commencement of the holiday, and 25 to 30% will be refunded. Cancelation before 1 day will result in
+                    no refunds.
+                </p>
+                <h3>What type of baggage should I carry for an Adventure Vacation? </h3>
+                <p>
+                    <a href="https://www.faresmatch.com/vacations/adventure-vacation.aspx">Adventure vacations</a> can
+                    mostly be challenging because of the various activities included, so taking a suitcase or trolley
+                    will be a bad idea. Backpacks or mountain duffle bags are mostly recommended because they are easy
+                    to carry and create less hassle.
+                </p>
+                <h3>What are the Covid-19 precautions to take before traveling? </h3>
+                <p>
+                    Due to Covid-19, traveling paused for almost two years, and now as the vaccines are available, anyone
+                    can travel freely but with all safety measures. Vaccination is compulsory for every traveler, along
+                    with wearing a mask and having a bottle of sanitizer.
+                </p>
+                <h3>What is included in the Adventure vacation packages? </h3>
+                <p>
+                    The packages are made precisely so you can enjoy your vacation at a minimum cost; it is planned
+                    according to an individual's basic needs and requirements. The packages include meals, types of
+                    equipment based on the activities provided, vehicles, and accommodation.
+                </p>
+                <h3>Is tipping compulsory? </h3>
+                <p>
+                    The packages are pre-planned, keeping the budgets in mind. Tipping is not at all included nor
+                    compulsory to pay. You can appreciate the vacation package arrangement through feedback.
+                </p>
+                <h3>Are travel visas included in the vacation package? </h3>
+                <p>
+                    Travel visas are crucial when traveling to different countries; their requirements depend on your
+                    nationality & destination. The packages are not responsible for arranging the visas. You can
+                    arrange them by yourself with the help of any travel agency or by yourself with the use of visa
+                    processing offices.
+                </p>
+                <h3>What can be the possible restrictions for an Adventure Vacation package? </h3>
+                <p>
+                    The packages can vary very much; they are categorized into different levels like family packages,
+                    single travel packages, couple packages, and so on. The primary restrictions which can appear are
+                    the age limit in Single travel packages and you must be at least 18 years old to travel alone.
+                    Another restriction can be the medical conditions; likewise, in a family package, 1 child per parent
+                    is allowed.
+                </p>
+                <h3>Best location for an adventure like hiking? </h3>
+                <p>
+                    There are some vacation spots that provide adventures like hiking and many more, but the most popular
+                    place for hiking is Peru; climbing up Machu Picchu can be worth experiencing.
+                </p>
+                <h3>What are some destinations in the UK for an Adventure vacation? </h3>
+                <p>
+                    The UK is a central hub for adventure vacations. The beauty of the mountains, the wildness of nature,
+                    and the stunning landscapes are very captivating. You can experience adventurous activities like sea
+                    kayaking in Denvon, Horse riding and national parks in Wales, trekking with ponies in Cumbria, etc.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+
+    debugger;
+
+    $(".deep_btn").click(function () {
+              var flight_opt = $(this).data("id");
+                var fway = "2";
+                var fcls = "4";
+                var from = "&From=" + $("#flight_from" + flight_opt).val();
+                var to = "&To=" + $("#flight_to" + flight_opt).val();
+                var fromDate = "&DepDate=" + $("#flight_from_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[0];
+                var toDate = "&RetDate=";
+
+
+              $("#spFrom").text($("#flight_from" + flight_opt).val());
+              $("#spTo").text($("#flight_to" + flight_opt).val());
+              $("#spFromDate").text($("#flight_from_date" + flight_opt).val());
+
+                if (fway == "2") {
+                        toDate = "&RetDate=" + $("#flight_to_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[0];
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+                    $("#spTo2").text($("#flight_from" + flight_opt).val());
+                    $("#spFrom2").text($("#flight_to" + flight_opt).val());
+              }
+
+
+                var adult = "&Adult=" + 1;
+                var child = "&Child=" + 0;
+                var infant = "&Infant=" + 0;
+                var airline = "&Airline=" + ""; // $("#flight_airline").val();
+                var isdirect = "&IsDirect=" + ("false");
+                var isflexi = "&IsFlexi=" + ("false");
+                fway_s = "&FlightWay=" + fway;
+              fcls_s = "&FlightClass=" + fcls;
+
+
+              $("#spADT").text(1);
+              $("#spCHD").text($("#flight_child").val());
+              $("#spINF").text($("#flight_infant").val());
+
+                var tolPass =  1 + "Adult";
+                $("#spPass").text(tolPass);
+
+
+
+                          var str = "../flight/search?SiteCode=VIMAN&SourceMedia=VIMAN" + from + to + fromDate + toDate + adult + child + infant + fway_s + fcls_s + airline + isdirect + isflexi + "&Currency=USD";
+
+
+$("#search_popup").show();
+
+window.location = str;
+ });
+
+
+</script>

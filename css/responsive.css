@@ -1,0 +1,94 @@
+/* Responsive CSS */
+.caret {
+    margin-top: 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    /*---Header---*/
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+
+   
+}
+
+
+@media only screen and (max-width: 767px) {
+    .search-section {
+        margin-top: 0px !important;
+        margin-bottom: 10px !important;
+    }
+    .active > div.input-daterange.col-xs-12, .active > div.gap{
+        display: block;
+		padding-right: 0px;
+		padding-left: 0px;
+    }
+    .ros_Switch {
+        top: 29px;
+        right: 5px;
+        transform: rotate(90deg);
+    }
+    .input-group-btn.plusbtn.minus {
+        margin-right: 28px; float:left;
+    }
+    #flightChooseTab li a {
+        padding: 5px 8px;
+    }
+    .vertical-search, .full-width-search {padding:0;}
+        .vertical-search, .full-width-search .container {
+            /*background: rgba(0,0,0, 0.4);*/
+            padding: 0px 0 0;
+        }
+		
+		.hot-deals {padding: 0px 0px;}
+		.hotel-deal-home h2 {
+		 padding-top: 0px;
+		 margin-bottom: 0;
+		 font-size: 21px;
+		 }
+		.container .title {
+			margin-bottom: 10px;
+			font-size: 17px;
+			padding-bottom: 0px;
+		}
+    #flightChooseTab li.active a {
+        background: #ffd300;
+        color: #062a6c;
+    }
+    .form-group.form-group-lg .input-number {
+        padding: 19.4px 13px;
+        margin: 0;
+    }
+    .booking-search {
+        width:100%;
+    }
+    .hot-deal-grid img {width:100%;}
+    .trvl_bug {padding:17px;}
+    .social-media.pull-right {
+        margin-top: 5%;
+    }
+    .caro_slider_bg {display:none;}
+    .navbar-collapse.collapse.in .nav.navbar-nav.navbar-right { width:330px;}
+    /*--- .navbar-collapse.collapse.in {background:#fff;}---*/
+    .transparent-menu .navbar-nav > li > a {
+        color: #333;
+    }
+	.panel-title .ac_input {
+			height: 43px;
+			padding: 5px 18px 5px 18px;
+			font-size: 13px;
+			background: #fff;
+			border-radius: 0px !important;
+			border: 1px solid #E5E5E5 !important;
+			color: #555;
+			line-height: 36px;
+			text-align: center;
+			}
+}
+
+@media only screen and (max-width: 520px) {
+   
+}
+
+@media only screen and (max-width: 320px) {
+   
+}

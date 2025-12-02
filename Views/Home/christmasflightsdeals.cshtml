@@ -1,0 +1,293 @@
+﻿
+@{
+    ViewBag.Title = "christmasflightsdeals";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    DateTime dt1 = DateTime.Now.Date.AddDays(2);
+    DateTime dt2 = DateTime.Now.Date.AddDays(9);
+}
+@section metatags{
+    <title>Cheap Christmas Flights | Airline Tickets for Christmas | FaresMatch</title>
+    <meta name="description" content="Find the best deals on airline tickets for your holiday travel. Compare ticket prices, book easily and enjoy cheap Christmas flights with FaresMatch site." />
+    <link rel="canonical" href="https://www.faresmatch.com/christmas-flights-deals.aspx" />
+    <meta property="og:title" content="Cheap Christmas Flights | Airline Tickets for Christmas | FaresMatch" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.faresmatch.com/assets/images/logo.png" />
+    <meta name="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Faresmatch" />
+    <meta property="og:description" content="Find the best deals on airline tickets for your holiday travel. Compare ticket prices, book easily and enjoy cheap Christmas flights with FaresMatch site." />
+    <meta property="og:url" content="https://www.faresmatch.com/christmas-flights-deals.aspx" />
+    <meta name="author" content="faresmatch.com" />
+    <meta name="geo.region" content="US-GA" />
+    <meta name="language" content="English" />
+    
+    <meta name="robots" content="index,follow" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="faresmatch" />
+    <meta name="twitter:title" content="Cheap Christmas Flights | Airline Tickets for Christmas | FaresMatch" />
+    <meta name="twitter:description" content="Find the best deals on airline tickets for your holiday travel. Compare ticket prices, book easily and enjoy cheap Christmas flights with FaresMatch site." />
+    <meta name="twitter:image" content="https://www.faresmatch.com/assets/images/logo.png" />
+
+}
+
+<style>
+    .grid1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        div
+
+    {
+        margin: auto;
+    }
+
+    img {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    }
+
+    @@media only screen and (max-width: 1024px) {
+        .grid1 {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+</style>
+<div class="container2 bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>Christmas Flight Deals 2025 - FaresMatch</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+<div class="container2 newbg">
+    <div class="row">
+        <div class="column">
+            <div class="detail">
+                <h2>Best Christmas Flight Deals</h2>
+                <p>Presents to you some not-to-be missed, elite arrangements on airfares that will undoubtedly advance your movement experience. These arrangements are the most recent and all that you can get. Along these lines, don't continue to pause. Book them now!</p>
+            </div>
+            <div class="innerrow d-flex gap1">
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>Los Angeles</h4>
+                            <p>LAS - LAX</p>
+                            <input type="hidden" id="flight_from1" value="LAS" />
+                            <input type="hidden" id="flight_to1" value="LAX" />
+                            <input type="hidden" id="flight_from_date1" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date1" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 69.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 69</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="1"><b>Book Now</b></a></p>
+                </div>
+
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>Phoenix</h4>
+                            <p>DEN - PHX</p>
+                            <input type="hidden" id="flight_from2" value="DEN" />
+                            <input type="hidden" id="flight_to2" value="PHX" />
+                            <input type="hidden" id="flight_from_date2" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date2" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 99.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 99</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="2"><b>Book Now</b></a></p>
+                </div>
+            </div>
+
+            <div class="innerrow d-flex gap1">
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>San Francisco</h4>
+                            <p>LAX - SFO</p>
+                            <input type="hidden" id="flight_from3" value="LAX" />
+                            <input type="hidden" id="flight_to3" value="SFO" />
+                            <input type="hidden" id="flight_from_date3" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date3" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 69.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 69</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="3"><b>Book Now</b></a></p>
+                </div>
+
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>New York</h4>
+                            <p>ATL - LGA</p>
+                            <input type="hidden" id="flight_from4" value="ATL" />
+                            <input type="hidden" id="flight_to4" value="LGA" />
+                            <input type="hidden" id="flight_from_date4" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date4" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 69.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 69</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="4"><b>Book Now</b></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container2">
+    <div class="row" style="padding-top: 0 !important;">
+        <div class="column">
+            <h2>Go With Cheap Christmas Flights Deals On 2025 to Save More!</h2>
+            <p>Christmas can give you many memories when you utilized the time for a vacation. Yes, this is the right thing but this time no needs to spend lots of money on Christmas travel. Do you know why? This time, FaresMatch helps you to manage the airline's reservations or flight booking. The travel search engine provides the most amazing deals and offers to the passengers which they required for the journey. Christmas is also the time of high rush and that’s why many times, you can’t grab the best airfare offer for your travel plan but don’t worry you can call us to manage your travel on 25th December Vacation with the Cheap Christmas Flights Deals.</p>
+            <br>
+            <div class="grid1">
+                <div class="column">
+                    <img src="./images/Nyc-London-Paris.jpg" alt="">
+                </div>
+                <div class="column">
+                    <h3>Explore The World’s Top Destination For Christmas:</h3>
+                    <p>Yes, exploring also gives you happiness and to achieve happiness in your life with your family and friends it is important to travel on the world’s top destination for Christmas Travel. From Rome to Paris everything is amazing to explore and you can go to these places if you want to spend quality time with your partner or family. Washington DC Christmas Flights & Chicago Christmas Flights are also high searches on Search Engine just because of the popularity of these two cities on the vacation time.</p>
+                </div>
+            </div>
+            <br>
+            <p>Without any delay, you can plan the vacation with the right search engine. We are talking about the FaresMatch. We are a travel agency in the US and offer Christmas Flights Deals to passengers for the saving of the 2022 vacation plan of Christmas. In this time, you may get offers from many travel agencies and airfare websites but the comparison is also an important task for you to grab this type of airfare.</p>
+            <br>
+            <div class="grid1">
+                <div class="column">
+                    <h3>Best Time to Book Christmas Cheap Flights:</h3>
+                    <p>Cheap Christmas Air Tickets is the primary focus of every passenger who is thinking to plan the vacation at this time but the question is how it possible? Yes, this is possible when you book the flight tickets at the right time. We are talking about the cheapest month to book Christmas Flights. Americans are smart and they always prepared for the travel at the right time. The cheapest month for Christmas Plane Tickets is September or October.</p>
+                </div>
+                <div class="column">
+                    <img src="./images/Sydney-Switzerland-Dubai.jpg" alt="">
+                </div>
+            </div>
+            <br>
+            <h3>Best Airline Flying on Christmas Travel:</h3>
+            <p>What are the top airlines choose by the people at Christmas? Delta, United, Frontier, Spirit, JetBlue, Copa, Air Canada, Allegiant and Singapore Airlines are some of the top airlines for the time of Christmas Travel. Hence, you can also go on this time if you want to save money and travel in the best way because people are always looking for comfort choices when they are going to select the right airline for travel purposes.</p>
+            <br>
+            <h3>Why Choose FaresMatch For Christmas Travel:</h3>
+            <p>
+                FaresMatch is the Best Travel and we are providing Cheapest Airfare Christmas Flights to the passengers. If you are looking for the trusted travel partner through which you can plan travel then we are the right choice for you. Even for the Last Minute Christmas Flights, you can contact us because we also help passengers for the booking of Last Minute Christmas Booking and this is the great thing for you to save more on the travel budget.
+                <br>
+                Now, you can book flights or Airlines Reservations for Christmas by considering the online platforms or the customer care number of FaresMatch. Both options are good to find a cheap ticket for your destination. No matter you are going to Miami or Rome on Christmas? With our deals, you will always able to find the cheapest flight booking deals for the travel plan.
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+
+
+
+    $(".deep_btn").click(function () {
+              var flight_opt = $(this).data("id");
+                var fway = "2";
+                var fcls = "4";
+                var from = "&From=" + $("#flight_from" + flight_opt).val();
+                var to = "&To=" + $("#flight_to" + flight_opt).val();
+                var fromDate = "&DepDate=" + $("#flight_from_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[0];
+                var toDate = "&RetDate=";
+
+
+              $("#spFrom").text($("#flight_from" + flight_opt).val());
+              $("#spTo").text($("#flight_to" + flight_opt).val());
+              $("#spFromDate").text($("#flight_from_date" + flight_opt).val());
+
+                if (fway == "2") {
+                        toDate = "&RetDate=" + $("#flight_to_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[0];
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+                    $("#spTo2").text($("#flight_from" + flight_opt).val());
+                    $("#spFrom2").text($("#flight_to" + flight_opt).val());
+              }
+
+
+                var adult = "&Adult=" + 1;
+                var child = "&Child=" + 0;
+                var infant = "&Infant=" + 0;
+                var airline = "&Airline=" + ""; // $("#flight_airline").val();
+                var isdirect = "&IsDirect=" + ("false");
+                var isflexi = "&IsFlexi=" + ("false");
+                fway_s = "&FlightWay=" + fway;
+              fcls_s = "&FlightClass=" + fcls;
+
+
+              $("#spADT").text(1);
+              $("#spCHD").text($("#flight_child").val());
+              $("#spINF").text($("#flight_infant").val());
+
+                var tolPass =  1 + "Adult";
+                $("#spPass").text(tolPass);
+
+
+
+                          var str = "/flight/search?SiteCode=VIMAN&SourceMedia=VIMAN" + from + to + fromDate + toDate + adult + child + infant + fway_s + fcls_s + airline + isdirect + isflexi + "&Currency=USD";
+
+
+$("#search_popup").show();
+
+window.location = str;
+ });
+
+
+</script>

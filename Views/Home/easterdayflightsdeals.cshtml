@@ -1,0 +1,305 @@
+﻿
+@{
+    ViewBag.Title = "easterdayflightsdeals";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    DateTime dt1 = DateTime.Now.Date.AddDays(2);
+    DateTime dt2 = DateTime.Now.Date.AddDays(9);
+}
+@section metatags{
+    <title>Deals on Easter | Easter Day Sale | FaresMatch</title>
+    <meta name="description" content="Find incredible deals and discounts on Easter Day. FaresMatch offers the best fares for your trip. Book now and enjoy unforgettable savings on your Easter." />
+    <link rel="canonical" href="https://www.faresmatch.com/easter-day-flights-deals.aspx" />
+    <meta property="og:title" content="Deals on Easter | Easter Day Sale | FaresMatch" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.faresmatch.com/assets/images/logo.png" />
+    <meta name="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Faresmatch" />
+    <meta property="og:description" content="Find incredible deals and discounts on Easter Day. FaresMatch offers the best fares for your trip. Book now and enjoy unforgettable savings on your Easter." />
+    <meta property="og:url" content="https://www.faresmatch.com/easter-day-flights-deals.aspx" />
+    <meta name="author" content="faresmatch.com" />
+    <meta name="geo.region" content="US-GA" />
+    <meta name="language" content="English" />
+    
+    <meta name="robots" content="index,follow" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="faresmatch" />
+    <meta name="twitter:title" content="Deals on Easter | Easter Day Sale | FaresMatch" />
+    <meta name="twitter:description" content="Find incredible deals and discounts on Easter Day. FaresMatch offers the best fares for your trip. Book now and enjoy unforgettable savings on your Easter." />
+    <meta name="twitter:image" content="https://www.faresmatch.com/assets/images/logo.png" />
+
+}
+
+<style>
+    .grid1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        div
+
+    {
+        margin: auto;
+    }
+
+    img {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    }
+
+    @@media only screen and (max-width: 1024px) {
+        .grid1 {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+</style>
+<div class="container2 bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>Cheap Easter Flights 2025, Easter Flight Deals | FaresMatch</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+<div class="container2 newbg">
+    <div class="row">
+        <div class="column">
+            <div class="detail">
+                <h2>Easter Flight Deals</h2>
+                <p>Presents to you some not-to-be missed, elite arrangements on airfares that will undoubtedly advance your movement experience. These arrangements are the most recent and all that you can get. Along these lines, don't continue to pause. Book them now!</p>
+            </div>
+            <div class="innerrow d-flex gap1">
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>San Francisco</h4>
+                            <p>LAX - SFO</p>
+                            <input type="hidden" id="flight_from1" value="LAX" />
+                            <input type="hidden" id="flight_to1" value="SFO" />
+                            <input type="hidden" id="flight_from_date1" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date1" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 69.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 69</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="1"><b>Book Now</b></a></p>
+                </div>
+
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>New York</h4>
+                            <p>ATL - LGA</p>
+                            <input type="hidden" id="flight_from2" value="ATL" />
+                            <input type="hidden" id="flight_to2" value="LGA" />
+                            <input type="hidden" id="flight_from_date2" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date2" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 69.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 69</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="2"><b>Book Now</b></a></p>
+                </div>
+            </div>
+
+            <div class="innerrow d-flex gap1">
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>Los Angeles</h4>
+                            <p>LAS - LAX</p>
+                            <input type="hidden" id="flight_from3" value="LAS" />
+                            <input type="hidden" id="flight_to3" value="LAX" />
+                            <input type="hidden" id="flight_from_date3" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date3" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 69.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 69</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="3"><b>Book Now</b></a></p>
+                </div>
+
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>Phoenix</h4>
+                            <p>DEN - PHX</p>
+                            <input type="hidden" id="flight_from4" value="DEN" />
+                            <input type="hidden" id="flight_to4" value="PHX" />
+                            <input type="hidden" id="flight_from_date4" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date4" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 99.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 99</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="4"><b>Book Now</b></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container2">
+    <div class="row" style="padding-top: 0 !important;">
+        <div class="column">
+            <div class="grid1">
+                <div class="column">
+                    <img src="./images/easter-day.jpg" alt="">
+                </div>
+                <div class="column">
+                    <h2>Super-Flexible and Discounted Easter Day Flights Deals!</h2>
+                    <p>One of the top festivals in the United States is Easter. Do you want to make this festival more special for you? If yes then you must celebrate this festival in the beautiful destinations of the United States. People love to prefer spending quality time with friends and family on this day because the day is a sign of joy and fun. There are so many ways to celebrate this festival and every person chooses different ways to celebrate this festival. This time, FaresMatch comes with a discount on the flight tickets for the Easter Day Flights Booking. When you are looking for something special airfare discount on the booking of Easter.</p>
+                </div>
+            </div>
+            <br>
+            <h3>Fly in Sky with Your Family on This Easter:</h3>
+            <p>
+                Discount on Easter Flights is a much-awaited aspect for the passengers and they are looking for these kinds of deals for a very long time. Thus, if you are also looking for the stuff to book the cheap Easter Flights then this is the right place for you to know about the Easter Day Flights Deals. We are come with around 40% Flat Discount on the booking on Easter Flights.
+                <br>
+                Exploring the deals on the airline reservations is not an easy task for the passengers and they are looking for the right place to do this. We have come with amazing deals and information on the booking of cheap flights for the time of Easter. Easter is the high-season time of travel and you can’t depend on the last-minute reservations plan for this day travel and you must done the booking as soon as possible to make sure the affordable package on the airline reservations. We have come with the information about Easter Deals on flight booking.
+            </p>
+            <br>
+            <h3>Thrifty Tips to Book Easter Day Flights Deals:</h3>
+
+            <p><b>1.</b> Thrifty tips are now available for the booking of Easter Day Flights Deals. Now it is your choice how you can save money on the reservations. Easter is in April. The first question of every passenger is about the cheapest time to book the Easter Flights. Are you also looking for the answer to the same question? If yes then you must know about the cheapest time to book Easter Airlines Reservations. December is the cheapest month to find the tickets for Easter Day Flights Deals.</p>
+            <br>
+            <p><b>2.</b> The second most important Easter Travel Hacks is considering an ideal travel partner. You can’t reserve flight tickets at a cheaper price without the help of a flight booking search engine. There are wide options available on the Internet for choosing the right travel partner and FaresMatch is one of them. You can save money on the airline reservations of Easter Flights when you book your tickets from the FaresMatch. Don’t think an airline official site can help you to find the right deals because they can’t give you the right quote for booking your destination tickets.</p>
+            <br>
+            <p><b>3.</b> Early booking is the plus point for the passengers when they are thinking to hack the lowest cost on the journey. Thus, if you are thinking to make sure the flight tickets online for the booking of Easter Day Flights then choosing the option of Early booking that means pre-booking or booking is quite affordable for you to save money on the journey. Don’t think you can save money on the Last Minute Easter Flights Deals because these flights deals are much expensive than pre-booking for the passengers.</p>
+            <br>
+            <p><b>4.</b> Airlines reservations depend on the passenger selection. What airline you select for your journey or what kind of fare class you select for your holiday is also important for saving. Here you must understand the real difference. For example, if you love to travel in Delta Airlines Reservations but at the time of Easter you are getting a much higher discount for your destination with JetBlue Airlines then you must skip the option of Delta and go with an option of JetBlue to increase the amount of saving on the journey.</p>
+            <br>
+            <p><b>5.</b> Cheap Easter Day Flights Deals Promo Codes are also in the list of tips to book the flight tickets on this day. You can compare the percentage of discount on saving on the time of Easter Flights Deals Promo Codes. These codes are mainly visible on the third-party websites or coupons website for the passengers on the Internet. Finding the right coupon is also depending on the destination that you choose for the travel of Easter Time.</p>
+            <br>
+            <p><b>6.</b> Avoid late-night flying goals! This is the major travel hack for the booking of cheap Easter Day flight deals. Yes, late-night flights are costly than early morning flights and that’s why you must go with the right option for the reservations. On the other hand, if you choose early morning flights for the booking then it is good for the money-saving goals of your journey all the time.</p>
+            <br>
+            <p><b>7.</b> Try to carry less baggage on the time of Easter if you don’t want to waste money on the checked baggage allowance. Many times, passengers do this mistake and they carry too many bags during the travel and this will become the reason for higher costing on the travel for passengers.</p>
+
+            <br>
+            <div class="grid1">
+                <div class="column">
+                    <h3>How to Manage Online Easter Flights Tickets Booking?</h3>
+                    <p>Are you thinking to cut more travel costs at the time of Easter? This is a great idea for you but you must follow the footprints to make sure the airline booking of Easter at a cheap cost. You can manage online Easter Day Flights Deals with an ultimate booking partner just like FaresMatch. We are happy to help you and we provide a solid discount for the saving goals on the time of Easter Reservations for the passengers. Online booking is quite beneficial for the passengers rather than offline booking and that’s why they must go with an option of Online Booking for the cheap Easter Flights.</p>
+                </div>
+                <div class="column">
+                    <img src="https://www.faresmatch.com/images/domestic.jpg" alt="">
+                </div>
+            </div>
+            <br>
+            <h3>Final Words:</h3>
+            <p>Don’t think Easter is an expensive time for the planning of holiday when you are on the FaresMatch Website. Our deals help you to find the cheapest ticket prices on the reservations that you always want for your journey. Hence, you can call us for the booking of Easter Day Flights Deals in the United States. Our deals are mainly special for the passengers of the US, UK, Canada, Mexico, and Panama.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+
+
+
+    $(".deep_btn").click(function () {
+              var flight_opt = $(this).data("id");
+                var fway = "2";
+                var fcls = "4";
+                var from = "&From=" + $("#flight_from" + flight_opt).val();
+                var to = "&To=" + $("#flight_to" + flight_opt).val();
+                var fromDate = "&DepDate=" + $("#flight_from_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[0];
+                var toDate = "&RetDate=";
+
+
+              $("#spFrom").text($("#flight_from" + flight_opt).val());
+              $("#spTo").text($("#flight_to" + flight_opt).val());
+              $("#spFromDate").text($("#flight_from_date" + flight_opt).val());
+
+                if (fway == "2") {
+                        toDate = "&RetDate=" + $("#flight_to_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[0];
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+                    $("#spTo2").text($("#flight_from" + flight_opt).val());
+                    $("#spFrom2").text($("#flight_to" + flight_opt).val());
+              }
+
+
+                var adult = "&Adult=" + 1;
+                var child = "&Child=" + 0;
+                var infant = "&Infant=" + 0;
+                var airline = "&Airline=" + ""; // $("#flight_airline").val();
+                var isdirect = "&IsDirect=" + ("false");
+                var isflexi = "&IsFlexi=" + ("false");
+                fway_s = "&FlightWay=" + fway;
+              fcls_s = "&FlightClass=" + fcls;
+
+
+              $("#spADT").text(1);
+              $("#spCHD").text($("#flight_child").val());
+              $("#spINF").text($("#flight_infant").val());
+
+                var tolPass =  1 + "Adult";
+                $("#spPass").text(tolPass);
+
+
+
+                          var str = "/flight/search?SiteCode=VIMAN&SourceMedia=VIMAN" + from + to + fromDate + toDate + adult + child + infant + fway_s + fcls_s + airline + isdirect + isflexi + "&Currency=USD";
+
+
+$("#search_popup").show();
+
+window.location = str;
+ });
+
+
+</script>

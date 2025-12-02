@@ -1,0 +1,791 @@
+﻿@using Viman.Models
+@{
+    ViewBag.PageName = "home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.WebsiteURL = Common.WebsiteURL;
+    ViewBag.StaticURL = Common.StaticURL;
+    ViewBag.Title = "Cheap Flights, Airline Tickets &  Car Rentals";
+    DateTime dt1 = DateTime.Now.Date.AddDays(2);
+    DateTime dt2 = DateTime.Now.Date.AddDays(9);
+}
+
+@section metatags{
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Cheap Flights, Airline Tickets &  Car Rentals | FaresMatch</title>
+    <meta name="description" content="Find the cheapest flights, book airline tickets and rent a car at affordable prices. Get flight deals, save money and enjoy your trip with FaresMatch." />
+    <link rel="canonical" href="https://www.faresmatch.com/" />
+    <meta property="og:title" content="Cheap Flights, Airline Tickets &  Car Rentals | FaresMatch" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.faresmatch.com/assets/images/logo.png" />
+    <meta name="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Faresmatch" />
+    <meta property="og:description" content="Find the cheapest flights, book airline tickets and rent a car at affordable prices. Get flight deals, save money and enjoy your trip with FaresMatch." />
+    <meta property="og:url" content="https://www.faresmatch.com/" />
+    <meta name="author" content="faresmatch.com" />
+    <meta name="geo.region" content="US-GA" />
+    <meta name="language" content="English" />
+    <meta name="robots" content="index,follow" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="faresmatch" />
+    <meta name="twitter:title" content="Cheap Flights, Airline Tickets &  Car Rentals | FaresMatch" />
+    <meta name="twitter:description" content="Find the cheapest flights, book airline tickets and rent a car at affordable prices. Get flight deals, save money and enjoy your trip with FaresMatch." />
+    <meta name="twitter:image" content="https://www.faresmatch.com/assets/images/logo.png" />
+
+    <script type="application/ld+json">
+        {
+          "@@context": "https://schema.org/",
+          "@@type": "WebSite",
+          "name": "FaresMatch",
+          "url": "https://www.faresmatch.com/"
+        }
+    </script>
+}
+
+<div class="container2  bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>Your Trip. Your Fare. Your Match</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+<div class="container latestUSPS">
+    <div class="row">
+        <div class="column">
+            <h2>Know why Travellers choose Faresmatch?</h2>
+            <div class="grid3">
+                <div class="flex">
+                    <img src="~/fmimages/Deal.png" />
+                    <div>
+                        <p><b>Attractive deals</b></p>
+                        <p>You can find something that you can’t find anywhere! Yes, the most attractive deals.</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <img src="~/fmimages/price.png" />
+                    <div>
+                        <p><b>Personalized travel plans.</b></p>
+                        <p>Get the travel plans that are personalised and customised based on your travel preferences and budget.</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <img src="~/fmimages/cancellation.png" />
+                    <div>
+                        <p><b>Flexible policies</b></p>
+                        <p>Our cancellation, refund and change policy is flexible, which is excellent support for the adaptive travel plans.</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <img src="~/fmimages/contact.png" />
+                    <div>
+                        <p><b>Customer service</b></p>
+                        <p>Our customer service is available 24 hours, which is a big deal for you when you don’t want to be in trouble with travel plans.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container PartnerLogo">
+    <div class="row">
+        <div class="column">
+            <div class="grid grid1">
+                <div class="d-flex gap1">
+                    <div class="aefsdhfg">
+                        <p style="line-height: 1 !important;"><b>Search airlines at once</b></p>
+                    </div>
+                    <div class="flex gap1">
+                        <div>
+                            <img src="~/fmimages/American-Airlines.png" />
+                        </div>
+                        <div>
+                            <img src="~/fmimages/united-airlines.png" />
+                        </div>
+                        <div>
+                            <img src="~/fmimages/Frontier-Airlines.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap1 jfkdsdf">
+                   
+                    <div>
+                        <img src="~/fmimages/JetBlue-Airways.png" />
+                    </div>
+                    <div>
+                        <img src="~/fmimages/Spirit_Airlines.png" />
+                    </div>
+                    <div>
+                        <img src="~/fmimages/Alaska_Airlines.png" />
+                    </div>
+                    <div>
+                        <img src="~/fmimages/Turkish_Airlines.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container PlanToday">
+    <div class="row">
+        <div class="column">
+            <h2>Plan your travel with Faresmatch today to save for the future!</h2>
+            <p style="color: #fff;">Grab the eye-catching deals on flights, hotels and car rentals to save for your upcoming trip.</p>
+            <div class="slider-container3">
+                <button class="prev-btn3">&#10094;</button>
+                <button class="next-btn3">&#10095;</button>
+                <div class="slider3">
+                    <div class="slide3">
+                        <img src="~/images/carrent1.jpeg" />
+                        <div class="innerdiv">
+                            <h3>Car Rental</h3>
+                            <p>Up to <span>$40</span> off our fees</p>
+                            <a href="/car-rental.aspx"><button>Get Promo Code</button></a>
+                            <a href="/car-rental.aspx"><p><i class="fa-solid fa-link"></i> Learn More</p></a>
+                        </div>
+                    </div>
+                    <div class="slide3">
+                        <img src="~/images/hotelrent1.jpeg" />
+                        <div class="innerdiv">
+                            <h3>Hotels</h3>
+                            <p>Up to <span>$50</span> off our fees</p>
+                            <a href="/hotels.aspx"><button>Get Promo Code</button></a>
+                            <a href="/hotels.aspx"><p><i class="fa-solid fa-link"></i> Learn More</p></a>
+                        </div>
+                    </div>
+                    <div class="slide3">
+                        <img src="~/images/home-Cruise.jpg" />
+                        <div class="innerdiv">
+                            <h3>Cruise</h3>
+                            <p>Up to <span>$12</span> off our fees</p>
+                            <a href="/cruise"><button>Get Promo Code</button></a>
+                            <a href="/cruise"><p><i class="fa-solid fa-link"></i> Learn More</p></a>
+                        </div>
+                    </div>
+                    <div class="slide3">
+                        <img src="~/images/home-yacht.jpg" />
+                        <div class="innerdiv">
+                            <h3>Yacht</h3>
+                            <p>Up to <span>$20</span> off our fees</p>
+                            <a href="/yacht"><button>Get Promo Code</button></a>
+                            <a href="/yacht"><p><i class="fa-solid fa-link"></i> Learn More</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container TrendingFall">
+    <div class="row">
+        <div class="column">
+            <h2>Trending fall destinations</h2>
+            <div class="slider-container2">
+                <button class="prev-btn2">&#10094;</button>
+                <button class="next-btn2">&#10095;</button>
+                <div class="slider2">
+                    <div class="slide2">
+                        <img src="~/fmimages/Michigan.jpg" />
+                        <div class="innerdiv">
+                            <h3>Michigan</h3>
+                            <div class="flex">
+                                <div>
+                                    <h5>$988.94</h5>
+                                </div>
+                                <a href="/flights/cheap-flights-to-michigan.aspx">
+                                    <button>Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <img src="~/fmimages/Newjersey.jpg" />
+                        <div class="innerdiv">
+                            <h3>New Jersey</h3>
+                            <div class="flex">
+                                <div>
+                                    <h5>$988.94</h5>
+                                </div>
+                                <a href="/flights/cheap-flights-to-new-jersey.aspx">
+                                    <button>Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <img src="~/fmimages/Minnesota.jpg" />
+                        <div class="innerdiv">
+                            <h3>Minnesota</h3>
+                            <div class="flex">
+                                <div>
+                                    <h5>$988.94</h5>
+                                </div>
+                                <a href="/flights/cheap-flights-to-minnesota.aspx">
+                                    <button>Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <img src="~/fmimages/Oregon.jpg" />
+                        <div class="innerdiv">
+                            <h3>Oregon</h3>
+                            <div class="flex">
+                                <div>
+                                    <h5>$988.94</h5>
+                                </div>
+                                <a href="/flights/cheap-flights-to-oregon.aspx">
+                                    <button>Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <img src="~/fmimages/Illinois.jpg" />
+                        <div class="innerdiv">
+                            <h3>Illinois</h3>
+                            <div class="flex">
+                                <div>
+                                    <h5>$988.94</h5>
+                                </div>
+                                <a href="/flights/cheap-flights-to-illinois.aspx">
+                                    <button>Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <img src="~/fmimages/Hawaii.jpg" />
+                        <div class="innerdiv">
+                            <h3>Hawaii</h3>
+                            <div class="flex">
+                                <div>
+                                    <h5>$988.94</h5>
+                                </div>
+                                <a href="/flights/cheap-flights-to-hawaii.aspx">
+                                    <button>Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <img src="~/fmimages/Georgia.jpg" />
+                        <div class="innerdiv">
+                            <h3>Georgia</h3>
+                            <div class="flex">
+                                <div>
+                                    <h5>$988.94</h5>
+                                </div>
+                                <a href="/flights/cheap-flights-to-georgia.aspx">
+                                    <button>Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <img src="~/fmimages/Colorado.jpg" />
+                        <div class="innerdiv">
+                            <h3>Colorado</h3>
+                            <div class="flex">
+                                <div>
+                                    <h5>$988.94</h5>
+                                </div>
+                                <a href="/flights/cheap-flights-to-colorado.aspx">
+                                    <button>Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <img src="~/fmimages/Arizona.jpg" />
+                        <div class="innerdiv">
+                            <h3>Arizona</h3>
+                            <div class="flex">
+                                <div>
+                                    <h5>$988.94</h5>
+                                </div>
+                                <a href="/flights/cheap-flights-to-arizona.aspx">
+                                    <button>Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <img src="~/fmimages/Nevada.jpg" />
+                        <div class="innerdiv">
+                            <h3>Nevada</h3>
+                            <div class="flex">
+                                <div>
+                                    <h5>$988.94</h5>
+                                </div>
+                                <a href="/flights/cheap-flights-to-nevada.aspx">
+                                    <button>Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <img src="~/fmimages/Texas.jpg" />
+                        <div class="innerdiv">
+                            <h3>Texas</h3>
+                            <div class="flex">
+                                <div>
+                                    <h5>$988.94</h5>
+                                </div>
+                                <a href="/flights/cheap-flights-to-texas.aspx">
+                                    <button>Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <img src="~/fmimages/Washington.jpg" />
+                        <div class="innerdiv">
+                            <h3>Washington</h3>
+                            <div class="flex">
+                                <div>
+                                    <h5>$988.94</h5>
+                                </div>
+                                <a href="/flights/cheap-flights-to-washington.aspx">
+                                    <button>Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <img src="~/fmimages/California.jpg" />
+                        <div class="innerdiv">
+                            <h3>California</h3>
+                            <div class="flex">
+                                <div>
+                                    <h5>$988.94</h5>
+                                </div>
+                                <a href="/flights/cheap-flights-to-california.aspx">
+                                    <button>Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <img src="~/fmimages/Florida.jpg" />
+                        <div class="innerdiv">
+                            <h3>Florida</h3>
+                            <div class="flex">
+                                <div>
+                                    <h5>$988.94</h5>
+                                </div>
+                                <a href="/flights/cheap-flights-to-florida.aspx">
+                                    <button>Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <img src="~/fmimages/Newyork.jpg" />
+                        <div class="innerdiv">
+                            <h3>New York</h3>
+                            <div class="flex">
+                                <div>
+                                    <h5>$988.94</h5>
+                                </div>
+                                <a href="/flights/cheap-flights-to-new-york.aspx">
+                                    <button>Book Now</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row" style="padding-bottom: 0 !important;">
+        <div class="column">
+            <h2>Recommended for your next trip</h2>
+            <p>Based on your most recent searches or your location</p>
+            <div class="slider-container1">
+                <button class="prev-btn1">&#10094;</button>
+                <button class="next-btn1">&#10095;</button>
+                <div class="slider1">
+                    <div class="slide1">
+                        <a href="javascript:void(0);" class="deep_btn" data-id="1">
+                            <img src="~/fmimages/Houston-City-99.jpg" />
+                            <div class="innerdiv">
+                                <div class="flex">
+                                    <div style="flex:1;">
+                                        <h3>Houston City</h3>
+                                        <p>DEN - HOU</p>
+                                        <input type="hidden" id="flight_from1" value="DEN" />
+                                        <input type="hidden" id="flight_to1" value="HOU" />
+                                        <input type="hidden" id="flight_from_date1" value="@dt1.ToString("dd-MM-yyyy")" />
+                                        <input type="hidden" id="flight_to_date1" value="@dt2.ToString("dd-MM-yyyy")" />
+                                    </div>
+                                    <div>
+                                        <h4>$ 99.99*</h4>
+                                        <p>Round Trip</p>
+                                    </div>
+                                </div>
+                                <div class="center"></div>
+                                <div class="flex">
+                                    <p style="text-align:center;flex:1;">$ 50</p>
+                                    <p style="text-align:center;flex:1;">$ 150</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slide1">
+                        <a href="javascript:void(0);" class="deep_btn" data-id="2">
+                            <img src="~/fmimages/Phoenix-65.jpg" />
+                            <div class="innerdiv">
+                                <div class="flex">
+                                    <div style="flex:1;">
+                                        <h3>Phoenix</h3>
+                                        <p>DFW - PHX</p>
+                                        <input type="hidden" id="flight_from2" value="DFW" />
+                                        <input type="hidden" id="flight_to2" value="PHX" />
+                                        <input type="hidden" id="flight_from_date2" value="@dt1.ToString("dd-MM-yyyy")" />
+                                        <input type="hidden" id="flight_to_date2" value="@dt2.ToString("dd-MM-yyyy")" />
+                                    </div>
+                                    <div>
+                                        <h4>$ 65.10*</h4>
+                                        <p>Round Trip</p>
+                                    </div>
+                                </div>
+                                <div class="center"></div>
+                                <div class="flex">
+                                    <p style="text-align:center;flex:1;">$ 50</p>
+                                    <p style="text-align:center;flex:1;">$ 150</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slide1">
+                        <a href="javascript:void(0);" class="deep_btn" data-id="3">
+                            <img src="~/fmimages/Boston-City-149.jpg" />
+                            <div class="innerdiv">
+                                <div class="flex">
+                                    <div style="flex:1;">
+                                        <h3>Boston City</h3>
+                                        <p>WAS - BOS</p>
+                                        <input type="hidden" id="flight_from3" value="WAS" />
+                                        <input type="hidden" id="flight_to3" value="BOS" />
+                                        <input type="hidden" id="flight_from_date3" value="@dt1.ToString("dd-MM-yyyy")" />
+                                        <input type="hidden" id="flight_to_date3" value="@dt2.ToString("dd-MM-yyyy")" />
+                                    </div>
+                                    <div>
+                                        <h4>$ 149.49*</h4>
+                                        <p>Round Trip</p>
+                                    </div>
+                                </div>
+                                <div class="center"></div>
+                                <div class="flex">
+                                    <p style="text-align:center;flex:1;">$ 50</p>
+                                    <p style="text-align:center;flex:1;">$ 150</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slide1">
+                        <a href="javascript:void(0);" class="deep_btn" data-id="4">
+                            <img src="~/fmimages/Dallas-City-170.jpg" />
+                            <div class="innerdiv">
+                                <div class="flex">
+                                    <div style="flex:1;">
+                                        <h3>Dallas City</h3>
+                                        <p>SFO – DFW</p>
+                                        <input type="hidden" id="flight_from4" value="SFO" />
+                                        <input type="hidden" id="flight_to4" value="DFW" />
+                                        <input type="hidden" id="flight_from_date4" value="@dt1.ToString("dd-MM-yyyy")" />
+                                        <input type="hidden" id="flight_to_date4" value="@dt2.ToString("dd-MM-yyyy")" />
+                                    </div>
+                                    <div>
+                                        <h4>$ 170.85*</h4>
+                                        <p>Round Trip</p>
+                                    </div>
+                                </div>
+                                <div class="center"></div>
+                                <div class="flex">
+                                    <p style="text-align:center;flex:1;">$ 50</p>
+                                    <p style="text-align:center;flex:1;">$ 150</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" style="display: none;">
+    <div class="row" style="padding-bottom:0 !important;">
+        <div class="column">
+            <h2> Faresmatch – Your Gateway to Cheap Air Tickets & Hassle-Free Flight Booking</h2>
+            <p class="text-justify">Welcome to your one-stop platform for air ticket booking and online flight reservations. Whether planning a quick short-haul flight or an extensive international adventure, booking flight tickets at the lowest fares is simple. So don't overthink it—choose Faresmatch as your travel booking partner for seamless flight reservations this time.</p>
+            <h2> Faresmatch – Why Choose Us?</h2>
+            <h3> Cheap Air Tickets & Airfare Deals</h3>
+            <p class="text-justify">Unlock discount flight tickets, cheap airfares, and exclusive air ticket offers every day for all major destinations. We're the most powerful flight comparison site for USA routes, helping you find the lowest flight fares in seconds. Don't waste time browsing multiple portals—you can discover great airfare deals here in moments.</p>
+            <h3>Domestic & International Coverage</h3>
+            <p class="text-justify">We have exclusive deals on both domestic flight tickets across the United States and international flight tickets worldwide. Our most popular and busiest USA air travel routes are all available right here.</p>
+            <h3> USA Flight Specialists</h3>
+            <p class="text-justify">Are you searching for cheap flights to the USA? Looking for flight deals today or additional airfare bargains? Explore routes like flights to Florida, flights from New York, flights to California, and flights to Miami—all in one place.</p>
+            <h3> Flexible Trip Options</h3>
+            <p class="text-justify">Smart flyers stay flexible with travel bookings—round-trip or one-way flight deals. Save more when you book round-trip flight tickets in advance. Pre-booking is essential for both round-trip and one-way offers. You can also find last-minute flights and book air tickets now at Faresmatch.</p>
+            <h3>Nonstop & Direct Flights</h3>
+            <p class="text-justify">Booking direct flights in the USA is more affordable and time-saving than choosing layovers or connecting flights. If you want to book nonstop flights, plan your travel with Faresmatch and secure better discounts by booking at least three to four months before departure.</p>
+            <h3> 24/7 Customer Support</h3>
+            <p class="text-justify">Have questions? Call our air ticket support number anytime. Our expert team is here to assist you with plane ticket bookings, manage your USA flight searches, and help you find great discounts on online flight reservations.</p>
+            <h2>How It Works?</h2>
+            <h3>Search & Compare</h3>
+            <p class="text-justify">Enter your origin, destination, and travel dates to find cheap flights instantly. Compare your options to choose the best deal.</p>
+            <h3> Select Your Deal</h3>
+            <p class="text-justify">Browse our air ticket deals, discount tickets, and special air travel promotions to maximize your savings.</p>
+            <h3> Book & Fly</h3>
+            <p class="text-justify">Secure your booking with our fast and secure checkout process. Receive your airline ticket discount confirmation instantly.</p>
+            <h2> Popular Routes & Deals</h2>
+            <p class="text-justify"><b>Book Flights to the USA </b>– Exclusive domestic flight deals, including routes from New York to Los Angeles and Atlanta to Chicago, all at Faresmatch.</p>
+            <p class="text-justify"><b>Cheap Return Flights </b>– Find affordable round-trip options across all major hubs.</p>
+            <p class="text-justify"><b>Nonstop Flight Booking </b>– Enjoy faster connections and easy nonstop flight reservations for high-demand routes.</p>
+            <p class="text-justify"><b>Flights to Florida</b> – Book flights to Miami, Tampa, and Orlando at unbeatable prices.</p>
+            <h3> Are You Ready to Fly?</h3>
+            <p class="text-justify">Now, experience stress-free air ticket booking with Faresmatch. Whether it's a business trip, family vacation, or solo getaway, our platform helps you find cheap airline tickets, the lowest flight fares, and manage seamless air travel reservations. We are here to help you book flights online in minutes. Visit our USA flight booking site, and for any support, call our air ticket support number.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container2 newfaqs">
+    <div class="row">
+        <div class="column">
+            <h2>Frequently Asked Questions</h2>
+            <div class="grid grid1">
+                <div class="column">
+                    <div class="newfaq">
+                        <div class="newfaqhead flex">
+                            <p><b>What is FaresMatch's specialty?</b></p>
+                            <p><i class="fa-solid fa-caret-down"></i> <i class="fa-solid fa-caret-up"></i></p>
+                        </div>
+                        <div class="newfaqdetails">
+                            <p>FaresMatch has a team of dedicated and experienced travel agents who are present 24*7 to guide their customers with bookings, making changes and cancellations to your flight tickets. Their flight deals are ideal for last-minute flight booking. </p>
+                        </div>
+                    </div>
+                    <div class="newfaq">
+                        <div class="newfaqhead flex">
+                            <p><b>How helpful is the FM vacation package?</b></p>
+                            <p><i class="fa-solid fa-caret-down"></i> <i class="fa-solid fa-caret-up"></i></p>
+                        </div>
+                        <div class="newfaqdetails">
+                            <p>The vacation packages have proven to be ideal for all-inclusive and pre-planned vacations. Moreover, with vacation packages, you are promised further discounted rates as compared to booking separately. </p>
+                        </div>
+                    </div>
+                    <div class="newfaq">
+                        <div class="newfaqhead flex">
+                            <p><b>What is the site's cancellation policy?</b></p>
+                            <p><i class="fa-solid fa-caret-down"></i> <i class="fa-solid fa-caret-up"></i></p>
+                        </div>
+                        <div class="newfaqdetails">
+                            <p>With FaresMatch, customers who have booked their flights are entitled to cancel their flights within 24 hours of booking by contacting 24x7 customer service. </p>
+                        </div>
+                    </div>
+                    <div class="newfaq">
+                        <div class="newfaqhead flex">
+                            <p><b>Does web help customers book domestic & international flights?</b></p>
+                            <p><i class="fa-solid fa-caret-down"></i> <i class="fa-solid fa-caret-up"></i></p>
+                        </div>
+                        <div class="newfaqdetails">
+                            <p>The site is expert in searching for the lowest fares for both domestic and international destinations. Customers no longer need to spend hours finding ideal fares for their travel as the site easily finds them. </p>
+                        </div>
+                    </div>
+                    <div class="newfaq">
+                        <div class="newfaqhead flex">
+                            <p><b>How to contact FM customer service?</b></p>
+                            <p><i class="fa-solid fa-caret-down"></i> <i class="fa-solid fa-caret-up"></i></p>
+                        </div>
+                        <div class="newfaqdetails">
+                            <p>In case of any problems or queries, travelers are free to contact the customer service of the site through the following ways: </p>
+                            <ul>
+                                <li>Phone: +1-800-918-3039</li>
+                                <li>E-mail: support@faresmatch.com</li>
+                                <li>E-mail: bookings@faresmatch.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="newfaq">
+                        <div class="newfaqhead flex">
+                            <p><b>Are there any hidden fees charged by FM?</b></p>
+                            <p><i class="fa-solid fa-caret-down"></i> <i class="fa-solid fa-caret-up"></i></p>
+                        </div>
+                        <div class="newfaqdetails">
+                            <p>FaresMatch is a 100% legit site. The site has always prioritised the safety and satisfaction of customers. Also, there are no hidden fees charged by the site proving it to be genuine. </p>
+                        </div>
+                    </div>
+                    <div class="newfaq">
+                        <div class="newfaqhead flex">
+                            <p><b>Does FM offer refunds in case of cancel?</b></p>
+                            <p><i class="fa-solid fa-caret-down"></i> <i class="fa-solid fa-caret-up"></i></p>
+                        </div>
+                        <div class="newfaqdetails">
+                            <p>Yes, in case of cancellation of flights, the site promises their customers a refund. However, the refund and cancellation policy might vary on the specific terms and conditions of the airline. </p>
+                        </div>
+                    </div>
+                    <div class="newfaq">
+                        <div class="newfaqhead flex">
+                            <p><b>Can customers avail of cheap last-minute flights with FaresMatch?</b></p>
+                            <p><i class="fa-solid fa-caret-down"></i> <i class="fa-solid fa-caret-up"></i></p>
+                        </div>
+                        <div class="newfaqdetails">
+                            <p>FaresMatch understands that problems can arise at times. Hence, they always try their best to provide last-minute flights to travelers. Not only this but with the site, customers are also promised great discounts on their last-minute flights. </p>
+                        </div>
+                    </div>
+                    <div class="newfaq">
+                        <div class="newfaqhead flex">
+                            <p><b>Why should I book Business Class flights with FaresMatch?</b></p>
+                            <p><i class="fa-solid fa-caret-down"></i> <i class="fa-solid fa-caret-up"></i></p>
+                        </div>
+                        <div class="newfaqdetails">
+                            <p>We offer discounted business class tickets with top airlines. Enjoy luxury and savings when you book with us. </p>
+                        </div>
+                    </div>
+                    <div class="newfaq">
+                        <div class="newfaqhead flex">
+                            <p><b>Can I book Emirates flights on FM?</b></p>
+                            <p><i class="fa-solid fa-caret-down"></i> <i class="fa-solid fa-caret-up"></i></p>
+                        </div>
+                        <div class="newfaqdetails">
+                            <p>Yes! You can easily search and book Emirates Airlines flights to destinations across Europe, Asia, the Middle East, and beyond on FaresMatch.com. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script type="application/ld+json">
+                {
+                  "@@context": "https://schema.org",
+                  "@@type": "FAQPage",
+                  "mainEntity": [{
+                    "@@type": "Question",
+                    "name": "What is FaresMatch's specialty?",
+                    "acceptedAnswer": {
+                      "@@type": "Answer",
+                      "text": "FaresMatch has a team of dedicated and experienced travel agents who are present 24*7 to guide their customers with bookings, making changes and cancellations to your flight tickets. Their flight deals are ideal for last-minute flight booking."
+                    }
+                  },{
+                    "@@type": "Question",
+                    "name": "How helpful is the FaresMatch vacation package?",
+                    "acceptedAnswer": {
+                      "@@type": "Answer",
+                      "text": "The vacation packages have proven to be ideal for all-inclusive and pre-planned vacations. Moreover, with vacation packages, you are promised further discounted rates as compared to booking separately."
+                    }
+                  },{
+                    "@@type": "Question",
+                    "name": "What is the site's cancellation policy?",
+                    "acceptedAnswer": {
+                      "@@type": "Answer",
+                      "text": "With FaresMatch, customers who have booked their flights are entitled to cancel their flights within 24 hours of booking by contacting 24x7 customer service."
+                    }
+                  },{
+                    "@@type": "Question",
+                    "name": "Does FaresMatch help customers book domestic & international flights?",
+                    "acceptedAnswer": {
+                      "@@type": "Answer",
+                      "text": "The site is expert in searching for the lowest fares for both domestic and international destinations. Customers no longer need to spend hours finding ideal fares for their travel as the site easily finds them."
+                    }
+                  },{
+                    "@@type": "Question",
+                    "name": "How to contact FaresMatch customer service?",
+                    "acceptedAnswer": {
+                      "@@type": "Answer",
+                      "text": "In case of any problems or queries, travelers are free to contact the customer service of the site through the following ways:
+                Phone: +1-800-918-3039
+                E-mail: support@faresmatch.com
+                E-mail: bookings@faresmatch.com"
+                    }
+                  },{
+                    "@@type": "Question",
+                    "name": "Are there any hidden fees charged by FaresMatch?",
+                    "acceptedAnswer": {
+                      "@@type": "Answer",
+                      "text": "FaresMatch is a 100% legit site. The site has always prioritised the safety and satisfaction of customers. Also, there are no hidden fees charged by the site proving it to be genuine."
+                    }
+                  },{
+                    "@@type": "Question",
+                    "name": "Does FaresMatch offer refunds in case of cancellation?",
+                    "acceptedAnswer": {
+                      "@@type": "Answer",
+                      "text": "Yes, in case of cancellation of flights, the site promises their customers a refund. However, the refund and cancellation policy might vary on the specific terms and conditions of the airline."
+                    }
+                  },{
+                    "@@type": "Question",
+                    "name": "Can customers avail of cheap last-minute flights with FaresMatch?",
+                    "acceptedAnswer": {
+                      "@@type": "Answer",
+                      "text": "FaresMatch understands that problems can arise at times. Hence, they always try their best to provide last-minute flights to travelers. Not only this but with the site, customers are also promised great discounts on their last-minute flights."
+                    }
+                  },{
+                    "@@type": "Question",
+                    "name": "Why should I book Business Class flights with FaresMatch?",
+                    "acceptedAnswer": {
+                      "@@type": "Answer",
+                      "text": "We offer discounted business class tickets with top airlines. Enjoy luxury and savings when you book with us."
+                    }
+                  },{
+                    "@@type": "Question",
+                    "name": "Can I book Emirates flights on FaresMatch.com?",
+                    "acceptedAnswer": {
+                      "@@type": "Answer",
+                      "text": "Yes! You can easily search and book Emirates Airlines flights to destinations across Europe, Asia, the Middle East, and beyond on FaresMatch.com."
+                    }
+                  }]
+                }
+            </script>
+        </div>
+    </div>
+</div>
+
+<script>
+    //debugger;
+    $(".deep_btn").click(function () {
+        var flight_opt = $(this).data("id");
+        var fway = "2";
+        var fcls = "4";
+        var from = "&From=" + $("#flight_from" + flight_opt).val();
+        var to = "&To=" + $("#flight_to" + flight_opt).val();
+        var fromDate = "&DepDate=" + $("#flight_from_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[0];
+        var toDate = "&RetDate=";
+
+        $("#spFrom").text($("#flight_from" + flight_opt).val());
+        $("#spTo").text($("#flight_to" + flight_opt).val());
+        $("#spFromDate").text($("#flight_from_date" + flight_opt).val());
+
+        if (fway == "2") {
+            toDate = "&RetDate=" + $("#flight_to_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[0];
+            $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+            $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+            $("#spTo2").text($("#flight_from" + flight_opt).val());
+            $("#spFrom2").text($("#flight_to" + flight_opt).val());
+        }
+
+        var adult = "&Adult=" + 1;
+        var child = "&Child=" + 0;
+        var infant = "&Infant=" + 0;
+        var airline = "&Airline=" + "";
+        var isdirect = "&IsDirect=" + ("false");
+        var isflexi = "&IsFlexi=" + ("false");
+        fway_s = "&FlightWay=" + fway;
+        fcls_s = "&FlightClass=" + fcls;
+        $("#spADT").text(1);
+        $("#spCHD").text($("#flight_child").val());
+        $("#spINF").text($("#flight_infant").val());
+        var tolPass = 1 + "Adult";
+        $("#spPass").text(tolPass);
+        var str = "/flight/search?SiteCode=VIMAN&SourceMedia=VIMAN" + from + to + fromDate + toDate + adult + child + infant + fway_s + fcls_s + airline + isdirect + isflexi + "&Currency=USD";
+        $("#search_popup").show();
+        window.location = str;
+    });
+</script>
+<img src="https://tag.yieldoptimizer.com/ps/ps?t=i&p=9484&rtg=y&pg=hp&" width="1" height="1"/>

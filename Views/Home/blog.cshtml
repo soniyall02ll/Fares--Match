@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewBag.Title = "blog";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section metatags{
+    <title>Fares Match |Travel Blog| Travel Tips & Tricks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Learn about travel possibilities and cheap airfare tips and tricks for travel in the Updated Travel Blog of Fares Match to Match Fare." />
+    <meta name="keywords" content="Best Flights Deals, Flight Booking Offers, Flights Promo Code, Airlines Reservations Deals, Air Tickets Booking Deals, Last Minute Flights Deals, Cheap Flight Deals" />
+    <link rel="canonical" href="https://www.faresmatch.com/blog.aspx" />
+    <meta property="og:title" content="Fares Match |Travel Blog| Travel Tips & Tricks" />
+    <meta property="og:type" content="website" />
+    <meta name="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Faresmatch" />
+    <meta property="og:description" content="Learn about travel possibilities and cheap airfare tips and tricks for travel in the Updated Travel Blog of Fares Match to Match Fare." />
+    <meta property="og:url" content="https://www.faresmatch.com/blog.aspx" />
+    <meta name="author" content="faresmatch.com" />
+    <meta name="subject" content="Air Travel" />
+    <meta name="geo.region" content="US-GA" />
+    <meta name="language" content="English" />
+
+    <meta name="designer" content="Faresmatch" />
+    <meta name="publisher" content="Faresmatch" />
+    <meta name="country" content="USA" />
+    <meta name="DC.title" content="Fares Match |Travel Blog| Travel Tips & Tricks" />
+    <meta name="geo.region" content="US" />
+    <meta name="geo.position" content="39.78373;-100.445882" />
+    <meta name="ICBM" content="39.78373, -100.445882" />
+    <meta name="rating" content="general" />
+    <meta name="robots" content="index,follow" />
+    <meta property="fb:pages" content="102971931309643" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="faresmatch" />
+    <meta name="twitter:title" content="Fares Match |Travel Blog| Travel Tips & Tricks " />
+    <meta name="twitter:description" content="Learn about travel possibilities and cheap airfare tips and tricks for travel in the Updated Travel Blog of Fares Match to Match Fare." />
+
+}
+
+<script>
+    setInterval(mufun, 1000);
+    function mufun() {
+        let b1 = document.getElementById("on");
+        let b2 = document.getElementById("off");
+        let view = document.getElementById("view");
+        let arrow = document.getElementById("arrowicon");
+
+        b1.addEventListener("click", function () {
+            if ((view.style.display = "none")) {
+                view.style.display = "block";
+                arrow.style.display = "none";
+            }
+        })
+
+        b2.addEventListener("click", function () {
+            if ((view.style.display = "block")) {
+                view.style.display = "none";
+                arrow.style.display = "block";
+            }
+        })
+    }
+</script>
+
+<div class="container2 bg1"
+        style="background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url(/assets/images/blog/blog.jpg);">
+        <div class="row flex">
+            <div class="column">
+                <h1>Finest Flights Deals &amp; Discount Offers On Holiday Plan</h1>
+            </div>
+        </div>
+    </div>
+
+<div class="container blogpage">
+    <div class="row">
+        <div class="column">
+            <div class="grid grid2">
+                <div></div>
+                <div></div>
+                <div class="search-column flex">
+                    <input type="search" placeholder="Search...">
+                    <button class="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+            <br><br>
+            <div class="product-container grid grid2">
+            </div>
+            <br>
+            <div class="pagination1">
+                <button id="prev-btn"><i class="fa-solid fa-angles-left"></i></button>
+                <span id="page-number">1</span>
+                <button id="next-btn"><i class="fa-solid fa-angles-right"></i></button>
+            </div>
+            <script src="./fmcss/blogs.js"></script>
+        </div>
+    </div>
+</div>
+

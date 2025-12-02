@@ -1,0 +1,137 @@
+@media only screen and (max-width: 1024px) {
+    .row1 {
+        width: 100%;
+        padding: 20px;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 32px !important;
+    }
+
+    h2 {
+        font-size: 27px !important;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .gap,
+    .gap1,
+    .gap3 {
+        gap: 0;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    .herobg {
+        br {
+            display: none;
+        }
+    }
+
+    .newheader {
+        .newhead {
+            width: 100% !important;
+
+            .right {
+                text-align: center;
+            }
+
+            .center {
+                display: none;
+            }
+
+            .icon {
+                margin: auto 0;
+            }
+
+            img {
+                width: 100px;
+            }
+        }
+    }
+
+    .navigate {
+        z-index: 99;
+        display: none;
+        position: absolute;
+        background-color: var(--fourth-color);
+        box-shadow: 0px 2px 2px rgba(20, 20, 20, 0.5);
+        padding: 30px 20px;
+        top: 0;
+        right: 0;
+        width: 70%;
+        height: 100vh;
+
+        ul {
+            text-align: center;
+            flex-direction: column;
+
+            li {
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    #on,
+    #off {
+        display: block !important;
+        font-size: 22px;
+        text-align: right;
+        /* color: var(--fourth-color); */
+    }
+
+    .newfooter {
+        .foot {
+            width: 100%;
+
+            p {
+                font-size: 15px;
+            }
+
+            padding-bottom: 80px;
+        }
+
+        .mainfooter {
+            width: 100%;
+            padding: 40px 20px 20px 20px;
+            margin: auto;
+
+            .column {
+                margin-bottom: 15px;
+            }
+
+            .logocol {
+                width: 100%;
+            }
+        }
+
+        img {
+            width: 100px !important;
+        }
+    }
+
+    .cta {
+        display: block;
+    }
+
+    .bg1 {
+        .column:first-child {
+            padding: 40px 20px;
+        }
+    }
+
+    .newnav {
+        ol {
+            column-count: 1;
+        }
+    }
+    table {
+        overflow-x: auto;
+      }
+}

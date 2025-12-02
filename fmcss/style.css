@@ -1,0 +1,672 @@
+a, h1, h2, h3, h4, h5, h6, li, p {
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+h1, h2, h3 {
+    font-weight: 700 !important
+}
+
+a, h1, h2, h3, h4, h5, h6 {
+    color: var(--fifth-color) !important
+}
+
+.quicklinks, .tabs .column {
+    box-shadow: 0 0 2px 2px rgba(20,20,20,.2)
+}
+
+.amtrak .img, .deals .img {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important
+}
+
+.textcon ol, .textcon ul {
+    margin-left: 18px
+}
+
+.deals .img p, .flightdeals h3, .table h4, .table table td, .table table th, h1 {
+    text-align: center
+}
+
+.quicklinks h3, .table h4 {
+    margin-bottom: 20px !important
+}
+
+body, html {
+    overflow-x: hidden
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container2 {
+    width: 100% !important;
+    max-width: 100% !important
+}
+
+.container, .container1, .container2 {
+    background: #fff
+}
+
+:root {
+    --primary-color: #FF6B35 !important;
+    --secondary-color: #0770E3 !important;
+    --third-color: #0B2545 !important;
+    --fourth-color: #ffffff !important;
+    --fifth-color: #161616 !important;
+    --sixth-color: #FFB600 !important;
+    --primary-font: -apple-system,BlinkMacSystemFont,Arial,"Helvetica Neue","Segoe UI",Roboto,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+    --secondary-font: -apple-system,BlinkMacSystemFont,Arial,"Helvetica Neue","Segoe UI",Roboto,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important
+}
+
+.row {
+    width: 90% !important;
+    margin: auto !important;
+    padding: 75px 20px !important
+}
+
+.column {
+    flex: auto !important
+}
+
+.d-flex {
+    display: flex !important
+}
+
+.flex {
+    display: flex
+}
+
+a, li, p {
+    font-family: var(--secondary-font) !important;
+    line-height: 2 !important;
+    font-size: 15px !important
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--primary-font) !important;
+    line-height: 1.35 !important
+}
+
+h1 {
+    font-size: 30px !important;
+    opacity: 0;
+    transform: translateX(-100px);
+    animation: 3s forwards fadeInLeft
+}
+
+@keyframes fadeInLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+h2 {
+    padding: 0 0 10px !important;
+    font-size: 26px !important
+}
+
+h3 {
+    font-size: 23px !important
+}
+
+.faq .main h3, .flightdetails h3, .tabs .tab h3, h4 {
+    font-weight: 400 !important
+}
+
+.faq .main h3, h4 {
+    font-size: 20px !important
+}
+
+a {
+    text-decoration: none
+}
+
+#filterBtn, #flight_submit, #prsn_done, button {
+    font-family: var(--secondary-font) !important;
+    line-height: 2 !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    margin: 10px 0 !important;
+    padding: 5px 15px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    color: var(--fourth-color) !important;
+    background-color: var(--primary-color) !important;
+    border: none !important
+}
+
+#prsn_done {
+    margin-block: 0 !important;
+    font-size: 16px !important;
+    margin-bottom: 10px !important
+}
+
+    #filterBtn:hover, #flight_submit:hover, #prsn_done:hover, button:hover {
+        background-color: var(--secondary-color) !important;
+        color: var(--fourth-color) !important
+    }
+
+.gap {
+    gap: 40px !important
+}
+
+.gap1 {
+    gap: 15px !important
+}
+
+.grid1, .grid2 {
+    gap: 20px;
+    display: grid
+}
+
+.ac_results ul {
+    background-color: #fff !important;
+    padding: 5px !important;
+    box-shadow: 0 0 2px 2px rgba(20,20,20,.1) !important;
+    border-radius: 5px !important
+}
+
+    .ac_results ul li {
+        width: 100% !important;
+        padding: 5px !important
+    }
+
+        .ac_results ul li:hover {
+            background-color: #faebd7 !important;
+            cursor: pointer !important
+        }
+
+.blogpage #page-number, .table table tr:hover {
+    background-color: var(--secondary-color)
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr)
+}
+
+.text {
+    column-count: 2
+}
+
+.amtraksection .row, .flightdeals .row {
+    padding-bottom: 0 !important
+}
+
+.map iframe {
+    width: 100%;
+    height: 450px
+}
+
+.quicklinks {
+    border-radius: 10px;
+    padding: 20px
+}
+
+    .quicklinks h3 {
+        border-bottom: 1px solid var(--secondary-color)
+    }
+
+.text2 {
+    column-count: 4
+}
+
+    .contact a, .flightdetails a, .newbg .innerrow .column a, .tabs .tabdetails a, .text1 a, .text2 a, .textcon a {
+        color: var(--primary-color) !important
+    }
+
+        .text1 a:hover, .text2 a:hover {
+            color: var(--fifth-color) !important;
+            text-decoration: underline
+        }
+
+.grid1 {
+    grid-template-columns: repeat(2,1fr)
+}
+
+.grid2 {
+    grid-template-columns: repeat(3,1fr)
+}
+
+.textcon ul li {
+    display: list-item !important
+}
+
+.hr1 {
+    border: 1.5px solid var(--primary-color);
+    margin-block: 15px
+}
+
+.blogpage .row, .innerblogrow .row {
+    padding-block: 40px !important
+}
+
+.innerblogrow .contentcol {
+    grid-column: span 2
+}
+
+.innerblogrow .grid {
+    gap: 0 20px
+}
+
+.innerblogrow img {
+    width: 100%
+}
+
+.innerblogrow tr {
+    border: 1px solid #cacaca
+}
+
+.innerblogrow td {
+    padding: 5px 15px
+}
+
+.innerblogrow .audio-controls i.active {
+    color: var(--primary-color)
+}
+
+.innerblogrow .audio-controls i {
+    border: 1px solid var(--third-color);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: color .3s,opacity .3s
+}
+
+.innerblogrow #volume-icon {
+    padding: 10px 8px
+}
+
+.innerblogrow #play-icon {
+    padding: 10px 12px
+}
+
+.innerblogrow #pause-icon {
+    padding: 10px 13px
+}
+
+.innerblogrow .aefsdhfg {
+    min-width: 100%
+}
+
+.innerblogrow .suggested-blogs {
+    gap: 15px;
+    display: grid
+}
+
+    .innerblogrow .suggested-blogs .column {
+        border: 1px solid #cacaca;
+        border-radius: 10px;
+        cursor: pointer
+    }
+
+        .blogpage .product-container .column a, .innerblogrow .suggested-blogs .column a {
+            color: var(--third-color) !important;
+            text-decoration: underline
+        }
+
+.flightdetails a:hover, .tabs .tabdetails a:hover {
+    color: var(--fifth-color) !important
+}
+
+.innerblogrow .suggested-blogs p {
+    line-height: 1.5 !important;
+    font-size: 13px !important
+}
+
+.innerblogrow .suggested-blogs a {
+    line-height: 1.5 !important;
+    font-size: 15px !important
+}
+
+.innerblogrow .suggested-blogs img {
+    width: 100%;
+    border-radius: 10px 0 0 10px
+}
+
+.innerblogrow .suggested-blogs .innerblog {
+    padding: 10px 15px 10px 0
+}
+
+.innerblogrow .suggested-blogs .image-container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+    height: 125px
+}
+
+.tabs .column {
+    padding: 20px !important;
+    background-color: var(--fourth-color);
+    border-radius: 15px
+}
+
+.deals .row, .tabs .row {
+    padding-top: 0 !important
+}
+
+.tabs .tabdetails {
+    padding: 20px !important;
+    column-count: 3
+}
+
+.tabs .tab {
+    border-bottom: 1px solid var(--fifth-color);
+    cursor: pointer
+}
+
+    .tabs .tab h3 {
+        padding: 5px 20px !important;
+        font-size: 20px !important
+    }
+
+    .tabs .tab p:hover {
+        border-bottom: 2px solid var(--primary-color) !important;
+        color: var(--primary-color)
+    }
+
+.sitemap .fa-minus, .tabs #tabdetail10, .tabs #tabdetail11, .tabs #tabdetail12, .tabs #tabdetail13, .tabs #tabdetail14, .tabs #tabdetail15, .tabs #tabdetail16, .tabs #tabdetail17, .tabs #tabdetail18, .tabs #tabdetail2, .tabs #tabdetail3, .tabs #tabdetail4, .tabs #tabdetail5, .tabs #tabdetail6, .tabs #tabdetail7, .tabs #tabdetail8, .tabs #tabdetail9 {
+    display: none
+}
+
+.flightdetails .row {
+    padding: 0 20px !important
+}
+
+.flightdetails a:hover {
+    text-decoration: underline !important
+}
+
+.text1 {
+    column-count: 3
+}
+
+.flightdeals img {
+    width: 100%;
+    border-radius: 10px
+}
+
+.flightdeals h3 {
+    margin-top: 20px !important
+}
+
+.deals ol li {
+    margin-left: 17px !important
+}
+
+.deals .column .d-flex a {
+    flex: 1;
+    margin-top: 15px !important
+}
+
+.amtrak .column, .cards .img, .cards .img .detail div, .contact .column, .newbg .column {
+    flex: 1 !important
+}
+
+.deals .img {
+    border-radius: 15px;
+    padding-top: 200px !important;
+    cursor: pointer
+}
+
+    .deals .img p {
+        background-color: rgba(255,255,255,.85);
+        padding: 10px 20px !important;
+        border-radius: 0 0 15px 15px;
+        font-weight: 700
+    }
+
+    .deals .img:hover {
+        box-shadow: 0 0 4px 4px rgba(20,20,20,.3)
+    }
+
+.contact .right .column {
+    background-color: rgba(20,20,20,.05);
+    border-radius: 10px;
+    padding: 30px 20px !important;
+    text-align: center
+}
+
+    .contact .right .column:hover {
+        box-shadow: 0 0 3px 3px rgba(20,20,20,.2)
+    }
+
+.cards .img {
+    border-radius: 10px;
+    box-shadow: 0 0 4px 4px rgba(20,20,20,.1);
+    margin-top: 15px !important
+}
+
+    .blogpage .product-container img, .cards .img img {
+        width: 100%;
+        border-radius: 10px 10px 0 0
+    }
+
+    .cards .img .detail {
+        padding: 20px;
+        flex: 1 !important
+    }
+
+        .cards .img .detail .right, .newbg .innerrow .column .right {
+            text-align: right
+        }
+
+            .cards .img .detail .right p {
+                font-size: 12px !important;
+                line-height: 1.3 !important
+            }
+
+.amtrak .img {
+    padding: 100px 20px !important;
+    border-radius: 10px 0 0 10px;
+    width: 120%
+}
+
+.amtrak .c1 {
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px rgba(20,20,20,.2);
+    margin-top: 20px
+}
+
+.amtrak .c2 {
+    padding: 20px
+}
+
+.textcon ul {
+    list-style-type: disc
+}
+
+.textcon a:hover {
+    color: var(--secondary-color) !important
+}
+
+.textcon table td, .textcon table th {
+    padding: 10px;
+    font-family: var(--secondary-font)
+}
+
+.textcon img {
+    border-radius: 10px;
+    width: 100%
+}
+
+.table table {
+    width: 100%;
+    border: 1px solid #999
+}
+
+    .table table tr:hover td {
+        color: var(--fourth-color) !important
+    }
+
+.table button {
+    border: 1px solid transparent !important
+}
+
+    .table button:hover {
+        border: 1px solid var(--fourth-color) !important
+    }
+
+.sitemap .linkcard .linkhead {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #b1b1b1;
+    margin-top: 10px;
+    cursor: pointer
+}
+
+    .sitemap .linkcard .linkhead i {
+        font-size: 22px !important
+    }
+
+    .sitemap .linkcard .active-linkhead, .sitemap .linkcard .linkhead:hover {
+        box-shadow: 0 0 1px 1px rgba(20,20,20,.2)
+    }
+
+.sitemap .linkcard h4 {
+    flex: 1 !important;
+    margin: auto 0 !important
+}
+
+.sitemap .linkdetails {
+    padding: 20px;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: none
+}
+
+    .sitemap .linkdetails h3 {
+        border-bottom: 1px solid #d1d1d1;
+        margin-bottom: 20px !important;
+        font-weight: 400 !important
+    }
+
+.blogpage .product-container p {
+    line-height: 1.6 !important
+}
+
+.blogpage .product-container .innerblog {
+    padding: 10px 15px
+}
+
+.blogpage .product-container .column {
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative
+}
+
+.blogpage .product-container #datepara {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    color: var(--fourth-color);
+    padding: 5px 20px !important;
+    border-radius: 10px 0;
+    font-size: 15px !important
+}
+
+.blogpage .search-column {
+    border-radius: 50px;
+    border: 1px solid var(--third-color);
+    margin: auto 0
+}
+
+    .blogpage .search-column input {
+        border-radius: 50px;
+        border: none;
+        width: 100%;
+        padding: 5px 20px;
+        font-size: 16px
+    }
+
+    .blogpage .search-column button {
+        border-radius: 0 50px 50px 0 !important;
+        margin: 0 !important
+    }
+
+.blogpage #page-number {
+    padding: 0 5px;
+    margin: auto 0 !important;
+    gap: 0 !important
+}
+
+    .blogpage #page-number button {
+        padding: 0 10px !important;
+        background-color: transparent !important;
+        border: none;
+        font-size: 18px;
+        margin: 0 5px !important;
+        border-radius: 0 !important
+    }
+
+        .blogpage #page-number button.active {
+            background-color: var(--fourth-color) !important;
+            color: var(--fifth-color) !important
+        }
+
+.blogpage .ellipsis {
+    color: var(--fourth-color);
+    font-size: 18px
+}
+
+.blogpage h1 {
+    color: var(--fifth-color)
+}
+
+.blogpage .pagination1 {
+    margin: auto 0;
+    justify-content: center
+}
+
+.blogpage #next-btn, .blogpage #prev-btn {
+    background-color: var(--third-color);
+    color: var(--fourth-color);
+    padding: 0 10px !important;
+    border: none
+}
+
+.blogpage #next-btn {
+    border-radius: 0 25px 25px 0 !important
+}
+
+.blogpage #prev-btn {
+    border-radius: 25px 0 0 25px !important
+}
+
+.newbg .innerrow .column {
+    flex: 1 !important;
+    padding: 20px !important;
+    box-shadow: 0 0 2px 2px rgba(20,20,20,.3);
+    border-radius: 10px;
+    margin-top: 20px !important
+}
+
+    .newbg .innerrow .column div {
+        flex: 1
+    }
+
+    .newbg .innerrow .column .center {
+        background-image: linear-gradient(to right,green,var(--sixth-color),var(--sixth-color),red);
+        height: 10px;
+        border-radius: 10px;
+        margin: 20px 0 5px !important
+    }
+
+    .newbg .innerrow .column .flex h3 {
+        font-size: 25px !important
+    }
+
+    .newbg .innerrow .column .flex img {
+        width: 50px;
+        height: auto !important
+    }

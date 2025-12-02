@@ -1,0 +1,387 @@
+﻿
+@{
+    ViewBag.Title = "kidfriendlyvacation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    DateTime dt1 = DateTime.Now.Date.AddDays(2);
+    DateTime dt2 = DateTime.Now.Date.AddDays(9);    
+}
+
+@section metatags{
+    <title>USA Vacations | Kid-Friendly Vacation and Tour Packages</title>
+    <meta name="description" content="Kid-Friendly Vacations. Find the best travel deals on hotel and cheap flight booking at FaresMatch. Florida and San Diego in California are the best destinations for a family trip. " />
+    <link rel="canonical" href="https://www.faresmatch.com/vacations/kid-friendly-vacation.aspx">
+    <meta name="author" content="faresmatch.com">
+    <meta name="subject" content="Air Travel">
+    <meta name="geo.region" content="US-CA">
+    <meta name="language" content="English">
+    <meta name="designer" content="Faresmatch">
+    <meta name="publisher" content="Faresmatch">
+    <meta name="country" content="USA">
+    <meta name="rating" content="general" />
+    <meta name="robots" content="index,follow">
+    <meta property="og:url" content="https://www.faresmatch.com/vacations/kid-friendly-vacation.aspx">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="USA Vacations | Kid-Friendly Vacation and Tour Packages">
+    <meta property="og:description" content="Kid-Friendly Vacations. Find the best travel deals on hotel and cheap flight booking at FaresMatch. Florida and San Diego in California are the best destinations for a family trip. " />
+    <meta property="og:image" content="https://www.faresmatch.com/assets/images/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="faresmatch.com">
+    <meta property="twitter:url" content="https://www.faresmatch.com/vacations/kid-friendly-vacation.aspx">
+    <meta name="twitter:title" content="USA Vacations | Kid-Friendly Vacation and Tour Packages" />
+    <meta name="twitter:description" content="Kid-Friendly Vacations. Find the best travel deals on hotel and cheap flight booking at FaresMatch. Florida and San Diego in California are the best destinations for a family trip. " />
+    <meta name="twitter:image" content="https://www.faresmatch.com/assets/images/logo.png">
+
+
+
+}
+
+<script type="application/ld+json">
+			{
+			 "@@context": "https://schema.org/",
+			 "@@type": "WebPage",
+			 "name": "USA Vacations | Kid-Friendly Vacation and Tour Packages",
+			 "speakable":
+			 {
+			  "@@type": "SpeakableSpecification",
+			  "xpath": [
+				"/html/head/title",
+				"/html/head/meta[@@name='description']/@@content"
+				]
+			  },
+			 "url":"https://www.faresmatch.com/vacations/kid-friendly-vacation.aspx"
+			 }
+</script>
+<div class="container2  bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>Kid-Friendly Vacations</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+<section class="trvl_bug">
+    <div class="container2 newbg">
+        <div class="row" style="padding-bottom: 0 !important;">
+            <div class="column">
+                <div class="detail">
+                    <h2>Kid-Friendly Vacations Flight Deals</h2>
+                </div>
+                <div class="innerrow grid1">
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Orlando</h4>
+                                <p>JFK - MCO</p>
+                                <input type="hidden" id="flight_from1" value="JFK" />
+                                <input type="hidden" id="flight_to1" value="MCO" />
+                                <input type="hidden" id="flight_from_date1" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date1" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 49*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 99</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 49</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="1"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Washington</h4>
+                                <p>DFW - DCA</p>
+                                <input type="hidden" id="flight_from2" value="DFW" />
+                                <input type="hidden" id="flight_to2" value="DCA" />
+                                <input type="hidden" id="flight_from_date2" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date2" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 99*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 65</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 99</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="2"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Anderson</h4>
+                                <p>DFW - AID</p>
+                                <input type="hidden" id="flight_from3" value="DFW" />
+                                <input type="hidden" id="flight_to3" value="AID" />
+                                <input type="hidden" id="flight_from_date3" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date3" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 179*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 149</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 179</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="3"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>San Diego</h4>
+                                <p>ORD - SAN</p>
+                                <input type="hidden" id="flight_from4" value="ORD" />
+                                <input type="hidden" id="flight_to4" value="SAN" />
+                                <input type="hidden" id="flight_from_date4" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date4" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 111*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 149</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 111</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="4"><b>Book Now</b></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2 textcon">
+        <div class="row">
+            <div class="column">
+
+                <p>
+                    The whole motive of a <a href="https://www.faresmatch.com/vacations/kid-friendly-vacation.aspx">kid-friendly vacation</a> is to strengthen the bond between parent and their kids. It is a vacation where both kids and parents will make ever-lasting memories through the activities and fun they have. For creating a memorable vacation trip with your kid, the first step is to select a kid-friendly vacation destination.
+                </p>
+                <p>You can spend your weekend at a theme park like Disney world or take your family to a beach resort where kids can play with the sand and swim in the ocean with various beach vacation packages. Now, if you have decided where you want to visit on your next vacation, you must be looking for <a href="https://www.faresmatch.com/vacations.aspx">cheap vacation packages</a>. Following is a complete guide for you to have got the best kid-friendly vacation package. </p>
+
+
+                <h2>A kid-friendly vacation spot you must visit</h2>
+                <p>Following are some of the best vacation spots in the United States which will be interesting and enjoyed by both kids and their parents. </p>
+                <div class="grid2">
+                    <div class="column">
+                        <img src="../vacation-images/San-Diego-California.jpg" alt="">
+                        <h3>San Diego, California</h3>
+                        <p>
+                            San Diego is one of the best destinations for kids. The place has amazing weather where outdoor activities and adventures will be much more fun. San Diego has world-class attractions like San Diego zoo and Lego land California for your kids to keep entertained throughout the trip.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/Washington-DC.jpg" alt="">
+                        <h3>Washington D.C</h3>
+                        <p>
+                            Washington, D.C., is home to various museums, monuments, and other historical sites like the Smithsonian national museum of natural history and the national mall.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/Orlando-Florida.jpg" alt="">
+                        <h3>Orlando, Florida</h3>
+                        <p>
+                            Orlando is the perfect destination for families. It is a hub of entertainment. Some of the major attractions to must explore are Disney world and universal Studios.
+                        </p>
+                    </div>
+                </div>
+
+                <h2>Things to do on a kid-friendly vacation</h2>
+                <p>Here are some fun activities you can try with your <a href="https://www.faresmatch.com/vacations/luxury-vacation.aspx">luxury family vacation package</a>.</p>
+                <div class="grid2">
+                    <div class="column">
+                        <h3>Explore amusements parks</h3>
+                        <p>Some of the best amusement and theme parks are Disney world, universal studios, and Lego land in California. Spend a day there and explore the rides and activities offered by the parks. </p>
+                    </div>
+                    <div class="column">
+                        <h3>Go to beaches</h3>
+                        <p>Beaches are not only for staring at the ocean. You can do many fun activities like building sandcastles, swimming, boating, or even fishing. </p>
+                    </div>
+                    <div class="column">
+                        <h3>Take a road trip</h3>
+                        <p>Explore unexplored places through a road trip. The trip will be adventurous for sure. You can explore and visit various small towns, national parks, and other attractions that would come along the way. </p>
+                    </div>
+                </div>
+
+
+                <h3>Best time for a kid-friendly vacation</h3>
+                <p>The best time for a kid-friendly trip depends upon many factors, like school schedule. If your kid is school-going hills, you must plan for a vacation in longer break periods. Also, consider the weather factor to have the best experience without exhaustion. The last thing, and probably the most important factor, is the budget. Look for <a href="https://www.faresmatch.com/vacations/kid-friendly-vacation.aspx">cheap luxury vacation packages</a> for your trip to get the most luxurious experience at a very reasonable rate. </p>
+
+
+                <h3>Delta Airlines Vacation Packages</h3>
+                <p><a href="https://www.faresmatch.com/delta-vacation.aspx">Delta airlines vacation packages</a> provide the most convenient and affordable packages for families to plan their trips easily. Delta packages include flights, hotels, and rental car facilities at various global destinations. These packages are the perfect blend for your vacation, saving you time and money. </p>
+
+                <p>You can choose from a wide range of hotels and resorts for your travel destination according to your budget and preferences. You can find heap delta airline vacation packages by visiting the company's website, or you can directly contact their customer service to get more clarity about the packages from a travel expert. </p>
+
+
+                <h4>Things to note before flying with Delta Airlines</h4>
+                <p>Before flying with delta airlines, you must be clear about its policies to have a hassle-free experience. These are some things that you must keep in your mind while traveling with delta airlines. </p>
+
+                <ul>
+                    <li>Make sure you check in for your flight timely. You must check in at least 45 minutes before <a href="https://www.faresmatch.com/domestic-flights-deals.aspx">domestic flights</a> and 60 minutes before in case of <a href="https://www.faresmatch.com/united-international-flights.aspx">international flights</a>.</li>
+                    <li>Remember to carry all the necessary documents with you. </li>
+                    <li>Review flight changes and cancellation policies. </li>
+                </ul>
+
+
+                <h4>United Vacation Package</h4>
+                <p>By booking your trip with the <a href="https://www.faresmatch.com/united-vacations.aspx">united vacation package</a>, you can avail of the following facilities and services. </p>
+
+                <ul>
+                    <li>You can choose various affordable flights that suit your budget and the route of your destination. </li>
+                    <li>United airlines provide many accommodation services like hotels and resorts, which include both luxury and budget options. </li>
+                    <li>United Airlines has come up with vacation protection where things like trip cancellation or medical emergencies are covered. </li>
+                </ul>
+
+                <h4>JetBlue Vacation Package</h4>
+                <p>
+                    Here is why you should consider choosing a JetBlue vacation package.
+                </p>
+                <ul>
+                    <li>JetBlue packages are usually affordable and very cost-effective. </li>
+                    <li>You can customize your vacation packages according to the services you need and your preferred</li>
+                    <li>JetBlue vacation packages are available for a lot of destinations. Some of the most popular destinations to fly to with <a href="https://www.faresmatch.com/jetblue-airlines-flights.aspx">JetBlue airlines</a> are the Caribbean, Hawaii, and Europe. </li>
+                </ul>
+
+                <p>This year, plan a kid-friendly vacation trip to spend precious and unforgettable time with your child. Above are some tips and the complete road map to plan the perfect vacation trip. </p>
+
+                <h2>FAQs</h2>
+
+                <h3>What should I look for when booking a kid-friendly vacation package? </h3>
+                <p>When booking or looking for a kid-friendly vacation package, there are many things you must look for. Some of them are it should have child-friendly accommodations, and the location of the accommodations should be near kid-friendly attractions and parks. Also, you must look if there is an option for family-friendly tours and excursions included in your package. </p>
+
+                <h3>What are some of the best kid-friendly vacation spots? </h3>
+                <p>Some of the best vacation spots where both you and your kid will remain entertained throughout the vacation trip are Orlando, Florida, for various theme parks and amusement parks. Washington DC, for various historical monuments, and lastly, San Diego in California, one of the best vacation spots for kids as it has beaches and other world-class interesting attractions. </p>
+
+                <h3>How can I book a cheap vacation package? </h3>
+                <p>Some tips you can follow to get a cheap vacation package are: </p>
+
+                <ul>
+                    <li>Be flexible with your travel dates- try to plan your vacation during the off-season or on weekdays, as prices are usually on the lower side. </li>
+                    <li>Negotiate- you must negotiate to get a better price for your vacation package. </li>
+                    <li>Compare prices from various sources- compare and choose the best one according to your preference and convenience. </li>
+                    <li>Look for package deals- booking a combined vacation package is much cheaper than booking the services individually. </li>
+                </ul>
+
+                <h3>How much will it cost for a kid-friendly vacation trip? </h3>
+                <p>The cost for your kid-friendly vacation trip will cost anywhere between thousand dollars to five thousand dollars per week depending upon various factors like the destination you have chosen, time of the year, mode of transportation, and mode of accommodation. </p>
+
+                <h3>Which is the best airline to book my flight tickets for a vacation? </h3>
+                <p>The best airline you should go for depends upon your budget, the route of your destination, and course, your personal preference. Some of the best airlines you can consider are delta airlines, united airlines, and JetBlue airlines. These airlines provide airplane tickets in various price ranges and discount offers from time to time. </p>
+
+                <h3>Are there any cancellation charges for vacation packages? </h3>
+                <p>Yes, there may be a cancellation charge on your vacation packages. Many agencies provide a full refund, and some charge some as cancellation charges. You must read and review the cancellation policies provided by a travel agency or provider to avoid any financial losses. The amount of the cancellation charge depends upon the type of packages you have opted for and the time of the cancellation. </p>
+
+                <h3>What is the ideal number of days for a kid-friendly vacation trip? </h3>
+                <p>A typical family vacation usually lasts for around seven to ten days. These days provide you with more than enough time to explore your destination and enjoy the local attractions, along with some downtime for relaxation, which is essential to maintain the enjoyment level of your trip. </p>
+
+                <h3>Will I get accommodation if I book my vacation with delta airlines? </h3>
+                <p>Yes, many travel providers do provide the option for accommodation. These accommodations range from a variety of options. There are both luxury rate options and budget-friendly options available. You can always choose according to your preferences and budget. </p>
+
+                <h3>Which is the cheapest option for a kid-friendly vacation package? </h3>
+                <p>Suppose you are looking for a cheaper & cost-effective option for your vacation package. In that case, you must go for JetBlue airlines packages as they not only provide vacation packages at a reasonable rate but also comes up with the same services & facilities similar to their competitor's much cheaper rates. </p>
+
+                <h3>How to find the best deals for vacation packages? </h3>
+                <p>For the best deals for vacation packages, you can book your package in advance, use discount and coupon codes for additional discounts, and set price drops alerts. </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+
+
+
+    $(".deep_btn").click(function () {
+              var flight_opt = $(this).data("id");
+                var fway = "2";
+                var fcls = "4";
+                var from = "&From=" + $("#flight_from" + flight_opt).val();
+                var to = "&To=" + $("#flight_to" + flight_opt).val();
+                var fromDate = "&DepDate=" + $("#flight_from_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[0];
+                var toDate = "&RetDate=";
+
+
+              $("#spFrom").text($("#flight_from" + flight_opt).val());
+              $("#spTo").text($("#flight_to" + flight_opt).val());
+              $("#spFromDate").text($("#flight_from_date" + flight_opt).val());
+
+                if (fway == "2") {
+                        toDate = "&RetDate=" + $("#flight_to_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[0];
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+                    $("#spTo2").text($("#flight_from" + flight_opt).val());
+                    $("#spFrom2").text($("#flight_to" + flight_opt).val());
+              }
+
+
+                var adult = "&Adult=" + 1;
+                var child = "&Child=" + 0;
+                var infant = "&Infant=" + 0;
+                var airline = "&Airline=" + ""; // $("#flight_airline").val();
+                var isdirect = "&IsDirect=" + ("false");
+                var isflexi = "&IsFlexi=" + ("false");
+                fway_s = "&FlightWay=" + fway;
+              fcls_s = "&FlightClass=" + fcls;
+
+
+              $("#spADT").text(1);
+              $("#spCHD").text($("#flight_child").val());
+              $("#spINF").text($("#flight_infant").val());
+
+                var tolPass =  1 + "Adult";
+                $("#spPass").text(tolPass);
+
+
+
+                          var str = "../flight/search?SiteCode=VIMAN&SourceMedia=VIMAN" + from + to + fromDate + toDate + adult + child + infant + fway_s + fcls_s + airline + isdirect + isflexi + "&Currency=USD";
+
+
+$("#search_popup").show();
+
+window.location = str;
+ });
+
+
+</script>

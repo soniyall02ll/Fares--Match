@@ -1,0 +1,339 @@
+﻿@using Viman.Models
+@{
+    //ViewBag.StaticURL = Common.StaticURL;
+}
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="UTF-8">
+	<link href="./css/fontawesome/css/all.css" rel="stylesheet" />
+    <link href="./css/fontawesome/css/all.min.css" rel="stylesheet" />
+	<link rel="icon" type="image/png" sizes="96x96" href="https://www.faresmatch.com/images/favicon-96x96.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://www.faresmatch.com/images/favicon-96x96.png">
+    <link href="https://www.faresmatch.com/fmcss/style.css" rel="stylesheet">
+    <link href="https://www.faresmatch.com/fmcss/index.css" rel="stylesheet">
+    <link href="https://www.faresmatch.com/fmcss/homepax.css" rel="stylesheet">
+    <link href="https://www.faresmatch.com/fmcss/main.css" rel="stylesheet">
+    <!-- <link href="./css/responsive.css" rel="stylesheet"> -->
+    <script defer src="./css/slider.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	@RenderSection("metatags", required: false)
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NVZJ7347');</script>
+<!-- End Google Tag Manager -->
+</head>
+<style>
+    h1 {
+        color: #141414;
+        text-shadow: none;
+    }
+
+    .banner1 {
+        background-image: linear-gradient(to right, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0)), url(/cruise-images/banner-1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        padding: 50px 20px;
+        margin-block: 20px;
+        h2, p {
+            color: var(--fourth-color) !important;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+
+        p {
+            width: 50%;
+            line-height: 1.5 !important;
+        }
+    }
+
+    .cruisedestinations {
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        .cruiseinnercol {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+            padding: 100px 0;
+            text-align: center;
+
+            p {
+                color: var(--fourth-color);
+            }
+        }
+    }
+
+    .cruisecol {
+        form {
+            margin-top: 20px;
+            gap: 10px;
+            
+
+            button {
+                width: fit-content !important;
+                margin-top: auto !important;
+                margin-bottom: 6px !important;
+            }
+
+            div {
+                flex: 1;
+            }
+
+            label {
+                width: fit-content;
+                background-color: #001834;
+                color: #fff;
+                padding: 5px 10px;
+                font-size: 13px !important;
+                border-radius: 5px;
+                margin-left: 5px;
+                position: relative;
+            }
+
+            input {
+                margin-top: -5px !important;
+                line-height: 1 !important;
+            }
+        }
+    }
+
+    .faqs {
+        margin-top: 60px;
+
+        .fa-caret-up,
+        .faqdetail {
+            display: none;
+        }
+
+        .faq {
+            background-color: #f7f7f7;
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #cacaca;
+            margin-bottom: auto;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        .faqdetail {
+            border-top: 1px solid #cacaca;
+            padding-top: 5px;
+            margin-top: 5px;
+        }
+    }
+
+    .newfooter {
+        .mainfooter {
+            .social {
+                .hydrated {
+                    background-color: var(--fourth-color);
+                    color: var(--secondary-color);
+                    padding: 7px !important;
+                    border-radius: 50px;
+                }
+
+                .hydrated:hover {
+                    background-color: var(--primary-color);
+                    color: var(--fourth-color);
+                }
+            }
+        }
+    }
+
+    @@media only screen and (max-width: 1024px) {
+        .cruisedestinations {
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .cruiseinnercol {
+                padding: 75px 0;
+            }
+        }
+
+        .banner1 {
+            p {
+                width: 100%;
+            }
+        }
+
+        .faqs {
+            .grid {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        .newfooter {
+            .foot {
+                width: 100% !important;
+                padding-bottom: 115px !important;
+                margin-bottom: 0 !important;
+            }
+        }
+
+        .newheader {
+            /* z-index: 99999; */
+        }
+    }
+</style>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVZJ7347"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+     <div class="newheader" id="newhead">
+    <div class="container2 ">
+        <div class="head">
+            <div class="flex  gap1">
+                <div class="column">
+                    <a href="/"><img src="/fmimages/logo.png"></a>
+                </div>
+                <div class="column nav1" id="view">
+                    <i class="fa-solid fa-xmark icon" id="off" style="margin-bottom: 20px !important;"></i>
+                    <ul>
+                        <li><a href="https://www.faresmatch.com/flights.aspx"><i class="fa-solid fa-plane-departure ico"></i>Flights</a></li>
+                        <li><a href="https://www.faresmatch.com/amtrak.aspx"><i class="fa-solid fa-train ico"></i>Amtrak</a></li>
+                        <li><a href="https://www.faresmatch.com/cruise/"><i class="fa-solid fa-train ico"></i>Cruise</a></li>
+                        <li><a href="https://www.faresmatch.com/deals.aspx"><i class="fa-solid fa-gift ico"></i>Deals</a></li>
+                        <li><a href="https://www.faresmatch.com/blog.aspx"><i class="fa-brands fa-blogger-b ico"></i>Blog</a></li>
+                        <li><a href="https://www.faresmatch.com/yacht/"><i class="fa-solid fa-train ico"></i>Yacht</a></li>
+                        <li><a href="https://www.faresmatch.com/car-rental.aspx"><i class="fa-solid fa-train ico"></i>Car Rental</a></li>
+                    </ul>
+                    <div class="newnav">
+                        <ul>
+                            <li>
+                                <a href="https://www.faresmatch.com/privacy-policy.aspx">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.faresmatch.com/terms.aspx">
+                                    <i class="fa-solid fa-clipboard-list"></i> Terms &
+                                    Conditions
+                                </a>
+                            </li>
+                            <li><a href="https://www.faresmatch.com/sitemap.aspx"><i class="fa-solid fa-sitemap"></i> Sitemap</a></li>
+                            <li><a href="https://www.faresmatch.com/faq.aspx"><i class="fa-solid fa-circle-question"></i> FAQ's</a></li>
+                        </ul>
+                    </div>
+                    <div class="navlogo">
+                        <a href="tel:+18887274569">
+                            <h4>
+                                <i class="fa-solid fa-phone" style="color: white !important;"></i>
+                                +1-888-727-4569
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="column right gap1">
+                    <a href="tel:+18887274569"><i class="fa-solid fa-phone-volume fa-shake"></i></a>
+                    <div>
+                        <a href="tel:+18887274569">
+                            <p>Call us 24/7</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="column" id="on">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- WRAPPER CONTENT -->
+    <!-- FOOTER-->
+    <div class="clearfix"></div>
+
+    @RenderBody()
+
+
+
+
+    <div class="clearfix"></div>
+
+
+
+    <div class="clearfix"></div>
+    @{Html.RenderPartial("~/Views/Shared/footer.cshtml");}
+
+    <a href="tel:+18887274569">
+        <div class="mobilecta">
+            <div class="img">
+                <img src="https://www.faresmatch.com/fmimages/customer-support.jpg" alt="customer-support">
+            </div>
+            <div>
+                <p><b>Need Help Booking</b></p>
+                <p>Our agent is ready! Call us 24/7</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone-volume"></i>
+            </div>
+        </div>
+    </a>
+    <script src="/fmcss/file.js"></script>
+
+    <script src="/fmcss/bootstrap.js"></script>
+    <script src="/fmcss/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/e315d29714.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fd2e64cf4a.js" crossorigin="anonymous"></script>
+    <!--Icons scripts-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        document.querySelectorAll('.faqhead').forEach(head => {
+            head.addEventListener('click', () => {
+                const detail = head.nextElementSibling; // Get the next sibling (headdetail)
+                const plusIcon = head.querySelector('.fa-caret-down');
+                const minusIcon = head.querySelector('.fa-caret-up');
+
+                detail.classList.toggle('show'); // Toggle visibility
+
+                // Toggle icons
+                if (detail.classList.contains('show')) {
+                    plusIcon.style.display = 'none'; // Hide plus
+                    minusIcon.style.display = 'inline'; // Show minus
+                } else {
+                    plusIcon.style.display = 'inline'; // Show plus
+                    minusIcon.style.display = 'none'; // Hide minus
+                }
+            });
+        });
+
+    </script>
+
+</body>
+
+
+
+
+</html>

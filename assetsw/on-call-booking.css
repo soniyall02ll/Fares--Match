@@ -1,0 +1,5893 @@
+
+
+
+
+
+@media (max-width: 360px) {
+	
+	
+	
+	/* mobileviewfix: */
+	
+	 .body {
+        
+        
+	 margin: 0px;
+        
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* container: */
+	
+	.on-call-booking .background-32{
+		
+		width: -webkit-fill-available;
+    margin: 0px 20px 20px 20px;
+	}
+	
+.on-call-booking .circle-1212 {
+  border-radius: 3.9px;
+  background: #FFF30C;
+  position: relative;
+  width: 7.8px;
+  height: 7.8px;
+}
+.on-call-booking .circle-1211 {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  width: 10px;
+  height: 10px;
+}
+.on-call-booking .frameees {
+  position: relative;
+  margin-right: 3.9px;
+  display: flex;
+  padding: 1.1px;
+  width: 10px;
+  height: 10px;
+  box-sizing: border-box;
+}
+.on-call-booking .one-way {
+  margin: 0.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 7.2px;
+  color: #FFFFFF;
+}
+.on-call-booking .roundtrip-13 {
+      align-items: center;
+  margin-right: 8.5px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.on-call-booking .circle-12121 {
+  border: 1px solid #fff;
+    border-radius: 10px;
+  
+  margin-right: 3.9px;
+  width: 10px;
+  height: 10px;
+}
+.on-call-booking .one-way-1 {
+  margin: 0.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 7.2px;
+  color: #FFFFFF;
+}
+.on-call-booking .roundtrip-12 {
+      place-items: center;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.on-call-booking .rrrrr {
+  margin-bottom: 11.2px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .location {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEm5gDm8-ue1tqrzIG84e-qOYaCs47jrwEtN8LgqNWK5pzXd0UZxC-U2Ik8566CugSZj7nqYfDK9y_RRGHNmNGD5SSlaoYhfztajOJRuHrqilpi9cFyRTC5nci6Dk33aHPQQJ2S1Mc4fIqRNQi2nSOJ4gL5lOxn8zOgPSjlROw0eb7rHeS45dZvhS0HBz4/s90/location.png') 50% / contain no-repeat;
+  margin: 1px 0;
+  width: 10px;
+  height: 10px;
+}
+.on-call-booking .leaving-from {
+  margin-left: 7px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 10px;
+  color: #000000;
+}
+.on-call-booking .firstboxxx {
+  border-radius: 5.5px;
+  background: #FFFFFF;
+  margin-bottom: 5.8px;
+  display: flex;
+  flex-direction: row;
+  
+  padding: 8.2px 0 8.2px 5.7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .location-1 {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEm5gDm8-ue1tqrzIG84e-qOYaCs47jrwEtN8LgqNWK5pzXd0UZxC-U2Ik8566CugSZj7nqYfDK9y_RRGHNmNGD5SSlaoYhfztajOJRuHrqilpi9cFyRTC5nci6Dk33aHPQQJ2S1Mc4fIqRNQi2nSOJ4gL5lOxn8zOgPSjlROw0eb7rHeS45dZvhS0HBz4/s90/location.png') 50% / contain no-repeat;
+  margin: 1px 0;
+  width: 10px;
+  height: 10px;
+}
+.on-call-booking .going-to {
+  margin-left: 7px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 10px;
+  color: #000000;
+}
+.on-call-booking .firstbox-1 {
+  border-radius: 5.5px;
+  background: #FFFFFF;
+  margin-bottom: 5.8px;
+  display: flex;
+  flex-direction: row;
+  
+  padding: 8.2px 0 8.2px 5.7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .calendar {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9946MaiZ9Bvi0SZq8k2i-kEtayZ4wx0U0q1vSpO6Rt6vu-ZS4DRXQQYeECr6SnyCmz1o5Ru1dsiv0Tqa5PdSq7TRf9i8JdWWyZ2tJiy7AKoSIv8J8f3oU-ke1MfxLSDaQO8RMF18S2VHFjK3iSacvTyv3D6LIxCt5y6cQyjun181kA5Kn2TjjlMvZiZ7f/s90/calendar.png') 50% / contain no-repeat;
+  margin: 1px 0;
+  width: 10px;
+  height: 10px;
+}
+.on-call-booking .jul-3-jul-10 {
+  margin-left: 7px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 10px;
+  color: #000000;
+}
+.on-call-booking .firstbox-2 {
+  border-radius: 5.5px;
+  background: #FFFFFF;
+  margin-bottom: 5.8px;
+  display: flex;
+  flex-direction: row;
+  
+  padding: 8.2px 0 8.2px 5.7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .customer {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBTOzzr7XWB2M7p3qGJzhAbbMvaBjIPdWcux6utJvZt2dP0di5G57_xYbnu8ZpM1mBOAg5hWEh3iZ4ZBEnybUEz3nxIUCvZF3Jw1189J442lJm5Un6uXEJfAelceM4LUq9G7OaE4iM2hAocyfmiY5goFK__phESa4r2HdPtcn1qaOaOcMtuGq5DHM4xLrN/s90/customer.png') 50% / contain no-repeat;
+  margin: 1px 0;
+  width: 10px;
+  height: 10px;
+}
+.on-call-booking .traveler {
+   margin-left: 7px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 10px;
+  color: #000000;
+}
+.on-call-booking .firstbox-4 {
+  border-radius: 5.5px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  
+  padding: 8.2px 0 8.2px 5.7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .search {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10px;
+  color: #000000;
+}
+.on-call-booking .buttonn-1 {
+  justify-content: center;
+  border-radius: 5.5px;
+  background: #FFF30C;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  padding: 8px 0.7px 8px 0;
+  box-sizing: border-box;
+}
+.on-call-booking .framefjsd {
+  position: relative;
+  padding-bottom: 33.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* mobileviewfix: */
+	
+	    .on-call-booking .mobileviewfix {
+        
+        background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqxyaHuAY58X6dqIScHqQY2bMbtfJJTBmGwGUp6AZCfuwgy087LANxHRwocHIuZbjae8260970zgaMGbpWDyCPHR-sY87DR0uNPSP2H2OC3kd-MCww_tzdbWhhpLCaPVBhAIXnA2ircMsnneUHA9GD2Cxkfbg0gLnl0OkjhRy3hXIZTbFZ8C0XiywBnS5h/s2048/mobileviewfix.gif) 50% / contain no-repeat;
+		    margin: 00px 5px;
+        height: 100px;
+        width: -webkit-fill-available;
+        position: fixed;
+        bottom: 0px;
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* header: */
+	.on-call-booking .logo {
+		
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIJkSvdyJFVQ8vhbSg7zNL3dUbIP25XJZ7PyFmURiONy2D-U1k1HsnzG8n2mVM_NtbwftNcYnoY8FmVhMqUbOOsbC_kZQ5vgNeJ_ssUxcMQhUJ70m5E_kEs-auD70NepINp7s5-rIafkeJVj9SNyRFshGbD-MZ6E0zwIghOysJ3TvXFWglku0Yi7L4nNWs/s300/logo.png') 50% / cover no-repeat;
+  margin-right: 0px;
+  height: 28.3px;
+  flex-grow: 1;
+  flex-basis: 102.7px;
+}
+    .numberheighlight {
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 6px;
+        line-height: 1.333;
+        color: #FF9900;
+    }
+.on-call-booking .flights {
+  margin-right: 4px;
+  width: 44px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 6.7px;
+  color: #FFFFFF;
+}
+.on-call-booking .deals {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 6.7px;
+  color: #FFFFFF;
+}
+.on-call-booking .help {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 6.7px;
+  color: #FFFFFF;
+}
+.on-call-booking .menusss {
+  display: none;
+}
+.on-call-booking .girloncall {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVGwe37PwByhvyQxls8KoFIHhOhpoRog5AZPyGRT_RtsXSlitausTZHYuPat9XC5iuwcLYWd9uv55NRGnVoDlfX2C20ksLFm9rq_xZgnUQWhg_SiKbjK-470uRbAYN3Go3W7zH0QLMIJ3uZGb6Nj9-pp1YGkccXNXdw6lYl7ipenBXf0nClrff8WqlHs9d/s1080/girloncall1.gif') 50% / cover no-repeat;
+  margin: 0 2.6px 0.7px 0;
+  width: 16.6px;
+  height: 16.6px;
+}
+.on-call-booking .number-800 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 11px;
+  color: #FFFFFF;
+}
+.on-call-booking .speak-to-atravel-expert {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 5.3px;
+  color: #FFFFFF;
+}
+.on-call-booking .numberexpert {
+  position: relative;
+  margin-top: 0.3px;
+  display: flex;
+  padding: 0 0 6px 0.1px;
+  box-sizing: border-box;
+}
+.on-call-booking .phonemo {
+      align-items: center;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.on-call-booking .rightmenu {
+  
+  margin: 5.9px 0 5.2px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  height: fit-content;
+  flex-grow: 1;
+  flex-basis: 214.3px;
+  box-sizing: border-box;
+}
+.on-call-booking .header-11 {
+  margin: 0 19.7px 12.1px 22.3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 41.9px);
+  box-sizing: border-box;
+}
+.on-call-booking .ready-to-travel-weve-got-great-flight-deals {
+  margin-bottom: 1.8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.on-call-booking .call-us-at-our-247-toll-free-number-8009183039-to-get-cheap-flights {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 6.1px;
+  color: #FFFFFF;
+}
+.call-us-at-our-247-toll-free-number-8009183039-to-get-cheap-flights-sub10 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 6.1px;
+  line-height: 1.333;
+  color: #FF9900;
+}
+.on-call-booking .afterheader {
+  margin: 0 23.2px 12.5px 22.8px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 46px);
+  box-sizing: border-box;
+}
+
+.on-call-booking .firstcard {
+  background: #192344;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 0px 10px 0px;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+  /* Section 1: */
+
+.on-call-booking .section33 {
+	     margin-top: 44px;
+	place-content: center;
+	
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: fit-content;
+}
+.on-call-booking .needbooking {
+      
+  margin-bottom: 6px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+.on-call-booking .call-us-247 {
+  margin-right: auto;
+  
+  margin-left: 0.2px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+.on-call-booking .box-1 {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .headphones {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitdpBmNfOZOVQKsEd4Qd3xEC4rMemfwZL9QyFh7d-eTJ1pD3qFalPcAbK5s7jfo2YeabtXxuyXjjsSYsGygOA4Ohb-jIOJi1aVnK109lHiXG9yEgPUA3ZV-MhpZSfLB7QjrppJwEZsFHIt09lxWJHXEPr74vQcQJqQtzuLaHjw1o2JaEwH8AGcADwygoe7/s90/headphones.png') 50% / contain no-repeat;
+  
+  width: 39px;
+  height: 63px;
+}
+.on-call-booking .phone {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVGwe37PwByhvyQxls8KoFIHhOhpoRog5AZPyGRT_RtsXSlitausTZHYuPat9XC5iuwcLYWd9uv55NRGnVoDlfX2C20ksLFm9rq_xZgnUQWhg_SiKbjK-470uRbAYN3Go3W7zH0QLMIJ3uZGb6Nj9-pp1YGkccXNXdw6lYl7ipenBXf0nClrff8WqlHs9d/s1080/girloncall1.gif') 50% / contain no-repeat;
+  
+  width: 33px;
+  height: 26px;
+}
+.on-call-booking .call-us {
+      align-content: center;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+.on-call-booking .button-12 {
+  place-content: center;
+  border-radius: 7px;
+  background: #006EE3;
+      padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .section-1 {
+  border-radius: 17px;
+  background: #192344;
+  
+  left: 20px;
+  top: 27px;
+  right: 23px;
+  bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 15px 15px 15px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+
+
+ /* Section 2: */
+.on-call-booking .why-choose-fares-match {
+  margin: 0 0.7px 27.8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+}
+.on-call-booking .excellent-customer-service {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+.on-call-booking .on-call-quick-booking-changes-and-cancellations {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.on-call-booking .frame-9 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .online-support {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQ7sF4dm7gTWHMHD2ie5bov7DkXTSrJe5pTrRW6Jqm2_7IvE1KgFyt2SRhdtW_LyZrJSQivoHPBq_hR_ZwUQj3afaUIRTraKTd72yUhT7AcRFJ64Yx7c5Gt0Ct2iMaWuDyYtNzSckECTUya1eT_8o2q2lpCPuRhNdFowkv_7FqxY_ZqkOsW1dAy9pzD2LM/s1600/online_support.png') 50% / contain no-repeat;
+  margin: 6.7px 0 7.7px 0;
+  width: 41.3px;
+  height: 34.6px;
+}
+.on-call-booking .frame-3 {
+  border-radius: 9.6px;
+  border: 0.5px solid #B0B0B0;
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8.2px 17.8px 7.2px 17.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .secure-booking-changes {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+.on-call-booking .secure-and-safe-your-booking-details-with-us {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.on-call-booking .frame-91 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .security-lock {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6TRSx5DsV37LhbcoU03GtzLOjZzFlgN3XhtUiIEb2WDhYOEfzFalTgpdIszOHSreifbEWM7kak2ej_JnjgYiYbMTe-hHetn87Zcd_bDxUrNk7mNzMAEqR3EmWVEp517t9A44kLBuVXAy_ms0fhwzhVhM4mAHC5hRX5CljOdjz1JwNGmoJOI6qTCYb2USL/s1600/security_lock.png') 50% / contain no-repeat;
+  margin: 6.7px 0 7.7px 0;
+  width: 41.3px;
+  height: 34.6px;
+}
+.on-call-booking .frame-8 {
+  border-radius: 9.6px;
+  border: 0.5px solid #B0B0B0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8.2px 17.8px 7.2px 17.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-16 {
+  margin-bottom: 28.1px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .online-bookings {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+.on-call-booking .compare-travel-partner-fares-and-book-online {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.on-call-booking .frame-93 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .website {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCeQpOTIZiW22c_ZaY4e4aqm7wVSfaOv4QBB20171HZXRC0ciSOx-IzYMpcV1uO1v1yEUGjjC65ArtFLl8VWQaePlvckjcRwStTFV_a40rmDtCwl6i1JjkoTEjTDE1_rEGOgE4AmoCUDgCrEs5LP82BN5IOKPPxa9XWbMTAHu2OjqVS0wUKLhQY4yf4XVU/s90/website.png') 50% / contain no-repeat;
+  margin: 6.7px 0 7.7px 0;
+  width: 41.3px;
+  height: 34.6px;
+}
+.on-call-booking .frame-92 {
+  border-radius: 9.6px;
+  border: 0.5px solid #B0B0B0;
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8.2px 17.8px 7.2px 17.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .best-price-assurance {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+.on-call-booking .search-cheap-flights-for-1000-locations {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.on-call-booking .frame-94 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .price-tag-usd {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDm2R1t3IE2efyDZ7jClYAXzqCchrmIXnXf_kgWrokTa9LO24uDDTdfXYcZwG3IaPPTLLJPRFCAHB1yYcWIwVAz3A_6R8T9UIJnsHJAvSZZ1BbGeLL0-4bvhWdU78LRP6Nnga-WPQA7lwFapp3CT_y4ciTw9p8dLYI7ZTnd1JJK3lJ77mVJjFsuLJ6fSRi/s90/price_tag_usd.png') 50% / contain no-repeat;
+  margin: 10.1px 0 11.1px 0;
+  width: 35.6px;
+  height: 27.9px;
+}
+.on-call-booking .frame-10 {
+  border-radius: 9.6px;
+  border: 0.5px solid #B0B0B0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8.2px 17.8px 7.2px 17.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-17 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .section-2 {
+	
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22.4px 10.7px;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* Section 3: */
+.on-call-booking .rectangle-4 {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdAsw3ZKseD0bSCoAhYpQRqUrs7ywz25ZkCqrVP27dKDlnFheNNiQYc25weyrZNDUSZyAevosX8TVwOQ2nhyphenhyphenLuB21c-P56HGpgQZXPDWrD138lJk-8TtsMXEFHy45FJBX_vRg98V-F9R2b1bMij6CtJ_e96dtXBhSgcv8Nv9Aq0PQPkmeLKLd6MJVJpI6X/s260/rectangle_4.png') 50% / cover no-repeat;
+  width: 200px;
+  height: 143px;
+}
+.on-call-booking .get-instant-discounts {
+  margin-bottom: 13px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+}
+.on-call-booking .youre-new-fares-match-member-to-save-on-your-trip-just-give-us-acall {
+  margin-bottom: 11px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 11.1px;
+  color: black;
+}
+.on-call-booking .call-now {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10.6px;
+  color: white;
+}
+.on-call-booking .button-09 {
+  border-radius: 3px;
+  background: #006ce4;
+  align-self: flex-start;
+  padding: 4.5px 18.1px 5.5px 18.1px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-18 {
+  margin: 19.5px 6px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-19 {
+  border-radius: 9.7px;
+  border: 0.5px solid #B7B7B7;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .section-3 {
+  margin: 0 10px;
+  width: auto;
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* Section 4: */
+.on-call-booking .quick-bookings-for-last-minute-flights {
+  margin-bottom: 6.3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+.on-call-booking .for-your-trip {
+  margin: 0 8.7px 7.3px 0;
+  display: inline-block;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+}
+.on-call-booking .call-now-1 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 13px;
+  color: #006CE4;
+}
+.on-call-booking .button-34 {
+  flex-direction: column;
+    align-items: center;
+  border-radius: 4px;
+  border: 0.6px solid #006CE4;
+  margin: 0 25.8px;
+  display: flex;
+  
+  padding: 6.5px 0 7.5px 1.7px;
+  width: 250px;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-20 {
+      align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .business-traveler-rushing-to-the-airplane {
+  order: -1;
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdIIvF2T3DYTdv9ItPG7NlpJYMqxrQKIn8x0sAnHzcqC7QsFNbUL418rWk73fQSmOoji6PPTrXlGUI0pJ9KUWTu3YoTVHoXv-R9sZwUGfzH6baCRx1KljnciVYNRkLOV0en_2ErYbZ_rlGoFbIg5d5jaoRw_BGHaPitSIzvMHGKxk_js1eGRhIHPgLVuux/s456/business_traveler_rushing_to_the_airplane.png') 50% / contain no-repeat;
+  margin-right: 6.9px;
+  width: 200px;
+  height: 146px;
+}
+.on-call-booking .section-4 {
+  margin: 28px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  box-sizing: border-box;
+}
+
+
+
+
+/* Section 5: */
+.on-call-booking .business-traveler-rushing-to-the-airplane-1 {
+  border-radius: 5.5px;
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCqLwIMuIRHh7-Nq1kXqhYaPsV9o4niwR-lu8uisxjsm1tD5G0LJpM_zMXmaFHOCVDcKYyNBig7QxU52T4Q-W4gplZaz8KLoSy9vO2lttJzb3Oi0y-JIuzNUSKDtIVvpsqEWYVKnNl74Gac6BjoY7BfyxG0xlO9JLt-bop6JJ0zwaXHtnZ5JZq8JMm2y20/s1080/business_traveler_rushing_to_the_airplane_1.jpeg') 50% / cover no-repeat;
+  margin: 37.7px 26px 37.7px 0;
+  height: 60px;
+  
+  flex-basis: 59.4px;
+}
+.on-call-booking .looking-for-exclusive-deals {
+  margin-bottom: 7.5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9px;
+  color: #000000;
+}
+.on-call-booking .our-agents-ensure-you-get-the-best-current-deals {
+  margin: 0 2px 6.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7.3px;
+  color: #000000;
+}
+.on-call-booking .claim-now {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 8px;
+  color: #000000;
+}
+.on-call-booking .button-67 {
+	    width: 78px;
+  border-radius: 2.4px;
+  border: 0.6px solid #000000;
+  display: flex;
+  align-self: flex-start;
+  padding: 2.9px 15.7px;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-21 {
+  margin: 38px 36.1px 38px 0;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        flex-basis: 164px;
+        box-sizing: border-box;
+}
+.on-call-booking .simplified-world-map {
+  display:none;
+}
+.on-call-booking .offer {
+   width: -webkit-fill-available;
+  box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  padding: 0 2.9px 0 34.7px;
+  
+  height: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .section-5 {
+        place-content: center;
+        margin: 34px 10px;
+        display: flex;
+        width: auto;
+        box-sizing: border-box;
+}
+
+
+
+
+
+/* Section 6: */
+.on-call-booking .h-41 {
+  margin: 0 0px 8px 0px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9.1px;
+  color: #000000;
+}
+.on-call-booking .p {
+  margin: 0 13.5px 8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7.3px;
+  color: #575757;
+}
+.on-call-booking .h-42 {
+  margin-bottom: 8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9.1px;
+  color: #000000;
+}
+.on-call-booking .p-1 {
+  margin-bottom: 8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7.3px;
+  color: #575757;
+}
+.on-call-booking .h-43 {
+  margin-bottom: 8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9.1px;
+  color: #000000;
+}
+.on-call-booking .p-2 {
+  margin-right: 7.8px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7.3px;
+  color: #575757;
+}
+.on-call-booking .section-6 {
+  border-top: 0.2px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer: */
+.on-call-booking .follow-us-on {
+  margin: 2.1px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 5.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .facebookk {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-Qh5QsycFRrHYMMVzknaST8JDUZzas4huhbtdljkwYbzVVtLbBaWdYYrk1dsF3uQGX-fLatANjLoK4uCqHnScWaYAZrgnFrwqbg0iWyAY6AwZ7rw4UVAHzGPKSscN4gEslJZkABu8As4ymOfPfPQ5mSXO63e_5PbBeSujtB6ZFBmj8dvFhfAMammcme0u/s90/facebookk.png') 50% / contain no-repeat;
+  margin-right: 2.5px;
+  width: 11.2px;
+  height: 11.2px;
+}
+.on-call-booking .instagram-circle {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSXVizZUsScqa47j_n4-3z1ELO7HAXFrx_6hA1kLuTgaxmpK7nZERENlrMufyFYGkA_Ze0eQKkC7HoTzm7hn2G4fpKmh7hsXpIcGaxrTt3ZgU-kImBQ-Eait0I4VUky2TEA9a6WfL0nC6RyKUlUK5jHQ56ek9sLN41F9tZZHfaXwkbVEY0vC88GFLXLtKH/s90/instagram_circle.png') 50% / contain no-repeat;
+  margin-right: 2.5px;
+  width: 11.2px;
+  height: 11.2px;
+}
+.on-call-booking .you-tube {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbcKRrjVmPSIAk-PKrAspFS5mUMEv-m5lorZm8vR-p-iKtb1eHxcb02bdXmZodUkUggy85zwGPs5Bw5E3NrV4OqBSq5bHUgL7jgrvMwf5jyh2AA0em94SwCEF_ACtyEL-Fp2_BMvDsXeVAZgWkYYhrN94z7pnfj7glkarNr18mkUPItM9f4Ay9TSrlfmJQ/s1600/you_tube.png') 50% / contain no-repeat;
+  margin-right: 2.5px;
+  width: 11.2px;
+  height: 11.2px;
+}
+.on-call-booking .pinterest {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA9xJgytPaLUhHDisk8JyVW57sdgLpqomC3e8z7pvfTCdoPrJgV9y_yTS9RwMSG1VEBpYUwawm-CpRutPZHL03EI4zHQ2UR8bUNP6FfU_8lYgfnweEiSBpT5AaCZZXNnRBrewmb9Cxn5dG3RvG6qVmQeKA_vsYFqb3S5wV7nsXi9rvoNB7zsgDsBGr8qLn/s90/pinterest.png') 50% / contain no-repeat;
+  width: 11.2px;
+  height: 11.2px;
+}
+.on-call-booking .socialicons {
+  display: flex;
+  flex-direction: row;
+  width: 52.1px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .socialtext {
+  border-bottom: 0.2px solid #686868;
+  margin-bottom: 15.9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 7.4px 7.4px 7.3px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .links {
+  margin-bottom: 6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .policies {
+  margin-bottom: 6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .vacations {
+  margin-bottom: 6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .packages {
+  margin-bottom: 6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .airlines-destinations {
+  margin-bottom: 6px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .jetblue-fare-finder {
+  margin: 0 4.6px 6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .low-fare-calendar {
+  margin-right: 8.4px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-111 {
+  margin-bottom: 20px;
+  margin-right: 51.6px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .airlines {
+  margin: 0 6px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .delta {
+  margin: 0 16.3px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .alaska {
+  margin: 0 9.8px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .frontier {
+  margin: 0 6.8px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .allegiant {
+  margin-bottom: 5.6px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .united {
+  margin-right: 12.3px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-112 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  
+  box-sizing: border-box;
+}
+.on-call-booking .container-1 {
+  margin-bottom: 19.3px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .destinations {
+  margin-bottom: 5.6px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .las-vegas {
+  margin: 0 11.1px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .new-york {
+  margin: 0 14.2px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .los-angeles {
+  margin: 0 1.9px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .florida {
+  margin-bottom: 5.6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .california {
+  margin-right: 17.5px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-113 {
+  margin-bottom: 20px;
+  margin-right: 88.3px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .top-routes {
+  margin-bottom: 5.6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .chicago-to-honolulu {
+  margin-bottom: 5.6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .san-francisco-to-london {
+  margin-bottom: 5.6px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .chicago-to-los-angeles {
+  margin: 0 5.5px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .toronto-to-lima {
+  margin-bottom: 5.6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .new-york-to-miami {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-114 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .container {
+  margin-bottom: 19.3px;
+  display: flex;
+  flex-direction: column;
+  width: -webkit-fill-available;
+  box-sizing: border-box;
+}
+.on-call-booking .information {
+  margin-bottom: 5.3px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .about {
+  margin-bottom: 5.3px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .contact {
+  margin-bottom: 5.3px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .privacy-policy {
+  margin-bottom: 5.3px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .terms-conditions {
+  margin-bottom: 5.3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .sitemap {
+  margin-bottom: 5.3px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .help {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-115 {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .fottermenn {
+  margin: 0 7.4px 17.9px 7.4px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.on-call-booking .rowdivide1 {
+  margin: 0 7.4px 17.9px 7.4px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+
+
+.on-call-booking .master-card {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUl5Uzz_R1qSczvgZBELYjnsvE5VoAiulGasfd7POC9bjQxiriMbTLuaKe5TYww2eLJGUKPtOdHJSIw16wMFAoddRE_N8TjGRLX7iTK8Jgu2CkbUsp8fhgf6ohzwCI7Zd_sPS2jwr47fNTF2Wi5dGqEH413exmyOkBc9wdQ2bP0Zj3gafNsT96h4veUicK/s90/master_card.png') 50% / contain no-repeat;
+  width: 13.7px;
+  height: 13.7px;
+}
+.on-call-booking .visa {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZr_CacgJiqUwT7hzZRUTtPwsbweiPARNrRVKWYW17DOfYw3NMZ9jDqXcftrZ2k1ebti5l_xuw9p5evYltn5qXtfmgGLLFxuc5qbEo0r7pXUUbAEt-rU6GiTlqOM20JZcLF4caCdXGNF2_04UOqroF6mcGWWsdl9NeWl4iT9TTMeGc34OBzVpu28Sl71sm/s90/visa.png') 50% / contain no-repeat;
+  width: 13.7px;
+  height: 13.7px;
+}
+.on-call-booking .american-express {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbSbFYGuj82f1gcpwtEwJDKanMPrVYDdmXXicswHuRhUPHE6kv_7YsiGPDjRl58LLMi5Tk3g7XBJshTmLquKXGQcplLiT-2mV0OxN8PE-zsVOcHgcOhr6gdOy_QXMGc7Xh-qHEPZCZinb5amOuveasgBpfZtKoVy5Rg952lUaQZtV5f3eII0mX8SQ3Z9jK/s90/american_express.png') 50% / contain no-repeat;
+  width: 13.7px;
+  height: 13.7px;
+}
+.on-call-booking .discover-card {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIXnprE65MAftmMOgkluTnU2MK2_A20uRgxixJVChum4qY0q9pWxPivG718teGjfZrklVidZO4mlZkcdXKR_MdNZxbNVWeLkPE3JOZ6w67m8J-VrjlkgvsdhBO7Fpn6iExIXoaqdbdbYheLN-Hfvw7lZ-ed1DgtNmsYSVogSBn-9xQWD1Tebuih1KzBOuX/s90/discover_card.png') 50% / contain no-repeat;
+  width: 13.7px;
+  height: 13.7px;
+}
+.on-call-booking .cardsyter {
+  border-top: 0.2px solid #686868;
+  margin-bottom: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 4.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .copyright-2024-faresmatch-all-rights-reserved-address-6355-haystack-ct-cumming-ga-30040 {
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 100;
+  font-size: 4px;
+  color: #adadad;
+}
+.on-call-booking .footerrr {
+  background: #192344;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 16.8px 20px;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+.on-call-booking {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  
+  box-sizing: border-box;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 360px) {
+	
+	
+	
+	/* mobileviewfix: */
+	
+	 .body {
+        
+        
+	 margin: 0px;
+        
+    }
+	
+	
+	
+	
+	
+	
+		
+	
+	
+	/* container: */
+	
+	.on-call-booking .background-32{
+		
+		width: -webkit-fill-available;
+    margin: 0px 20px 20px 20px;
+	}
+	
+.on-call-booking .circle-1212 {
+  border-radius: 3.9px;
+  background: #FFF30C;
+  position: relative;
+  width: 7.8px;
+  height: 7.8px;
+}
+.on-call-booking .circle-1211 {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  width: 10px;
+  height: 10px;
+}
+.on-call-booking .frameees {
+  position: relative;
+  margin-right: 3.9px;
+  display: flex;
+  padding: 1.1px;
+  width: 10px;
+  height: 10px;
+  box-sizing: border-box;
+}
+.on-call-booking .one-way {
+  margin: 0.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 7.2px;
+  color: #FFFFFF;
+}
+.on-call-booking .roundtrip-13 {
+      align-items: center;
+  margin-right: 8.5px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.on-call-booking .circle-12121 {
+  border: 1px solid #fff;
+    border-radius: 10px;
+  
+  margin-right: 3.9px;
+  width: 10px;
+  height: 10px;
+}
+.on-call-booking .one-way-1 {
+  margin: 0.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 7.2px;
+  color: #FFFFFF;
+}
+.on-call-booking .roundtrip-12 {
+      place-items: center;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.on-call-booking .rrrrr {
+  margin-bottom: 11.2px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .location {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEm5gDm8-ue1tqrzIG84e-qOYaCs47jrwEtN8LgqNWK5pzXd0UZxC-U2Ik8566CugSZj7nqYfDK9y_RRGHNmNGD5SSlaoYhfztajOJRuHrqilpi9cFyRTC5nci6Dk33aHPQQJ2S1Mc4fIqRNQi2nSOJ4gL5lOxn8zOgPSjlROw0eb7rHeS45dZvhS0HBz4/s90/location.png') 50% / contain no-repeat;
+  margin: 1px 0;
+  width: 10px;
+  height: 10px;
+}
+.on-call-booking .leaving-from {
+  margin-left: 7px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 10px;
+  color: #000000;
+}
+.on-call-booking .firstboxxx {
+  border-radius: 5.5px;
+  background: #FFFFFF;
+  margin-bottom: 5.8px;
+  display: flex;
+  flex-direction: row;
+  
+  padding: 8.2px 0 8.2px 5.7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .location-1 {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEm5gDm8-ue1tqrzIG84e-qOYaCs47jrwEtN8LgqNWK5pzXd0UZxC-U2Ik8566CugSZj7nqYfDK9y_RRGHNmNGD5SSlaoYhfztajOJRuHrqilpi9cFyRTC5nci6Dk33aHPQQJ2S1Mc4fIqRNQi2nSOJ4gL5lOxn8zOgPSjlROw0eb7rHeS45dZvhS0HBz4/s90/location.png') 50% / contain no-repeat;
+  margin: 1px 0;
+  width: 10px;
+  height: 10px;
+}
+.on-call-booking .going-to {
+  margin-left: 7px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 10px;
+  color: #000000;
+}
+.on-call-booking .firstbox-1 {
+  border-radius: 5.5px;
+  background: #FFFFFF;
+  margin-bottom: 5.8px;
+  display: flex;
+  flex-direction: row;
+  
+  padding: 8.2px 0 8.2px 5.7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .calendar {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9946MaiZ9Bvi0SZq8k2i-kEtayZ4wx0U0q1vSpO6Rt6vu-ZS4DRXQQYeECr6SnyCmz1o5Ru1dsiv0Tqa5PdSq7TRf9i8JdWWyZ2tJiy7AKoSIv8J8f3oU-ke1MfxLSDaQO8RMF18S2VHFjK3iSacvTyv3D6LIxCt5y6cQyjun181kA5Kn2TjjlMvZiZ7f/s90/calendar.png') 50% / contain no-repeat;
+  margin: 1px 0;
+  width: 10px;
+  height: 10px;
+}
+.on-call-booking .jul-3-jul-10 {
+  margin-left: 7px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 10px;
+  color: #000000;
+}
+.on-call-booking .firstbox-2 {
+  border-radius: 5.5px;
+  background: #FFFFFF;
+  margin-bottom: 5.8px;
+  display: flex;
+  flex-direction: row;
+  
+  padding: 8.2px 0 8.2px 5.7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .customer {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBTOzzr7XWB2M7p3qGJzhAbbMvaBjIPdWcux6utJvZt2dP0di5G57_xYbnu8ZpM1mBOAg5hWEh3iZ4ZBEnybUEz3nxIUCvZF3Jw1189J442lJm5Un6uXEJfAelceM4LUq9G7OaE4iM2hAocyfmiY5goFK__phESa4r2HdPtcn1qaOaOcMtuGq5DHM4xLrN/s90/customer.png') 50% / contain no-repeat;
+  margin: 1px 0;
+  width: 10px;
+  height: 10px;
+}
+.on-call-booking .traveler {
+   margin-left: 7px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 10px;
+  color: #000000;
+}
+.on-call-booking .firstbox-4 {
+  border-radius: 5.5px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  
+  padding: 8.2px 0 8.2px 5.7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: -webkit-fill-available;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .search {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10px;
+  color: #000000;
+}
+.on-call-booking .buttonn-1 {
+  justify-content: center;
+  border-radius: 5.5px;
+  background: #FFF30C;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  padding: 8px 0.7px 8px 0;
+  box-sizing: border-box;
+}
+.on-call-booking .framefjsd {
+  position: relative;
+  padding-bottom: 33.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* mobileviewfix: */
+	
+	    .on-call-booking .mobileviewfix {
+        
+        background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqxyaHuAY58X6dqIScHqQY2bMbtfJJTBmGwGUp6AZCfuwgy087LANxHRwocHIuZbjae8260970zgaMGbpWDyCPHR-sY87DR0uNPSP2H2OC3kd-MCww_tzdbWhhpLCaPVBhAIXnA2ircMsnneUHA9GD2Cxkfbg0gLnl0OkjhRy3hXIZTbFZ8C0XiywBnS5h/s2048/mobileviewfix.gif) 50% / contain no-repeat;
+		    margin: 00px 5px;
+        height: 100px;
+        width: -webkit-fill-available;
+        position: fixed;
+        bottom: 0px;
+    }
+	
+	
+	
+	
+	
+	  /* header: */
+	.on-call-booking .logo {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIJkSvdyJFVQ8vhbSg7zNL3dUbIP25XJZ7PyFmURiONy2D-U1k1HsnzG8n2mVM_NtbwftNcYnoY8FmVhMqUbOOsbC_kZQ5vgNeJ_ssUxcMQhUJ70m5E_kEs-auD70NepINp7s5-rIafkeJVj9SNyRFshGbD-MZ6E0zwIghOysJ3TvXFWglku0Yi7L4nNWs/s300/logo.png') 50% / cover no-repeat;
+  margin-right: 0px;
+  height: 28.3px;
+  flex-grow: 1;
+  flex-basis: 102.7px;
+}
+    .numberheighlight {
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 6px;
+        line-height: 1.333;
+        color: #FF9900;
+    }
+.on-call-booking .flights {
+  margin-right: 4px;
+  width: 44px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 6.7px;
+  color: #FFFFFF;
+}
+.on-call-booking .deals {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 6.7px;
+  color: #FFFFFF;
+}
+.on-call-booking .help {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 6.7px;
+  color: #FFFFFF;
+}
+.on-call-booking .menusss {
+  display: none;
+}
+.on-call-booking .girloncall {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVGwe37PwByhvyQxls8KoFIHhOhpoRog5AZPyGRT_RtsXSlitausTZHYuPat9XC5iuwcLYWd9uv55NRGnVoDlfX2C20ksLFm9rq_xZgnUQWhg_SiKbjK-470uRbAYN3Go3W7zH0QLMIJ3uZGb6Nj9-pp1YGkccXNXdw6lYl7ipenBXf0nClrff8WqlHs9d/s1080/girloncall1.gif') 50% / cover no-repeat;
+  margin: 0 2.6px 0.7px 0;
+  width: 16.6px;
+  height: 16.6px;
+}
+.on-call-booking .number-800 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 11px;
+  color: #FFFFFF;
+}
+.on-call-booking .speak-to-atravel-expert {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 5.3px;
+  color: #FFFFFF;
+}
+.on-call-booking .numberexpert {
+  position: relative;
+  margin-top: 0.3px;
+  display: flex;
+  padding: 0 0 6px 0.1px;
+  box-sizing: border-box;
+}
+.on-call-booking .phonemo {
+      align-items: center;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.on-call-booking .rightmenu {
+  
+  margin: 5.9px 0 5.2px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  height: fit-content;
+  flex-grow: 1;
+  flex-basis: 214.3px;
+  box-sizing: border-box;
+}
+.on-call-booking .header-11 {
+  margin: 0 19.7px 12.1px 22.3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 41.9px);
+  box-sizing: border-box;
+}
+.on-call-booking .ready-to-travel-weve-got-great-flight-deals {
+  margin-bottom: 1.8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.on-call-booking .call-us-at-our-247-toll-free-number-8009183039-to-get-cheap-flights {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 6.1px;
+  color: #FFFFFF;
+}
+.call-us-at-our-247-toll-free-number-8009183039-to-get-cheap-flights-sub10 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 6.1px;
+  line-height: 1.333;
+  color: #FF9900;
+}
+.on-call-booking .afterheader {
+  margin: 0 23.2px 12.5px 22.8px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 46px);
+  box-sizing: border-box;
+}
+
+.on-call-booking .firstcard {
+  background: #192344;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 0px 10px 0px;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+  /* Section 1: */
+
+.on-call-booking .section33 {
+	    margin-top: 44px;
+	place-content: center;
+	
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: fit-content;
+}
+.on-call-booking .needbooking {
+      
+  margin-bottom: 6px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+.on-call-booking .call-us-247 {
+  margin-right: auto;
+  
+  margin-left: 0.2px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+.on-call-booking .box-1 {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .headphones {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitdpBmNfOZOVQKsEd4Qd3xEC4rMemfwZL9QyFh7d-eTJ1pD3qFalPcAbK5s7jfo2YeabtXxuyXjjsSYsGygOA4Ohb-jIOJi1aVnK109lHiXG9yEgPUA3ZV-MhpZSfLB7QjrppJwEZsFHIt09lxWJHXEPr74vQcQJqQtzuLaHjw1o2JaEwH8AGcADwygoe7/s90/headphones.png') 50% / contain no-repeat;
+  
+  width: 39px;
+  height: 63px;
+}
+.on-call-booking .phone {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVGwe37PwByhvyQxls8KoFIHhOhpoRog5AZPyGRT_RtsXSlitausTZHYuPat9XC5iuwcLYWd9uv55NRGnVoDlfX2C20ksLFm9rq_xZgnUQWhg_SiKbjK-470uRbAYN3Go3W7zH0QLMIJ3uZGb6Nj9-pp1YGkccXNXdw6lYl7ipenBXf0nClrff8WqlHs9d/s1080/girloncall1.gif') 50% / contain no-repeat;
+  
+  width: 33px;
+  height: 26px;
+}
+.on-call-booking .call-us {
+      align-content: center;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+.on-call-booking .button-12 {
+  place-content: center;
+  border-radius: 7px;
+  background: #006EE3;
+      padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .section-1 {
+  border-radius: 17px;
+  background: #192344;
+  
+  left: 20px;
+  top: 27px;
+  right: 23px;
+  bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 15px 15px 15px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+
+
+ /* Section 2: */
+.on-call-booking .why-choose-fares-match {
+  margin: 0 0.7px 27.8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+}
+.on-call-booking .excellent-customer-service {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+.on-call-booking .on-call-quick-booking-changes-and-cancellations {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.on-call-booking .frame-9 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .online-support {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQ7sF4dm7gTWHMHD2ie5bov7DkXTSrJe5pTrRW6Jqm2_7IvE1KgFyt2SRhdtW_LyZrJSQivoHPBq_hR_ZwUQj3afaUIRTraKTd72yUhT7AcRFJ64Yx7c5Gt0Ct2iMaWuDyYtNzSckECTUya1eT_8o2q2lpCPuRhNdFowkv_7FqxY_ZqkOsW1dAy9pzD2LM/s1600/online_support.png') 50% / contain no-repeat;
+  margin: 6.7px 0 7.7px 0;
+  width: 41.3px;
+  height: 34.6px;
+}
+.on-call-booking .frame-3 {
+  border-radius: 9.6px;
+  border: 0.5px solid #B0B0B0;
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8.2px 17.8px 7.2px 17.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .secure-booking-changes {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+.on-call-booking .secure-and-safe-your-booking-details-with-us {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.on-call-booking .frame-91 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .security-lock {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6TRSx5DsV37LhbcoU03GtzLOjZzFlgN3XhtUiIEb2WDhYOEfzFalTgpdIszOHSreifbEWM7kak2ej_JnjgYiYbMTe-hHetn87Zcd_bDxUrNk7mNzMAEqR3EmWVEp517t9A44kLBuVXAy_ms0fhwzhVhM4mAHC5hRX5CljOdjz1JwNGmoJOI6qTCYb2USL/s1600/security_lock.png') 50% / contain no-repeat;
+  margin: 6.7px 0 7.7px 0;
+  width: 41.3px;
+  height: 34.6px;
+}
+.on-call-booking .frame-8 {
+  border-radius: 9.6px;
+  border: 0.5px solid #B0B0B0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8.2px 17.8px 7.2px 17.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-16 {
+  margin-bottom: 28.1px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .online-bookings {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+.on-call-booking .compare-travel-partner-fares-and-book-online {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.on-call-booking .frame-93 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .website {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCeQpOTIZiW22c_ZaY4e4aqm7wVSfaOv4QBB20171HZXRC0ciSOx-IzYMpcV1uO1v1yEUGjjC65ArtFLl8VWQaePlvckjcRwStTFV_a40rmDtCwl6i1JjkoTEjTDE1_rEGOgE4AmoCUDgCrEs5LP82BN5IOKPPxa9XWbMTAHu2OjqVS0wUKLhQY4yf4XVU/s90/website.png') 50% / contain no-repeat;
+  margin: 6.7px 0 7.7px 0;
+  width: 41.3px;
+  height: 34.6px;
+}
+.on-call-booking .frame-92 {
+  border-radius: 9.6px;
+  border: 0.5px solid #B0B0B0;
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8.2px 17.8px 7.2px 17.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .best-price-assurance {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+.on-call-booking .search-cheap-flights-for-1000-locations {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.on-call-booking .frame-94 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .price-tag-usd {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDm2R1t3IE2efyDZ7jClYAXzqCchrmIXnXf_kgWrokTa9LO24uDDTdfXYcZwG3IaPPTLLJPRFCAHB1yYcWIwVAz3A_6R8T9UIJnsHJAvSZZ1BbGeLL0-4bvhWdU78LRP6Nnga-WPQA7lwFapp3CT_y4ciTw9p8dLYI7ZTnd1JJK3lJ77mVJjFsuLJ6fSRi/s90/price_tag_usd.png') 50% / contain no-repeat;
+  margin: 10.1px 0 11.1px 0;
+  width: 35.6px;
+  height: 27.9px;
+}
+.on-call-booking .frame-10 {
+  border-radius: 9.6px;
+  border: 0.5px solid #B0B0B0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8.2px 17.8px 7.2px 17.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-17 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .section-2 {
+	
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22.4px 10.7px;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* Section 3: */
+.on-call-booking .rectangle-4 {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdAsw3ZKseD0bSCoAhYpQRqUrs7ywz25ZkCqrVP27dKDlnFheNNiQYc25weyrZNDUSZyAevosX8TVwOQ2nhyphenhyphenLuB21c-P56HGpgQZXPDWrD138lJk-8TtsMXEFHy45FJBX_vRg98V-F9R2b1bMij6CtJ_e96dtXBhSgcv8Nv9Aq0PQPkmeLKLd6MJVJpI6X/s260/rectangle_4.png') 50% / cover no-repeat;
+  width: 200px;
+  height: 143px;
+}
+.on-call-booking .get-instant-discounts {
+  margin-bottom: 13px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+}
+.on-call-booking .youre-new-fares-match-member-to-save-on-your-trip-just-give-us-acall {
+  margin-bottom: 11px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 11.1px;
+  color: black;
+}
+.on-call-booking .call-now {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10.6px;
+  color: white;
+}
+.on-call-booking .button-09 {
+  border-radius: 3px;
+  background: #006ce4;
+  align-self: flex-start;
+  padding: 4.5px 18.1px 5.5px 18.1px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-18 {
+  margin: 19.5px 6px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-19 {
+  border-radius: 9.7px;
+  border: 0.5px solid #B7B7B7;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .section-3 {
+  margin: 0 10px;
+  width: auto;
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* Section 4: */
+.on-call-booking .quick-bookings-for-last-minute-flights {
+  margin-bottom: 6.3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+.on-call-booking .for-your-trip {
+  margin: 0 8.7px 7.3px 0;
+  display: inline-block;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+}
+.on-call-booking .call-now-1 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 13px;
+  color: #006CE4;
+}
+.on-call-booking .button-34 {
+  flex-direction: column;
+    align-items: center;
+  border-radius: 4px;
+  border: 0.6px solid #006CE4;
+  margin: 0 25.8px;
+  display: flex;
+  
+  padding: 6.5px 0 7.5px 1.7px;
+  width: 250px;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-20 {
+      align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .business-traveler-rushing-to-the-airplane {
+  order: -1;
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdIIvF2T3DYTdv9ItPG7NlpJYMqxrQKIn8x0sAnHzcqC7QsFNbUL418rWk73fQSmOoji6PPTrXlGUI0pJ9KUWTu3YoTVHoXv-R9sZwUGfzH6baCRx1KljnciVYNRkLOV0en_2ErYbZ_rlGoFbIg5d5jaoRw_BGHaPitSIzvMHGKxk_js1eGRhIHPgLVuux/s456/business_traveler_rushing_to_the_airplane.png') 50% / contain no-repeat;
+  margin-right: 6.9px;
+  width: 200px;
+  height: 146px;
+}
+.on-call-booking .section-4 {
+  margin: 28px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  box-sizing: border-box;
+}
+
+
+
+
+/* Section 5: */
+.on-call-booking .business-traveler-rushing-to-the-airplane-1 {
+  border-radius: 5.5px;
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCqLwIMuIRHh7-Nq1kXqhYaPsV9o4niwR-lu8uisxjsm1tD5G0LJpM_zMXmaFHOCVDcKYyNBig7QxU52T4Q-W4gplZaz8KLoSy9vO2lttJzb3Oi0y-JIuzNUSKDtIVvpsqEWYVKnNl74Gac6BjoY7BfyxG0xlO9JLt-bop6JJ0zwaXHtnZ5JZq8JMm2y20/s1080/business_traveler_rushing_to_the_airplane_1.jpeg') 50% / cover no-repeat;
+  margin: 37.7px 26px 37.7px 0;
+  height: 60px;
+  
+  flex-basis: 59.4px;
+}
+.on-call-booking .looking-for-exclusive-deals {
+  margin-bottom: 7.5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9px;
+  color: #000000;
+}
+.on-call-booking .our-agents-ensure-you-get-the-best-current-deals {
+  margin: 0 2px 6.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7.3px;
+  color: #000000;
+}
+.on-call-booking .claim-now {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 8px;
+  color: #000000;
+}
+.on-call-booking .button-67 {
+	    width: 78px;
+  border-radius: 2.4px;
+  border: 0.6px solid #000000;
+  display: flex;
+  align-self: flex-start;
+  padding: 2.9px 15.7px;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-21 {
+  margin: 38px 36.1px 38px 0;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        flex-basis: 164px;
+        box-sizing: border-box;
+}
+.on-call-booking .simplified-world-map {
+  display:none;
+}
+.on-call-booking .offer {
+   width: -webkit-fill-available;
+  box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  padding: 0 2.9px 0 34.7px;
+  
+  height: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .section-5 {
+        place-content: center;
+        margin: 34px 10px;
+        display: flex;
+        width: auto;
+        box-sizing: border-box;
+}
+
+
+
+
+
+/* Section 6: */
+.on-call-booking .h-41 {
+  margin: 0 0px 8px 0px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9.1px;
+  color: #000000;
+}
+.on-call-booking .p {
+  margin: 0 13.5px 8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7.3px;
+  color: #575757;
+}
+.on-call-booking .h-42 {
+  margin-bottom: 8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9.1px;
+  color: #000000;
+}
+.on-call-booking .p-1 {
+  margin-bottom: 8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7.3px;
+  color: #575757;
+}
+.on-call-booking .h-43 {
+  margin-bottom: 8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9.1px;
+  color: #000000;
+}
+.on-call-booking .p-2 {
+  margin-right: 7.8px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7.3px;
+  color: #575757;
+}
+.on-call-booking .section-6 {
+  border-top: 0.2px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer: */
+.on-call-booking .follow-us-on {
+  margin: 2.1px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 5.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .facebookk {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-Qh5QsycFRrHYMMVzknaST8JDUZzas4huhbtdljkwYbzVVtLbBaWdYYrk1dsF3uQGX-fLatANjLoK4uCqHnScWaYAZrgnFrwqbg0iWyAY6AwZ7rw4UVAHzGPKSscN4gEslJZkABu8As4ymOfPfPQ5mSXO63e_5PbBeSujtB6ZFBmj8dvFhfAMammcme0u/s90/facebookk.png') 50% / contain no-repeat;
+  margin-right: 2.5px;
+  width: 11.2px;
+  height: 11.2px;
+}
+.on-call-booking .instagram-circle {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSXVizZUsScqa47j_n4-3z1ELO7HAXFrx_6hA1kLuTgaxmpK7nZERENlrMufyFYGkA_Ze0eQKkC7HoTzm7hn2G4fpKmh7hsXpIcGaxrTt3ZgU-kImBQ-Eait0I4VUky2TEA9a6WfL0nC6RyKUlUK5jHQ56ek9sLN41F9tZZHfaXwkbVEY0vC88GFLXLtKH/s90/instagram_circle.png') 50% / contain no-repeat;
+  margin-right: 2.5px;
+  width: 11.2px;
+  height: 11.2px;
+}
+.on-call-booking .you-tube {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbcKRrjVmPSIAk-PKrAspFS5mUMEv-m5lorZm8vR-p-iKtb1eHxcb02bdXmZodUkUggy85zwGPs5Bw5E3NrV4OqBSq5bHUgL7jgrvMwf5jyh2AA0em94SwCEF_ACtyEL-Fp2_BMvDsXeVAZgWkYYhrN94z7pnfj7glkarNr18mkUPItM9f4Ay9TSrlfmJQ/s1600/you_tube.png') 50% / contain no-repeat;
+  margin-right: 2.5px;
+  width: 11.2px;
+  height: 11.2px;
+}
+.on-call-booking .pinterest {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA9xJgytPaLUhHDisk8JyVW57sdgLpqomC3e8z7pvfTCdoPrJgV9y_yTS9RwMSG1VEBpYUwawm-CpRutPZHL03EI4zHQ2UR8bUNP6FfU_8lYgfnweEiSBpT5AaCZZXNnRBrewmb9Cxn5dG3RvG6qVmQeKA_vsYFqb3S5wV7nsXi9rvoNB7zsgDsBGr8qLn/s90/pinterest.png') 50% / contain no-repeat;
+  width: 11.2px;
+  height: 11.2px;
+}
+.on-call-booking .socialicons {
+  display: flex;
+  flex-direction: row;
+  width: 52.1px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .socialtext {
+  border-bottom: 0.2px solid #686868;
+  margin-bottom: 15.9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 7.4px 7.4px 7.3px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .links {
+  margin-bottom: 6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .policies {
+  margin-bottom: 6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .vacations {
+  margin-bottom: 6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .packages {
+  margin-bottom: 6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .airlines-destinations {
+  margin-bottom: 6px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .jetblue-fare-finder {
+  margin: 0 4.6px 6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .low-fare-calendar {
+  margin-right: 8.4px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-111 {
+  margin-bottom: 20px;
+  margin-right: 51.6px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .airlines {
+  margin: 0 6px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .delta {
+  margin: 0 16.3px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .alaska {
+  margin: 0 9.8px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .frontier {
+  margin: 0 6.8px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .allegiant {
+  margin-bottom: 5.6px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .united {
+  margin-right: 12.3px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-112 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  
+  box-sizing: border-box;
+}
+.on-call-booking .container-1 {
+  margin-bottom: 19.3px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: -webkit-fill-available;
+  box-sizing: border-box;
+}
+.on-call-booking .destinations {
+  margin-bottom: 5.6px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .las-vegas {
+  margin: 0 11.1px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .new-york {
+  margin: 0 14.2px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .los-angeles {
+  margin: 0 1.9px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .florida {
+  margin-bottom: 5.6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .california {
+  margin-right: 17.5px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-113 {
+  margin-bottom: 20px;
+  margin-right: 88.3px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .top-routes {
+  margin-bottom: 5.6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .chicago-to-honolulu {
+  margin-bottom: 5.6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .san-francisco-to-london {
+  margin-bottom: 5.6px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .chicago-to-los-angeles {
+  margin: 0 5.5px 5.6px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .toronto-to-lima {
+  margin-bottom: 5.6px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .new-york-to-miami {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-114 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .container {
+  margin-bottom: 19.3px;
+  display: flex;
+  flex-direction: column;
+  width: -webkit-fill-available;
+  box-sizing: border-box;
+}
+.on-call-booking .information {
+  margin-bottom: 5.3px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .about {
+  margin-bottom: 5.3px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .contact {
+  margin-bottom: 5.3px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .privacy-policy {
+  margin-bottom: 5.3px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .terms-conditions {
+  margin-bottom: 5.3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .sitemap {
+  margin-bottom: 5.3px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .help {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-115 {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .fottermenn {
+  margin: 0 7.4px 17.9px 7.4px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.on-call-booking .rowdivide1 {
+  margin: 0 7.4px 17.9px 7.4px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+
+
+.on-call-booking .master-card {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUl5Uzz_R1qSczvgZBELYjnsvE5VoAiulGasfd7POC9bjQxiriMbTLuaKe5TYww2eLJGUKPtOdHJSIw16wMFAoddRE_N8TjGRLX7iTK8Jgu2CkbUsp8fhgf6ohzwCI7Zd_sPS2jwr47fNTF2Wi5dGqEH413exmyOkBc9wdQ2bP0Zj3gafNsT96h4veUicK/s90/master_card.png') 50% / contain no-repeat;
+  width: 13.7px;
+  height: 13.7px;
+}
+.on-call-booking .visa {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZr_CacgJiqUwT7hzZRUTtPwsbweiPARNrRVKWYW17DOfYw3NMZ9jDqXcftrZ2k1ebti5l_xuw9p5evYltn5qXtfmgGLLFxuc5qbEo0r7pXUUbAEt-rU6GiTlqOM20JZcLF4caCdXGNF2_04UOqroF6mcGWWsdl9NeWl4iT9TTMeGc34OBzVpu28Sl71sm/s90/visa.png') 50% / contain no-repeat;
+  width: 13.7px;
+  height: 13.7px;
+}
+.on-call-booking .american-express {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbSbFYGuj82f1gcpwtEwJDKanMPrVYDdmXXicswHuRhUPHE6kv_7YsiGPDjRl58LLMi5Tk3g7XBJshTmLquKXGQcplLiT-2mV0OxN8PE-zsVOcHgcOhr6gdOy_QXMGc7Xh-qHEPZCZinb5amOuveasgBpfZtKoVy5Rg952lUaQZtV5f3eII0mX8SQ3Z9jK/s90/american_express.png') 50% / contain no-repeat;
+  width: 13.7px;
+  height: 13.7px;
+}
+.on-call-booking .discover-card {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIXnprE65MAftmMOgkluTnU2MK2_A20uRgxixJVChum4qY0q9pWxPivG718teGjfZrklVidZO4mlZkcdXKR_MdNZxbNVWeLkPE3JOZ6w67m8J-VrjlkgvsdhBO7Fpn6iExIXoaqdbdbYheLN-Hfvw7lZ-ed1DgtNmsYSVogSBn-9xQWD1Tebuih1KzBOuX/s90/discover_card.png') 50% / contain no-repeat;
+  width: 13.7px;
+  height: 13.7px;
+}
+.on-call-booking .cardsyter {
+  border-top: 0.2px solid #686868;
+  margin-bottom: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 4.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .copyright-2024-faresmatch-all-rights-reserved-address-6355-haystack-ct-cumming-ga-30040 {
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 100;
+  font-size: 4px;
+  color: #adadad;
+}
+.on-call-booking .footerrr {
+  background: #192344;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 16.8px 20px;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.on-call-booking {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  
+  box-sizing: border-box;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 600px) {
+	
+	
+		
+	
+	/* mobileviewfix: */
+	
+	 .body {
+        
+        
+	 margin: 0px;
+        
+    }
+	
+	
+	
+	/* container: */
+.on-call-booking .container {	
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.on-call-booking .circle-12121 {
+	
+  border-radius: 7.9px;
+  
+  position: relative;
+  width: 15.7px;
+  height: 15.7px;
+}
+.on-call-booking .circle-1211 {
+      border: 1px solid #fff;
+  border-radius: 10.1px;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  width: 20.2px;
+  height: 20.2px;
+}
+.on-call-booking .frameees {
+  position: relative;
+  margin-right: 8px;
+  display: flex;
+  padding: 2.2px;
+  width: 20.2px;
+  height: 20.2px;
+  box-sizing: border-box;
+}
+.on-call-booking .one-way {
+  margin: 1.1px 0 2.1px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .roundtrip-13 {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.on-call-booking .circle-1212 {
+	margin: 0px;
+  border: 1px solid #fff;
+  border-radius: 10.1px;
+  
+  width: 20.2px;
+  height: 20.2px;
+}
+.on-call-booking .one-way-1 {
+  margin: 1.1px 0 2.1px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .roundtrip-12 {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.on-call-booking .rrrrr {
+  margin-bottom: 31px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 231.6px;
+  box-sizing: border-box;
+}
+.on-call-booking .location {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEm5gDm8-ue1tqrzIG84e-qOYaCs47jrwEtN8LgqNWK5pzXd0UZxC-U2Ik8566CugSZj7nqYfDK9y_RRGHNmNGD5SSlaoYhfztajOJRuHrqilpi9cFyRTC5nci6Dk33aHPQQJ2S1Mc4fIqRNQi2nSOJ4gL5lOxn8zOgPSjlROw0eb7rHeS45dZvhS0HBz4/s90/location.png') 50% / contain no-repeat;
+  margin: 0.9px 7.9px 0.9px 0;
+  width: 20.2px;
+  height: 20.2px;
+}
+.on-call-booking .leaving-from {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+}
+.on-call-booking .firstboxxx {
+	margin-right: 10px;
+  border-radius: 22.5px 0 0 22.5px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  padding: 22.5px 0 22.5px 15.7px;
+  width: 197.8px;
+  box-sizing: border-box;
+}
+.on-call-booking .location-1 {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEm5gDm8-ue1tqrzIG84e-qOYaCs47jrwEtN8LgqNWK5pzXd0UZxC-U2Ik8566CugSZj7nqYfDK9y_RRGHNmNGD5SSlaoYhfztajOJRuHrqilpi9cFyRTC5nci6Dk33aHPQQJ2S1Mc4fIqRNQi2nSOJ4gL5lOxn8zOgPSjlROw0eb7rHeS45dZvhS0HBz4/s90/location.png') 50% / contain no-repeat;
+  margin: 0.9px 7.9px 0.9px 0;
+  width: 20.2px;
+  height: 20.2px;
+}
+.on-call-booking .going-to {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+}
+.on-call-booking .firstbox-1 {
+	margin-right: 10px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  padding: 22.5px 0 22.5px 15.7px;
+  width: 160.8px;
+  box-sizing: border-box;
+}
+.on-call-booking .calendar {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9946MaiZ9Bvi0SZq8k2i-kEtayZ4wx0U0q1vSpO6Rt6vu-ZS4DRXQQYeECr6SnyCmz1o5Ru1dsiv0Tqa5PdSq7TRf9i8JdWWyZ2tJiy7AKoSIv8J8f3oU-ke1MfxLSDaQO8RMF18S2VHFjK3iSacvTyv3D6LIxCt5y6cQyjun181kA5Kn2TjjlMvZiZ7f/s90/calendar.png') 50% / contain no-repeat;
+  margin: 0.9px 12.4px 0.9px 0;
+  width: 20.2px;
+  height: 20.2px;
+}
+.on-call-booking .jul-3-jul-10 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+}
+.on-call-booking .firstbox-2 {
+	margin-right: 10px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  padding: 22.5px 0 22.5px 15.7px;
+  width: 201.3px;
+  box-sizing: border-box;
+}
+.on-call-booking .customer {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBTOzzr7XWB2M7p3qGJzhAbbMvaBjIPdWcux6utJvZt2dP0di5G57_xYbnu8ZpM1mBOAg5hWEh3iZ4ZBEnybUEz3nxIUCvZF3Jw1189J442lJm5Un6uXEJfAelceM4LUq9G7OaE4iM2hAocyfmiY5goFK__phESa4r2HdPtcn1qaOaOcMtuGq5DHM4xLrN/s90/customer.png') 50% / contain no-repeat;
+  margin: 0.9px 12.4px 0.9px 0;
+  width: 20.2px;
+  height: 20.2px;
+}
+.on-call-booking .traveler {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+}
+.on-call-booking .firstbox-4 {
+	margin-bottom: 5.8px;
+  border-radius: 0 22.5px 22.5px 0;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  padding: 22.5px 0 22.5px 15.7px;
+  width: 170.3px;
+  box-sizing: border-box;
+}
+.on-call-booking .search {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+.on-call-booking .buttonn-1 {
+	position: relative;
+      justify-content: center;
+  border-radius: 22.5px;
+  background: #FFF30C;
+  margin: 0.5px 0;
+  display: flex;
+  padding: 22px 0.4px 22px 0;
+  width: 172px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .framefjsd {
+  display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+	
+	
+	
+	
+	/* mobileviewfix: */
+	
+	    .on-call-booking .mobileviewfix {
+        
+        background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqxyaHuAY58X6dqIScHqQY2bMbtfJJTBmGwGUp6AZCfuwgy087LANxHRwocHIuZbjae8260970zgaMGbpWDyCPHR-sY87DR0uNPSP2H2OC3kd-MCww_tzdbWhhpLCaPVBhAIXnA2ircMsnneUHA9GD2Cxkfbg0gLnl0OkjhRy3hXIZTbFZ8C0XiywBnS5h/s2048/mobileviewfix.gif) 50% / contain no-repeat;
+		    margin: 00px 5px;
+        height: 100px;
+        width: -webkit-fill-available;
+        position: fixed;
+        bottom: 0px;
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	  /* header: */
+	
+	.on-call-booking .logo {
+  flex-basis: auto;
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIJkSvdyJFVQ8vhbSg7zNL3dUbIP25XJZ7PyFmURiONy2D-U1k1HsnzG8n2mVM_NtbwftNcYnoY8FmVhMqUbOOsbC_kZQ5vgNeJ_ssUxcMQhUJ70m5E_kEs-auD70NepINp7s5-rIafkeJVj9SNyRFshGbD-MZ6E0zwIghOysJ3TvXFWglku0Yi7L4nNWs/s300/logo.png') 50% / cover no-repeat;
+  margin-right: 0px;
+  height: 52.3px;
+  flex-grow: 1;
+  
+}
+
+
+    .numberheighlight {
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.333;
+        color: #FF9900;
+    }
+
+
+
+
+.on-call-booking .flights {
+  margin-right: 8px;
+  
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 12.4px;
+  color: #FFFFFF;
+}
+.on-call-booking .deals {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 12.4px;
+  color: #FFFFFF;
+}
+.on-call-booking .help {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 12.4px;
+  color: #FFFFFF;
+}
+.on-call-booking .menusss {
+  display:none;
+}
+.on-call-booking .girloncall {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVGwe37PwByhvyQxls8KoFIHhOhpoRog5AZPyGRT_RtsXSlitausTZHYuPat9XC5iuwcLYWd9uv55NRGnVoDlfX2C20ksLFm9rq_xZgnUQWhg_SiKbjK-470uRbAYN3Go3W7zH0QLMIJ3uZGb6Nj9-pp1YGkccXNXdw6lYl7ipenBXf0nClrff8WqlHs9d/s1080/girloncall1.gif') 50% / cover no-repeat;
+  margin: 0.2px 4.8px 0.2px 0;
+  width: 30.7px;
+  height: 30.7px;
+}
+.on-call-booking .number-800 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.on-call-booking .speak-to-atravel-expert {
+  margin: 0 8.3px 0 0.1px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 9.8px;
+  color: #FFFFFF;
+}
+.on-call-booking .numberexpert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.on-call-booking .phonemo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.on-call-booking .rightmenu {
+  margin: 10.8px 0 10.5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  height: fit-content;
+  flex-grow: 1;
+  flex-basis: 393.9px;
+  box-sizing: border-box;
+}
+.on-call-booking .header-11 {
+  margin: 0 38.3px 22.3px 41.1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 79.4px);
+  box-sizing: border-box;
+}
+.on-call-booking .ready-to-travel-weve-got-great-flight-deals {
+  margin-bottom: 3.7px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 25.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .call-us-at-our-247-toll-free-number-8009183039-to-get-cheap-flights {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 11.3px;
+  color: #FFFFFF;
+}
+.call-us-at-our-247-toll-free-number-8009183039-to-get-cheap-flights-sub10 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 11.3px;
+  line-height: 1.333;
+  color: #FF9900;
+}
+.on-call-booking .afterheader {
+  margin: 0 45.9px 23.9px 42.1px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 88px);
+  box-sizing: border-box;
+}
+
+.on-call-booking .firstcard {
+  background: #192344;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 52.4px 0;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  /* Section 1: */
+
+.on-call-booking .section33 {
+	    margin-top: 44px;
+	place-content: center;
+	
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 322px;
+}
+.on-call-booking .needbooking {
+  margin-bottom: 20px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.on-call-booking .call-us-247 {
+  margin-left: 0.2px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.on-call-booking .box-1 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .headphones {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitdpBmNfOZOVQKsEd4Qd3xEC4rMemfwZL9QyFh7d-eTJ1pD3qFalPcAbK5s7jfo2YeabtXxuyXjjsSYsGygOA4Ohb-jIOJi1aVnK109lHiXG9yEgPUA3ZV-MhpZSfLB7QjrppJwEZsFHIt09lxWJHXEPr74vQcQJqQtzuLaHjw1o2JaEwH8AGcADwygoe7/s90/headphones.png') 50% / contain no-repeat;
+  margin: 0 0 20px 0.2px;
+  width: 91px;
+  height: 63px;
+}
+.on-call-booking .phone {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVGwe37PwByhvyQxls8KoFIHhOhpoRog5AZPyGRT_RtsXSlitausTZHYuPat9XC5iuwcLYWd9uv55NRGnVoDlfX2C20ksLFm9rq_xZgnUQWhg_SiKbjK-470uRbAYN3Go3W7zH0QLMIJ3uZGb6Nj9-pp1YGkccXNXdw6lYl7ipenBXf0nClrff8WqlHs9d/s1080/girloncall1.gif') 50% / contain no-repeat;
+  margin: 1.5px 0;
+  width: 33px;
+  height: 26px;
+}
+.on-call-booking .call-us {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.on-call-booking .button-12 {
+  border-radius: 7px;
+  background: #006EE3;
+      padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  
+  width: 359px;
+  box-sizing: border-box;
+}
+.on-call-booking .section-1 {
+  border-radius: 17px;
+  background: #192344;
+  
+  left: 20px;
+  top: 27px;
+  right: 23px;
+  bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 40.2px 24px 40px;
+  height: 82%;
+  box-sizing: border-box;
+}
+
+
+
+ /* Section 2: */
+.on-call-booking .why-choose-fares-match {
+  margin: 0 0.7px 27.8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+}
+.on-call-booking .excellent-customer-service {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 19.2px;
+  color: #000000;
+}
+.on-call-booking .on-call-quick-booking-changes-and-cancellations {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14.4px;
+  color: #000000;
+}
+.on-call-booking .frame-9 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .online-support {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQ7sF4dm7gTWHMHD2ie5bov7DkXTSrJe5pTrRW6Jqm2_7IvE1KgFyt2SRhdtW_LyZrJSQivoHPBq_hR_ZwUQj3afaUIRTraKTd72yUhT7AcRFJ64Yx7c5Gt0Ct2iMaWuDyYtNzSckECTUya1eT_8o2q2lpCPuRhNdFowkv_7FqxY_ZqkOsW1dAy9pzD2LM/s1600/online_support.png') 50% / contain no-repeat;
+  margin: 6.7px 0 7.7px 0;
+  width: 41.3px;
+  height: 34.6px;
+}
+.on-call-booking .frame-3 {
+  border-radius: 9.6px;
+  border: 0.5px solid #B0B0B0;
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8.2px 17.8px 7.2px 17.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .secure-booking-changes {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 19.2px;
+  color: #000000;
+}
+.on-call-booking .secure-and-safe-your-booking-details-with-us {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14.4px;
+  color: #000000;
+}
+.on-call-booking .frame-91 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .security-lock {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6TRSx5DsV37LhbcoU03GtzLOjZzFlgN3XhtUiIEb2WDhYOEfzFalTgpdIszOHSreifbEWM7kak2ej_JnjgYiYbMTe-hHetn87Zcd_bDxUrNk7mNzMAEqR3EmWVEp517t9A44kLBuVXAy_ms0fhwzhVhM4mAHC5hRX5CljOdjz1JwNGmoJOI6qTCYb2USL/s1600/security_lock.png') 50% / contain no-repeat;
+  margin: 6.7px 0 7.7px 0;
+  width: 41.3px;
+  height: 34.6px;
+}
+.on-call-booking .frame-8 {
+  border-radius: 9.6px;
+  border: 0.5px solid #B0B0B0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8.2px 17.8px 7.2px 17.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-16 {
+  margin-bottom: 28.1px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .online-bookings {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 19.2px;
+  color: #000000;
+}
+.on-call-booking .compare-travel-partner-fares-and-book-online {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14.4px;
+  color: #000000;
+}
+.on-call-booking .frame-93 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .website {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCeQpOTIZiW22c_ZaY4e4aqm7wVSfaOv4QBB20171HZXRC0ciSOx-IzYMpcV1uO1v1yEUGjjC65ArtFLl8VWQaePlvckjcRwStTFV_a40rmDtCwl6i1JjkoTEjTDE1_rEGOgE4AmoCUDgCrEs5LP82BN5IOKPPxa9XWbMTAHu2OjqVS0wUKLhQY4yf4XVU/s90/website.png') 50% / contain no-repeat;
+  margin: 6.7px 0 7.7px 0;
+  width: 41.3px;
+  height: 34.6px;
+}
+.on-call-booking .frame-92 {
+  border-radius: 9.6px;
+  border: 0.5px solid #B0B0B0;
+  margin-bottom: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8.2px 17.8px 7.2px 17.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .best-price-assurance {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 19.2px;
+  color: #000000;
+}
+.on-call-booking .search-cheap-flights-for-1000-locations {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14.4px;
+  color: #000000;
+}
+.on-call-booking .frame-94 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .price-tag-usd {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDm2R1t3IE2efyDZ7jClYAXzqCchrmIXnXf_kgWrokTa9LO24uDDTdfXYcZwG3IaPPTLLJPRFCAHB1yYcWIwVAz3A_6R8T9UIJnsHJAvSZZ1BbGeLL0-4bvhWdU78LRP6Nnga-WPQA7lwFapp3CT_y4ciTw9p8dLYI7ZTnd1JJK3lJ77mVJjFsuLJ6fSRi/s90/price_tag_usd.png') 50% / contain no-repeat;
+  margin: 10.1px 0 11.1px 0;
+  width: 35.6px;
+  height: 27.9px;
+}
+.on-call-booking .frame-10 {
+  border-radius: 9.6px;
+  border: 0.5px solid #B0B0B0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8.2px 17.8px 7.2px 17.8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-17 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .section-2 {
+	
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22.4px 35.7px 45.3px 35.7px;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* Section 3: */
+.on-call-booking .rectangle-4 {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdAsw3ZKseD0bSCoAhYpQRqUrs7ywz25ZkCqrVP27dKDlnFheNNiQYc25weyrZNDUSZyAevosX8TVwOQ2nhyphenhyphenLuB21c-P56HGpgQZXPDWrD138lJk-8TtsMXEFHy45FJBX_vRg98V-F9R2b1bMij6CtJ_e96dtXBhSgcv8Nv9Aq0PQPkmeLKLd6MJVJpI6X/s260/rectangle_4.png') 50% / cover no-repeat;
+  width: 200px;
+  height: 143px;
+}
+.on-call-booking .get-instant-discounts {
+  margin-bottom: 13px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+}
+.on-call-booking .youre-new-fares-match-member-to-save-on-your-trip-just-give-us-acall {
+  margin-bottom: 11px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 11.1px;
+  color: black;
+}
+.on-call-booking .call-now {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10.6px;
+  color: white;
+}
+.on-call-booking .button-09 {
+  border-radius: 3px;
+  background: #006ce4;
+  align-self: flex-start;
+  padding: 4.5px 18.1px 5.5px 18.1px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-18 {
+  margin: 19.5px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-19 {
+  border-radius: 9.7px;
+  border: 0.5px solid #B7B7B7;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24.5px 25px 24.5px 29px;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .section-3 {
+  margin: 0 29px;
+  width: calc(100% - 58px);
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* Section 4: */
+.on-call-booking .quick-bookings-for-last-minute-flights {
+  margin-bottom: 6.3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 22px;
+  color: #000000;
+}
+.on-call-booking .for-your-trip {
+  margin: 0 8.7px 7.3px 0;
+  display: inline-block;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+}
+.on-call-booking .call-now-1 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 13px;
+  color: #006CE4;
+}
+.on-call-booking .button-34 {
+  flex-direction: column;
+    align-items: center;
+  border-radius: 4px;
+  border: 0.6px solid #006CE4;
+  margin: 0 25.8px;
+  display: flex;
+  
+  padding: 6.5px 0 7.5px 1.7px;
+  width: 250px;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-20 {
+      align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .business-traveler-rushing-to-the-airplane {
+  order: -1;
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdIIvF2T3DYTdv9ItPG7NlpJYMqxrQKIn8x0sAnHzcqC7QsFNbUL418rWk73fQSmOoji6PPTrXlGUI0pJ9KUWTu3YoTVHoXv-R9sZwUGfzH6baCRx1KljnciVYNRkLOV0en_2ErYbZ_rlGoFbIg5d5jaoRw_BGHaPitSIzvMHGKxk_js1eGRhIHPgLVuux/s456/business_traveler_rushing_to_the_airplane.png') 50% / contain no-repeat;
+  margin-right: 6.9px;
+  width: 200px;
+  height: 146px;
+}
+.on-call-booking .section-4 {
+	 margin-top: 50px;
+  margin-left: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+/* Section 5: */
+.on-call-booking .business-traveler-rushing-to-the-airplane-1 {
+  border-radius: 5.5px;
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCqLwIMuIRHh7-Nq1kXqhYaPsV9o4niwR-lu8uisxjsm1tD5G0LJpM_zMXmaFHOCVDcKYyNBig7QxU52T4Q-W4gplZaz8KLoSy9vO2lttJzb3Oi0y-JIuzNUSKDtIVvpsqEWYVKnNl74Gac6BjoY7BfyxG0xlO9JLt-bop6JJ0zwaXHtnZ5JZq8JMm2y20/s1080/business_traveler_rushing_to_the_airplane_1.jpeg') 50% / cover no-repeat;
+  margin: 37.7px 26px 37.7px 0;
+  height: 60.6px;
+  
+  flex-basis: 59.4px;
+}
+.on-call-booking .looking-for-exclusive-deals {
+  margin-bottom: 7.5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+.on-call-booking .our-agents-ensure-you-get-the-best-current-deals {
+  margin: 0 2px 6.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7.3px;
+  color: #000000;
+}
+.on-call-booking .claim-now {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 8px;
+  color: #000000;
+}
+.on-call-booking .button-67 {
+  border-radius: 2.4px;
+  border: 0.6px solid #000000;
+  display: flex;
+  align-self: flex-start;
+  padding: 2.9px 15.7px;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-21 {
+  margin: 38px 47.1px 38px 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 131px;
+  box-sizing: border-box;
+}
+.on-call-booking .simplified-world-map {
+  display:none;
+}
+.on-call-booking .offer {
+  box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  padding: 0 2.9px 0 34.7px;
+  width: 76%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .section-5 {
+	
+	place-content: center;
+  margin: 40px 40px;
+  display: flex;
+  width: calc(100% - 64.7px);
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* Section 6: */
+.on-call-booking .h-41 {
+  margin: 0 0px 8px 0px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9.1px;
+  color: #000000;
+}
+.on-call-booking .p {
+  margin: 0 13.5px 8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7.3px;
+  color: #575757;
+}
+.on-call-booking .h-42 {
+  margin-bottom: 8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9.1px;
+  color: #000000;
+}
+.on-call-booking .p-1 {
+  margin-bottom: 8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7.3px;
+  color: #575757;
+}
+.on-call-booking .h-43 {
+  margin-bottom: 8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9.1px;
+  color: #000000;
+}
+.on-call-booking .p-2 {
+  margin-right: 7.8px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7.3px;
+  color: #575757;
+}
+.on-call-booking .section-6 {
+  border-top: 0.2px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  padding: 25.8px 43px 20px 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* fotter: */
+.on-call-booking .follow-us-on {
+  margin: 3.5px 0 4.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .facebookk {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-Qh5QsycFRrHYMMVzknaST8JDUZzas4huhbtdljkwYbzVVtLbBaWdYYrk1dsF3uQGX-fLatANjLoK4uCqHnScWaYAZrgnFrwqbg0iWyAY6AwZ7rw4UVAHzGPKSscN4gEslJZkABu8As4ymOfPfPQ5mSXO63e_5PbBeSujtB6ZFBmj8dvFhfAMammcme0u/s90/facebookk.png') 50% / contain no-repeat;
+  margin-right: 4.4px;
+  width: 20px;
+  height: 20px;
+}
+.on-call-booking .instagram-circle {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSXVizZUsScqa47j_n4-3z1ELO7HAXFrx_6hA1kLuTgaxmpK7nZERENlrMufyFYGkA_Ze0eQKkC7HoTzm7hn2G4fpKmh7hsXpIcGaxrTt3ZgU-kImBQ-Eait0I4VUky2TEA9a6WfL0nC6RyKUlUK5jHQ56ek9sLN41F9tZZHfaXwkbVEY0vC88GFLXLtKH/s90/instagram_circle.png') 50% / contain no-repeat;
+  margin-right: 4.4px;
+  width: 20px;
+  height: 20px;
+}
+.on-call-booking .you-tube {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbcKRrjVmPSIAk-PKrAspFS5mUMEv-m5lorZm8vR-p-iKtb1eHxcb02bdXmZodUkUggy85zwGPs5Bw5E3NrV4OqBSq5bHUgL7jgrvMwf5jyh2AA0em94SwCEF_ACtyEL-Fp2_BMvDsXeVAZgWkYYhrN94z7pnfj7glkarNr18mkUPItM9f4Ay9TSrlfmJQ/s1600/you_tube.png') 50% / contain no-repeat;
+  margin-right: 4.4px;
+  width: 20px;
+  height: 20px;
+}
+.on-call-booking .pinterest {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA9xJgytPaLUhHDisk8JyVW57sdgLpqomC3e8z7pvfTCdoPrJgV9y_yTS9RwMSG1VEBpYUwawm-CpRutPZHL03EI4zHQ2UR8bUNP6FfU_8lYgfnweEiSBpT5AaCZZXNnRBrewmb9Cxn5dG3RvG6qVmQeKA_vsYFqb3S5wV7nsXi9rvoNB7zsgDsBGr8qLn/s90/pinterest.png') 50% / contain no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.on-call-booking .socialicons {
+  display: flex;
+  flex-direction: row;
+  width: 93.1px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .socialtext {
+  border-bottom: 0.3px solid #686868;
+  margin-bottom: 43.2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 13.3px 13.3px 13px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.on-call-booking .links {
+  margin-bottom: 8.2px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .policies {
+  margin-bottom: 8.2px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .vacations {
+  margin-bottom: 8.2px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .packages {
+  margin-bottom: 8.2px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .airlines-destinations {
+  margin-bottom: 8.2px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .jetblue-fare-finder {
+  margin: 0 4.7px 8.2px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .low-fare-calendar {
+  margin-right: 8.6px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-111 {
+  margin-right: 52px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 101.1px;
+  box-sizing: border-box;
+}
+.on-call-booking .airlines {
+  margin: 0 5.8px 8.4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .delta {
+  margin: 0 16.6px 8.4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .alaska {
+  margin: 0 10.1px 8.4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .frontier {
+  margin: 0 6.9px 8.4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .allegiant {
+  margin-bottom: 8.4px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .united {
+  margin-right: 12.6px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-112 {
+  margin: 0 50.6px 19.3px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 44.5px;
+  box-sizing: border-box;
+}
+.on-call-booking .destinations {
+  margin-bottom: 8.4px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .las-vegas {
+  margin: 0 11.8px 8.4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .new-york {
+  margin: 0 14.9px 8.4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .los-angeles {
+  margin: 0 2.4px 8.4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .florida {
+  margin-bottom: 8.4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .california {
+  margin-right: 18.3px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-113 {
+  margin: 0 51.1px 19.3px 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 63.9px;
+  box-sizing: border-box;
+}
+.on-call-booking .top-routes {
+  margin-bottom: 8.4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .chicago-to-honolulu {
+  margin-bottom: 8.4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .san-francisco-to-london {
+  margin-bottom: 8.4px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .chicago-to-los-angeles {
+  margin: 0 5.6px 8.4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .toronto-to-lima {
+  margin-bottom: 8.4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .new-york-to-miami {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-114 {
+  margin: 0 52.7px 19.3px 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 122.4px;
+  box-sizing: border-box;
+}
+.on-call-booking .information {
+  margin-bottom: 8.2px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .about {
+  margin-bottom: 8.2px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .contact {
+  margin-bottom: 8.2px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .privacy-policy {
+  margin-bottom: 8.2px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .terms-conditions {
+  margin-bottom: 8.2px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .sitemap {
+  margin-bottom: 8.2px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .help {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.6px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-115 {
+  margin-right: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 90.9px;
+  box-sizing: border-box;
+}
+.on-call-booking .fottermenn {
+  margin: 0 17.4px 19.6px 13.3px;
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30.7px);
+  box-sizing: border-box;
+}
+.on-call-booking .master-card {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUl5Uzz_R1qSczvgZBELYjnsvE5VoAiulGasfd7POC9bjQxiriMbTLuaKe5TYww2eLJGUKPtOdHJSIw16wMFAoddRE_N8TjGRLX7iTK8Jgu2CkbUsp8fhgf6ohzwCI7Zd_sPS2jwr47fNTF2Wi5dGqEH413exmyOkBc9wdQ2bP0Zj3gafNsT96h4veUicK/s90/master_card.png') 50% / contain no-repeat;
+  width: 24.5px;
+  height: 24.5px;
+}
+.on-call-booking .visa {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZr_CacgJiqUwT7hzZRUTtPwsbweiPARNrRVKWYW17DOfYw3NMZ9jDqXcftrZ2k1ebti5l_xuw9p5evYltn5qXtfmgGLLFxuc5qbEo0r7pXUUbAEt-rU6GiTlqOM20JZcLF4caCdXGNF2_04UOqroF6mcGWWsdl9NeWl4iT9TTMeGc34OBzVpu28Sl71sm/s90/visa.png') 50% / contain no-repeat;
+  width: 24.5px;
+  height: 24.5px;
+}
+.on-call-booking .american-express {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbSbFYGuj82f1gcpwtEwJDKanMPrVYDdmXXicswHuRhUPHE6kv_7YsiGPDjRl58LLMi5Tk3g7XBJshTmLquKXGQcplLiT-2mV0OxN8PE-zsVOcHgcOhr6gdOy_QXMGc7Xh-qHEPZCZinb5amOuveasgBpfZtKoVy5Rg952lUaQZtV5f3eII0mX8SQ3Z9jK/s90/american_express.png') 50% / contain no-repeat;
+  width: 24.5px;
+  height: 24.5px;
+}
+.on-call-booking .discover-card {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIXnprE65MAftmMOgkluTnU2MK2_A20uRgxixJVChum4qY0q9pWxPivG718teGjfZrklVidZO4mlZkcdXKR_MdNZxbNVWeLkPE3JOZ6w67m8J-VrjlkgvsdhBO7Fpn6iExIXoaqdbdbYheLN-Hfvw7lZ-ed1DgtNmsYSVogSBn-9xQWD1Tebuih1KzBOuX/s90/discover_card.png') 50% / contain no-repeat;
+  width: 24.5px;
+  height: 24.5px;
+}
+.on-call-booking .cardsyter {
+  border-top: none;
+  margin-bottom: 16.6px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 5.3px;
+  width: 114.1px;
+  box-sizing: border-box;
+}
+.on-call-booking .copyright-2024-faresmatch-all-rights-reserved-address-6355-haystack-ct-cumming-ga-30040 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 100;
+  font-size: 8px;
+  color: #b7b7b7;
+}
+.on-call-booking .footerrr {
+  background: #192344;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8.5px 0 9.5px 0;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+.on-call-booking {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  
+  box-sizing: border-box;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+	
+	
+	
+		
+	
+	/* mobileviewfix: */
+	
+	 .body {
+        
+        
+	 margin: 0px;
+        
+    }
+	
+	
+	
+	/* container: */
+	
+	
+	.on-call-booking .background-32{
+		
+		    margin: 0 59.9px 38px 61.5px;
+    width: -webkit-fill-available;
+	}
+	
+	.on-call-booking .container {	
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: inherit;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+
+.on-call-booking .circle-1212 {
+	align-self: center;
+	margin-right: 0px;
+  border-radius: 5.2px;
+  background: #FFF30C;
+  position: relative;
+  width: 10.5px;
+  height: 10.5px;
+}
+.on-call-booking .circle-1211 {
+      border: 1px solid #fff;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  width: 13.5px;
+  height: 13.5px;
+}
+.on-call-booking .frameees {
+  position: relative;
+  margin-right: 5.3px;
+  display: flex;
+  padding: 1.5px;
+  width: 13.5px;
+  height: 13.5px;
+  box-sizing: border-box;
+}
+.on-call-booking .one-way {
+  margin: 0.7px 0 1.7px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9.7px;
+  color: #FFFFFF;
+}
+.on-call-booking .roundtrip-13 {
+  margin-right: 14.2px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.on-call-booking .circle-12121 {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-right: 5.3px;
+  width: 13.5px;
+  height: 13.5px;
+}
+.on-call-booking .one-way-1 {
+  margin: 0.7px 0 1.7px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9.7px;
+  color: #FFFFFF;
+}
+.on-call-booking .roundtrip-12 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.on-call-booking .rrrrr {
+  margin-bottom: 20.6px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .location {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEm5gDm8-ue1tqrzIG84e-qOYaCs47jrwEtN8LgqNWK5pzXd0UZxC-U2Ik8566CugSZj7nqYfDK9y_RRGHNmNGD5SSlaoYhfztajOJRuHrqilpi9cFyRTC5nci6Dk33aHPQQJ2S1Mc4fIqRNQi2nSOJ4gL5lOxn8zOgPSjlROw0eb7rHeS45dZvhS0HBz4/s90/location.png') 50% / contain no-repeat;
+  margin: 0.3px 5.2px 0.3px 0;
+  width: 13.5px;
+  height: 13.5px;
+}
+.on-call-booking .leaving-from {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 12px;
+  color: #000000;
+}
+.on-call-booking .firstboxxx {
+  border-radius: 15px 0 0 15px;
+  background: #FFFFFF;
+  margin-right: 10.3px;
+  display: flex;
+  flex-direction: row;
+  padding: 22.5px 0 22.5px 15.7px;
+  flex-grow: 1;
+  flex-basis: 132.1px;
+  box-sizing: border-box;
+}
+.on-call-booking .location-1 {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEm5gDm8-ue1tqrzIG84e-qOYaCs47jrwEtN8LgqNWK5pzXd0UZxC-U2Ik8566CugSZj7nqYfDK9y_RRGHNmNGD5SSlaoYhfztajOJRuHrqilpi9cFyRTC5nci6Dk33aHPQQJ2S1Mc4fIqRNQi2nSOJ4gL5lOxn8zOgPSjlROw0eb7rHeS45dZvhS0HBz4/s90/location.png') 50% / contain no-repeat;
+  margin: 0.3px 5.2px 0.3px 0;
+  width: 13.5px;
+  height: 13.5px;
+}
+.on-call-booking .going-to {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 12px;
+  color: #000000;
+}
+.on-call-booking .firstbox-1 {
+	 align-items: center;
+  background: #FFFFFF;
+  margin-right: 10.3px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0 15px 10.5px;
+  flex-grow: 1;
+  flex-basis: 107.1px;
+  box-sizing: border-box;
+}
+.on-call-booking .calendar {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9946MaiZ9Bvi0SZq8k2i-kEtayZ4wx0U0q1vSpO6Rt6vu-ZS4DRXQQYeECr6SnyCmz1o5Ru1dsiv0Tqa5PdSq7TRf9i8JdWWyZ2tJiy7AKoSIv8J8f3oU-ke1MfxLSDaQO8RMF18S2VHFjK3iSacvTyv3D6LIxCt5y6cQyjun181kA5Kn2TjjlMvZiZ7f/s90/calendar.png') 50% / contain no-repeat;
+  margin: 0.3px 8.2px 0.3px 0;
+  width: 13.5px;
+  height: 13.5px;
+}
+.on-call-booking .jul-3-jul-10 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 12px;
+  color: #000000;
+}
+.on-call-booking .firstbox-2 {
+	align-items: center;
+  background: #FFFFFF;
+  margin-right: 10.3px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0 15px 10.5px;
+  flex-grow: 1;
+  flex-basis: 134.1px;
+  box-sizing: border-box;
+}
+.on-call-booking .customer {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBTOzzr7XWB2M7p3qGJzhAbbMvaBjIPdWcux6utJvZt2dP0di5G57_xYbnu8ZpM1mBOAg5hWEh3iZ4ZBEnybUEz3nxIUCvZF3Jw1189J442lJm5Un6uXEJfAelceM4LUq9G7OaE4iM2hAocyfmiY5goFK__phESa4r2HdPtcn1qaOaOcMtuGq5DHM4xLrN/s90/customer.png') 50% / contain no-repeat;
+  margin: 0.3px 8.2px 0.3px 0;
+  width: 13.5px;
+  height: 13.5px;
+}
+.on-call-booking .traveler {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 300;
+  font-size: 12px;
+  color: #000000;
+}
+.on-call-booking .firstbox-4 {
+	align-items: center;
+	 margin-bottom: 5.8px;
+  border-radius: 0 15px 15px 0;
+  background: #FFFFFF;
+  margin-right: 10.3px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0 15px 10.5px;
+  flex-grow: 1;
+  flex-basis: 113.1px;
+  box-sizing: border-box;
+}
+.on-call-booking .search {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 12px;
+  color: #000000;
+}
+.on-call-booking .buttonn-1 {
+	align-items: center;
+    padding: 22.5px 0px;
+	 position: relative;
+ justify-content: center;
+  border-radius: 15px;
+  background: #FFF30C;
+  margin: 0.3px 0;
+  display: flex;
+
+  height: fit-content;
+  flex-grow: 1;
+  flex-basis: 88.6px;
+  box-sizing: border-box;
+}
+.on-call-booking .framefjsd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+  box-sizing: border-box;
+}
+
+	
+	
+	
+	
+	
+	
+	/* mobileviewfix: */
+	
+	    .on-call-booking .mobileviewfix {
+        
+        display: none;
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	   /* header: */
+	
+	.on-call-booking .logo {
+flex-basis: auto;
+flex-grow: 0.01;
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIJkSvdyJFVQ8vhbSg7zNL3dUbIP25XJZ7PyFmURiONy2D-U1k1HsnzG8n2mVM_NtbwftNcYnoY8FmVhMqUbOOsbC_kZQ5vgNeJ_ssUxcMQhUJ70m5E_kEs-auD70NepINp7s5-rIafkeJVj9SNyRFshGbD-MZ6E0zwIghOysJ3TvXFWglku0Yi7L4nNWs/s300/logo.png') 50% / cover no-repeat;
+  margin: 0.4px 0;
+  width: 100px;
+  height: 27.6px;
+}
+.on-call-booking .flights {
+  margin-right: 7px;
+  
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 11.5px;
+  color: #FFFFFF;
+}
+.on-call-booking .deals {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 11.5px;
+  color: #FFFFFF;
+}
+.on-call-booking .help {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 11.5px;
+  color: #FFFFFF;
+}
+.on-call-booking .menusss {
+  margin: 7px 0 7.3px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 184.6px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .girloncall {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVGwe37PwByhvyQxls8KoFIHhOhpoRog5AZPyGRT_RtsXSlitausTZHYuPat9XC5iuwcLYWd9uv55NRGnVoDlfX2C20ksLFm9rq_xZgnUQWhg_SiKbjK-470uRbAYN3Go3W7zH0QLMIJ3uZGb6Nj9-pp1YGkccXNXdw6lYl7ipenBXf0nClrff8WqlHs9d/s1080/girloncall1.gif') 50% / cover no-repeat;
+  margin-right: 4.5px;
+  width: 28.3px;
+  height: 28.3px;
+}
+.on-call-booking .number-800 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 17.2px;
+  color: #FFFFFF;
+}
+.on-call-booking .speak-to-atravel-expert {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 9px;
+  color: #FFFFFF;
+}
+.on-call-booking .numberexpert {
+  position: relative;
+  margin: 0.2px 0;
+  display: flex;
+  padding: 0 0 10px 0.1px;
+  box-sizing: border-box;
+}
+.on-call-booking .phonemo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.on-call-booking .rightmenu {
+  flex-grow: 0.003;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  box-sizing: border-box;
+}
+.on-call-booking .header-11 {
+  margin: 0 59.9px 38px 61.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+  box-sizing: border-box;
+}
+.on-call-booking .ready-to-travel-weve-got-great-flight-deals {
+  margin-bottom: 11px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 31.2px;
+  color: #FFFFFF;
+}
+
+.numberheighlight{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.333;
+  color: #FF9900;
+}
+
+
+.call-us-at-our-247-toll-free-number-8009183039-to-get-cheap-flights-sub10 {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.333;
+  color: #FF9900;
+}
+.on-call-booking .call-us-at-our-247-toll-free-number-8009183039-to-get-cheap-flights {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.on-call-booking .afterheader {
+  margin: 0 63px 38px 63px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.on-call-booking .firstcard {
+  width: 100%;
+  background: #192344;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  box-sizing: border-box;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+   /* Section 1: */
+.on-call-booking .section33 {
+	padding: 37px 46.3px 50.9px 46.3px;
+	flex-direction: column;
+	place-content: center;
+	margin: 0 54px 0 47px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 180px;
+}
+.on-call-booking .needbooking {
+     align-self: flex-start;
+
+
+  margin-bottom: 8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.on-call-booking .call-us-247 {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+.on-call-booking .box-1 {
+ margin-top: 18px;
+
+
+  margin-right: 52.7px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 476.8px;
+  box-sizing: border-box;
+}
+.on-call-booking .headphones {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitdpBmNfOZOVQKsEd4Qd3xEC4rMemfwZL9QyFh7d-eTJ1pD3qFalPcAbK5s7jfo2YeabtXxuyXjjsSYsGygOA4Ohb-jIOJi1aVnK109lHiXG9yEgPUA3ZV-MhpZSfLB7QjrppJwEZsFHIt09lxWJHXEPr74vQcQJqQtzuLaHjw1o2JaEwH8AGcADwygoe7/s90/headphones.png') 50% / contain no-repeat;
+  margin: 1.5px 0px 1.5px 0;
+    height: 56px;
+    flex-grow: 0.2;
+    flex-basis: 0px;
+}
+.on-call-booking .phone {
+  background: url('../assets/images/phone.png') 50% / contain no-repeat;
+  width: 35px;
+  height: 38px;
+}
+.on-call-booking .call-us {
+  margin: 4px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.on-call-booking .button-12 {
+  display:none;
+}
+.on-call-booking .section-1 {
+    align-items: center;
+	padding: 50px 50px;
+  border-radius: 10px;
+  background: #192344;
+  
+  left: 33px;
+  top: 44.3px;
+  right: 33px;
+  bottom: 178.7px;
+  display: flex;
+  flex-direction: row;
+  
+
+  box-sizing: border-box;
+}
+
+
+
+/* Section 2: */
+.on-call-booking .why-choose-fares-match {
+  margin: 0 5px 46px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 39.7px;
+  color: #000000;
+}
+.on-call-booking .excellent-customer-service {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 15.6px;
+  color: #000000;
+}
+.on-call-booking .on-call-quick-booking-changes-and-cancellations {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 11.7px;
+  color: #000000;
+}
+.on-call-booking .frame-9 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .online-support {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQ7sF4dm7gTWHMHD2ie5bov7DkXTSrJe5pTrRW6Jqm2_7IvE1KgFyt2SRhdtW_LyZrJSQivoHPBq_hR_ZwUQj3afaUIRTraKTd72yUhT7AcRFJ64Yx7c5Gt0Ct2iMaWuDyYtNzSckECTUya1eT_8o2q2lpCPuRhNdFowkv_7FqxY_ZqkOsW1dAy9pzD2LM/s1600/online_support.png') 50% / contain no-repeat;
+  margin: 5.5px 0;
+  width: 33.6px;
+  height: 28.1px;
+}
+.on-call-booking .frame-3 {
+  border-radius: 7.8px;
+  border: 0.4px solid #B0B0B0;
+  margin: 0px 40px 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6.6px 14.5px;
+  width: 429.7px;
+  box-sizing: border-box;
+}
+.on-call-booking .secure-booking-changes {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 15.6px;
+  color: #000000;
+}
+.on-call-booking .secure-and-safe-your-booking-details-with-us {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 11.7px;
+  color: #000000;
+}
+.on-call-booking .frame-91 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .security-lock {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6TRSx5DsV37LhbcoU03GtzLOjZzFlgN3XhtUiIEb2WDhYOEfzFalTgpdIszOHSreifbEWM7kak2ej_JnjgYiYbMTe-hHetn87Zcd_bDxUrNk7mNzMAEqR3EmWVEp517t9A44kLBuVXAy_ms0fhwzhVhM4mAHC5hRX5CljOdjz1JwNGmoJOI6qTCYb2USL/s1600/security_lock.png') 50% / contain no-repeat;
+  margin: 5.5px 0;
+  width: 33.6px;
+  height: 28.1px;
+}
+.on-call-booking .frame-8 {
+  border-radius: 7.8px;
+  border: 0.4px solid #B0B0B0;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6.6px 14.5px;
+  width: 429.7px;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-16 {
+  margin-bottom: 46.9px;
+  display: flex;
+  flex-direction: row;
+  width: 899.3px;
+  box-sizing: border-box;
+}
+.on-call-booking .online-bookings {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 15.6px;
+  color: #000000;
+}
+.on-call-booking .compare-travel-partner-fares-and-book-online {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 11.7px;
+  color: #000000;
+}
+.on-call-booking .frame-93 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .website {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCeQpOTIZiW22c_ZaY4e4aqm7wVSfaOv4QBB20171HZXRC0ciSOx-IzYMpcV1uO1v1yEUGjjC65ArtFLl8VWQaePlvckjcRwStTFV_a40rmDtCwl6i1JjkoTEjTDE1_rEGOgE4AmoCUDgCrEs5LP82BN5IOKPPxa9XWbMTAHu2OjqVS0wUKLhQY4yf4XVU/s90/website.png') 50% / contain no-repeat;
+  margin: 5.5px 0;
+  width: 33.6px;
+  height: 28.1px;
+}
+.on-call-booking .frame-92 {
+  margin-bottom: 0px;
+  border-radius: 7.8px;
+  border: 0.4px solid #B0B0B0;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6.6px 14.5px;
+  width: 429.7px;
+  box-sizing: border-box;
+}
+.on-call-booking .best-price-assurance {
+  margin-bottom: 7.1px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 15.6px;
+  color: #000000;
+}
+.on-call-booking .search-cheap-flights-for-1000-locations {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 11.7px;
+  color: #000000;
+}
+.on-call-booking .frame-94 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .price-tag-usd {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDm2R1t3IE2efyDZ7jClYAXzqCchrmIXnXf_kgWrokTa9LO24uDDTdfXYcZwG3IaPPTLLJPRFCAHB1yYcWIwVAz3A_6R8T9UIJnsHJAvSZZ1BbGeLL0-4bvhWdU78LRP6Nnga-WPQA7lwFapp3CT_y4ciTw9p8dLYI7ZTnd1JJK3lJ77mVJjFsuLJ6fSRi/s90/price_tag_usd.png') 50% / contain no-repeat;
+  margin: 8.2px 0;
+  width: 28.9px;
+  height: 22.7px;
+}
+.on-call-booking .frame-10 {
+  border-radius: 7.8px;
+  border: 0.4px solid #B0B0B0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6.6px 14.5px;
+  width: 429.7px;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-17 {
+  display: flex;
+  flex-direction: row;
+  width: 899.3px;
+  box-sizing: border-box;
+}
+.on-call-booking .section-2 {
+	
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 37px 46.3px 50.9px 46.3px;
+  width: -webkit-fill-available;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+
+
+
+/* Section 3: */
+.on-call-booking .rectangle-4 {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdAsw3ZKseD0bSCoAhYpQRqUrs7ywz25ZkCqrVP27dKDlnFheNNiQYc25weyrZNDUSZyAevosX8TVwOQ2nhyphenhyphenLuB21c-P56HGpgQZXPDWrD138lJk-8TtsMXEFHy45FJBX_vRg98V-F9R2b1bMij6CtJ_e96dtXBhSgcv8Nv9Aq0PQPkmeLKLd6MJVJpI6X/s260/rectangle_4.png') 50% / cover no-repeat;
+  margin-right: 170px;
+  width: 181px;
+  height: 155px;
+}
+.on-call-booking .get-instant-discounts {
+  margin: 0 13.7px 10.8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 25.3px;
+  color: #FFFFFF;
+}
+.on-call-booking .youre-new-fares-match-member-to-save-on-your-trip-just-give-us-acall {
+  margin-bottom: 10.8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14.8px;
+  color: #FFFFFF;
+}
+.on-call-booking .call-now {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  color: #006EE3;
+}
+.on-call-booking .button-09 {
+
+  flex-direction: column;
+    align-items: center;
+  border-radius: 4px;
+  background: #FFFFFF;
+  display: flex;
+  align-self: flex-start;
+  padding: 6px 0.7px 6px 0;
+  width: 107.5px;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-18 {
+  margin: 18.7px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-19 {
+  border-radius: 16px;
+  border: 0.8px solid #B7B7B7;
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYuOOHFCsPUQ5dQabJyCFEaeam4IxCnb6yeRoGRbEfa7bogbrRyVrQ1RbMklWGXPtFBoheokoQY-ExRb6_hdpSsyRe23_0pjscuVWmjvyVlaR_PgNjxfdcV5Cdm_I3J1W1NFSyO49Qp1Rh5On5XxSfFWoijc3_I7R7snYy0AW66PXCk1jDerbP-A3AAPkm/s1324/frame_19.png') 50% / cover no-repeat;
+  display: flex;
+  flex-direction: row;
+  padding: 42.2px 210px 42.2px 86.4px;
+  width: 891px;
+  box-sizing: border-box;
+}
+.on-call-booking .section-3 {
+  margin: 0 54px 0 47px;
+  display: flex;
+  width: 891px;
+  box-sizing: border-box;
+}
+
+
+
+
+/* Section 4: */
+.on-call-booking .quick-bookings-for-last-minute-flights {
+  margin-bottom: 12px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 22.1px;
+  color: #000000;
+}
+.on-call-booking .for-your-trip {
+  margin: 0 3.2px 12px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12.9px;
+  color: #000000;
+}
+.on-call-booking .call-now-1 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 12.2px;
+  color: #006CE4;
+}
+.on-call-booking .button-34 {
+
+     flex-direction: column;
+    align-items: center;
+  border-radius: 3px;
+  border: 1px solid #006CE4;
+  margin-right: 2.2px;
+  display: flex;
+  padding: 4px 0 4px 0.1px;
+  width: 332px;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-20 {
+  margin: 74.7px 82.8px 74.7px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.on-call-booking .business-traveler-rushing-to-the-airplane {
+  order: 1;
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdIIvF2T3DYTdv9ItPG7NlpJYMqxrQKIn8x0sAnHzcqC7QsFNbUL418rWk73fQSmOoji6PPTrXlGUI0pJ9KUWTu3YoTVHoXv-R9sZwUGfzH6baCRx1KljnciVYNRkLOV0en_2ErYbZ_rlGoFbIg5d5jaoRw_BGHaPitSIzvMHGKxk_js1eGRhIHPgLVuux/s456/business_traveler_rushing_to_the_airplane.png') 50% / contain no-repeat;
+  width: 330.7px;
+  height: 241.4px;
+}
+.on-call-booking .section-4 {
+  margin: 20px 85.3px 0 75px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+
+
+
+/* Section 5: */
+.on-call-booking .business-traveler-rushing-to-the-airplane-1 {
+	flex-basis: 110.4px;
+  border-radius: 9px;
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCqLwIMuIRHh7-Nq1kXqhYaPsV9o4niwR-lu8uisxjsm1tD5G0LJpM_zMXmaFHOCVDcKYyNBig7QxU52T4Q-W4gplZaz8KLoSy9vO2lttJzb3Oi0y-JIuzNUSKDtIVvpsqEWYVKnNl74Gac6BjoY7BfyxG0xlO9JLt-bop6JJ0zwaXHtnZ5JZq8JMm2y20/s1080/business_traveler_rushing_to_the_airplane_1.jpeg') 50% / cover no-repeat;
+  margin: 62.3px 43px 62.3px 0;
+  width: 130px;
+  height: 105.2px;
+}
+.on-call-booking .looking-for-exclusive-deals {
+  margin-bottom: 11px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+}
+.on-call-booking .our-agents-ensure-you-get-the-best-current-deals {
+  margin: 0 18.1px 11px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+.on-call-booking .claim-now {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 13.3px;
+  color: #000000;
+}
+.on-call-booking .button-67 {
+  flex-direction: column;
+    align-items: center;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  display: flex;
+  align-self: flex-start;
+  padding: 5px 0 5px 0.7px;
+  width: 124px;
+  box-sizing: border-box;
+}
+.on-call-booking .frame-21 {
+  margin: 62.8px 0px 62.8px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .simplified-world-map {
+	 display: block;
+  filter: opacity(0.1);
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG6E4QxiwCu-C2N8Gc4wF5DHJyPoDLOtpCA0oWkPIxfTKfIh05JSLv2RM5CFYAQQgujsS6kzVxWKqmCifWfspesPn3pm2ZqFUj3V6pbbu9B5v75c28Ib6ml6WCpLrzR5_6DBZKvnv_xovzQ5eueDDPFjqeN4HzJ4SmApabsN_g7tRyOjmV_TecOXMVhzSm/s851/simplified_world_map.png') 50% / contain no-repeat;
+  width: 260px;
+  height: 228px;
+}
+.on-call-booking .offer {
+  box-shadow: 8.3px 8.3px 13.2px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 33.1px;
+  border: 1.7px solid #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  padding: 0 4.7px 0 57.3px;
+  box-sizing: border-box;
+}
+.on-call-booking .section-5 {
+	margin-top: 40px;
+	 place-content: center;
+  margin: 40px 53px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* Section 6: */
+.on-call-booking .h-41 {
+  margin: 0 0px 8px 0px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9.1px;
+  color: #000000;
+}
+.on-call-booking .p {
+  margin: 0 13.5px 8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7.3px;
+  color: #575757;
+}
+.on-call-booking .h-42 {
+  margin-bottom: 8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9.1px;
+  color: #000000;
+}
+.on-call-booking .p-1 {
+  margin-bottom: 8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7.3px;
+  color: #575757;
+}
+.on-call-booking .h-43 {
+  margin-bottom: 8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 9.1px;
+  color: #000000;
+}
+.on-call-booking .p-2 {
+  margin-right: 7.8px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 7.3px;
+  color: #575757;
+}
+.on-call-booking .section-6 {
+  border-top: 0.2px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  padding: 25.8px 43px 20px 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+/* fotter: */
+
+.on-call-booking .follow-us-on {
+  margin: 5.5px 7.6px 5.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .facebookk {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-Qh5QsycFRrHYMMVzknaST8JDUZzas4huhbtdljkwYbzVVtLbBaWdYYrk1dsF3uQGX-fLatANjLoK4uCqHnScWaYAZrgnFrwqbg0iWyAY6AwZ7rw4UVAHzGPKSscN4gEslJZkABu8As4ymOfPfPQ5mSXO63e_5PbBeSujtB6ZFBmj8dvFhfAMammcme0u/s90/facebookk.png') 50% / contain no-repeat;
+  margin-right: 6.7px;
+  width: 30px;
+  height: 30px;
+}
+.on-call-booking .instagram-circle {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSXVizZUsScqa47j_n4-3z1ELO7HAXFrx_6hA1kLuTgaxmpK7nZERENlrMufyFYGkA_Ze0eQKkC7HoTzm7hn2G4fpKmh7hsXpIcGaxrTt3ZgU-kImBQ-Eait0I4VUky2TEA9a6WfL0nC6RyKUlUK5jHQ56ek9sLN41F9tZZHfaXwkbVEY0vC88GFLXLtKH/s90/instagram_circle.png') 50% / contain no-repeat;
+  margin-right: 6.7px;
+  width: 30px;
+  height: 30px;
+}
+.on-call-booking .you-tube {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbcKRrjVmPSIAk-PKrAspFS5mUMEv-m5lorZm8vR-p-iKtb1eHxcb02bdXmZodUkUggy85zwGPs5Bw5E3NrV4OqBSq5bHUgL7jgrvMwf5jyh2AA0em94SwCEF_ACtyEL-Fp2_BMvDsXeVAZgWkYYhrN94z7pnfj7glkarNr18mkUPItM9f4Ay9TSrlfmJQ/s1600/you_tube.png') 50% / contain no-repeat;
+  margin-right: 6.7px;
+  width: 30px;
+  height: 30px;
+}
+.on-call-booking .pinterest {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA9xJgytPaLUhHDisk8JyVW57sdgLpqomC3e8z7pvfTCdoPrJgV9y_yTS9RwMSG1VEBpYUwawm-CpRutPZHL03EI4zHQ2UR8bUNP6FfU_8lYgfnweEiSBpT5AaCZZXNnRBrewmb9Cxn5dG3RvG6qVmQeKA_vsYFqb3S5wV7nsXi9rvoNB7zsgDsBGr8qLn/s90/pinterest.png') 50% / contain no-repeat;
+  width: 30px;
+  height: 30px;
+}
+.on-call-booking .socialicons {
+  display: flex;
+  flex-direction: row;
+  width: 140px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .socialtext {
+  justify-content: right;
+  border-bottom: 0.5px solid #686868;
+ 
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px 19.5px 0;
+  width: 992px;
+  box-sizing: border-box;
+}
+.on-call-booking .links {
+  margin-bottom: 11.5px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.on-call-booking .policies {
+  margin-bottom: 11.5px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .vacations {
+  margin-bottom: 11.5px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .packages {
+  margin-bottom: 11.5px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .airlines-destinations {
+  margin-bottom: 11.5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .jetblue-fare-finder {
+  margin: 0 7.3px 11.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .low-fare-calendar {
+  margin-right: 13.4px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-111 {
+  margin-right: 73.8px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .airlines {
+  margin: 0 9.1px 11.8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.on-call-booking .delta {
+  margin-bottom: 11.8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .alaska {
+  margin: 0 15.6px 11.8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .frontier {
+  margin: 0 10.8px 11.8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .allegiant {
+  margin-bottom: 11.8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .united {
+  margin-right: 19.5px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-112 {
+	align-items: normal;
+  margin: 0 73.6px 29px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .destinations {
+  margin-bottom: 11.8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.on-call-booking .las-vegas {
+  margin: 0 18.4px 11.8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .new-york {
+  margin-bottom: 11.8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .los-angeles {
+  margin: 0 3.7px 11.8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .florida {
+  margin-bottom: 11.8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .california {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-113 {
+  margin: 0 73.4px 29px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .top-routes {
+  margin-bottom: 11.8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.on-call-booking .chicago-to-honolulu {
+  margin-bottom: 11.8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .san-francisco-to-london {
+  margin-bottom: 11.8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .chicago-to-los-angeles {
+  margin: 0 8.7px 11.8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .toronto-to-lima {
+  margin-bottom: 11.8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .new-york-to-miami {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-114 {
+  margin: 0 73.6px 29px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .information {
+  margin-bottom: 11.5px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.on-call-booking .about {
+  margin-bottom: 11.5px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .contact {
+  margin-bottom: 11.5px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .privacy-policy {
+  margin-bottom: 11.5px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .terms-conditions {
+  margin-bottom: 11.5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .sitemap {
+  margin-bottom: 11.5px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .help {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15.9px;
+  color: #FFFFFF;
+}
+.on-call-booking .menus-115 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.on-call-booking .fottermenn {
+	 place-self: center;
+  
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.on-call-booking .master-card {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUl5Uzz_R1qSczvgZBELYjnsvE5VoAiulGasfd7POC9bjQxiriMbTLuaKe5TYww2eLJGUKPtOdHJSIw16wMFAoddRE_N8TjGRLX7iTK8Jgu2CkbUsp8fhgf6ohzwCI7Zd_sPS2jwr47fNTF2Wi5dGqEH413exmyOkBc9wdQ2bP0Zj3gafNsT96h4veUicK/s90/master_card.png') 50% / contain no-repeat;
+  width: 36.9px;
+  height: 36.9px;
+}
+.on-call-booking .visa {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZr_CacgJiqUwT7hzZRUTtPwsbweiPARNrRVKWYW17DOfYw3NMZ9jDqXcftrZ2k1ebti5l_xuw9p5evYltn5qXtfmgGLLFxuc5qbEo0r7pXUUbAEt-rU6GiTlqOM20JZcLF4caCdXGNF2_04UOqroF6mcGWWsdl9NeWl4iT9TTMeGc34OBzVpu28Sl71sm/s90/visa.png') 50% / contain no-repeat;
+  width: 36.9px;
+  height: 36.9px;
+}
+.on-call-booking .american-express {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbSbFYGuj82f1gcpwtEwJDKanMPrVYDdmXXicswHuRhUPHE6kv_7YsiGPDjRl58LLMi5Tk3g7XBJshTmLquKXGQcplLiT-2mV0OxN8PE-zsVOcHgcOhr6gdOy_QXMGc7Xh-qHEPZCZinb5amOuveasgBpfZtKoVy5Rg952lUaQZtV5f3eII0mX8SQ3Z9jK/s90/american_express.png') 50% / contain no-repeat;
+  width: 36.9px;
+  height: 36.9px;
+}
+.on-call-booking .discover-card {
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIXnprE65MAftmMOgkluTnU2MK2_A20uRgxixJVChum4qY0q9pWxPivG718teGjfZrklVidZO4mlZkcdXKR_MdNZxbNVWeLkPE3JOZ6w67m8J-VrjlkgvsdhBO7Fpn6iExIXoaqdbdbYheLN-Hfvw7lZ-ed1DgtNmsYSVogSBn-9xQWD1Tebuih1KzBOuX/s90/discover_card.png') 50% / contain no-repeat;
+  width: 36.9px;
+  height: 36.9px;
+}
+.on-call-booking .cardsyter {
+  border-top: none;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+  width: 171.4px;
+  box-sizing: border-box;
+}
+.on-call-booking .copyright-2024-faresmatch-all-rights-reserved-address-6355-haystack-ct-cumming-ga-30040 {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 100;
+  font-size: 10px;
+  color: #c3c3c3;
+}
+.on-call-booking .footerrr {
+  background: #192344;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 13.1px 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.on-call-booking {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  width: auto;
+  box-sizing: border-box;
+}
+ 
+ 
+
+ 
+}
+
+
+
+
+
+
+
+
+
+

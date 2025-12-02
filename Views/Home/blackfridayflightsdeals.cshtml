@@ -1,0 +1,305 @@
+﻿
+@{
+    ViewBag.Title = "blackfridayflightsdeals";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    DateTime dt1 = DateTime.Now.Date.AddDays(2);
+    DateTime dt2 = DateTime.Now.Date.AddDays(9);
+}
+@section metatags{
+    <title>Black Friday Flights Deals | Black Friday Air Tickets | FaresMatch</title>
+    <meta name="description" content="Find the best Black Friday airfare deals at FaresMatch. Compare flight prices from 100 airlines and book your cheap flight now. Call us for the best prices." />
+    <link rel="canonical" href="https://www.faresmatch.com/black-friday-flights-deals.aspx" />
+    <meta property="og:title" content="Black Friday Flights Deals | Black Friday Air Tickets | FaresMatch" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.faresmatch.com/assets/images/logo.png" />
+    <meta name="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Faresmatch" />
+    <meta property="og:description" content="Find the best Black Friday airfare deals at FaresMatch. Compare flight prices from 100 airlines and book your cheap flight now. Call us for the best prices." />
+    <meta property="og:url" content="https://www.faresmatch.com/black-friday-flights-deals.aspx" />
+    <meta name="author" content="faresmatch.com" />
+    <meta name="geo.region" content="US-GA" />
+    <meta name="language" content="English" />
+    
+    <meta name="robots" content="index,follow" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="faresmatch" />
+    <meta name="twitter:title" content="Black Friday Flights Deals | Black Friday Air Tickets | FaresMatch" />
+    <meta name="twitter:description" content="Find the best Black Friday airfare deals at FaresMatch. Compare flight prices from 100 airlines and book your cheap flight now. Call us for the best prices." />
+    <meta name="twitter:image" content="https://www.faresmatch.com/assets/images/logo.png" />
+
+}
+
+<style>
+    .grid1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        div
+
+    {
+        margin: auto;
+    }
+
+    img {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    }
+
+    @@media only screen and (max-width: 1024px) {
+        .grid1 {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+</style>
+<div class="container2 bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>Black Friday Flights 2025 | Black Friday Deals- FaresMatch</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+<div class="container2 newbg">
+    <div class="row">
+        <div class="column">
+            <div class="detail">
+                <h2>Cheap Black Friday Deals</h2>
+                <p>Presents to you some not-to-be missed, elite arrangements on airfares that will undoubtedly advance your movement experience. These arrangements are the most recent and all that you can get. Along these lines, don't continue to pause. Book them now!</p>
+            </div>
+            <div class="innerrow d-flex gap1">
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>Chicago City</h4>
+                            <p>LGA - ORD</p>
+                            <input type="hidden" id="flight_from1" value="LGA" />
+                            <input type="hidden" id="flight_to1" value="ORD" />
+                            <input type="hidden" id="flight_from_date1" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date1" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 99.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 99</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="1"><b>Book Now</b></a></p>
+                </div>
+
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>Los Angeles</h4>
+                            <p>LAS - LAX</p>
+                            <input type="hidden" id="flight_from2" value="LAS" />
+                            <input type="hidden" id="flight_to2" value="LAX" />
+                            <input type="hidden" id="flight_from_date2" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date2" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 69.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 69</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a  href="javascript:void(0);" class="button deep_btn" data-id="2"><b>Book Now</b></a></p>
+                </div>
+            </div>
+
+            <div class="innerrow d-flex gap1">
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>Phoenix</h4>
+                            <p>DEN - PHX</p>
+                            <input type="hidden" id="flight_from3" value="DEN" />
+                            <input type="hidden" id="flight_to3" value="PHX" />
+                            <input type="hidden" id="flight_from_date3" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date3" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 99.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 99</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="3"><b>Book Now</b></a></p>
+                </div>
+
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>Kahului</h4>
+                            <p>HNL - LIH</p>
+                            <input type="hidden" id="flight_from4" value="HNL" />
+                            <input type="hidden" id="flight_to4" value="LIH" />
+                            <input type="hidden" id="flight_from_date4" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date4" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 111.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 111</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="4"><b>Book Now</b></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container2">
+    <div class="row" style="padding-top: 0 !important;">
+        <div class="column">
+            <h3>Plan a Beautiful Vacation with Black Friday Flights Deals</h3>
+            <p>Traveling to your favorite destination is such a beautiful opportunity for you around the world. FaresMatch now comes with the Black Friday Flights Deals for travelers. Now you can plan an amazing journey with us to fly to the best destination in the world without thinking about the budget. Alluring deals with an extensive range for your favorite destinations have now come in one place & this is FaresMatch only with extensive options. Options are creating too much buzz in the passengers because they are getting too many alternatives for the booking. Black Friday is the right time to fetch cheap flights for your winter travel goals</p>
+            <br>
+            <div class="grid1">
+                <div class="column">
+                    <img src="./images/black-friday-1.jpg" alt="">
+                </div>
+                <div class="column">
+                    <h3>What is Black Friday?</h3>
+                    <p>The traditional name of Black Friday is Thanksgiving Day and in the United States, this day is celebrated every year on the fourth Thursday of November. The subsequent Monday is mainly celebrated in the United States as the Cyber Monday. The day is also known as the shopping day because of many reasons. The primary reason is the first day after the last major holiday before Christmas and also known as the unofficial commencement of the shopping season of Christmas and New Year. On Black Friday, people go shopping and they get huge deals in the market which are too much cheap.</p>
+                </div>
+            </div>
+            <br>
+            <h3>Which is the best time to buy Black Friday Flights Tickets?</h3>
+            <p>Well, this is also the major question behind the beginners of travel who are not experts in fetching the right airline deals and that’s why they are looking for the information stuff to know the best time to buy the black Friday flight tickets. The right time to book the black Friday flight tickets for the cheap airfare is 40 to 60 days booking. We are not giving this kind of statement without any trends and statistics but according to the last 10-year statistics and data, September is the cheapest month to book the Black Friday Flights. If you think, Black Friday is in November and you should look at the airfare possibility in October of Stars of November then it may too late and you can’t save money on the booking. To book the best price Black Friday Flights Deals you must check the airfare possibilities and deals in September Month.</p>
+            <br>
+            <h2>Major Airlines For Black Friday Flights Deals Booking:</h2>
+            <div class="text1">
+                <p><i class="fa-solid fa-check"></i> Delta Airlines Black Friday Deals</p>
+                <p><i class="fa-solid fa-check"></i> United Airlines Black Friday Deals</p>
+                <p><i class="fa-solid fa-check"></i> Alaska Airlines Black Friday Deals</p>
+                <p><i class="fa-solid fa-check"></i> Frontier Airlines Black Friday Deals</p>
+                <p><i class="fa-solid fa-check"></i> Spirit Airlines Black Friday Deals</p>
+                <p><i class="fa-solid fa-check"></i> JetBlue Airlines Black Friday Deals</p>
+                <p><i class="fa-solid fa-check"></i> Allegiant Airlines Black Friday Deals</p>
+                <p><i class="fa-solid fa-check"></i> Air Canada Airlines Black Friday Deals</p>
+            </div>
+            <br>
+            <div class="grid1">
+                <div class="column">
+                    <h3>This Black Friday Travel with Your Family:</h3>
+                    <p>Don’t think so much if you are thinking to take a short break after a long time with your family on the beautiful destination because Black Friday Airlines Deals never comes again. You can not only confirm your peace and comfort during the travel but also the cheap airfare on the Airlines Reservations as well which is the primary focus of the passengers to reduce the amount of budget.</p>
+                </div>
+                <div class="column">
+                    <img src="./images/family-friday.jpg" alt="">
+                </div>
+            </div>
+            <br>
+            <h3>How to Find Right Black Friday Flights Deals?</h3>
+            <p>If you are thinking that you can easily find the Black Friday Flights Deals then you are wrong because finding the right deal is quite difficult for the passengers and that’s why they must know about the right information for this goal. First of all, there are too many options available to find the deals and the first option is the Airline Official Site. For example, when you are thinking to travel with Delta on the occasion of Black Friday, then you can visit the Delta Airlines Official Site. Official Sites of the airlines are also showing the information about deals and offers for all offers. On these sites, you can check the percentage of discount and deals stuff. If you are still not able to find the right deals on the Official Site then you can take the help of Travel Search Engines. These Flight Booking Search Engines are also offering good deals to passengers on the reservations and with these deals you can find the right Black Friday Airlines Reservations Deals. FaresMatch is also the topmost travel search engine for the booking of Cheap Black Friday Flights.</p>
+            <br>
+            <h3>Is Black Friday Worthy to Book Flight Tickets?</h3>
+            <p>If you are thinking that Black Friday is not the worthy or cheaper time to book the flight tickets for the vacations then you are wrong because this is the best time when you can avail of the Black Friday Airlines Sale. With this sale, you can found the best offers on the booking of reservations and journeys. There is no need to worry about the airfare because this is the cheapest time to plan travel in the United States for passengers and they can found the lowest-priced tickets on the time of Black Friday.</p>
+            <br>
+            <h3>Best Places to Visit on Black Friday in the United States:</h3>
+            <p>Now we have come to the next question which is about the best places to visit on Black Friday in the United States. There are so many alluring destinations to visit in the United States for the passengers but when we talk about the best destination range or name we can say that Miami, Orlando, New York, Boston, and Los Angeles are the premium destination to visit on the time of Black Friday Flights Deals. You can book the flight tickets online of Black Friday Flights Deals from FaresMatch to save more on the reservations.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+
+
+
+    $(".deep_btn").click(function () {
+              var flight_opt = $(this).data("id");
+                var fway = "2";
+                var fcls = "4";
+                var from = "&From=" + $("#flight_from" + flight_opt).val();
+                var to = "&To=" + $("#flight_to" + flight_opt).val();
+                var fromDate = "&DepDate=" + $("#flight_from_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[0];
+                var toDate = "&RetDate=";
+
+
+              $("#spFrom").text($("#flight_from" + flight_opt).val());
+              $("#spTo").text($("#flight_to" + flight_opt).val());
+              $("#spFromDate").text($("#flight_from_date" + flight_opt).val());
+
+                if (fway == "2") {
+                        toDate = "&RetDate=" + $("#flight_to_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[0];
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+                    $("#spTo2").text($("#flight_from" + flight_opt).val());
+                    $("#spFrom2").text($("#flight_to" + flight_opt).val());
+              }
+
+
+                var adult = "&Adult=" + 1;
+                var child = "&Child=" + 0;
+                var infant = "&Infant=" + 0;
+                var airline = "&Airline=" + ""; // $("#flight_airline").val();
+                var isdirect = "&IsDirect=" + ("false");
+                var isflexi = "&IsFlexi=" + ("false");
+                fway_s = "&FlightWay=" + fway;
+              fcls_s = "&FlightClass=" + fcls;
+
+
+              $("#spADT").text(1);
+              $("#spCHD").text($("#flight_child").val());
+              $("#spINF").text($("#flight_infant").val());
+
+                var tolPass =  1 + "Adult";
+                $("#spPass").text(tolPass);
+
+
+
+                          var str = "/flight/search?SiteCode=VIMAN&SourceMedia=VIMAN" + from + to + fromDate + toDate + adult + child + infant + fway_s + fcls_s + airline + isdirect + isflexi + "&Currency=USD";
+
+
+$("#search_popup").show();
+
+window.location = str;
+ });
+
+
+</script>

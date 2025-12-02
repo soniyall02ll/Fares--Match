@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.faresmatch.com/sitemap.xml
+Sitemap: https://www.faresmatch.com/flights-sitemap.xml
+Sitemap: https://www.faresmatch.com/blog-sitemap.xml
+Sitemap: https://www.faresmatch.com/major-airlines-sitemap.xml
+Sitemap: https://www.faresmatch.com/helicopter-tour-sitemap.xml
+Sitemap: https://www.faresmatch.com/vacation-packages-sitemap.xml
+Sitemap: https://www.faresmatch.com/trains-sitemap.xml
+Sitemap: https://www.faresmatch.com/resort-sitemap.xml
+Sitemap: https://www.faresmatch.com/yacht-sitemap.xml
+Sitemap: https://www.faresmatch.com/airports-sitemap.xml
+Sitemap: https://www.faresmatch.com/flight-change-sitemap.xml
+Sitemap: https://www.faresmatch.com/business-class-sitemap.xml
+Sitemap: https://www.faresmatch.com/airline-pages-sitemap.xml
+Sitemap: https://www.faresmatch.com/cruises-sitemap.xml
+Sitemap: https://www.faresmatch.com/airline-destinations-sitemap.xml
+Sitemap: https://www.faresmatch.com/flight-deals-sitemap.xml
+Sitemap: https://www.faresmatch.com/car-rentals-sitemap.xml
+Sitemap: https://www.faresmatch.com/hotels-sitemap.xml
+Sitemap: https://www.faresmatch.com/flight-refund-policy-sitemap.xml
+Sitemap: https://www.faresmatch.com/flight-cancellation-policy-sitemap.xml
+Sitemap: https://www.faresmatch.com/faq-sitemap.xml
+Sitemap: https://www.faresmatch.com/es-sitemap.xml
+Sitemap: https://www.faresmatch.com/es-vuelos-sitemap.xml
+
+

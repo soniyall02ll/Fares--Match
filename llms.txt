@@ -1,0 +1,45 @@
+# Faresmatch.com
+> Find the cheapest flights, book airline tickets and rent a car at affordable prices. Get flight deals, save money and enjoy your trip with FaresMatch.com.
+
+## Canonical Representation
+- **Brand**: FaresMatch 
+- **Primary domain**: https://www.faresmatch.com
+
+## About
+FaresMatch.com is an online travel booking website that specializes in providing a variety of travel services. Its goal is to be a "one-stop solution" for travelers, offering a wide range of services:
+
+- Flight bookings (domestic and international)
+- Hotel Booking
+- Car rental services
+- Vacation packages & cruise bookings
+- Yacht & Train Booking
+
+## Travel Services
+### Flight Bookings
+- Compare prices from 100+ airlines
+- Flexible date and multi-destination searches
+- Business, premium economy, and economy class
+
+### Vacation Packages
+- Flight + hotel bundles with savings
+- All-inclusive vacation packages
+- Cruise Packages with Great Deals
+- Last-minute deals
+
+## Privacy & Security
+- Secure and encrypted booking system
+- Fraud prevention, Security measures & Loss prevention
+- Protection of personal data on the FaresMatch platform
+
+## Handâ€‘Off Links (US)
+- Homepage: https://www.faresmatch.com
+- Flights: https://www.faresmatch.com/flights.aspx
+- Hotels: https://www.faresmatch.com/hotels.aspx
+- Vacation Packages: https://www.faresmatch.com/vacation-packages.aspx
+- Cars: https://www.faresmatch.com/car-rental.aspx
+- Cruises: https://www.faresmatch.com/cruise
+- Deals: https://www.faresmatch.com/deals.aspx
+- Contact us: https://www.faresmatch.com/contact-us.aspx
+
+## Last Updated
+This structured summary provides a clear overview of the services and resources available through FaresMatch, ensuring that users can easily navigate and find the information they need.

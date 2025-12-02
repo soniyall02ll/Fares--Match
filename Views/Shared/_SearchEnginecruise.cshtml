@@ -1,0 +1,46 @@
+﻿
+
+@using (Html.BeginForm("_SearchEnginecruise", "Home", new { ReturnUrl = ViewBag.ReturnUrl },
+            FormMethod.Post, new { @class = "d-flex" }))
+{
+
+    <div class="column">
+        <label for="">From</label>
+        <input type="text" placeholder="🚢 start" name="" id="">
+    </div>
+    <div class="column">
+        <label for="">To</label>
+        <input type="text" placeholder="🛳️ end" name="" id="">
+    </div>
+    <div class="column">
+        <label for="">Start</label>
+        <input type="date" placeholder="..." name="" id="">
+    </div>
+    <div class="column">
+        <label for="">End</label>
+        <input type="date" placeholder="..." name="" id="">
+    </div>
+    <div class="column">
+        <label for="">Min. nights</label>
+        <input type="number" placeholder="1" name="" id="" min="1">
+    </div>
+    <div class="column">
+        <label for="">Max. nights</label>
+        <input type="number" placeholder="5" name="" id="">
+    </div>
+    <button class="button">Submit</button>
+}
+
+<div class="banner1">
+    <h2>How can I find affordable cruise deals</h2>
+    <p>
+        A cruise vacation is the dream vacation for so many people, and booking a cruise is such a big deal
+        for them because it is very difficult in the expensive travel world to find a perfect cruise
+        vacation for you with affordable deals. Now, you can start exploring and finding the offers at
+        Faresmatch. Here, you can filter the top cruise offers according to your preferences, such as cabin
+        type, cruise length, and, most important, destination. People who consider cruise vacations with
+        fewer luxury features always save the cost, and that’s why you must choose the particular amenities
+        with budget-friendly choices.
+    </p>
+    <a href="tel:+18009183039"><button class="button">Let's go</button></a>
+</div>

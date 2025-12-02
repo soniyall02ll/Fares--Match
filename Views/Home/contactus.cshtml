@@ -1,0 +1,106 @@
+﻿
+@{
+    ViewBag.Title = "contactus";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section metatags{
+    <title>Contact US – Fares Match Travel Agency in the United States</title>
+    <meta name="Description" content="Fares Match Travel Agency - Looking Best airlines flights Vacation deals? Book now  +1-800-918-3039 save upto 20% to our customers." />
+    <link rel="canonical" href="https://www.faresmatch.com/contact-us.aspx" />
+    <meta name="robots" content="Index, Follow" />
+    <meta name="author" content="Fares Match" />
+    <meta property="og:title" content="Contact US – Fares Match Travel Agency in the United States" />
+    <meta property="og:description" content="Fares Match Travel Agency - Looking Best airlines flights Vacation deals? Book now  +1-800-918-3039 save upto 20% to our customers." />
+    <link rel="canonical" href="https://www.faresmatch.com/contact-us.aspx" />
+    <meta name="robots" content="index,follow" />   
+
+}
+<div class="container2 bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>Contact US – Fares Match Travel Agency in the United States</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+<div class="container2 contact">
+    <div class="row d-flex gap">
+        <div class="column">
+            <h2>Send us a message</h2>
+            <form>
+			
+                <div class="grid grid1">
+			   <label>
+                    What were you searching for?*
+                    <select name="Flights" id="Flights">
+					  <option value="Flights">Flights</option>
+					  <option value="Car">Car</option>
+					  <option value="Hotels">Hotels</option>
+					  <option value="Cruise">Cruise</option>
+					</select>
+                </label>
+				
+			
+                    <label>
+                        Name *
+                        <input type="text" required>
+                    </label>
+                    <label>
+                        E-mail id *
+                        <input type="email" required>
+                    </label>
+                <label>
+                    Phone No. *
+                    <input type="tel" required>
+                </label>
+                </div>
+                <label>
+                    Description *
+                </label>
+                    <textarea required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="column right">
+            <h2>Contact Information</h2>
+            <div class="d-flex gap1">
+                <div class="column">
+                    <h4><i class="fa-solid fa-location-dot"></i> USA Address</h4>
+                    <p style="text-align:center;">
+                        6355 Haystack CT <br>
+                        Cumming, GA 30040
+                    </p>
+                </div>
+                <div class="column">
+                    <h4><i class="fa-solid fa-phone"></i> Helpline</h4>
+                    <p style="text-align:center;"><a href="tel:+18009183039">+1-800-918-3039</a></p>
+					<p style="text-align:center;"><a href="tel:+18002691139">+1-800-269-1139</a></p>
+                </div>
+            </div>
+
+            <div class="d-flex gap1" style="margin-top: 15px;">
+                <div class="column">
+                    <h4><i class="fa-solid fa-phone-volume"></i> Booking</h4>
+					
+					
+					<p style="text-align:center;">Flights : <a href="tel:+18443625118">+1-844-362-5118</a></p>
+					<p style="text-align:center;">Amtrak : <a href="tel:+18002657470">+1-800-265-7470</a></p>
+					<p style="text-align:center;"><a href="tel:+18886425161">+1-888-642-5161</a></p>
+					<p style="text-align:center;"><a href="tel:+18002204956">+1-800-220-4956</a></p>
+					<p style="text-align:center;">For Cruise : <a href="tel:+18002101127">+1-800-210-1127</a></p>
+                </div>
+				
+                <div class="column">
+                    <h4><i class="fa-solid fa-paper-plane"></i> E-mail Us</h4>
+                    <p style="text-align:center;"><a href="mailto:support@faresmatch.com">support@faresmatch.com</a></p>
+                    <p style="text-align:center;"><a href="mailto:bookings@faresmatch.com">bookings@faresmatch.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container1 map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.0473614522516!2d-84.24170857478748!3d34.19626629239091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f582cccb0e6033%3A0x84dea956645f937b!2s6355%20Haystack%20Ct%2C%20Cumming%2C%20GA%2030040%2C%20USA!5e0!3m2!1sen!2sin!4v1725697079119!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>

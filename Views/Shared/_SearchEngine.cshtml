@@ -1,0 +1,151 @@
+﻿@using (Html.BeginForm("_SearchEngineHome", "Home"))
+{
+    <div class="formheads">
+        <div id="mySelect">
+            <label><b><span>Round Trip</span> <i class="fa-solid fa-angle-down"></i></b></label>
+            <div class="tripdrop">
+                <div class="innertripdrop">
+                    <h5><i class="fa-solid fa-xmark"></i></h5>
+                    <div class="flex">
+                        <input type="radio" name="flight_way" id="rdoRoundtrip" class="flight_way slct_btn rndtrp trpact" value="2" checked />
+                        <label for="rdoRoundtrip">Round Trip</label>
+                    </div>
+                    <div class="flex">
+                        <input type="radio" name="flight_way" id="rdoOneway" class="flight_way slct_btn onwtrp" value="1" />
+                        <label for="rdoOneway">One Way</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-section">
+            <div class="pax-contents">
+                <div class="ind_srch_subBox prp_popup">
+                    <div class="prsn_popup flex" id="prsn_add">
+                        <i class="fa-solid fa-user-group"></i>
+                        <input type="text" readonly="" name="pass_info" id="pass_info" placeholder="1 Traveler" class="ind_inputBox">
+                    </div>
+                    <div class="person_dropdown" id="prsn_popup" style="display: none;">
+                        <ul class="slect_pssngr">
+                            <li class="flex">
+                                <div style="flex:1;">
+                                    <p><strong>Adult</strong></p>
+                                    <p><span>Aged 16-64</span></p>
+                                </div>
+                                <div class="count_pssngr flex">
+                                    <a href="javascript:void(0);"><em data-field="adult" data-opt="-" class="fa fa-minus inc_der"></em></a>
+                                    <input type="text" readonly="" value="1" name="flight_adult" id="flight_adult" class="inpt_cout_pssngr">
+                                    <a href="javascript:void(0);"><em data-field="adult" data-opt="+" class="fa fa-plus inc_der"></em></a>
+                                </div>
+                            </li>
+                            <li class="flex">
+                                <div style="flex:1;">
+                                    <p><strong>Senior</strong></p>
+                                    <p><span>Aged 65+</span></p>
+                                </div>
+                                <div class="count_pssngr flex">
+                                    <a href="javascript:void(0);"><em data-field="ss" data-opt="-" class="fa fa-minus inc_der"></em></a>
+                                    <input type="text" readonly="" value="0" name="flight_ss" id="flight_ss" class="inpt_cout_pssngr">
+                                    <a href="javascript:void(0);"><em data-field="ss" data-opt="+" class="fa fa-plus inc_der"></em></a>
+                                </div>
+                            </li>
+                            <li class="flex">
+                                <div style="flex:1;">
+                                    <p><strong>Children</strong></p>
+                                    <p><span>Aged 2-15</span></p>
+                                </div>
+                                <div class="count_pssngr flex">
+                                    <a href="javascript:void(0);"><em data-field="child" data-opt="-" class="fa fa-minus inc_der"></em></a>
+                                    <input type="text" readonly="" value="0" name="flight_child" id="flight_child" class="inpt_cout_pssngr">
+                                    <a href="javascript:void(0);"><em data-field="child" data-opt="+" class="fa fa-plus inc_der"></em></a>
+                                </div>
+                            </li>
+                            <li class="flex">
+                                <div style="flex:1;">
+                                    <p><strong>Infant on Seat</strong></p>
+                                    <p><span>Under 2</span></p>
+                                </div>
+                                <div class="count_pssngr flex">
+                                    <a href="javascript:void(0);"><em data-field="infant" data-opt="-" class="fa fa-minus inc_der"></em></a>
+                                    <input type="text" readonly="" value="0" name="flight_infant" id="flight_infant" class="inpt_cout_pssngr">
+                                    <a href="javascript:void(0);"><em data-field="infant" data-opt="+" class="fa fa-plus inc_der"></em></a>
+                                </div>
+                            </li>
+                            <li class="flex">
+                                <div style="flex:1;">
+                                    <p><strong>Infant on Lap</strong></p>
+                                    <p><span>Under 2</span></p>
+                                </div>
+                                <div class="count_pssngr flex">
+                                    <a href="javascript:void(0);"><em data-field="aa" data-opt="-" class="fa fa-minus inc_der"></em></a>
+                                    <input type="text" readonly="" value="0" name="flight_aa" id="flight_aa" maxlength="9" class="inpt_cout_pssngr">
+                                    <a href="javascript:void(0);"><em data-field="aa" data-opt="+" class="fa fa-plus inc_der"></em></a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="clss_done" id="ind_done" style="text-align:right;">
+                            <a style="width: fit-content; padding-block: 0 !important;" href="javascript:void(0);" id="prsn_done">Done</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="combin_class" id="mySelect1">
+            <label><b><span>Economy</span> <i class="fa-solid fa-angle-down"></i></b></label>
+            <div class="Classdrop">
+                <div class="innerClassdrop">
+                    <h5><i class="fa-solid fa-xmark"></i></h5>
+                    <div class="flex">
+                        <input type="radio" name="flight_class" id="flight_class_4" value="4" checked />
+                        <label for="flight_class_4">Economy</label>
+                    </div>
+                    <div class="flex">
+                        <input type="radio" name="flight_class" id="flight_class_3" value="3" />
+                        <label for="flight_class_3">Premium Economy</label>
+                    </div>
+                    <div class="flex">
+                        <input type="radio" name="flight_class" id="flight_class_2" value="2" />
+                        <label for="flight_class_2">Business Class</label>
+                    </div>
+                    <div class="flex">
+                        <input type="radio" name="flight_class" id="flight_class_1" value="1" />
+                        <label for="flight_class_1">First Class</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col3 d-flex" style="gap:10px !important;">
+        <div class="column grid grid1">
+            <div class="labelrow">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" class="autocomplete_from autocomplete_from_new" id="flight_from"  placeholder="Origin" name="flight_from" >
+            </div>
+            <div class="labelrow">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" class="autocomplete_to autocomplete_from_to" placeholder="Destination" id="flight_to" name="flight_to">
+            </div>
+
+        </div>
+        <div class="column flex">
+            <div class="labelrow">
+                <i class="fa-regular fa-calendar-days"></i>
+                <input type="text" id="flight_from_date" name="flight_from_date" readonly placeholder="DD-MM-YYYY" required>
+            </div>
+            <div class="labelrow" id="flight_to_dateCal">
+                <i class="fa-regular fa-calendar-days"></i>
+                <input type="text" id="flight_to_date" name="flight_to_date" readonly placeholder="DD-MM-YYYY" required>
+            </div>
+
+        </div>
+        <div class="search_flights" style=""><a onclick="return validateSearchengine();" name="flight_submit" id="flight_submit" class="search_btn">Search Flights</a></div>
+        <a href="tel:+18009183039"><p class="formctabtn">Call for Special Phone Deals</p></a>
+    </div>
+}
+
+
+<link href="/Content/searchAirport.css" rel="stylesheet" />
+<script src="/scripts/lodash.min.js"></script>
+<script src="/scripts/fuse.min.js"></script>
+<script src="/scripts/airports.js"></script>

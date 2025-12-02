@@ -1,0 +1,363 @@
+﻿
+@{
+    ViewBag.Title = "skivacation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    DateTime dt1 = DateTime.Now.Date.AddDays(2);
+    DateTime dt2 = DateTime.Now.Date.AddDays(9);
+}
+
+@section metatags{
+    <title>Ski Vacation Packages | USA Tour Packages 2023- FaresMatch</title>
+    <meta name="description" content="Ski vacation packages inclusive of hotel and cheap flight deals. United vacations, get the best vacation packages for Colorado, Idaho, and New Hampshire." />
+    <link rel="canonical" href="https://www.faresmatch.com/vacations/ski-vacation.aspx">
+    <meta name="author" content="faresmatch.com">
+    <meta name="subject" content="Air Travel">
+    <meta name="geo.region" content="US-CA">
+    <meta name="language" content="English">
+    <meta name="designer" content="Faresmatch">
+    <meta name="publisher" content="Faresmatch">
+    <meta name="country" content="USA">
+    <meta name="rating" content="general" />
+    <meta name="robots" content="index,follow">
+    <meta property="og:url" content="https://www.faresmatch.com/vacations/ski-vacation.aspx">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ski Vacation Packages | USA Tour Packages 2023- FaresMatch">
+    <meta property="og:description" content="Ski vacation packages inclusive of hotel and cheap flight deals. United vacations, get the best vacation packages for Colorado, Idaho, and New Hampshire." />
+    <meta property="og:image" content="https://www.faresmatch.com/assets/images/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="faresmatch.com">
+    <meta property="twitter:url" content="https://www.faresmatch.com/vacations/ski-vacation.aspx">
+    <meta name="twitter:title" content="Ski Vacation Packages | USA Tour Packages 2023- FaresMatch" />
+    <meta name="twitter:description" content="Ski vacation packages inclusive of hotel and cheap flight deals. United vacations, get the best vacation packages for Colorado, Idaho, and New Hampshire." />
+    <meta name="twitter:image" content="https://www.faresmatch.com/assets/images/logo.png">
+
+
+
+}
+
+<script type="application/ld+json">
+			{
+			 "@@context": "https://schema.org/",
+			 "@@type": "WebPage",
+			 "name": "Ski Vacation Packages | USA Tour Packages 2023- FaresMatch",
+			 "speakable":
+			 {
+			  "@@type": "SpeakableSpecification",
+			  "xpath": [
+				"/html/head/title",
+				"/html/head/meta[@@name='description']/@@content"
+				]
+			  },
+			 "url":"https://www.faresmatch.com/vacations/ski-vacation.aspx"
+			 }
+</script>
+
+<div class="container2  bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>Ski Vacation</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+<section class="trvl_bug">
+    <div class="container2 newbg">
+        <div class="row" style="padding-bottom: 0 !important;">
+            <div class="column">
+                <div class="detail">
+                    <h2>Ski Vacation Flight Deals</h2>
+                </div>
+                <div class="innerrow grid1">
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Sun Valley</h4>
+                                <p>LAX - SUN</p>
+                                <input type="hidden" id="flight_from1" value="LAX" />
+                                <input type="hidden" id="flight_to1" value="SUN" />
+                                <input type="hidden" id="flight_from_date1" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date1" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 279*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 99</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 279</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="1"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Aspen Highland</h4>
+                                <p>ORD - ASE</p>
+                                <input type="hidden" id="flight_from2" value="ORD" />
+                                <input type="hidden" id="flight_to2" value="ASE" />
+                                <input type="hidden" id="flight_from_date2" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date2" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 259*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 65</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 259</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="2"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Waterville Valley</h4>
+                                <p>BOS - LEB</p>
+                                <input type="hidden" id="flight_from3" value="BOS" />
+                                <input type="hidden" id="flight_to3" value="LEB" />
+                                <input type="hidden" id="flight_from_date3" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date3" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 89*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 149</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 89</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="3"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Sun Valley</h4>
+                                <p>JFK - SUN</p>
+                                <input type="hidden" id="flight_from4" value="JFK" />
+                                <input type="hidden" id="flight_to4" value="SUN" />
+                                <input type="hidden" id="flight_from_date4" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date4" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 289*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 149</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 289</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="4"><b>Book Now</b></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2 textcon">
+        <div class="row">
+            <div class="column">
+                <p>People love skiing! Whether you like being surrounded by large heaps of snow or love screaming with joy when gliding through the snow, skiing has proven to be the best activity to do when on vacation. Whether on vacation solo, with your partner, or with family, skiing is a must-try when you're out and about in the snow. So what makes it so fun? Skiing offers you some of the best views of your lifetime! You can eat at a restaurant in the scenic mountains or plan a romantic dinner with your partner in the highlands. When traveling with larger groups of people, it is always a good idea to be in groups. </p>
+                <p>What makes skiing so fun is your ability to explore the unknown surrounded by beautiful terrains? And although there are many different <a href="https://www.faresmatch.com/vacation-packages.aspx">vacation packages</a> available, sorting through them all to find the one that best meets your needs can be a daunting task, given the amount of preparation required for the trip. We provide you with the greatest <a href="https://www.faresmatch.com/vacations/ski-vacation.aspx">ski vacation package</a> to have the time of your life without going overboard and in more luxury. Let's first look at places that offer breathtaking views for skiing. Whether you're a seasoned pro or keen to learn the art of skiing, these ski sights worldwide are sure to strike your eye! </p>
+                <h2>Best Destinations for Ski Vacations</h2>
+                <div class="grid1">
+                    <div class="column">
+                        <img src="../vacation-images/Sun-Valley-Idaho-USA.jpg" alt="">
+                    </div>
+                    <div class="column">
+                        <h3>Sun Valley, Idaho, USA</h3>
+                        <ul>
+                            <li>Sun Valley, Idaho, is the finest destination to go skiing if exploration and far-off vistas best describe your extraordinary personality. </li>
+                            <li>Idaho is perfect if you crave fresh air, stunning views, and ancient culture. With more than 29,000 vertical feet of terrain spread across more than 21,000 acres, the area is also called the "heart of skiing." </li>
+                            <li>Idaho is home to 19 of the most fantastic ski resorts, each one breathtaking in its own way. </li>
+                        </ul>
+                        <h3>Things to do in Idaho</h3>
+                        <ul>
+                            <li>Visit the Shoshone Falls Park to enjoy breathtaking views of the most exuberant waterfalls ever. </li>
+                            <li>Visit Yellowstone National Park and explore the many beauties it holds and gather why it's so famous in <a href="https://www.faresmatch.com/vacation-packages/united-states-of-america.aspx">United States of America</a>. </li>
+                            <li>Explore the distinctive park that provides trekking and camping amidst stunning dormant lava fields by heading to the Craters of the Moon National Monument &amp; Preserve. </li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3>Aspen Highlands, Colorado, USA</h3>
+                        <ul>
+                            <li>The best ski resorts ever, a breathtaking vista, the scent of freshly fallen snow, and four mountains all within 20 minutes of one another—what could possibly top that? </li>
+                            <li>The world's top ski resorts are in Aspen Highlands, offering the best in luxurious accommodations and delectable cuisine. </li>
+                            <li>Every corner of the location exudes elegance. When visiting this famous location, there is much more to do besides skiing. </li>
+                        </ul>
+                        <p>Prepare to take in the most incredible views coupled with luxury as you visit Aspen Highlands. </p>
+                        <h3>Things to do in Aspen Highlands</h3>
+                        <ul>
+                            <li>Aspen Art Museum: Discover why the Aspen Art Museum is so essential to developing modern art by visiting the museum & exploring the space. </li>
+                            <li>Maroon Bells: Maroon Bells is the perfect destination if you like to document every element of your journey with photos. This location has grown to be one of the most photographed places in North America, thanks to its picturesque peaks and multicolored slopes. </li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/Aspen-Highlands-Colorado-USA.jpg" alt="">
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/Waterville-Valley-New-Hampshire-USA.jpg" alt="">
+                    </div>
+                    <div class="column">
+                        <h3>Waterville Valley, New Hampshire, USA</h3>
+                        <p>The New Hampshire region of Waterville Valley is renowned as the world's top skiing destination. With 265 acres of the region set aside exclusively for skiing, it is a well-liked destination for skiers and riders worldwide. Within 20 minutes of the resort, several magnificent tourist sites offer breathtaking vistas with a dash of history and culture. </p>
+                        <h3>Things to do in New Hampshire</h3>
+                        <ul>
+                            <li>Conway Scenic Railroad: Conway Scenic Railroad is a must-see attraction in New Hampshire if you want nostalgia mixed with beautiful scenery and local culture. This railway station offers a joyride on rebuilt locomotives with delicious dining to some of New Hampshire's most beautiful landscapes. </li>
+                            <li>Polar Caves Park: This tourist attraction should be at the top of your list of must-see attractions in New Hampshire. If the past fascinates you & your best defined as "inquisitive." A rock garden, a nature trail, & some ancient, historically significant glacier caves can be discovered in this park. </li>
+                        </ul>
+
+                        <p>Locking a location that best fits your preferences should be easy. However, to avoid getting overwhelmed in the entire process of planning your trip, checking airfares, booking <a href="https://www.faresmatch.com/vacations.aspx">vacation packages</a>, comparing cheap luxury vacation packages, and booking car rentals, it is best to research smart. Here are tips on saving time researching your trip and limiting your options to access the best one easily. </p>
+                    </div>
+                </div>
+
+                <h3>Find the Best Airline Deals for booking cheap flight for Ski Vacations</h3>
+                <ul>
+                    <li>The first thing you need to do after locking the location for the trip is to look for the best airline to fly with. When scathing on the airline company best suited for your travel needs, look for amenities like complimentary food with your airfare tickets, a flexible itinerary, and bundle packages offered by the airline to get significant discounts on your accommodation and car rentals. </li>
+                    <li>Look for newly emerged airline companies that offer these amenities, such as United Airlines, Delta Airlines, and JetBlue Airlines. All of these airlines are the perfect fit for budget travel without causing trouble in the quality of your trip. </li>
+                </ul>
+                <p><strong>Pro Tip </strong></p>
+                <ul>
+                    <li>When searching for such exclusive packages, visit the official website of the airline company, hit the search bar, and type the name of the airline company tagged with "vacation packages." </li>
+                    <li>For example, <a href="https://www.faresmatch.com/united-vacations-packages.aspx">United Vacation Packages</a>, <a href="https://www.faresmatch.com/delta-vacation-packages.aspx">Delta Vacation Packages</a>, or <a href="https://www.faresmatch.com/jetblue-vacations.aspx">JetBlue Vacation Packages</a>. This saves you time and helps you get access to great deals on your vacation package. </li>
+                    <li>You can also alter the terms of your phrases when searching for vacation packages depending on your choice of destination. </li>
+                    <li>For example, when looking to visit countries that are best known to host beaches, type "Beach Vacation Package" and find your match in just seconds. </li>
+                </ul>
+                <h3>Best time to plan ski vacations</h3>
+                <ul>
+                    <li>This cannot be emphasized on enough! Most people ruin what could've been a great vacation by not checking the best time to visit their destination. </li>
+                    <li>Quality research can help you avoid sloppy seasons and eerie views that can spoil your mood. </li>
+                </ul>
+                <p>Therefore, look for the best time to visit your destination and schedule your trip accordingly to make the most of your luxury vacation. </p>
+
+                <h3>Check the Public Transportation Facilities</h3>
+                <ul>
+                    <li>When traveling in a new city or country, it is always advisable to go through the blueprint of its map to get familiar with your surroundings and the town's connectivity to understand and get an idea of how locals travel. </li>
+                    <li>Get familiar with the local transportation facilities of your destination to save time and avoid havoc. </li>
+                </ul>
+                <p>
+                    <strong>Pro Tip</strong>
+                </p>
+                <p>Use apps that give you real-time updates on the availability of public transportation, such as the routine of the local trains or buses, etc. </p>
+                <p>Most importantly, make sure not to limit your research to the above pointers only. Several other factors need quality research to get the best of everything at a discounted price while ensuring not to hamper your trip's quality. Research well, and look forward to a fantastic trip with your loved ones! </p>
+
+                <h2>FAQs</h2>
+                <h3>How do I know the best time to travel to my destination? </h3>
+                <p>Travelers can search online for the best-suited time to travel to their destination by typing the name of their destination along with "best time to travel". They can further look through the results and decide to schedule their trip accordingly. </p>
+                <h3>Are Ski Vacations fun? </h3>
+                <p>Ski is a great winter sport for people having a heart for adventure. You can enjoy endless hours of wandering through the abundance of snow-covered mountains and discover the wilderness at your own sweet pace. Therefore yes! Skiing is a great way to have fun with your loved ones! </p>
+                <h3>Where can I find Ski Vacation Packages? </h3>
+                <p>Skiers and snowboarders can find the perfect Ski Vacation package by doing thorough research online. Various sites help compare packages' prices, locations, etc. and state the pros and cons of all packages to give you a better idea of all your options. </p>
+                <h3>Are car rentals expensive? </h3>
+                <p>Car rentals are inexpensive if you learn to be flexible with your budget. To find the best match for your needs, you can fare through the various websites that offer car rental services, compare the prices, and book a car rental at a budgeted cost. </p>
+                <h3>How much does a Car rental service in the US cost? </h3>
+                <p>On average, a car rental service in the US can cost you up to $340 per week, which is a total of $49 per day. Prices can fluctuate depending on your service provider. </p>
+                <h3>Is it wise to book a Ski Vacation Package with airfare? </h3>
+                <p>Combining your airfare with your accommodations as a part of your package is awesome to cut unnecessary costs and help save on your budgeted trip. Travelers should try to book a bundle package in one easy process and avoid havoc. </p>
+                <h3>Are all-inclusive ski vacation packages available? </h3>
+                <p>Yes, all-inclusive ski vacation packages have been made available by several websites. However, travelers should stay aloof from fraudulent websites that can scam them of their money and check the authenticity of websites to avoid getting scammed. </p>
+                <h3>Are ski vacation packages customizable? </h3>
+                <p>Most ski vacation packages are customizable. However, it varies from provider to provider depending upon the sort of package you choose. </p>
+                <h3>How can I find cheap vacation packages? </h3>
+                <p>Travelers can filter their search results when searching for affordable ski vacation packages by altering their needs and selecting options that specifically define their trip's needs. </p>
+                <h3>What other things can one do if they do not know the art of skiing? </h3>
+                <p>If you're a complete newbie in the sport of skiing and want to try your hand at other things at a ski resort, you can try other fun activities, such as dog sledging, ski biking, snowshoeing, etc. Don't limit your fun! </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+
+
+
+    $(".deep_btn").click(function () {
+              var flight_opt = $(this).data("id");
+                var fway = "2";
+                var fcls = "4";
+                var from = "&From=" + $("#flight_from" + flight_opt).val();
+                var to = "&To=" + $("#flight_to" + flight_opt).val();
+                var fromDate = "&DepDate=" + $("#flight_from_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[0];
+                var toDate = "&RetDate=";
+
+
+              $("#spFrom").text($("#flight_from" + flight_opt).val());
+              $("#spTo").text($("#flight_to" + flight_opt).val());
+              $("#spFromDate").text($("#flight_from_date" + flight_opt).val());
+
+                if (fway == "2") {
+                        toDate = "&RetDate=" + $("#flight_to_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[0];
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+                    $("#spTo2").text($("#flight_from" + flight_opt).val());
+                    $("#spFrom2").text($("#flight_to" + flight_opt).val());
+              }
+
+
+                var adult = "&Adult=" + 1;
+                var child = "&Child=" + 0;
+                var infant = "&Infant=" + 0;
+                var airline = "&Airline=" + ""; // $("#flight_airline").val();
+                var isdirect = "&IsDirect=" + ("false");
+                var isflexi = "&IsFlexi=" + ("false");
+                fway_s = "&FlightWay=" + fway;
+              fcls_s = "&FlightClass=" + fcls;
+
+
+              $("#spADT").text(1);
+              $("#spCHD").text($("#flight_child").val());
+              $("#spINF").text($("#flight_infant").val());
+
+                var tolPass =  1 + "Adult";
+                $("#spPass").text(tolPass);
+
+
+
+                          var str = "../flight/search?SiteCode=VIMAN&SourceMedia=VIMAN" + from + to + fromDate + toDate + adult + child + infant + fway_s + fcls_s + airline + isdirect + isflexi + "&Currency=USD";
+
+
+$("#search_popup").show();
+
+window.location = str;
+ });
+
+
+</script>

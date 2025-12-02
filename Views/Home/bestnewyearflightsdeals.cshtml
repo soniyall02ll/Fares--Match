@@ -1,0 +1,318 @@
+﻿
+@{
+    ViewBag.Title = "bestnewyearflightsdeals";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    DateTime dt1 = DateTime.Now.Date.AddDays(2);
+    DateTime dt2 = DateTime.Now.Date.AddDays(9);
+}
+@section metatags{
+    <title>Cheap Flights for New Years | New Years Sale | FaresMatch</title>
+    <meta name="description" content="Find the best deals on flights for New Year celebrations. Enjoy huge discounts and book your tickets now with Faresmatch. Get the best airfare for New Year." />
+    <link rel="canonical" href="https://www.faresmatch.com/best-new-year-flights-deals.aspx" />
+    <meta property="og:title" content="Cheap Flights for New Years | New Years Sale | FaresMatch" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.faresmatch.com/assets/images/logo.png" />
+    <meta name="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Faresmatch" />
+    <meta property="og:description" content="Find the best deals on flights for New Year celebrations. Enjoy huge discounts and book your tickets now with Faresmatch. Get the best airfare for New Year." />
+    <meta property="og:url" content="https://www.faresmatch.com/best-new-year-flights-deals.aspx" />
+    <meta name="author" content="faresmatch.com" />
+    <meta name="geo.region" content="US-GA" />
+    <meta name="language" content="English" />
+    
+    <meta name="robots" content="index,follow" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="faresmatch" />
+    <meta name="twitter:title" content="Cheap Flights for New Years | New Years Sale | FaresMatch" />
+    <meta name="twitter:description" content="Find the best deals on flights for New Year celebrations. Enjoy huge discounts and book your tickets now with Faresmatch. Get the best airfare for New Year." />
+    <meta name="twitter:image" content="https://www.faresmatch.com/assets/images/logo.png" />
+
+}
+
+<style>
+        .grid1 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+
+            div {
+                margin: auto;
+            }
+
+            img {
+                border-radius: 10px;
+                width: 100%;
+            }
+        }
+
+        @@media only screen and (max-width: 1024px) {
+            .grid1 {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+</style>
+<div class="container2 bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>New Year Flights 2025 | New Year Flights Deals- FaresMatch</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+<div class="container2 newbg">
+    <div class="row">
+        <div class="column">
+            <div class="detail">
+                <h2>Cheap New Year Flights</h2>
+                <p>Presents to you some not-to-be missed, elite arrangements on airfares that will undoubtedly advance your movement experience. These arrangements are the most recent and all that you can get. Along these lines, don't continue to pause. Book them now!</p>
+            </div>
+            <div class="innerrow d-flex gap1">
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>Orlando</h4>
+                            <p>ATL - MCO</p>
+                            <input type="hidden" id="flight_from1" value="ATL" />
+                            <input type="hidden" id="flight_to1" value="MCO" />
+                            <input type="hidden" id="flight_from_date1" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date1" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 89.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 89</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="1"><b>Book Now</b></a></p>
+                </div>
+
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>San Francisco</h4>
+                            <p>LAX-SFO</p>
+                            <input type="hidden" id="flight_from2" value="LAX" />
+                            <input type="hidden" id="flight_to2" value="SFO" />
+                            <input type="hidden" id="flight_from_date2" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date2" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 69.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 69</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="2"><b>Book Now</b></a></p>
+                </div>
+            </div>
+
+            <div class="innerrow d-flex gap1">
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>New York</h4>
+                            <p>ATL - LGA</p>
+                            <input type="hidden" id="flight_from3" value="ATL" />
+                            <input type="hidden" id="flight_to3" value="LGA" />
+                            <input type="hidden" id="flight_from_date3" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date3" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 79.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 79</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="3"><b>Book Now</b></a></p>
+                </div>
+
+                <div class="column">
+                    <div class="flex">
+                        <div class="left">
+                            <h4>Phoenix</h4>
+                            <p>DEN - PHX</p>
+                            <input type="hidden" id="flight_from4" value="DEN" />
+                            <input type="hidden" id="flight_to4" value="PHX" />
+                            <input type="hidden" id="flight_from_date4" value="@dt1.ToString("dd-MM-yyyy")" />
+                            <input type="hidden" id="flight_to_date4" value="@dt2.ToString("dd-MM-yyyy")" />
+                        </div>
+                        <img src="https://www.faresmatch.com/images/routMap.png" alt="location-map-icon">
+                        <div class="right">
+                            <h4>$ 99.00*</h4>
+                            <p>Round Trip</p>
+                        </div>
+                    </div>
+                    <div class="center"></div>
+                    <div class="flex">
+                        <div class="left">
+                            <p>$ 99</p>
+                        </div>
+                        <div></div>
+                        <div class="right">
+                            <p>$ 1,400</p>
+                        </div>
+                    </div>
+                    <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="4"><b>Book Now</b></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container2">
+    <div class="row" style="padding-top: 0 !important;">
+        <div class="column">
+            <h2>Book Online New Year Flights at Lowest Airfare For 2025</h2>
+            <p>New Year is the time of celebration. When it comes to knowing about the fares deal, we can say that FaresMatch is the right place for you to acquire the best deals on the flights booking. This New Year, save on the flights booking task by choosing the FaresMatch New Year Flight Deals. New Year brings lots of happiness for the people. Not only are the people of United States but also across other countries interests to plan travel. How they can do all these things quickly without any hassles? Well, this is an easy task for them when they are connected with the right travel partner.</p>
+            <br>
+            <h3>Tips to Find Cheap New Year Air Tickets:</h3>
+            <p>
+                <i class="fa-solid fa-check"></i> Well, when it comes to prepare the New Year Travel Cheat Sheet we can say that the complete cheat sheet is based on two to three basic principles and these are the booked flight before 4 to 6 weeks ago for the best airfare and second is choose the right reservations services which you want for the comfortable travel.
+                <br>
+                <i class="fa-solid fa-check"></i> The pre-booking also allows you to book on the airfare of economy class for business class. That means, you are paying for the economy but you are traveling in business class. This is the great thing for you if you had planned your New Year Travel Plan at least before 4 to 6 weeks ago.
+                <br>
+                <i class="fa-solid fa-check"></i> Now, the question came in our mind special thing on this New Year. So many people are waiting for the time of the New Year because they want to plan the travel with family and friends on the occasion of New Year.
+                <br>
+                <i class="fa-solid fa-check"></i> Hence finding Cheap Flights for New Year is the most difficult task for them if they have not enough knowledge of the search engine for the air tickets booking. Comparison is important to find the cheap ticket. You should compare the deals on the different websites.
+                <br>
+                <i class="fa-solid fa-check"></i> FaresMatch knows about the high season and high demand of customers on vacations like New Year and Christmas. Book in the low season and then hack the best airfare for the travel of airfare on New Year. We always save those deals for you which will blow your complete budget and gives you favourable savings on the flights ticket booking.
+            </p>
+            <br>
+
+            <div class="grid1">
+                <div class="column">
+                    <img src="./images/planner-calendar-compare.jpg" alt="">
+                </div>
+                <div class="column">
+                    <h3>How to Compare Best Airfare on New Year Travel!</h3>
+                    <p>Don’t be choosy because your Last Minute New Year Flights Deals may not thrifty in all circumstances. For example, if you want to book American flights for New Year but you are getting cheaper airfare on Airlines Reservations, then what you will choose for your travel? If you are a smart person then you will surely go with the Delta because on the Last Minute New Year Flight Booking you need to go with the available option and don’t become the choosy person.</p>
+                </div>
+                <div class="column">
+                    <h3>Find Your New Year Cheap Flights on FaresMatch:</h3>
+                    <p>Now, FaresMatch is helping you to grab the best flights deals on the New Year Plan. Just pack your bags and prepare for the list of sightseeing places of New Year or Orlando on which you want to travel with your family on this New Year. We can easily find the Cheap Flights Deals for New Year with our best airfare options.</p>
+                </div>
+                <div class="column">
+                    <img src="https://www.faresmatch.com/images/cheap.jpg" alt="">
+                </div>
+            </div>
+
+            <br>
+
+            <br>
+            <h3>Your Last Minute New Year Flights Booking Partner:</h3>
+            <p>
+                The time has come to know about the most suitable and appropriate deals for this New Year Plan. If you are thinking that what are the top places to plan New Year Vacation then there are so many beautiful places in United States on which you can book cheap air tickets. New Year, Miami, Atlanta, Boston, Orlando, Washington DC, Paris, Rome, Australia are some top places.
+                <br>
+                Hence, Fetch the best deal on the FaresMatch and start your booking with the cheapest flights ticket booking offers with us. We never focus on the higher airfare deals and that’s why passengers can easily find the thrifty air tickets booking offers on this portal. New Year is the best time to go with your family in the beautiful locations of the world. It is necessary to designate the right travel partner to complete this task and this can easily be done when you are choosing the FaresMatch Flights Booking Services.
+            </p>
+
+            <h2>FAQs</h2>
+            <div class="text">
+                <h4>1. Are flights going cheaper on New Year?</h4>
+                <p>Not in all cases because some airlines are introducing special discount airfare on New Year Flights but some are not. Therefore, you should filter the best results for New Year Flights Deals.</p>
+                <br>
+                <h4>2. What is New Year Flights Promo Code?</h4>
+                <p>You should call on our customer care number to apply the Best New Year Flights Discount Code.</p>
+                <br>
+                <h4>3. Which is the Best Website to Book New Year Flights?</h4>
+                <p>FaresMatch is the Top-Rated Flight Booking Search Engine and you can find cheap flights deals here.</p>
+                <br>
+                <h4>4. Can I also Get Discount Last Minute New Year Air Tickets Deals?</h4>
+                <p>Yes, we are also offering the good percentage of discount on Last Minute Flights.</p>
+                <br>
+                <h4>5. When is the right time to book Cheap New Year Ticket?</h4>
+                <p>You should book tickets for the plan of New Year Travel at least in the month of October or September.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+
+
+    $(".deep_btn").click(function () {
+              var flight_opt = $(this).data("id");
+                var fway = "2";
+                var fcls = "4";
+                var from = "&From=" + $("#flight_from" + flight_opt).val();
+                var to = "&To=" + $("#flight_to" + flight_opt).val();
+                var fromDate = "&DepDate=" + $("#flight_from_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[0];
+                var toDate = "&RetDate=";
+
+
+              $("#spFrom").text($("#flight_from" + flight_opt).val());
+              $("#spTo").text($("#flight_to" + flight_opt).val());
+              $("#spFromDate").text($("#flight_from_date" + flight_opt).val());
+
+                if (fway == "2") {
+                        toDate = "&RetDate=" + $("#flight_to_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[0];
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+                    $("#spTo2").text($("#flight_from" + flight_opt).val());
+                    $("#spFrom2").text($("#flight_to" + flight_opt).val());
+              }
+
+
+                var adult = "&Adult=" + 1;
+                var child = "&Child=" + 0;
+                var infant = "&Infant=" + 0;
+                var airline = "&Airline=" + ""; // $("#flight_airline").val();
+                var isdirect = "&IsDirect=" + ("false");
+                var isflexi = "&IsFlexi=" + ("false");
+                fway_s = "&FlightWay=" + fway;
+              fcls_s = "&FlightClass=" + fcls;
+
+
+              $("#spADT").text(1);
+              $("#spCHD").text($("#flight_child").val());
+              $("#spINF").text($("#flight_infant").val());
+
+                var tolPass =  1 + "Adult";
+                $("#spPass").text(tolPass);
+
+
+
+                          var str = "/flight/search?SiteCode=VIMAN&SourceMedia=VIMAN" + from + to + fromDate + toDate + adult + child + infant + fway_s + fcls_s + airline + isdirect + isflexi + "&Currency=USD";
+
+
+$("#search_popup").show();
+
+window.location = str;
+ });
+
+
+</script>

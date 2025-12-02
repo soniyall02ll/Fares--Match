@@ -1,0 +1,372 @@
+﻿
+@{
+    ViewBag.Title = "golfvacation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    DateTime dt1 = DateTime.Now.Date.AddDays(2);
+    DateTime dt2 = DateTime.Now.Date.AddDays(9);
+}
+
+@section metatags{
+    <title>Golf Vacation | Vacations & Tour Packages 2025- FaresMatch</title>
+    <meta name="description" content="Book the best golf vacation package to experience the best world-class golf courses, worth living accommodations, and enjoy the beautiful scenery of your destination." />
+    <link rel="canonical" href="https://www.faresmatch.com/vacations/golf-vacation.aspx">
+    <meta name="author" content="faresmatch.com">
+    <meta name="subject" content="Air Travel">
+    <meta name="geo.region" content="US-CA">
+    <meta name="language" content="English">
+    <meta name="designer" content="Faresmatch">
+    <meta name="publisher" content="Faresmatch">
+    <meta name="country" content="USA">
+    <meta name="rating" content="general" />
+    <meta name="robots" content="index,follow">
+    <meta property="og:url" content="https://www.faresmatch.com/vacations/golf-vacation.aspx">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Golf Vacation | Vacations & Tour Packages 2025- FaresMatch">
+    <meta property="og:description" content="Book the best golf vacation package to experience the best world-class golf courses, worth living accommodations, and enjoy the beautiful scenery of your destination." />
+    <meta property="og:image" content="https://www.faresmatch.com/assets/images/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="faresmatch.com">
+    <meta property="twitter:url" content="https://www.faresmatch.com/vacations/golf-vacation.aspx">
+    <meta name="twitter:title" content="Golf Vacation | Vacations & Tour Packages 2025- FaresMatch" />
+    <meta name="twitter:description" content="Book the best golf vacation package to experience the best world-class golf courses, worth living accommodations, and enjoy the beautiful scenery of your destination." />
+    <meta name="twitter:image" content="https://www.faresmatch.com/assets/images/logo.png">
+
+
+    <script type="application/ld+json">
+					{
+					 "@@context": "https://schema.org/",
+					 "@@type": "WebPage",
+					 "name": "Golf Vacation | Vacations & Tour Packages 2025- FaresMatch",
+					 "speakable":
+					 {
+					  "@@type": "SpeakableSpecification",
+					  "xpath": [
+						"/html/head/title",
+						"/html/head/meta[@@name='description']/@@content"
+						]
+					  },
+					 "url":"https://www.faresmatch.com/vacations/golf-vacation.aspx"
+					 }
+    </script>
+}
+
+<div class="container2  bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>Golf Vacation</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+<section class="trvl_bug">
+
+    <div class="container2 newbg">
+        <div class="row" style="padding-bottom: 0 !important;">
+            <div class="column">
+                <div class="detail">
+                    <h2>Golf Vacation Flight Deals</h2>
+                </div>
+                <div class="innerrow grid1">
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Houston</h4>
+                                <p>LAX - IAH</p>
+                                <input type="hidden" id="flight_from1" value="LAX" />
+                                <input type="hidden" id="flight_to1" value="IAH " />
+                                <input type="hidden" id="flight_from_date1" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date1" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 59*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 99</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 59</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="1"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Hawaii</h4>
+                                <p>SEA - HNL</p>
+                                <input type="hidden" id="flight_from2" value="SEA" />
+                                <input type="hidden" id="flight_to2" value="HNL" />
+                                <input type="hidden" id="flight_from_date2" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date2" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 333*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 65</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 333</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="2"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Florida</h4>
+                                <p>JFK - FLL</p>
+                                <input type="hidden" id="flight_from3" value="JFK" />
+                                <input type="hidden" id="flight_to3" value="FLL" />
+                                <input type="hidden" id="flight_from_date3" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date3" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 59*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 149</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 59</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="3"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Ireland</h4>
+                                <p>ATL - ORK</p>
+                                <input type="hidden" id="flight_from4" value="ATL" />
+                                <input type="hidden" id="flight_to4" value="ORK" />
+                                <input type="hidden" id="flight_from_date4" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date4" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 479*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 149</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 479</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="4"><b>Book Now</b></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2 textcon">
+        <div class="row">
+            <div class="column">
+
+
+                <p>Do you play and love golf? Or are you someone who is just starting out and want to experience the world of golf? If yes, then golf <a href="https://www.faresmatch.com/vacations.aspx">vacation packages</a> are the thing you must try out on your next vacation. Golf is a way to enjoy and relax. With vacation packages, your transportation, accommodation and other necessary services are taken by the vacation package provider so that you can solely focus on playing golf with your friends, family or loved ones. </p>
+
+                <p>With <a href="https://www.faresmatch.com/vacations/luxury-vacation.aspx">cheap luxury vacation packages</a>, Experience the best world-class golf courses, worth living accommodations and enjoy the beautiful scenery and surroundings of your destination. So, why are you waiting? Book the best golf vacation package with this guide to experience an adventurous time. </p>
+
+                <h3>Best destinations for a Golf Vacation</h3>
+                <p>Some of the most popular and beautiful golf destinations in the world are: </p>
+
+                <div class="grid2">
+                    <div class="column">
+                        <img src="../vacation-images/Scotland.jpg" alt="">
+                        <h3>Scotland</h3>
+                        <p>In the land of Scotland, the sport golf was born. It is pretty famous for golf, and here you get one of the best golf courses. Also, with the place’s breath-taking view, your trip might turn out to be your favourite trip till now.</p>
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/Florida.jpg" alt="">
+                        <h3>Florida</h3>
+                        <p>Florida is one of the top destinations for golfers all around the globe. The city has a large number of golf courses, some of them being designed by famous architects of the city.</p>
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/California.jpg" alt="">
+                        <h3>California</h3>
+                        <p>Then, California is the place you must visit for your golf vacation. With pebble beaches and Torrey pines, it is one of the most challenging courses in the world. You can stay here by booking beach vacation packages too.</p>
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/Hawaii.jpg" alt="">
+                        <h3>Hawaii</h3>
+                        <p>Hawaii is among the top choice for golfers. The destination is not only famous for its golf courses but also for its beautiful landscapes and its pleasant weather.</p>
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/Ireland.jpg" alt="">
+                        <h3>Ireland</h3>
+                        <p>Ireland is a dream destination of many golfers; the rolling green hills and its beautiful coastline are what every golfer wants to experience once in their lifetime.</p>
+                    </div>
+                </div>
+
+                <h3>Things you must do on a Golf Vacation</h3>
+
+                <ul>
+                    <li>Firstly, the most important thing or the main thing you are going on that trip is playing golf. So, play golf while challenging yourself and enjoy some of the best breath-taking views from the best golf courses in the world. </li>
+                    <li>You can enjoy luxurious accommodation with your family by booking a <a href="https://www.faresmatch.com/vacations/luxury-vacation.aspx">luxury family vacation package</a>. In this package, you get to choose from cosy homes to five-star hotels and make yourself suited and comfortable accordingly. </li>
+                    <li>Explore the local area, and it is a way to take breaks from golf. Visit attractions like historical sites or a cultural event nearby and explore your destination. </li>
+                    <li>Golf is all about enjoyment, so play with your friends and family and enjoy the sport while spending some quality time with your close ones. </li>
+                </ul>
+
+
+                <h3>Best time to go for a Golf Vacation</h3>
+                <p>The timing for your golf vacation depends upon many factors, like your preferred personal weather, peak travel season, and availability of accommodations and courses. Although the following are some best months you can go for a golf trip. </p>
+
+                <ul>
+                    <li><b>March to May-</b> The time between March to May is the spring season when the temperatures are milder, and you can also encounter minimal rain during this time. </li>
+                    <li><b>June to August-</b> These months fall in the season of summer, where days are longer, and the weather is warmer. It is one of the popular reasons among golfers to go for a vacation. </li>
+                    <li><b>December to February- </b>In winter, you can go to a tropical destination and ski resorts which offers indoor golf facilities. </li>
+                </ul>
+
+
+                <h3>Golf Vacation Package by Delta Airline</h3>
+
+                <p><a href="https://www.faresmatch.com/delta-vacation-packages.aspx">Delta vacation package</a> offers packages which are both convenient and affordable. Some of the benefits which you can experience with delta vacation packages are-</p>
+
+                <ul>
+                    <li>Delta vacation packages offer flexible booking options where you can make changes to your literary whenever you want to</li>
+                    <li>Delta offers a wide range of destinations to explore, and you can experience both popular places to some of the best-underrated destinations or hidden gems. </li>
+                    <li>Delta often comes up with amazing deals and offers. You can grab this opportunity and plan for your most affordable package. </li>
+                </ul>
+
+
+                <h3>Golf Vacation Package by United Airline</h3>
+                <p><a href="https://www.faresmatch.com/united-vacations-packages.aspx">United vacation packages</a> are great for booking hassle-free packages. Here are some of the best things you can grab any taking united airline on your next trip. </p>
+
+                <ul>
+                    <li>United vacation packages are easy to book; you can book your <a href="https://www.faresmatch.com/vacations/luxury-vacation.aspx">flights</a>, hotels, and rental cars all combined in a single place. </li>
+                    <li>United vacation packages offer quality accommodations so that you can have the best experience of your trip. </li>
+                    <li>Through the united loyalty program, also known as MileagePlus, you can earn rewards and additional benefits in each of your bookings. </li>
+                </ul>
+
+
+                <h3>Fly with JetBlue airlines on your Golf Vacation</h3>
+                <p>With the <a href="https://www.faresmatch.com/jetblue-vacations.aspx">JetBlue vacation package</a>, you can take up airline services to various destinations. You can select your seat according to your preference. JetBlue also provides in-flight entertainment along with food and beverages. If you want, there is also an option to opt for additional services like priority boarding and pet travel at a low and reasonable cost. </p>
+
+                <p>Spend your next weekend at one of the beautiful destinations for your golf vacation. With vacation providers like delta Airlines, JetBlue Airlines and United Airlines, you can get your package at the most cost-effective price without sacrificing the experience of world-class amenities. </p>
+
+                <h2>FAQs</h2>
+
+                <h3>How much does a golf vacation cost? </h3>
+                <p>The cost of your golf vacation will depend upon a lot of factors like the destination you have chosen, the time of the year and other additional services. Still, a golf vacation usually costs in the range of a few hundred dollars to several thousand dollars. So, compare all the options available to you and go for the best one. </p>
+
+                <h3>Can I bring my own golf club on a golf vacation? </h3>
+                <p>Yes, you can carry your golf clubs for a golf vacation. But, there may be an additional charge in case of overweight items. Check with your airline and pack your golf clubs properly to avoid any damage during your airline journey. </p>
+
+                <h3>Are foods included in a golf vacation package? </h3>
+                <p>
+                    It depends on your golf vacation package. Some golf vacation packages may include meals, while others may charge an extra fee. Check with your golf vacation package provider and read the terms, although you can always add meal services to most of the vacations available.
+                </p>
+                <h3>How many days should I stay on my golf trip? </h3>
+                <p>A typical golf vacation usually lasts for a long weekend to a week-long vacation. Some golfers prefer to stay longer to play many rounds of golf at different golf courses, while some golfers prefer to spend a shorter period of time on their golf vacation for a single match. </p>
+
+                <h3>Can I extend my golf vacation package? </h3>
+                <p>Yes, you can extend your golf vacation if you want to, provided that your preferred accommodation and golf courses are available at that time. To extend your vacation package, contact your travel agent or provider for further clarification. </p>
+
+                <h3>Is there any cancellation charge for golf vacation packages? </h3>
+                <p>Yes, you may be required to pay a certain fee in case of cancellation. The cost will depend on your package and the provider you have booked your package with. It is advisable to read the cancellation policy before proceeding further. </p>
+
+                <h3>Should I have travel insurance for a golf vacation? </h3>
+                <p>It is always advisable and also suitable to have travel insurance while spending your vacation in a different destination. Travel insurance will cover most unexpected events to any medical emergencies. </p>
+
+                <h3>What should I carry on my golf vacation? </h3>
+                <p>Things to carry on your golf vacation are golf clubs, comfortable clothing or sportswear, raincoats in case of any unexpected rainfall, sun protection, necessary documents, snacks, a golf towel and other necessary items you may need for. </p>
+
+                <h3>How to book a golf vacation package? </h3>
+                <p>You can book golf vacation packages with online travel websites, and you can also book your package directly from golf vacation providers and also through travel agents. </p>
+
+                <h3>Can beginners go for a golf vacation? </h3>
+                <p>Yes, you can go for a golf vacation even if you are a beginner or just planning to start out, as many golf vacation packages log beginner-friendly courses and lessons to help build your skills. Meanwhile, if your package does not include lessons, you can always add one. </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+
+
+
+    $(".deep_btn").click(function () {
+              var flight_opt = $(this).data("id");
+                var fway = "2";
+                var fcls = "4";
+                var from = "&From=" + $("#flight_from" + flight_opt).val();
+                var to = "&To=" + $("#flight_to" + flight_opt).val();
+                var fromDate = "&DepDate=" + $("#flight_from_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[0];
+                var toDate = "&RetDate=";
+
+
+              $("#spFrom").text($("#flight_from" + flight_opt).val());
+              $("#spTo").text($("#flight_to" + flight_opt).val());
+              $("#spFromDate").text($("#flight_from_date" + flight_opt).val());
+
+                if (fway == "2") {
+                        toDate = "&RetDate=" + $("#flight_to_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[0];
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+                    $("#spTo2").text($("#flight_from" + flight_opt).val());
+                    $("#spFrom2").text($("#flight_to" + flight_opt).val());
+              }
+
+
+                var adult = "&Adult=" + 1;
+                var child = "&Child=" + 0;
+                var infant = "&Infant=" + 0;
+                var airline = "&Airline=" + ""; // $("#flight_airline").val();
+                var isdirect = "&IsDirect=" + ("false");
+                var isflexi = "&IsFlexi=" + ("false");
+                fway_s = "&FlightWay=" + fway;
+              fcls_s = "&FlightClass=" + fcls;
+
+
+              $("#spADT").text(1);
+              $("#spCHD").text($("#flight_child").val());
+              $("#spINF").text($("#flight_infant").val());
+
+                var tolPass =  1 + "Adult";
+                $("#spPass").text(tolPass);
+
+
+
+                          var str = "../flight/search?SiteCode=VIMAN&SourceMedia=VIMAN" + from + to + fromDate + toDate + adult + child + infant + fway_s + fcls_s + airline + isdirect + isflexi + "&Currency=USD";
+
+
+$("#search_popup").show();
+
+window.location = str;
+ });
+
+
+</script>

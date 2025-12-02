@@ -1,0 +1,346 @@
+﻿
+@{
+    ViewBag.Title = "luxuryvacation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    DateTime dt1 = DateTime.Now.Date.AddDays(2);
+    DateTime dt2 = DateTime.Now.Date.AddDays(9);
+}
+
+@section metatags{
+    <title>Luxury Vacations 2023 | Cheap Vacation Packages- FaresMatch</title>
+    <meta name="description" content="Luxury Vacations. Choose the best vacation package for your favourite destination. Book cheap nonstop flights, hotels, and car-rentals at lowest cost." />
+    <link rel="canonical" href="https://www.faresmatch.com/vacations/luxury-vacation.aspx">
+    <meta name="author" content="faresmatch.com">
+    <meta name="subject" content="Air Travel">
+    <meta name="geo.region" content="US-CA">
+    <meta name="language" content="English">
+    <meta name="designer" content="Faresmatch">
+    <meta name="publisher" content="Faresmatch">
+    <meta name="country" content="USA">
+    <meta name="rating" content="general" />
+    <meta name="robots" content="index,follow">
+    <meta property="og:url" content="https://www.faresmatch.com/vacations/luxury-vacation.aspx">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Luxury Vacations 2023 | Cheap Vacation Packages- FaresMatch">
+    <meta property="og:description" content="Luxury Vacations. Choose the best vacation package for your favourite destination. Book cheap nonstop flights, hotels, and car-rentals at lowest cost." />
+    <meta property="og:image" content="https://www.faresmatch.com/assets/images/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="faresmatch.com">
+    <meta property="twitter:url" content="https://www.faresmatch.com/vacations/luxury-vacation.aspx">
+    <meta name="twitter:title" content="Luxury Vacations 2023 | Cheap Vacation Packages- FaresMatch" />
+    <meta name="twitter:description" content="Luxury Vacations. Choose the best vacation package for your favourite destination. Book cheap nonstop flights, hotels, and car-rentals at lowest cost." />
+    <meta name="twitter:image" content="https://www.faresmatch.com/assets/images/logo.png">
+
+
+
+}
+
+<script type="application/ld+json">
+		{
+		 "@@context": "https://schema.org/",
+		 "@@type": "WebPage",
+		 "name": "Luxury Vacations 2023 | Cheap Vacation Packages- FaresMatch",
+		 "speakable":
+		 {
+		  "@@type": "SpeakableSpecification",
+		  "xpath": [
+			"/html/head/title",
+			"/html/head/meta[@@name='description']/@@content"
+			]
+		  },
+		 "url":"https://www.faresmatch.com/vacations/luxury-vacation.aspx"
+		 }
+</script>
+
+<div class="container2  bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>Luxury Vacations</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+<section class="trvl_bug">
+    <div class="container2 newbg">
+        <div class="row" style="padding-bottom: 0 !important;">
+            <div class="column">
+                <div class="detail">
+                    <h2>Luxury Vacations Flight Deals</h2>
+                </div>
+                <div class="innerrow grid1">
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Maldives</h4>
+                                <p>BOM - MLE</p>
+                                <input type="hidden" id="flight_from1" value="BOM" />
+                                <input type="hidden" id="flight_to1" value="MLE" />
+                                <input type="hidden" id="flight_from_date1" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date1" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 211*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 99</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 211</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="1"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Bali</h4>
+                                <p>SGH - DPS</p>
+                                <input type="hidden" id="flight_from2" value="SGH" />
+                                <input type="hidden" id="flight_to2" value="DPS" />
+                                <input type="hidden" id="flight_from_date2" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date2" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 99*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 65</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 99</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="2"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Bali</h4>
+                                <p>MNL - DPS</p>
+                                <input type="hidden" id="flight_from3" value="MNL" />
+                                <input type="hidden" id="flight_to3" value="DPS" />
+                                <input type="hidden" id="flight_from_date3" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date3" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 211*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 149</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 211</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="3"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Dubai</h4>
+                                <p>JTR - DUB</p>
+                                <input type="hidden" id="flight_from4" value="JTR" />
+                                <input type="hidden" id="flight_to4" value="DUB" />
+                                <input type="hidden" id="flight_from_date4" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date4" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 579*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 149</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 579</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="4"><b>Book Now</b></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2 textcon">
+        <div class="row">
+            <div class="column">
+                <p>Are you looking for a <a href="https://www.faresmatch.com/vacations/luxury-vacation.aspx">cheap luxury vacation package</a> that will give you a memorable and lavish experience? Then you must book a luxury vacation package offered by different platforms. A luxury vacation is a getaway from a regular boring life. The luxury vacations come up with top-notch facilities, including personalized services and exclusive experiences that can turn your trip into a fantastic experience. </p>
+                <p>In these <a href="https://www.faresmatch.com/vacations.aspx">vacation packages</a>, you are not only being provided with world-class services but also will be pampered with fine dining, activities like golfing and many other adventure sports and activities. So, what are you waiting for? With the help of this guide, you can plan for the best luxury family vacation package to one of the best destinations in the world at cheap rates. </p>
+                <h2>Best destinations for a luxurious trip</h2>
+                <p>Following are some of the spots you should consider for a luxurious trip-</p>
+
+                <div class="grid2">
+                    <div class="column">
+                        <img src="../vacation-images/Maldives.jpg" alt="">
+                        <h3>Maldives</h3>
+                        <p>
+                            Maldives is an island in the Indian Ocean. The spot is known for its iconic, beautiful beaches having clear blue water. Also, Maldives is a place being abundant aquatic life. So, if you want to visit here, check out <a href="https://www.faresmatch.com/vacations/beach-vacation.aspx">beach vacation packages</a>.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/Bali.jpg" alt="">
+                        <h3>Bali</h3>
+                        <p>
+                            Bali is one of the islands of Indonesia. It lies between Java to the west and Lombok to the east. Bali is home to iconic arts and crafts with a vibrant nightlife. It has many luxurious villas along with a fantastic cultural scene.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/Santorini.jpg" alt="">
+                        <h3>Santorini</h3>
+                        <p>
+                            Santorini, Greek, is one of the most preferred destinations among tourists due to the city's stunning beauty. Santorini is a Greek island having many luxurious accommodations and unique villages to explore. So, if you are fascinated to know about the Greek culture, you must consider Santorini, Greek, on your luxury vacation bucket list.
+                        </p>
+                    </div>
+                </div>
+
+                <h3>Things to do on your luxurious trip</h3>
+
+                <ul>
+                    <li>Relax and submerge in your luxurious trip by indulging in spa treatments, sun baths on a private beach, or simply enjoying the view of your destination. </li>
+                    <li>Enjoy top-class gourmet foods on your trip. Or hire a private chef for a custom meal experience. </li>
+                    <li>Explore your luxurious destination's local history and attractions to get exposure to its culture and history. </li>
+                    <li>Do visit local markets and boutiques to purchase some memories of the city. Also, you can see or buy various local items at high-end shopping centres. </li>
+                </ul>
+
+                <h3>Best time to go for a luxurious vacation</h3>
+                <p>The best time to go for a luxurious vacation will depend upon the destination you have selected for your trip. For example, if you are planning to visit a tropical destination like Bali or Maldives, it will be best to see it from December to April as the weather there is warmer and dryer. While if your goal is in Europe, you must plan for your trip in the spring or summer season, that is, May to September, for a fantastic experience. </p>
+
+
+                <h3>Luxury vacation packages are offered by JetBlue Airlines</h3>
+                <p>For cheap luxury vacation packages, you must try booking a JetBlue package. JetBlue has been providing <a href="https://www.faresmatch.com/flights.aspx">flights</a> for leisure and business travellers for a while. JetBlue provides its customer with many flight and hotel options which are meant to be convenient and cost-effective without sacrificing the quality of your vacation. You can opt for resorts and other vacation rentals through <a href="https://www.faresmatch.com/jetblue-vacations.aspx">JetBlue vacation packages</a>. </p>
+
+
+                <h4>Luxury vacation packages are offered by Delta Airlines</h4>
+                <p>
+                    There is a service given by Delta airlines where you can combine your flights, hotels and even <a href="https://www.faresmatch.com/car-rental.aspx">car rental reservations</a>. There is a wide variety of options offered by <a href="https://www.faresmatch.com/delta-vacation.aspx">Delta vacation packages</a>. Some include travel insurance and various accommodations ranging from hotels to villas. You can also earn and collect SkyMiles by delta vacation packages which you can later redeem on your next trip for an additional discount.
+                </p>
+
+                <h4>Luxury vacation packages by United Airlines</h4>
+                <p>By booking your trip using <a href="https://www.faresmatch.com/united-vacations.aspx">united vacation packages</a>, you can choose the best itinerary according to your convenience and personal preference. Like, Delta Airlines, united airlines also provide MileagePlus miles every time you travel with United Airlines. By using MileagePlus, you can claim additional perks and offers. United airline vacation packages are available in different budgets and different travel styles. So, choose the best one that has the best accommodation and other services that will come along with the package. </p>
+
+
+                <p>These are some tips to get the <a href="https://www.faresmatch.com/vacations/luxury-vacation.aspx">best luxury vacation packages</a>. By following these, create ever-lasting memories, plan for the best vacation trip, and spend some time with your family, friends or your close and your close ones on a luxury vacation. </p>
+
+                <h2>FAQs</h2>
+
+                <h3>What services are included in a luxury vacation package? </h3>
+                <p>The services you will get on your luxury vacation will mostly depend on the platform you have booked your package with. Although some of the expected benefits you will be getting in a luxury vacation package are flight, transportation, top-rated accommodation, gourmet meals, personalized activities and experiences. Also, spa treatment and more. Using a luxury vacation package gives you access to private beaches and other VIP amenities. </p>
+
+                <h3>How much will it cost for a luxury vacation? </h3>
+                <p>The cost of a luxury vacation can vary according to the destination you have chosen, the time you will visit, how long you stand and other expenses. A luxury vacation can typically cost anywhere between five thousand dollars to twenty thousand dollars per person. </p>
+
+                <h3>Are luxury vacations all-inclusive? </h3>
+                <p>Luxury vacations can be both all-inclusive and partially inclusive. The inclusivity depends on the package you have opted for and your package provider. The inclusive luxury vacation package usually includes all the essential services like meals, drinks, and activities, along with other activities and facilities. Partially inclusive luxury vacation packages are generally cheaper than all-inclusive packages. </p>
+
+                <h3>What to look for while booking a luxurious vacation package? </h3>
+                <p>Before booking a luxurious vacation package, you must know and be clear about what you are expecting from your package. Research your destination thoroughly and plan for the experiences and activities you want to experience on your trip. Consider your budget, pay and book packages which are reasonable and cost-effective and lastly, read all the terms and condition of the luxury vacation package you are booking. </p>
+
+                <h3>What are some tips so that I can get the most out of my luxurious trip? </h3>
+                <p>You must plan and utilize your time well to get the most out of your luxurious vacation trio. Research your destination and plan an itinerary. Take advantage of and experience the high-end services accompanying your luxury vacation package. Make time for relaxation and do take breaks to avoid extreme exhaustion. And lastly, take plenty of photos and memories with the vacation. </p>
+
+                <h3>What are some tips to get the best luxury vacation package? </h3>
+                <p>The key to getting the best vacation luxury package is planning. Before proceeding with anything, the first step you must take is to determine and fix your budget. Compare different luxury vacation packages provided by various travel platforms. Try to book your trip in advance to get the best deals and offers. Lastly, do not be too rigid with your travel dates. </p>
+
+                <h3>Can I customize my luxury vacation package? </h3>
+                <p>Yes, most of the time, luxury vacation packages are customizable. You can customize your package to meet your expectation. You can choose your flight, the type of accommodation, the activities you want to experience and other services. </p>
+
+                <h3>Can I earn frequent flyer miles with a luxury vacation package? </h3>
+                <p>Yes, many travel vacation providers these days are providing flyer miles. Some of them are delta airlines and united airlines. The flyer miles you will be getting can vary depending on your provider, destination and the class of service. Before jumping to book an extra service mile, do not forget to read and go through the terms and conditions. </p>
+
+                <h3>How many days should I spend on my luxury vacation trip? </h3>
+                <p>The days you want to spend on your luxury vacation trip will depend on your budget, travel schedule and personal interests. If you have a limited time, consider a shorter trip, while if you can afford to spend a few more days, you can relax and get the most out of your luxury trip. </p>
+
+                <h3>How can I book a luxury vacation package? </h3>
+                <p>Luxury vacation packages can be booked online. You can visit and secure your parcel from your vacation provider's official website or can directly call on their customer service contact number for better clarification. For booking a luxury package, you must require your travel date, destination, documents and other necessary basic personal details.       </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+
+
+
+    $(".deep_btn").click(function () {
+              var flight_opt = $(this).data("id");
+                var fway = "2";
+                var fcls = "4";
+                var from = "&From=" + $("#flight_from" + flight_opt).val();
+                var to = "&To=" + $("#flight_to" + flight_opt).val();
+                var fromDate = "&DepDate=" + $("#flight_from_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[0];
+                var toDate = "&RetDate=";
+
+
+              $("#spFrom").text($("#flight_from" + flight_opt).val());
+              $("#spTo").text($("#flight_to" + flight_opt).val());
+              $("#spFromDate").text($("#flight_from_date" + flight_opt).val());
+
+                if (fway == "2") {
+                        toDate = "&RetDate=" + $("#flight_to_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[0];
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+                    $("#spTo2").text($("#flight_from" + flight_opt).val());
+                    $("#spFrom2").text($("#flight_to" + flight_opt).val());
+              }
+
+
+                var adult = "&Adult=" + 1;
+                var child = "&Child=" + 0;
+                var infant = "&Infant=" + 0;
+                var airline = "&Airline=" + ""; // $("#flight_airline").val();
+                var isdirect = "&IsDirect=" + ("false");
+                var isflexi = "&IsFlexi=" + ("false");
+                fway_s = "&FlightWay=" + fway;
+              fcls_s = "&FlightClass=" + fcls;
+
+
+              $("#spADT").text(1);
+              $("#spCHD").text($("#flight_child").val());
+              $("#spINF").text($("#flight_infant").val());
+
+                var tolPass =  1 + "Adult";
+                $("#spPass").text(tolPass);
+
+
+
+                          var str = "../flight/search?SiteCode=VIMAN&SourceMedia=VIMAN" + from + to + fromDate + toDate + adult + child + infant + fway_s + fcls_s + airline + isdirect + isflexi + "&Currency=USD";
+
+
+$("#search_popup").show();
+
+window.location = str;
+ });
+
+
+</script>

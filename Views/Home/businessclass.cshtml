@@ -1,0 +1,306 @@
+﻿
+@{
+    ViewBag.Title = "businessclass";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section metatags{
+<title>Cheap Business Class Flights | Book A Flight | FaresMatch </title>
+    <meta name="description" content="Are you looking for an affordable business class option? Look no further! FaresMatch brings you cheap flights. Book now for the best prices and benefits." />
+    <link rel="canonical" href="https://faresmatch.com/business-class.aspx" />
+    <meta property="og:title" content="Cheap Business Class Flights | Book A Flight | FaresMatch" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.faresmatch.com/assets/images/logo.png" />
+    <meta name="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Faresmatch" />
+    <meta property="og:description" content="Are you looking for an affordable business class option? Look no further! FaresMatch brings you cheap flights. Book now for the best prices and benefits." />
+    <meta property="og:url" content="https://faresmatch.com/business-class.aspx" />
+    <meta name="author" content="faresmatch.com" />
+    <meta name="geo.region" content="US-GA" />
+    <meta name="language" content="English" />
+    
+    <meta name="robots" content="index,follow" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="faresmatch" />
+    <meta name="twitter:title" content="Cheap Business Class Flights | Book A Flight | FaresMatch" />
+    <meta name="twitter:description" content="Are you looking for an affordable business class option? Look no further! FaresMatch brings you cheap flights. Book now for the best prices and benefits." />
+    <meta name="twitter:image" content="https://www.faresmatch.com/assets/images/logo.png" />
+
+}
+
+<style>
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .travelexp {
+        .grid1
+
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        .column
+
+    {
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding: 20px;
+        h3
+
+    {
+        color: var(--fourth-color) !important;
+    }
+
+    }
+    }
+    }
+
+    .airlinelogos {
+        .grid2
+
+    {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    img {
+        width: 90%;
+    }
+
+    a {
+        margin: auto 0 !important;
+    }
+
+    }
+
+    @@media only screen and (max-width: 1024px) {
+        .grid {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 0;
+        }
+
+        .travelexp {
+            .grid1
+
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    }
+
+    .airlinelogos {
+        .grid2
+
+    {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    }
+    }
+</style>
+<div class="container2 bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>Finest Flights Deals & Discount Offers On Holiday Plan</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+<div class="container2 travelexp">
+    <div class="row">
+        <div class="column">
+
+
+            <div class="grid1">
+
+                <div class="column"
+                     style="background-image: linear-gradient(to top, rgb(0, 68, 153), rgba(20, 20, 20, 0)), url(/images/Luxury-Dining.jpg);">
+                    <h3>Luxury Dining</h3>
+                </div>
+
+                <div class="column"
+                     style="background-image: linear-gradient(to top, rgb(0, 68, 153), rgba(20, 20, 20, 0)), url(https://www.faresmatch.com/images/premium.jpg);">
+                    <h3>Superior Comfort</h3>
+                </div>
+                <div class="column"
+                     style="background-image: linear-gradient(to top, rgb(0, 68, 153), rgba(20, 20, 20, 0)), url(/images/Priority-Check-In.jpg);">
+                    <h3>Priority Check-In</h3>
+                </div>
+                <div class="column"
+                     style="background-image: linear-gradient(to top, rgb(0, 68, 153), rgba(20, 20, 20, 0)), url(https://www.faresmatch.com/images/student.jpg);">
+                    <h3>Extra Baggage</h3>
+                </div>
+                <div class="column"
+                     style="background-image: linear-gradient(to top, rgb(0, 68, 153), rgba(20, 20, 20, 0)), url(/images/Premium-Lounges.jpg);">
+                    <h3>Premium Lounges</h3>
+                </div>
+                <div class="column"
+                     style="background-image: linear-gradient(to top, rgb(0, 68, 153), rgba(20, 20, 20, 0)), url(https://www.faresmatch.com//images/domestic.jpg);">
+                    <h3>Special Assistance</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container2 airlinelogos">
+    <div class="row" style="padding-block: 0 !important;">
+        <div class="column">
+            <h2>Top Airlines for Business Class</h2>
+            <div class="grid2">
+                <a href="https://www.faresmatch.com/business-class/air-france.aspx"><img src="./images/Air-France.png" alt="Air France"></a>
+                <a href="https://www.faresmatch.com/business-class/delta.aspx"><img src="./images/delta.png" alt="Delta Airlines"></a>
+                <a href="https://www.faresmatch.com/business-class/lufthansa.aspx"><img src="./images/Lufthansa.png" alt="Lufthansa Airlines"></a>
+                <a href="https://www.faresmatch.com/business-class/singapore-airlines.aspx"><img src="./images/singapore-airlines.png" alt="Singapore Airlines"></a>
+                <a href="https://www.faresmatch.com/business-class/british-airways.aspx"><img src="./images/british-airways.png" alt="British Airways"></a>
+                <a href="https://www.faresmatch.com/business-class/emirates.aspx"><img src="./images/Emirates-logo.png" alt="Emirates Airlines"></a>
+                <a href="https://www.faresmatch.com/business-class/etihad.aspx"><img src="./images/etihad-airways.png" alt="Etihad Airlines"></a>
+                <a href="https://www.faresmatch.com/business-class/jetblue.aspx"><img src="./images/jetblue.png" alt="JetBlue Airlines"></a>
+                <a href="https://www.faresmatch.com/business-class/klm.aspx"><img src="./images/KLM.png" alt="KLM Airlines"></a>
+                <a href="https://www.faresmatch.com/business-class/united.aspx"><img src="./images/united.png" alt="United Airlines"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container2">
+    <div class="row">
+        <div class="column">
+            <h2>Cheap Business Class Flights</h2>
+            <p>
+                Every airline has business, economy, and first-class for its passengers. To grade it accordingly, it
+                stands like 1 – 5 is economy class, 6 – 8 is business class, and above 8 is the first class. Every
+                class has its significance and characteristics; while some excel in cheaper facilities, the other
+                has some spectacular services that strike the heart of whoever steps onto the flight. The business
+                class is in the middle as it has moderate or affordable amenities and services that are perfect for
+                all the middle-class people flying as well as for all those people who want cheaper deals or
+                alternatives before they head on their expensive trip.
+                <br> <br>
+                Faresmatch is a one-way platform for booking tickets online. You can quite easily book your tickets
+                from anywhere, anytime, by just logging into your account. It makes the process hassle-free and
+                quite inconvenient for people of any age. People usually book their business class flights from
+                Faresmatch to get awesome deals and offers, which gradually reduces the total cost. Booking your
+                tickets from the official site can grant you some cool cut-offs and offers that are very hard to
+                ignore and attract a huge lot of people from all around the world. The coupons you get from booking
+                your ticket can be availed anytime you book your flights to anywhere you want except for the present
+                one.
+            </p>
+            <br>
+            <h3>Why choose Faresmatch for business class bookings?</h3>
+            <p>
+                Faresmatch is the largest platform for online booking of business class tickets. All the giant
+                airline companies offer significant offers on the official site to increase their sales and reach
+                out more due to the immense number of people using the app daily. Apart from some cool discounts and
+                offers, you can avail yourself of some unique services unlike anyone else just because you choose to
+                book your tickets online.
+            </p>
+            <br>
+            <p>
+                Thus, people from all around the world prefer booking their discount business-class tickets online
+                for a variety of reasons. Here is the list of possibilities why people like to book from the site
+                every time they desire to fly:
+            </p>
+
+            <ul style="list-style-type: disc;">
+                <li style="margin-left: 15px !important;">
+                    If you book your business class ticket from the site, you
+                    can get up to 65% cashback. On the other hand, you can also win awesome gifts every time you
+                    book your tickets. The quality of the gift varies from the distance you are going to cover in
+                    your booking.
+                </li>
+                <li style="margin-left: 15px !important;">
+                    There are always some or the other discounts and offers
+                    available on the site. So, all those people who hover around the app waiting for the best time
+                    to grab the best deal do not need to wait any longer.
+                </li>
+                <li style="margin-left: 15px !important;">
+                    When you book your business class ticket with a valid
+                    student's VISA you can get up to 85% off depending on the age and the destination you are
+                    travelling to. Faresmatch prioritizes students over anyone else so they also offer cool
+                    cashbacks on every deal under a student's ID card.
+                </li>
+                <li style="margin-left: 15px !important;">
+                    If you book your reservation earlier than a month or two,
+                    you can get the premium option of choosing your desired seat from the entire list. You can also
+                    get flat 50% off on your total sum.
+                </li>
+                <li style="margin-left: 15px !important;">
+                    The most luscious service that <a href="/"
+                                                      style="color: var(--primary-color) !important;"><b>Faresmatch booking</b></a> offers to all
+                    their loyal customers on their online booking is a complimentary drink. You get to choose from a
+                    huge list of drinks as a complimentary one as soon as you board your flight.
+                </li>
+                <li style="margin-left: 15px !important;">
+                    If you pay via any credit or Visa card for your
+                    international transaction you can win awesome gifts and coupons. These coupons get added to your
+                    account and can be easily applied or used on your reservations for the future.
+                </li>
+            </ul>
+            <br><br>
+            <h2>Which is the ideal time to book business class tickets from Faresmatch?</h2>
+            <p>
+                Faresmatch is the most flexible app in the world. They have flexible timings for bookings, and you
+                can get confirmed tickets in no time. There are always some or the other discounts on the site
+                throughout the year. Customer support is quite available for guidance 24/7 regarding any queries on
+                booking business class tickets. Thus, there is no specific time for discounts and cheaper deals in
+                the app. They offer seamless discounts and an experience to all their customers who book tickets
+                every day without any break.
+                <br>
+                For domestic airlines' business class bookings, the ideal time to get cheap business class airfare
+                is on weekdays. It is during this day that the crowd is less, and people book fewer long-route
+                flights for their holidays. Thus, it is recommended that you book your domestic business class
+                tickets from Monday to Thursday to get the most out of the online booking discounts and offers.
+            </p>
+            <br><br>
+            <h2>FAQs</h2>
+            <div class="grid grid1">
+                <div>
+                    <h3>Do I get any entertainment options when booking from Faresmatch?</h3>
+                    <p>
+                        When you book your business class tickets from Faresmatch, you get a premium subscription to
+                        five different OTT platforms from all across the world.
+                    </p>
+                </div>
+                <div>
+                    <h3>Can I get to travel with my pet?</h3>
+                    <p>
+                        When you book your ticket online from Faresmatch, you need to apply for traveling with a pet
+                        and then choose the correct suitable option available to have the best experience.
+                    </p>
+                </div>
+                <div>
+                    <h3>Is a business class ticket costly?</h3>
+                    <p>
+                        A business class ticket is costly depending on the airlines you are flying with and the
+                        distance covered. But booking them on discounts and offers can get you some relief.
+                    </p>
+                </div>
+                <div>
+                    <h3>Do I get a refund for the cancellation?</h3>
+                    <p>
+                        When you cancel your business class booking, you get an instant refund to your linked bank
+                        account.
+                    </p>
+                </div>
+                <div>
+                    <h3>Do I get to edit my reservation at the last moment?</h3>
+                    <p>
+                        Editing your details just before departure is possible online from your account. Though
+                        sometimes they don’t get applied.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

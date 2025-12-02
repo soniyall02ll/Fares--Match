@@ -1,0 +1,177 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section metatags{
+    <title>Vuelos baratos, reservas, reserva de aerolíneas - FaresMatch</title>
+    <link rel="canonical" href="https://www.faresmatch.com/es" />
+    <meta name="keywords" content="Vuelo barato, Billete de avión, Reservas de vuelos, Vuelo de bajo coste, Reservas de entradas, billetes de avión más bajos" />
+    <meta name="description" content="Encuentra los vuelos más baratos a cualquier destino. Compare precios, reserve billetes de avión con la agencia de viajes FaresMatch y ahorre dinero." />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="icon" type="image/png" sizes="96x96" href="https://www.faresmatch.com/images/favicon-96x96.png" />
+    <meta name="robots" content="index, follow" />
+}
+
+<style>
+    .grid1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        img
+
+    {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .column {
+        margin: auto 0;
+    }
+
+    }
+
+    .newtexts {
+        ol
+
+    {
+        margin-left: 20px;
+    }
+
+    ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+
+    }
+
+    .grid2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        img
+
+    {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .column {
+        box-shadow: 0 0 2px 2px rgba(20, 20, 20, 0.1);
+        padding: 15px;
+        border-radius: 10px;
+        h3
+
+    {
+        font-size: 23px !important;
+    }
+
+    }
+    }
+
+    @@media only screen and (max-width: 1024px) {
+        .grid1,
+        .grid2 {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+            .grid2 .column h3 {
+                font-size: 20px !important;
+            }
+    }
+</style>
+
+<div class="container2  bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>Agencia de reserva de tiquetes de vuelos baratos</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+<div class="container2 newtexts">
+    <div class="row">
+        <div class="column">
+            <p><b>LAS MEJORES TARIFAS INIGUALABLES DEL MUNDO</b></p>
+            <p>Sí, puedes encontrar las mejores ofertas en cualquier lugar, pero FaresMatch te ofrece tarifas inigualables para tus viajes. ¡Encontramos las tarifas aéreas más baratas, hoteles económicos, paquetes turísticos al precio más bajo y mucho más!</p>
+            <h2>FaresMatch- Agencia de reserva de tiquetes de vuelos baratos</h2>
+            <p>FaresMatch es su solución integral para todos sus problemas de reservas de viajes y aerolíneas. Como buscador de vuelos, le ayudamos a encontrar las ofertas más baratas en tiquetes de vuelos para sus viajes nacionales e internacionales a casi todos los países principales de América, Europa, Canadá y Asia.</p>
+            <br>
+            <div class="grid2">
+                <div class="column">
+                    <h3>Garantía de igualación de tarifas</h3>
+                    <p>Le reembolsaremos la diferencia si encuentra una tarifa más baja para el mismo vuelo dentro de las 24 horas posteriores a la reserva.</p>
+                </div>
+                <div class="column">
+                    <h3>Selección de vuelos inigualable</h3>
+                    <p>Comparamos tarifas de las principales aerolíneas y agencias de viajes.</p>
+                </div>
+                <div class="column">
+                    <h3>Potentes herramientas de búsqueda</h3>
+                    <p>Limite sus resultados por aerolínea, alianza, precio y más.</p>
+                </div>
+                <div class="column">
+                    <h3>Interfaz fácil de usar</h3>
+                    <p>Encuentra rápida y fácilmente los vuelos que estás buscando.</p>
+                </div>
+                <div class="column">
+                    <h3>Alertas de tarifas en tiempo real</h3>
+                    <p>Le enviaremos una alerta si baja el precio de un vuelo que le interesa.</p>
+                </div>
+                <div class="column">
+                    <h3>Sin cuotas escondidas</h3>
+                    <p>El precio que ves es el precio que pagas.</p>
+                </div>
+                <div class="column">
+                    <h3>Opciones de reserva flexibles</h3>
+                    <p>Cambie las fechas u horarios de su vuelo por una tarifa.</p>
+                </div>
+                <div class="column">
+                    <h3>Múltiples opciones de pago</h3>
+                    <p>Aceptamos las principales tarjetas de crédito, tarjetas de débito y PayPal.</p>
+                </div>
+                <div class="column">
+                    <h3>Seguro de viaje</h3>
+                    <p>Protege tu viaje con un seguro de viaje.</p>
+                </div>
+            </div>
+
+            <h2>¿Por qué elegir FaresMatch?</h2>
+            <p>
+                Contamos con un equipo de agentes de viajes dedicados y experimentados para ayudarlo a administrar su viaje con tiquetes baratos.
+
+                <br>
+                Nuestro servicio de atención al cliente 24 horas al día, 7 días a la semana puede ayudarle a reservar vuelos, cambiar o cancelar billetes de aerolíneas incluso en el último momento.
+
+                <br>
+                Con FaresMatch, puede reservar tiquetes de aerolínea al menor coste durante todo el año. Sí, antes de reservar un vuelo con cualquier aerolínea, asegúrese de visitar la sección de ofertas de FaresMatch y elegir la oferta que más le convenga.
+
+                <br>
+                En FaresMatch, entendemos que una emergencia puede ocurrir en cualquier momento. Por lo tanto, nuestras ofertas de vuelos son perfectas para su reserva de vuelo de última hora. Además, si necesita ayuda para navegar por el sitio web, no dude en llamarnos al 1-800-918-3039.
+            </p>
+
+            <h2>Preguntas frecuentes</h2>
+            <h3>¿Qué es Fares Match?</h3>
+            <p>FaresMatch es su buscador de vuelos que lo ayuda a reservar tiquetes de aerolinea doméstica e internacionales al bajo costo para los principales países de América, Europa, Canadá y Asia.</p>
+
+            <h3>¿Cómo puede ayudarme FaresMatch?</h3>
+            <p>Ya sea que desee planificar una escapada de fin de semana con familiares o amigos, planificar un viaje romántico o un viaje de negocios con colegas, FaresMatch puede ayudarlo a reservar boletos de aerolinea doméstica e internacionales.</p>
+
+            <h3>¿Cómo puedo aprovechar ofertas en mi reserva de vuelo?</h3>
+            <p>Puede visitar la sección Ofertas en el sitio web de FaresMatch y elegir la oferta que mejor se adapte a sus necesidades o puede ponerse en contacto con nuestros agentes de viajes al 1-800-918-3039. Ellos harán la búsqueda de vuelos más baratos en su nombre.</p>
+            <h3>¿Puede FaresMatch ayudarme a reservar tiquetes de aerolinea en el último minuto?</h3>
+            <p>Sí. Entendemos que las emergencias son parte integrante de la vida y no se pueden evitar. Por lo tanto, con FaresMatch puedes reservar tiquetes de aerolinea de última hora sin problemas.</p>
+
+            <h3>¿Qué pasa si cambio o cancelo mi tiquetes de aerolinea? ¿Cuándo recibiré el importe?</h3>
+            <p>Si cambia o cancela sus tiquetes de aerolinea dentro del mismo día antes de la medianoche, está sujeto a nuestras tarifas de cancelación. Cualquier proceso de reembolso o cancelación puede demorar hasta 15 días. Cualquier monto reembolsable por la cancelación del tiquetes elegible tardará de 10 a 15 días hábiles en reembolsarse.</p>
+
+            <h3>¿Cómo puedo reservar el vuelo más barato en FaresMatch?</h3>
+            <p>Reservar el vuelo más barato en FaresMatch es fácil. Puede navegar por el sitio web y encontrar las mejores ofertas para sus viajes aéreos. También puede ponerse en contacto con nuestro servicio de atención al cliente 24 horas al día, 7 días a la semana para ayudarle a encontrar tiquetes de avión baratos.</p>
+        </div>
+    </div>
+</div>
+

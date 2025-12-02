@@ -1,0 +1,366 @@
+﻿
+@{
+    ViewBag.Title = "romanticvacation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    DateTime dt1 = DateTime.Now.Date.AddDays(2);
+    DateTime dt2 = DateTime.Now.Date.AddDays(9);
+}
+
+@section metatags{
+    <title>Top Romantic Vacation | Couple Tour Packages 2023- FaresMatch</title>
+    <meta name="description" content="USA Vacations. Romantic vacation packages for couples. Key feature deals include luxurious spas & resorts in Mauritius with Delta cheap flights.  " />
+    <link rel="canonical" href="https://www.faresmatch.com/vacations/romantic-vacation.aspx">
+    <meta name="author" content="faresmatch.com">
+    <meta name="subject" content="Air Travel">
+    <meta name="geo.region" content="US-CA">
+    <meta name="language" content="English">
+    <meta name="designer" content="Faresmatch">
+    <meta name="publisher" content="Faresmatch">
+    <meta name="country" content="USA">
+    <meta name="rating" content="general" />
+    <meta name="robots" content="index,follow">
+    <meta property="og:url" content="https://www.faresmatch.com/vacations/romantic-vacation.aspx">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Top Romantic Vacation | Couple Tour Packages 2023- FaresMatch">
+    <meta property="og:description" content="USA Vacations. Romantic vacation packages for couples. Key feature deals include luxurious spas & resorts in Mauritius with Delta cheap flights.  " />
+    <meta property="og:image" content="https://www.faresmatch.com/assets/images/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="faresmatch.com">
+    <meta property="twitter:url" content="https://www.faresmatch.com/vacations/romantic-vacation.aspx">
+    <meta name="twitter:title" content="Top Romantic Vacation | Couple Tour Packages 2023- FaresMatch" />
+    <meta name="twitter:description" content="USA Vacations. Romantic vacation packages for couples. Key feature deals include luxurious spas & resorts in Mauritius with Delta cheap flights.  " />
+    <meta name="twitter:image" content="https://www.faresmatch.com/assets/images/logo.png">
+
+
+
+}
+
+<script type="application/ld+json">
+		{
+		 "@@context": "https://schema.org/",
+		 "@@type": "WebPage",
+		 "name": "Top Romantic Vacation | Couple Tour Packages 2023- FaresMatch",
+		 "speakable":
+		 {
+		  "@@type": "SpeakableSpecification",
+		  "xpath": [
+			"/html/head/title",
+			"/html/head/meta[@@name='description']/@@content"
+			]
+		  },
+		 "url":"https://www.faresmatch.com/vacations/romantic-vacation.aspx"
+		 }
+</script>
+
+<div class="container2  bg1">
+    <div class="row flex">
+        <div class="column">
+            <h1>Romantic Vacation</h1>
+            @{Html.RenderPartial("~/Views/Shared/_SearchEngine.cshtml");}
+        </div>
+    </div>
+</div>
+
+<section class="trvl_bug">
+    <div class="container2 newbg">
+        <div class="row" style="padding-bottom: 0 !important;">
+            <div class="column">
+                <div class="detail">
+                    <h2>Romantic Vacation Flight Deals</h2>
+                </div>
+                <div class="innerrow grid1">
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Mauritius</h4>
+                                <p>DEL - MRU</p>
+                                <input type="hidden" id="flight_from1" value="DEL" />
+                                <input type="hidden" id="flight_to1" value="MRU" />
+                                <input type="hidden" id="flight_from_date1" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date1" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 569*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 99</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 569</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="1"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Bali</h4>
+                                <p>DEL - DPS</p>
+                                <input type="hidden" id="flight_from2" value="DEL" />
+                                <input type="hidden" id="flight_to2" value="DPS" />
+                                <input type="hidden" id="flight_from_date2" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date2" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 288*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 65</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 288</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="2"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Greece</h4>
+                                <p>SFO - JTR</p>
+                                <input type="hidden" id="flight_from3" value="SFO" />
+                                <input type="hidden" id="flight_to3" value="JTR" />
+                                <input type="hidden" id="flight_from_date3" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date3" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 666*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 149</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 666</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="3"><b>Book Now</b></a></p>
+                    </div>
+
+                    <div class="column">
+                        <div class="flex">
+                            <div class="left">
+                                <h4>Newark</h4>
+                                <p>SFO - EWR</p>
+                                <input type="hidden" id="flight_from4" value="SFO" />
+                                <input type="hidden" id="flight_to4" value="EWR" />
+                                <input type="hidden" id="flight_from_date4" value="@dt1.ToString("dd-MM-yyyy")" />
+                                <input type="hidden" id="flight_to_date4" value="@dt2.ToString("dd-MM-yyyy")" />
+                            </div>
+                            <img src="https://www.faresmatch.com/fmimages/routMap.png" alt="location-map-icon">
+                            <div class="right">
+                                <h4>$ 199*</h4>
+                                <p>Round Trip</p>
+                            </div>
+                        </div>
+                        <div class="center"></div>
+                        <div class="flex">
+                            <div class="left">
+                                <p>$ 149</p>
+                            </div>
+                            <div></div>
+                            <div class="right">
+                                <p>$ 199</p>
+                            </div>
+                        </div>
+                        <p style="text-align: center; margin-top: 20px !important;"><a href="javascript:void(0);" class="button deep_btn" data-id="4"><b>Book Now</b></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2 textcon">
+        <div class="row">
+            <div class="column">
+                <p><a href="https://www.faresmatch.com/vacations.aspx">Vacations</a> are a fantastic way to escape the mundane routine of life. They are highly recommended for spending time with the people you love. And what better way to make your holiday the greatest one yet than to organize a romantic retreat with your sweetheart to escape from the humdrum of the world in a magnificent but untamed vacation destination? </p>
+                <p>To help you have the trip of a lifetime, we offer you the most incredible holiday packages, ranging from luxurious to absolutely swanky five-star packages that are ought to give you the perfect time with your partner. But before continuing to search for the best <a href="https://www.faresmatch.com/vacation-packages.aspx">vacation packages</a>, let's first explore must-see vacation destinations with your sweetheart for a romantic getaway. </p>
+                <h2>Must-visit Romantic Vacation Spots</h2>
+                <div class="grid1">
+                    <div class="column">
+                        <img src="../vacation-images/Greece.jpg" alt="">
+                    </div>
+                    <div class="column">
+                        <h3>Greece</h3>
+                        <p>
+                            Greece gives you a vibe of ethnicity, culture, and luxury. The place is perfect for a <a href="https://www.faresmatch.com/vacations/romantic-vacation.aspx">romantic getaway</a>. If admiring historic ruins and exploring beautiful architecture is your thing, visiting Greece with your special someone should be on your bucket list.
+                        </p>
+
+                        <h3>Things to do in Greece</h3>
+                        <p>By planning a yacht cruise just before sundown to spend the perfect evening amidst the magnificent sunsets, you can arrange the perfect evening date to surprise your significant other. </p>
+                        <p>Now that the vacation spot is locked in, here are some important things to consider before proceeding with your trip for a romantic getaway. </p>
+                    </div>
+                    <div class="column">
+                        <h3>Bali</h3>
+                        <p>
+                            If you and your special someone enjoy culture and adventure, Bali is the perfect setting to reflect on your ultimate vacation. This tropical paradise provides you with breathtaking views and an inside look at local culture. Bali is an absolute must-visit destination for your ideal holiday if riding bicycles across hills covered in flora is your notion of the ideal break with your significant other.
+                        </p>
+                        <h3>Things to do in Bali</h3>
+                        <p>Bali is a lovely and exciting place. Trekking with your special someone and enjoying the best breakfast of your life on the hilltop while taking in the magnificent sunrise are two ways to explore the island's abundance of greenery that tops every couple's things-to-do list when in Bali. </p>
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/Bali-1.jpg" alt="">
+                    </div>
+                    <div class="column">
+                        <img src="../vacation-images/Mauritius.jpg" alt="">
+                    </div>
+                    <div class="column">
+                        <h3>Mauritius</h3>
+                        <p>
+                            If blissful backwaters, heavenly hills, pristine sand beaches, and scenic views are your ideal picture of a romantic vacation, then Mauritius is the perfect place for you to explore with your loved ones. The land of scenic oceans tagged with beautiful sunsets comes with the best luxury hotels tucked away far in the land of oceans to give you a long, yearned, cozy vacation with your partner. Travelers should filter their search list with phrases like Beach Vacation Packages, Vacation Packages, or <a href="https://www.faresmatch.com/vacations/luxury-vacation.aspx">Luxury Family Vacation Package</a> to go grander even with the minimum budget.
+                        </p>
+                        <h3>Things to do in Mauritius</h3>
+                        <ul>
+                            <li>Mauritius is famous for its magnificent ocean views and sunsets. </li>
+                            <li>Therefore, when visiting this land of pristine beaches, search for private cruises that will take you and your special someone on an unforgettable joyride while viewing breathtaking sunsets. </li>
+                        </ul>
+                        <p>Travelers should scathe for cheap luxury vacation packages that include exciting activities and a wonderful stay. </p>
+                    </div>
+                </div>
+
+                <h3>Make a list of Airlines that offer Flights to your Destination</h3>
+                <ul>
+                    <li>Look for airlines that give bargains and discounts on your vacation or packages like airline tickets and rental cars to save money, or take advantage of bundle packages that include everything from food, accommodation, and fun activities. </li>
+                    <li>By doing so, you'll be able to take advantage of exclusive offers on extras and airfare while taking the ideal vacation. </li>
+                </ul>
+                <p>
+                    <strong>Pro Tip </strong>
+                </p>
+                <ul>
+                    <li>You can check out any airline's official website that flies to your ideal vacation spot to see if they have any vacation packages available. </li>
+                    <li>For instance, when making a reservation with Delta Airlines, you can browse all airline offers and discounts by typing <a href="https://www.faresmatch.com/delta-vacation-packages.aspx">Delta vacation packages</a> into the search field. </li>
+                    <li>Similarly, by typing the airline name and the word "vacation packages" with it, you can also browse for offers and discounts made available by other airlines. For example, <a href="https://www.faresmatch.com/united-vacations-packages.aspx">United vacation packages</a>, <a href="https://www.faresmatch.com/jetblue-vacations.aspx">JetBlue vacation packages</a>, etc. </li>
+                </ul>
+                <h3>Research the Best time to take a Vacation to your destination</h3>
+                <ul>
+                    <li>The arrival date you choose will have a significant impact on how your vacation goes. If the weather where you're going on your romantic getaway doesn't match the dates you're traveling, it could result in total turmoil. </li>
+                    <li>For instance, visiting Bali between November and March during the wet season, when there is a lot of rain and no chance of seeing any gorgeous landscapes, can result in pure chaos. </li>
+                    <li>Therefore, checking the weather conditions of your destination by researching the best times to travel can save your trip from becoming a mood spoiler. </li>
+                </ul>
+
+                <h4>Make a List of Places to Visit </h4>
+                <ul>
+                    <li>People who go with their adrenaline rush avoid reading this. This is particularly for people who love staying organized and planning everything before finally enjoying their trip. </li>
+                    <li>Although not mandatory, it is desirable to list all the tourist hotspots you must see when visiting your romantic getaway destination. </li>
+                    <li>This way, you will save time organizing and planning everything during your vacation and avoid losing time that could otherwise be spent trekking, watching magnificent sunsets, or lying down lazy on pristine beaches with your special someone. Avoid wasting time and planning beforehand! </li>
+                </ul>
+
+                <h4>Learn about the Local Transportation Services</h4>
+                <p>When on vacation, travelers must do their homework and understand how to get around locally. Finding websites that provide detailed information, a map of the area, and instructions on sightseeing in the country will save you a tonne of time and prevent first-timers from experiencing panic attacks throughout their vacation. </p>
+                <h3>Luxury Vacation Packages</h3>
+                <ul>
+                    <li>Traveling is a luxury in and of itself. Budget-conscious travelers should, however, take into account package deals that provide savings on lodging, airfare, itineraries, and <a href="https://www.faresmatch.com/car-rental.aspx">rental cars</a> without sacrificing the standard of your trip. </li>
+                    <li>Keep in mind that while it is wise to choose less expensive options, the standard of your holiday cannot be compromised. </li>
+                    <li>Bundle packages are a lifesaver when forging ahead on their first trip, whether alone or with loved ones. These greatly assist in reducing unnecessary spending and help you stick to your budget. </li>
+                </ul>
+
+                <p>Even though meticulous, the above pointers are not nearly enough when planning an entire vacation. Travelers should keep updating their checklist before going on a trip and make sure they research sufficiently about all things necessary. The research will not only help increase their knowledge of their dream vacation spot and help travelers save money by comparing the best options at hand while giving them a memorable trip to cherish for life. </p>
+
+                <h2>FAQs</h2>
+                <h3>What platforms can I use to book my luxury vacation? </h3>
+                <p>Many emerging sites focus on giving travelers the best experience by helping them travel on a budget and enjoy luxuries. Travelers can pick any such website, fill in the search field, and filter their searches to find a package that best suits their preferences. </p>
+                <h3>Are vacation packages cheap? </h3>
+                <p>The price of your vacation package depends greatly on the sort of vacation package you choose. </p>
+                <ul>
+                    <li>If marking off a destination from your checklist is your only concern, you can skip on the additional amenities like hotel luxuries, complimentary breakfast, and spa treatments and choose a cheap package that offers the basic amenities for a trip with quality room services and hygiene. </li>
+                    <li>However, suppose you wish to enjoy the luxuries and amenities that come with the hotel, like complimentary food, exclusive access to VIP areas, and more. In that case, you should consider choosing a slightly more upgraded package to make your trip lavish. </li>
+                </ul>
+                <h3>How much would a luxurious holiday cost you? </h3>
+                <p>Your luxury vacation's price may change depending on the location you pick, the season you go, how long you stay, and other costs. The typical price per person for a luxury vacation is from $5,000 to $20,000 per person. </p>
+                <h3>Are all-inclusive luxury vacations available? </h3>
+                <p>Both fully inclusive and inclusive-only luxury vacations are available. Both variables are your chosen package's inclusiveness and your package provider's inclusiveness. The all-inclusive luxury vacation package often includes all the necessary amenities and services, such as meals, beverages, and activities, in addition to other civilities and facilities. Luxury vacation packages with partial inclusions are less expensive than those with complete inclusions. </p>
+                <h3>What are some pointers to make the most of my lavish trip? </h3>
+                <p>You must schedule and manage your time to make the most of your trip. Plan your itinerary after doing some research on the place. Profit from and savor the premium experiences that come with your luxurious vacation package. To prevent extreme exhaustion, make sure to schedule downtime and take breaks. Finally, capture your holiday in as many pictures and memories as possible. </p>
+                <h3>What to check for while making a vacation package purchase? </h3>
+                <p>You must be aware of and be specific about what you want from your vacation package before making a reservation for one that meets all of your criteria. Plan the experiences and activities you wish to participate in during your vacation after extensive research on your destination. Last but not least, examine all the terms and conditions of the luxury vacation package you are booking. Take into consideration your budget, pay, and book packages that are acceptable and affordable. </p>
+                <h3>What are some pointers for finding the best luxury travel trip? </h3>
+                <p>Planning is the secret to obtaining the best luxury vacation package. Establishing and sticking to a budget is the first thing you need to do before doing anything else. Compare the numerous luxury vacation packages offered by various booking sites. To get the greatest prices and incentives, try to plan your vacation ahead of time. Last but not least, try to be flexible with your travel dates. </p>
+                <h3>How many days should I spend traveling in style? </h3>
+                <p>Your budget, travel plans, and personal interests will all affect how many days you spend on your luxury holiday. If you have a small amount of time, go for a shorter trip; otherwise, if you can afford to stay a few extra days, you may unwind and make the most of your luxurious vacation. </p>
+                <h3>Can I modify my luxury travel itinerary? </h3>
+                <p>Luxury packages are typically customizable. You can modify your bundle to suit your needs. You have various options, including flights, lodging, activities, and other services. </p>
+                <h3>Which airlines should I choose to travel to my destination? </h3>
+                <p>Travelers should scathe the internet for the best deals on airlines and airlines that fly to their chosen destinations. Researching can help you save time and prevent getting scammed by fake airline companies. </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+
+
+
+    $(".deep_btn").click(function () {
+              var flight_opt = $(this).data("id");
+                var fway = "2";
+                var fcls = "4";
+                var from = "&From=" + $("#flight_from" + flight_opt).val();
+                var to = "&To=" + $("#flight_to" + flight_opt).val();
+                var fromDate = "&DepDate=" + $("#flight_from_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_from_date" + flight_opt).val().split("-")[0];
+                var toDate = "&RetDate=";
+
+
+              $("#spFrom").text($("#flight_from" + flight_opt).val());
+              $("#spTo").text($("#flight_to" + flight_opt).val());
+              $("#spFromDate").text($("#flight_from_date" + flight_opt).val());
+
+                if (fway == "2") {
+                        toDate = "&RetDate=" + $("#flight_to_date" + flight_opt).val().split("-")[2] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[1] + "-" + $("#flight_to_date" + flight_opt).val().split("-")[0];
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+
+                    $("#spToDate").text($("#flight_to_date" + flight_opt).val());
+                    $("#spTo2").text($("#flight_from" + flight_opt).val());
+                    $("#spFrom2").text($("#flight_to" + flight_opt).val());
+              }
+
+
+                var adult = "&Adult=" + 1;
+                var child = "&Child=" + 0;
+                var infant = "&Infant=" + 0;
+                var airline = "&Airline=" + ""; // $("#flight_airline").val();
+                var isdirect = "&IsDirect=" + ("false");
+                var isflexi = "&IsFlexi=" + ("false");
+                fway_s = "&FlightWay=" + fway;
+              fcls_s = "&FlightClass=" + fcls;
+
+
+              $("#spADT").text(1);
+              $("#spCHD").text($("#flight_child").val());
+              $("#spINF").text($("#flight_infant").val());
+
+                var tolPass =  1 + "Adult";
+                $("#spPass").text(tolPass);
+
+
+
+                          var str = "../flight/search?SiteCode=VIMAN&SourceMedia=VIMAN" + from + to + fromDate + toDate + adult + child + infant + fway_s + fcls_s + airline + isdirect + isflexi + "&Currency=USD";
+
+
+$("#search_popup").show();
+
+window.location = str;
+ });
+
+
+</script>

@@ -1,0 +1,570 @@
+@media (min-width:577px) and (max-width:992px) {
+    .newheader .head, .row {
+        width: 100% !important
+    }
+
+    .row {
+        margin: auto !important;
+        padding: 40px 20px !important
+    }
+
+    .grid2, .grid3 {
+        grid-template-columns: repeat(2,1fr)
+    }
+
+    #changeflights {
+        margin: 10px 0 !important;
+        border-radius: 25px !important;
+        padding: 2px 15px !important;
+        font-size: 15px !important
+    }
+
+    .resultPrice-row {
+        width: 50% !important
+    }
+
+    .resultBtn-row {
+        padding: 0 10px 10px;
+        display: flex
+    }
+
+    #ui-id-1, .autocomplete-results, .autocomplete-results_to {
+        left: 40px !important
+    }
+
+    .location {
+        margin-top: 20px !important
+    }
+
+    .mobilecta {
+        display: flex !important;
+        gap: 10px
+    }
+
+    #ui-id-2 {
+        top: 415px !important;
+        left: 70px !important
+    }
+
+    form input, form select, form textarea {
+        padding: 15px 10px !important
+    }
+
+    form .dropdown-container {
+        margin-top: -12px !important;
+        margin-bottom: -3px !important
+    }
+
+    .newheader .newnav {
+        display: block !important;
+        margin-top: 10px !important;
+        padding-top: 10px !important;
+        border-top: 2px solid var(--primary-color)
+    }
+
+    .newheader #off, .newheader #on {
+        display: block !important;
+        text-align: right !important;
+        font-size: 20px !important
+    }
+
+    .newheader #on {
+        max-width: 25px
+    }
+
+    .newheader .navlogo h4, .newheader .navlogo i {
+        color: var(--fourth-color) !important;
+        font-size: 17px !important;
+        margin: 0 !important;
+        padding: 0 !important
+    }
+
+    .newheader .navlogo {
+        display: block !important;
+        text-align: center;
+        margin-top: 15px !important;
+        background-color: var(--primary-color);
+        border-radius: 10px;
+        padding: 10px 5px !important
+    }
+
+    .newheader .head .navdrop {
+        width: auto !important
+    }
+
+    .newheader .head button {
+        margin: 0 !important
+    }
+
+    .newheader .head img {
+        width: 113px !important;
+        height: auto !important
+    }
+
+    .newheader .head .right {
+        text-align: center !important;
+        margin: 0 auto !important;
+        width: fit-content
+    }
+
+        .newheader .head .right img {
+            width: 30px !important
+        }
+
+    .newheader .head .nav1 #on i {
+        color: var(--fourth-color) !important
+    }
+
+    .newheader .head .nav1 ul {
+        position: relative;
+        padding: 0;
+        box-shadow: none
+    }
+
+        .newheader .head .nav1 ul li {
+            padding: 5px 10px !important
+        }
+
+    .newheader .head .nav1 {
+        background-color: var(--fourth-color) !important;
+        display: none;
+        position: fixed !important;
+        box-shadow: 0 2px 2px rgba(20,20,20,.5);
+        padding: 20px !important;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100vh;
+        background-color: var(--third-color);
+        overflow-y: auto;
+        z-index: 9
+    }
+}
+
+@media (min-width:300px) and (max-width:576px) {
+    .newheader #off, .newheader .newnav {
+        display: block !important
+    }
+
+    .newheader #off, .newheader #on {
+        text-align: right !important;
+        font-size: 20px !important
+    }
+
+    .newfooter .foot p, .newheader .head .right p {
+        line-height: 1.5 !important
+    }
+
+    .amtrak .img, .bg1 #flight_submit, .bookingpopup .center, .newfooter .foot, .newheader .head {
+        width: 100% !important
+    }
+
+    .bg1 form, .prp_popup {
+        position: static !important
+    }
+
+    .bg1 #mySelect1:hover .Classdrop, .bg1 #mySelect:hover .tripdrop {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0)
+    }
+
+    .bg1 #mySelect1:hover .innerClassdrop, .bg1 #mySelect:hover .innertripdrop, .bg1 #mySelect:hover .tripdrop {
+        transform: translateY(0)
+    }
+
+    .newheader .newnav {
+        margin-top: 10px !important;
+        padding-top: 10px !important;
+        border-top: 2px solid var(--primary-color)
+    }
+
+    .PartnerLogo .jfkdsdf, .ctasection, .newheader .head .signjoin, .newheader span, .slider-container1 .next-btn1, .slider-container1 .prev-btn1, .slider-container2 .next-btn2, .slider-container2 .prev-btn2 {
+        display: none
+    }
+
+    .newheader #on {
+        display: block !important;
+        max-width: 25px
+    }
+
+    .newheader .navlogo {
+        display: block !important;
+        text-align: center;
+        margin-top: 15px !important;
+        background-color: var(--primary-color);
+        border-radius: 10px;
+        padding: 10px 5px !important
+    }
+
+    .newheader .head {
+        gap: 15px
+    }
+
+        .newheader .head .navdrop {
+            width: auto !important
+        }
+
+        .newheader .head .newnav ul {
+            display: block
+        }
+
+        .newheader .head .right img {
+            width: 30px !important
+        }
+
+        .newheader .head .right p {
+            font-size: 12px !important
+        }
+
+        .gap, .newheader .head .right div {
+            gap: 5px !important
+        }
+
+        .newheader .head .right {
+            text-align: center !important;
+            margin: 0 auto !important;
+            width: fit-content;
+            padding-right: 10px !important
+        }
+
+        .newheader .head button {
+            margin: 0 !important
+        }
+
+        .newheader .head img {
+            width: 95px !important;
+            height: auto !important
+        }
+
+        .newheader .head .nav1 {
+            background-color: var(--fourth-color) !important;
+            display: none;
+            position: fixed !important;
+            box-shadow: 0 2px 2px rgba(20,20,20,.5);
+            padding: 20px !important;
+            top: 0;
+            right: 0;
+            width: 60%;
+            height: 100vh;
+            background-color: var(--third-color);
+            overflow-y: auto;
+            z-index: 9
+        }
+
+            .newheader .head .nav1 #on i {
+                color: var(--fourth-color) !important
+            }
+
+            .newheader .head .nav1 ul {
+                position: relative;
+                padding: 0;
+                box-shadow: none
+            }
+
+                .newheader .head .nav1 ul li {
+                    padding: 5px 10px !important
+                }
+
+    .newheader .navlogo h4, .newheader .navlogo i {
+        color: var(--fourth-color) !important;
+        font-size: 17px !important;
+        margin: 0 !important;
+        padding: 0 !important
+    }
+
+    .newfooter .mainfooter, .row {
+        width: 100% !important;
+        padding: 20px !important;
+        margin: auto !important
+    }
+
+    h1 {
+        font-size: 23px !important;
+        font-weight: 400 !important
+    }
+
+    h2 {
+        font-size: 21px !important
+    }
+
+    h3 {
+        font-size: 19px !important
+    }
+
+    .d-flex {
+        flex-direction: column !important
+    }
+
+    button {
+        font-size: 16px !important
+    }
+
+    .uspsection .grid3 {
+        grid-template-columns: repeat(2,1fr)
+    }
+
+    .tabs .tabdetails, .text, .text1, .text2 {
+        column-count: 1 !important
+    }
+
+    .map iframe {
+        height: 250px !important
+    }
+
+    .bg4 {
+        padding: 60px 20px !important
+    }
+
+    .amtrak .img {
+        border-radius: 10px 10px 0 0
+    }
+
+    .TrendingFall .innergrid, .grid1, .grid2, .grid3 {
+        grid-template-columns: repeat(1,1fr)
+    }
+
+    .person_dropdown {
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        max-width: calc(100% - 20px) !important;
+        min-width: calc(100% - 20px) !important
+    }
+
+    #changeflight1 {
+        position: static
+    }
+
+    .slider-container3 .slide3 {
+        min-width: 90%;
+        border-radius: 10px;
+        background: #fff
+    }
+
+    #ui-datepicker-div {
+        left: 40px !important
+    }
+
+    .PlanToday .row {
+        padding-inline: 0 !important
+    }
+
+    .search_flights {
+        width: 100%
+    }
+
+    .bg1 .formheads, .faq .gap2 {
+        gap: 10px !important
+    }
+
+    .bg2 h4, .innertripdrop label {
+        font-size: 17px !important
+    }
+
+    .bookingpopup p, .newfaqs .newfaqhead b, .newfooter .foot p, .newfooter .mainfooter .column a {
+        font-size: 14px !important
+    }
+
+    .bg2 .row {
+        padding-top: 20px !important
+    }
+
+    .listing, .newfooter .foot {
+        padding-top: 0 !important
+    }
+
+    .newfooter form {
+        margin: 10px 0
+    }
+
+    .newfooter .mainfooter .column .div {
+        display: grid;
+        gap: 0
+    }
+
+    .newfooter .mainfooter .social {
+        text-align: left !important;
+        justify-content: start !important
+    }
+
+    .bg3 .slidebutton1 .rightBt1, .mainslider .slidebutton .rightBt {
+        margin-right: 0 !important
+    }
+
+    .bg3 .slidebutton1 .leftBt1, .mainslider .slidebutton .leftBt {
+        margin-left: 0 !important
+    }
+
+    .slider-container1 .slide1 {
+        min-width: calc(100% - 20px) !important
+    }
+
+    .slider-container2 .slide2 {
+        min-width: 90% !important
+    }
+
+    .bookingpopup .center .images {
+        width: 40% !important
+    }
+
+    .bookingpopup h4 {
+        margin-top: 10px !important
+    }
+
+    .bg1 .row, .innerblogrow .row {
+        padding-block: 20px !important
+    }
+
+    .innerblogrow .contentcol {
+        grid-column: span 1
+    }
+
+    .innerblogrow .suggested-blogs .innerblog {
+        padding: 10px 15px
+    }
+
+    .innerblogrow .suggested-blogs .image-container {
+        border-radius: 10px 10px 0 0;
+        height: 200px
+    }
+
+    .bg3 .slider2 .slide2 {
+        min-width: 300px !important
+    }
+
+    .bg1 #flight_submit {
+        text-align: center
+    }
+
+    .bg1 .formctabtn {
+        display: block;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px !important
+    }
+
+    .bg1 form {
+        margin: 0;
+        margin-top: 10px !important;
+        padding: 20px 10px
+    }
+
+    .bg1 #mySelect label, .bg1 #mySelect1 label, .bg1 .bottom-section input {
+        font-size: 13px;
+        height:20px;
+    }
+
+    .bg1 .bottom-section i {
+        font-size: 9px
+    }
+
+    .bg1 .Classdrop, .bg1 .tripdrop {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        width: 100%;
+        padding: 0;
+        overflow-y: auto;
+        background: rgba(20,20,20,.3);
+        display: flex !important;
+        align-items: end;
+        transform: translateY(100%);
+        opacity: 0;
+        transition: transform .3s ease-in-out,opacity .3s ease-in-out;
+        pointer-events: none
+    }
+
+    .bg1 .innerClassdrop, .bg1 .innertripdrop {
+        background: #fff;
+        padding: 25px !important;
+        width: 100%;
+        transform: translateY(30px);
+        transition: transform .4s cubic-bezier(.25, 1, .3, 1)
+    }
+
+    .bg1 .fa-xmark {
+        display: block;
+        background: var(--secondary-color);
+        width: fit-content;
+        color: #fff;
+        padding: 5px 6px;
+        border-radius: 25px;
+        margin-left: auto !important
+    }
+
+    .bg1 #mySelect1 {
+        flex: 1;
+    }
+    .bg1 #mySelect {
+        width: fit-content;
+    }
+    .bg1 .bottom-section {
+        width: 85px;
+    }
+
+        .bg1 #mySelect:hover .tripdrop {
+            display: flex !important
+        }
+
+        .bg1 #mySelect:focus-within .tripdrop {
+            transform: translateY(0);
+            opacity: 1;
+            pointer-events: auto;
+            display: flex !important
+        }
+
+        .bg1 #mySelect1:hover .Classdrop {
+            display: flex !important
+        }
+
+        .bg1 #mySelect1:focus-within .Classdrop {
+            transform: translateY(0);
+            opacity: 1;
+            pointer-events: auto;
+            display: flex !important
+        }
+
+        .bg1 #mySelect:focus-within .innertripdrop {
+            transform: translateY(0)
+        }
+
+        .bg1 #mySelect1:focus-within .innerClassdrop {
+            transform: translateY(0)
+        }
+
+    .mobfoot {
+        display: grid;
+        gap: 10px:
+    }
+
+    .deskfoot {
+        display: none !important
+    }
+
+    #flight_results_container .tab-btn {
+        min-width: 45% !important;
+    }
+
+    #flight_results_container .tabs {
+        overflow-x: scroll;
+    }
+
+    .newfaqs .newfaqhead {
+        gap: 10px !important
+    }
+
+
+    #flight_results_container .tab-btn {
+        padding: 10px !important;
+        min-width: 33%;
+        font-size: 14px !important
+    }
+
+    .NewAirlinesDesign .slider4 {
+        width: 80%;
+    }
+}

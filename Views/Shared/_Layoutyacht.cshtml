@@ -1,0 +1,250 @@
+﻿@using Viman.Models
+@{
+    //ViewBag.StaticURL = Common.StaticURL;
+}
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @RenderSection("metatags", required: false)
+    <link rel="icon" type="image/x-icon" href="https://www.faresmatch.com/images/favicon-96x96.png">
+    <link href="https://www.faresmatch.com/fmcss/style.css" rel="stylesheet">
+    <link href="https://www.faresmatch.com/fmcss/index.css" rel="stylesheet">
+    <link href="https://www.faresmatch.com/fmcss/new.css" rel="stylesheet">
+    <link href="https://www.faresmatch.com/fmcss/homepax.css" rel="stylesheet">
+    <link href="https://www.faresmatch.com/fmcss/main.css" rel="stylesheet">
+    <style>
+        .newfmmedia {
+            .row
+
+        {
+            padding-top: 0 !important;
+        }
+
+        h2 {
+            padding-top: 0 !important;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .grid {
+            gap: 40px;
+        }
+
+        }
+
+        .yatchcards {
+            background-color: rgb(0, 104, 239, 0.1);
+            .grid
+
+        {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            img
+
+        {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .column {
+            background-color: var(--fourth-color);
+            box-shadow: 0 0 3px 3px rgba(20, 20, 20, 0.1);
+            border-radius: 10px;
+        }
+
+        .innercol {
+            padding: 20px;
+        }
+
+        .colortxt {
+            color: #6a6a6a;
+        }
+
+        hr {
+            margin-block: 5px;
+        }
+
+        .flex {
+            p: nth-child(2)
+
+        {
+            text-align: right;
+            flex: 1;
+            color: #6a6a6a;
+        }
+
+        }
+
+        .column:hover {
+            margin-top: -15px;
+            margin-bottom: 15px;
+        }
+
+        }
+        }
+
+        .yachtbg {
+            background-image: linear-gradient(to right, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url(./images/yatch-02.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            h2, p, h3
+
+        {
+            color: var(--fourth-color) !important;
+        }
+
+        i {
+            font-size: 25px;
+            color: var(--primary-color);
+            background-color: var(--fourth-color);
+            margin-bottom: auto;
+            margin-right: auto;
+            padding: 10px;
+            border-radius: 50%;
+        }
+
+        }
+
+        .newtextFM {
+            text-transform: uppercase;
+            font-family: var(--primary-font);
+            line-height: 1.5;
+            color: var(--sixth-color);
+            font-weight: 700;
+        }
+
+        .yachtexp {
+            .flex
+
+        {
+            border: 1px solid #141414;
+            border-radius: 5px;
+            .fa-solid
+
+        {
+            background-color: var(--primary-color);
+            padding: 10px 7px;
+            border-radius: 5px 0 0 5px;
+            color: var(--fourth-color);
+            font-size: 13px !important;
+        }
+
+        p:nth-child(2) {
+            padding: 2px 7px !important;
+            font-size: 14px !important;
+        }
+
+        }
+        }
+
+        @@media only screen and (max-width: 1024px) 
+        {
+        .yatchcards 
+        {
+            background-color: rgb(0, 104, 239, 0.1);
+            .grid
+
+        {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        }
+        }
+    </style>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NVZJ7347');</script>
+<!-- End Google Tag Manager -->
+</head>
+
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVZJ7347"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    @{Html.RenderPartial("~/Views/Shared/header.cshtml");}
+    <!-- WRAPPER CONTENT -->
+    <!-- FOOTER-->
+    <div class="clearfix"></div>
+
+    @RenderBody()
+
+
+
+
+    <div class="clearfix"></div>
+
+
+
+    <div class="clearfix"></div>
+    @{Html.RenderPartial("~/Views/Shared/footer.cshtml");}
+
+    <a href="tel:+1-800-918-3039">
+        <div class="mobilecta">
+            <div class="img">
+                <img src="https://www.faresmatch.com/fmimages/customer-support.jpg" alt="customer-support">
+            </div>
+            <div>
+                <p><b>Need Help Booking</b></p>
+                <p>Our agent is ready! Call us 24/7</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone-volume fa-beat"></i>
+            </div>
+        </div>
+    </a>
+
+
+    <script src="/fmcss/file.js"></script>
+
+    <script src="/fmcss/bootstrap.js"></script>
+    <script src="/fmcss/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/e315d29714.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fd2e64cf4a.js" crossorigin="anonymous"></script>
+    <!--Icons scripts-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        document.querySelectorAll('.faqhead').forEach(head => {
+            head.addEventListener('click', () => {
+                const detail = head.nextElementSibling; // Get the next sibling (headdetail)
+                const plusIcon = head.querySelector('.fa-caret-down');
+                const minusIcon = head.querySelector('.fa-caret-up');
+
+                detail.classList.toggle('show'); // Toggle visibility
+
+                // Toggle icons
+                if (detail.classList.contains('show')) {
+                    plusIcon.style.display = 'none'; // Hide plus
+                    minusIcon.style.display = 'inline'; // Show minus
+                } else {
+                    plusIcon.style.display = 'inline'; // Show plus
+                    minusIcon.style.display = 'none'; // Hide minus
+                }
+            });
+        });
+
+    </script>
+
+
+    <script src="https://www.faresmatch.com/fmcss/slider.js"></script>
+
+    <script src="https://kit.fontawesome.com/513bc71f1a.js" crossorigin="anonymous"></script>
+
+</body>
+
+
+
+
+</html>

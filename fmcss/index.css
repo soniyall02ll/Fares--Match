@@ -1,0 +1,1615 @@
+﻿@import url(style.css);
+
+#changeflight1, .newheader #view, .newheader .right, .promo-banner .item, .searchbox ul li, a[data-toggle=collapse] {
+    position: relative
+}
+
+.newheader .logocolum, .newheader .right {
+    max-width: fit-content
+}
+
+ul ul a, ul.CTAs a {
+    font-size: .9em !important
+}
+
+.newheader {
+    background-color: var(--third-color) !important;
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid var(--third-color);
+    z-index: 99 !important
+}
+
+body {
+    padding-top: 57px !important;
+    overflow-x: hidden !important
+}
+
+@media (min-width:300px) and (max-width:576px) {
+    body {
+        padding-top: 55px !important
+    }
+}
+
+.newheader .navdrop {
+    width: fit-content;
+    cursor: pointer
+}
+
+    #flight_results_container .tab-panel.active, .newheader .navdrop:hover ul {
+        display: block
+    }
+
+.newheader .head {
+    background-color: transparent;
+    width: 90%;
+    margin: auto !important;
+    padding: 12px 20px !important;
+    border: 0;
+    display: flex;
+    gap: 30px
+}
+
+    .bg1 i, .mobilecta div, .newheader .head .column {
+        margin: auto 0 !important
+    }
+
+    .newheader .head img {
+        width: 150px
+    }
+
+.NewAirlinesDesign input, .bg1 .fa-xmark, .mobfoot, .mobfoot .fa-caret-up, .mobfoot .newfaqdetails, .newfaqs .fa-caret-up, .newfaqs .newfaqdetails, .newheader #off, .newheader #on, .newheader .navlogo, .newheader .newnav, .newheader .right br {
+    display: none
+}
+
+.newheader .right {
+    border: 1px solid var(--primary-color);
+    display: flex;
+    border-radius: 50px;
+    padding-right: 15px;
+    margin: auto !important
+}
+
+    .newheader .right p {
+        margin: auto !important;
+        font-size: 13px !important;
+        font-weight: 700
+    }
+
+    .newheader .right div {
+        display: flex;
+        gap: 10px
+    }
+
+    .newheader .right img {
+        height: auto;
+        width: 30px;
+        border-radius: 25px
+    }
+
+    .newheader .right i {
+        font-size: 15px;
+        position: absolute;
+        left: 0;
+        border: 0;
+        top: 70%;
+        color: green;
+        text-shadow: 0 2px 2px rgba(20,20,20,.2)
+    }
+
+.newheader ul {
+    list-style-type: none !important;
+    background: #fff;
+    box-shadow: 0 0 2px 2px rgba(20,20,20,.2);
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 0;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none
+}
+
+.bg1 .Classdrop label:hover, .bg1 .tripdrop label:hover, .newheader i {
+    color: var(--primary-color)
+}
+
+.newheader li {
+    padding: 5px 25px !important;
+    cursor: pointer
+}
+
+.newheader a {
+    font-size: 15px !important
+}
+
+.newheader ul li.active, .newheader ul li:hover {
+    background: var(--primary-color);
+    text-decoration: none !important
+}
+
+    .newfooter .mainfooter .column a, .newheader ul li.active a, .newheader ul li.active i, .newheader ul li:hover a, .newheader ul li:hover i {
+        color: var(--fourth-color) !important;
+        text-decoration: none !important
+    }
+
+.bg2 .innerrow .column .right, .newheader .signjoin p {
+    text-align: right
+}
+
+.newheader .signjoin .fa-user {
+    background: var(--third-color);
+    color: #fff;
+    border-radius: 25px;
+    padding: 5px
+}
+
+.bg2 .innerrow .column .center, .slider-container1 .slide1 .center {
+    background-image: linear-gradient(to right,green,var(--sixth-color),var(--sixth-color),red);
+    height: 10px
+}
+
+.PartnerLogo .row, .TrendingFall .row {
+    padding-block: 0 !important
+}
+
+.PlanToday img, .TrendingFall img {
+    width: 100%;
+    border-radius: 10px 10px 0 0
+}
+
+.slider-container1, .slider-container3 {
+    position: relative;
+    overflow: hidden;
+    margin-top: 15px
+}
+
+    .slider-container1 .slider1, .slider-container3 .slider3 {
+        display: flex;
+        transition: transform .5s ease-in-out;
+        gap: 15px
+    }
+
+    .slider-container3 .slide3 {
+        min-width: calc(25% - 15px);
+        max-width: calc(25% - 15px);
+        border-radius: 10px;
+        background: #fff
+    }
+
+    .slider-container3 .next-btn3, .slider-container3 .prev-btn3 {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(87,87,87,.6);
+        color: #fff;
+        border: none;
+        padding: 5px 12px;
+        border-radius: 50px;
+        cursor: pointer;
+        width: fit-content;
+        z-index: 99;
+        display: none
+    }
+
+    .slider-container1 .prev-btn1, .slider-container2 .prev-btn2, .slider-container3 .prev-btn3 {
+        left: 10px
+    }
+
+    .slider-container1 .next-btn1, .slider-container2 .next-btn2, .slider-container3 .next-btn3 {
+        right: 10px
+    }
+
+    .slider-container1 .slide1, .slider-container2 .slide2 {
+        min-width: 24%
+    }
+
+        .slider-container1 .slide1 .center {
+            border-radius: 10px;
+            margin-block: 10px !important
+        }
+
+        .slider-container1 .slide1 p {
+            font-size: 13px !important;
+            line-height: 1.5 !important
+        }
+
+        .slider-container1 .slide1 h4 {
+            color: green !important;
+            font-weight: 700 !important
+        }
+
+        .slider-container1 .slide1 img {
+            width: 100%;
+            border-radius: 5px 5px 0 0
+        }
+
+        .slider-container1 .slide1 .innerdiv {
+            padding: 15px;
+            border: 1px solid #cacaca;
+            border-radius: 0 0 5px 5px
+        }
+
+    .slider-container1 .next-btn1, .slider-container1 .prev-btn1 {
+        display: none;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: var(--primary-color);
+        color: #fff;
+        border: none;
+        padding: 3px 15px !important;
+        cursor: pointer;
+        width: fit-content;
+        z-index: 99;
+        border-radius: 50px !important
+    }
+
+.bg1 .formctabtn, .bg2 .innerrow .column a {
+    color: var(--primary-color) !important
+}
+
+.disabled {
+    opacity: .5;
+    pointer-events: none;
+    cursor: not-allowed
+}
+
+.aefsdhfg {
+    min-width: 125px
+}
+
+.search_flights {
+    width: 210px
+}
+
+.bg1, .newfooter {
+    background: linear-gradient(90.95deg,#002479,#0053aa 95.26%)
+}
+
+    .bg1 h1, .bookingpopup .call h4, .newfooter .mainfooter h3, .newfooter .mainfooter p {
+        color: var(--fourth-color) !important
+    }
+
+    .bg1 .row {
+        padding-block: 25px 0 !important
+    }
+
+    .bg1 .formctabtn {
+        background: #fff !important;
+        border: 2px solid var(--primary-color) !important;
+        display: none;
+        margin: 0 !important
+    }
+
+    .bg1 form {
+        background-color: var(--fourth-color);
+        border-radius: 10px;
+        padding: 30px 20px;
+        margin-top: 20px !important;
+        position: relative;
+        margin-bottom: -40px;
+        box-shadow: 0 5px 5px rgba(20,20,20,.5)
+    }
+
+    .bg1 .labelrow {
+        display: flex;
+        flex: 1;
+        gap: 0 !important;
+        cursor: text
+    }
+
+    .bg1 .autocomplete-wrapper, .bg2 .innerrow .column div, .mobfoot .flex p:first-child, .newfaqhead p:first-child, .newfaqs .flex p:first-child, form .labelcol {
+        flex: 1
+    }
+
+    .bg2 .column, .newfooter .mainfooter .column, form label {
+        flex: 1 !important
+    }
+
+    .bg1 input, .bg1 select {
+        padding: 0 !important;
+        margin: 0 !important;
+        border: 0 !important
+    }
+
+    .bg1 #flight_submit {
+        margin: 0 !important;
+        text-transform: unset;
+        padding-inline: 20px !important
+    }
+
+    .bg1 .Classdrop, .bg1 .tripdrop {
+        border-radius: 10px;
+        box-shadow: 0 0 5px 5px rgba(20,20,20,.2);
+        padding: 15px;
+        position: absolute;
+        background: #fff;
+        left: 20px;
+        display: none;
+        z-index: 9999
+    }
+
+        .bg1 .Classdrop div, .bg1 .tripdrop div {
+            padding: 5px 0
+        }
+
+        .TravelProtect .ProtectCheck input, .bg1 .Classdrop input, .bg1 .tripdrop input {
+            width: 15px !important
+        }
+
+        .bg1 .Classdrop label, .bg1 .tripdrop label {
+            cursor: pointer;
+            font-size: 16px
+        }
+
+    .bg1 .innerClassdrop, .bg1 .innertripdrop {
+        gap: 10px !important;
+        display: grid
+    }
+
+    .bg1 .Classdrop {
+        left: 270px
+    }
+
+    .bg1 .formheads {
+        display: flex;
+        gap: 15px !important;
+        margin-bottom:5px;
+    }
+
+form input, form select, form textarea {
+    width: 100% !important;
+    padding: 10px !important;
+    margin: 5px 0 !important;
+    border: 1px solid var(--fifth-color) !important;
+    border-radius: 5px !important;
+    font-size: 16px;
+    background-position-y: center;
+    background-position-x: 7px;
+    background-repeat: no-repeat;
+    background-size: 15px
+}
+
+form label {
+    font-family: var(--secondary-font) !important;
+    font-size: 16px;
+    text-align: left !important
+}
+
+form button {
+    width: 100% !important
+}
+
+form div {
+    gap: 3px !important
+}
+
+form .dropdown-container {
+    position: relative;
+    display: inline-block;
+    width: 100% !important
+}
+
+form .dropdown-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    cursor: pointer
+}
+
+form .dropdown-content {
+    padding: 10px !important;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2);
+    z-index: 1;
+    border: 1px solid #ddd
+}
+
+    form .dropdown-content .dropdown-group {
+        padding: 10px;
+        border-bottom: 1px solid #ddd
+    }
+
+        form .dropdown-content .dropdown-group:last-child {
+            border-bottom: none
+        }
+
+    form .dropdown-content label {
+        margin-right: 10px
+    }
+
+form .qty {
+    cursor: pointer;
+    width: 30px;
+    text-align: center
+}
+
+form .qtyminus, form .qtyplus {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    font-size: 18px
+}
+
+form .dropdown-content input[type=text] {
+    width: 50px;
+    text-align: center
+}
+
+.bg2 .row {
+    padding-top: 0
+}
+
+.bg2 .innerrow .column {
+    flex: 1 !important;
+    padding: 20px !important;
+    box-shadow: 0 0 2px 2px rgba(20,20,20,.3);
+    border-radius: 10px;
+    margin-top: 20px !important
+}
+
+    .bg2 .innerrow .column .center {
+        border-radius: 10px;
+        margin: 20px 0 5px !important
+    }
+
+    .bg2 .innerrow .column .flex h3 {
+        font-size: 25px !important
+    }
+
+    .bg2 .innerrow .column .flex img {
+        width: 50px;
+        height: auto !important
+    }
+
+.background-image-hidden {
+    background-image: none !important
+}
+
+.slider-container2 {
+    position: relative;
+    overflow: hidden
+}
+
+    .slider-container2 .slider2 {
+        display: flex;
+        transition: transform .5s ease-in-out;
+        gap: 15px;
+        padding: 10px 0
+    }
+
+    .slider-container2 .slide2 .innerdiv {
+        padding: 15px;
+        border: 1px solid #cacaca;
+        border-radius: 0 0 10px 10px
+    }
+
+        .slider-container2 .slide2 .innerdiv div {
+            margin: auto 0;
+            flex: 1
+        }
+
+    .slider-container2 .slide2 button {
+        padding-block: 0 !important;
+        margin-block: 0 !important
+    }
+
+    .slider-container2 .next-btn2, .slider-container2 .prev-btn2 {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: var(--primary-color);
+        color: #fff;
+        border: none;
+        padding: 3px 15px !important;
+        cursor: pointer;
+        width: fit-content;
+        z-index: 99;
+        border-radius: 50px !important
+    }
+
+.CustomerThanks h2, .mainslider .row {
+    padding-top: 0 !important
+}
+
+.mobilecta {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 50px;
+    display: none;
+    background-color: var(--secondary-color);
+    color: var(--fourth-color);
+    width: fit-content;
+    padding-right: 20px
+}
+
+    .mobilecta p {
+        line-height: 1.5 !important;
+        font-size: 14px !important
+    }
+
+    .mobilecta .img {
+        border: 2px solid var(--fourth-color);
+        border-radius: 100%;
+        padding: 2px !important
+    }
+
+    .mobilecta img {
+        width: 50px;
+        background-color: #fff;
+        border-radius: 50%
+    }
+
+        .CustomerThanks div, .bookingpopup .column .detail img, .col-sm-12, .mobilecta img img, .promo-banner {
+            width: 100%
+        }
+
+    .mobilecta i {
+        background-color: var(--primary-color);
+        padding: 10px !important;
+        border-radius: 50px;
+        font-size: 20px
+    }
+
+section .wizard .tab-content .row {
+    width: 100% !important;
+    padding: 0 !important
+}
+
+.CustomerContactForm {
+    width: 100%;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+    background-color: rgba(20,20,20,.2);
+    height: 100vh;
+    overflow: hidden;
+    display: none
+}
+
+    .CustomerContactForm form, .CustomerThanks {
+        width: 50%;
+        box-shadow: 0 0 5px 5px rgba(20,20,20,.3)
+    }
+
+#sidebar, .CustomerThanks, .chat-open, .overlay {
+    position: fixed
+}
+
+#dismiss, .CustomerThanks, .NewFLightLoader, .bookingpopup .column, .row1 .column, .yellow-btn, ul.CTAs a {
+    text-align: center
+}
+
+.CustomerContactForm .grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px
+}
+
+.CustomerContactForm label {
+    text-align: left !important;
+    display: flex;
+    flex-direction: column
+}
+
+.CustomerContactForm button {
+    max-width: fit-content;
+    background-color: #141414 !important;
+    margin: 0 !important;
+    line-height: 2 !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    padding: 5px 15px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    border: none !important
+}
+
+    .CustomerContactForm button:hover {
+        background-color: #fd6f3b !important
+    }
+
+.CustomerContactForm form {
+    background-color: rgba(255,255,255,.9);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px auto auto
+}
+
+    .CustomerContactForm form input, .CustomerContactForm form select, .CustomerContactForm form textarea {
+        width: 100% !important;
+        padding: 10px !important;
+        border: 1px solid #787878 !important;
+        border-radius: 5px
+    }
+
+    .CustomerContactForm form textarea {
+        height: 75px !important
+    }
+
+.CustomerContactForm .fa-xmark {
+    background-color: #141414;
+    color: #fff;
+    border-radius: 50%;
+    padding: 8px 10px;
+    position: absolute;
+    right: -16px;
+    top: -18px;
+    z-index: 1
+}
+
+.CustomerContactForm .chat-form {
+    bottom: 0;
+    right: 0;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform .5s,opacity .5s;
+    position: relative
+}
+
+.chat-open {
+    right: -42px;
+    font-weight: 700;
+    top: 50%;
+    background-color: #fd6f3b;
+    font-size: 30px;
+    padding: 2px 15px;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    rotate: -90deg;
+    cursor: pointer;
+    z-index: 999
+}
+
+.CustomerContactForm.open .chat-form {
+    transform: translateX(0);
+    opacity: 1
+}
+
+.CustomerThanks {
+    padding: 40px;
+    top: 10%;
+    border-radius: 10px;
+    right: 25%;
+    background-color: #fff;
+    align-items: center;
+    display: none
+}
+
+    .CustomerThanks button {
+        padding-block: 0 !important;
+        margin-top: 15px !important;
+        margin-bottom: 0 !important
+    }
+
+.popup-container {
+    z-index: 1000;
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 102vh !important
+}
+
+#sidebar, .bookingpopup, .overlay, .row1 {
+    height: 100vh
+}
+
+#view, .nav1 {
+    z-index: 9999 !important
+}
+
+.popup-content {
+    background-color: transparent;
+    width: 100% !important;
+    z-index: 1
+}
+
+.container1 {
+    width: 100% !important;
+    max-width: 100% !important;
+    background-color: rgba(20,20,20,.95) !important
+}
+
+.row1 {
+    padding: 20px !important
+}
+
+    .row1 img {
+        width: 38%;
+        cursor: pointer
+    }
+
+.popup .column i {
+    color: var(--fourth-color);
+    background-color: var(--secondary-color) !important;
+    padding: 10px 12px !important;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: top
+}
+
+.offer-banner-section-pd {
+    padding: 30px !important
+}
+
+.promo-banner .item img {
+    width: 100%;
+    border-radius: 5px;
+    height: 300px
+}
+
+.promo-banner .item .detail {
+    position: absolute;
+    left: 21px;
+    top: 5px;
+    width: 100%
+}
+
+    .promo-banner .item .detail h3 {
+        font-size: 23px;
+        color: #000;
+        font-weight: 700
+    }
+
+        .promo-banner .item .detail h3 span {
+            padding-top: 10px;
+            display: block;
+            font-size: 21px;
+            font-weight: 300
+        }
+
+    .promo-banner .item .detail .promo {
+        font-size: 19px;
+        color: #fff;
+        padding: 10px 0
+    }
+
+.yellow-btn {
+    width: 168px;
+    background: #fff;
+    display: inline-block;
+    padding: 13px 0;
+    font-size: 16px;
+    color: #000;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+.promo-banner .item .detail small {
+    display: block;
+    font-size: 11px;
+    color: #fff;
+    opacity: .8;
+    padding-top: 10px
+}
+
+.VIpgJd-ZVi9od-ORHb, .goog-logo-link {
+    display: none !important
+}
+
+.goog-te-gadget {
+    color: transparent !important
+}
+
+html {
+    overflow-x: auto !important
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #eeeeee00 !important;
+    opacity: 1
+}
+
+.navbar1 {
+    padding: 0 7px;
+    background: #fff0 !important;
+    border-color: #e7e7e7;
+    min-height: 10px;
+    margin-bottom: 0
+}
+
+.navbar1-btn {
+    box-shadow: none;
+    outline: 0 !important;
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+#sidebar {
+    width: 300px;
+    top: 0;
+    left: -300px;
+    z-index: 999;
+    background: linear-gradient(to left,#8400ff 0,#50009b 100%);
+    color: #fff;
+    transition: .3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.2)
+}
+
+#dismiss, .NewAirlinesDesign img {
+    height: 30px;
+    cursor: pointer
+}
+
+#sidebar.active {
+    left: 0
+}
+
+#dismiss {
+    width: 30px;
+    line-height: 30px;
+    background: #fff;
+    position: absolute;
+    top: 35px;
+    right: 25px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    color: #034053;
+    border-radius: 100%
+}
+
+    #dismiss:hover, a.download {
+        background: #fff;
+        color: #7386d5
+    }
+
+.overlay {
+    width: 100vw;
+    background: rgba(0,0,0,.7);
+    z-index: 998;
+    display: none
+}
+
+#sidebar .sidebar-header {
+    padding: 30px 15px;
+    background: linear-gradient(to left,#8400ff 0,#50009b 100%);
+    border-bottom: 2px solid #fff
+}
+
+#sidebar nav ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b
+}
+
+#sidebar nav ul p {
+    color: #fff;
+    padding: 10px;
+    font-family: Poppins,sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em
+}
+
+#sidebar nav ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    border-bottom: 1px solid #065973
+}
+
+    #sidebar nav ul li a:hover {
+        color: #7386d5;
+        background: #fff
+    }
+
+#sidebar nav ul li.active > a, a[aria-expanded=true] {
+    color: #fff;
+    background: #6d7fcc
+}
+
+    a[aria-expanded=false]::before, a[aria-expanded=true]::before {
+        content: '\e259';
+        display: block;
+        position: absolute;
+        right: 20px;
+        font-family: 'Glyphicons Halflings';
+        font-size: .6em
+    }
+
+    a[aria-expanded=true]::before {
+        content: '\e260'
+    }
+
+ul ul a {
+    padding-left: 30px !important;
+    background: #6d7fcc
+}
+
+ul.CTAs {
+    padding: 20px
+}
+
+    ul.CTAs a {
+        display: block;
+        border-radius: 5px;
+        margin-bottom: 5px
+    }
+
+a.article, a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important
+}
+
+@media (min-width:601px) and (max-width:1280px) {
+    .dis-hide {
+        display: none
+    }
+
+    .header nav ul {
+        display: flex
+    }
+}
+
+@media (min-width:1281px) {
+    .dis-hide {
+        display: none
+    }
+
+    .header nav ul {
+        display: flex
+    }
+}
+
+#txtDestCode:focus::placeholder, #txtOriginCode:focus::placeholder {
+    color: transparent
+}
+
+#txtDestCode_0:focus::placeholder, #txtDestCode_1:focus::placeholder, #txtDestCode_2:focus::placeholder, #txtOriginCode_0:focus::placeholder, #txtOriginCode_1:focus::placeholder, #txtOriginCode_2:focus::placeholder {
+    color: transparent
+}
+
+#Hotels .searchbox.htl ul li:nth-of-type(2), .searchbox#Tp_roundtrip ul:nth-child(8) li:nth-of-type(2) {
+    visibility: hidden
+}
+
+.icon-class {
+    position: absolute;
+    left: 140px;
+    top: 8px
+}
+
+    .icon-class img {
+        width: 21px
+    }
+
+.searchbox ul li input#txtDepartDate, .searchbox ul li input#txtReturnDate {
+    padding-left: 30px
+}
+
+.newfaqs .newfaq {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #141414;
+    margin-top: 15px;
+    cursor: pointer
+}
+
+.latestUSPS .grid3 {
+    padding: 15px;
+    border-radius: 10px;
+    background: #f7fbff;
+    border: 1px solid #daecff
+}
+
+.latestUSPS .flex {
+    gap: 15px
+}
+
+.latestUSPS a, .latestUSPS p {
+    font-size: 14px !important;
+    text-align: left !important;
+    line-height: 1.5 !important
+}
+
+.latestUSPS img {
+    height: 45px;
+}
+
+.PartnerLogo img {
+    width: 80%
+}
+
+.PartnerLogo .flex {
+    margin-top: 10px
+}
+
+.PartnerLogo .column {
+    border: 1px solid #dbdbdb;
+    padding: 15px;
+    border-radius: 10px
+}
+
+    .PartnerLogo .column div {
+        margin: auto 0
+    }
+
+.PlanToday p:last-child {
+    text-align: right;
+    font-size: 11px !important;
+    margin-top: 5px !important
+}
+
+.bg1 .col3 i, .newfooter form button, .newfooter form input {
+    margin: 0 !important
+}
+
+.PlanToday span {
+    background: #febd01;
+    font-weight: 700;
+    padding: 3px 5px;
+    border-radius: 5px
+}
+
+.PlanToday .column {
+    background: linear-gradient(90.95deg,#002479 0,#0053aa 95.26%);
+    border-radius: 10px;
+    padding: 20px
+}
+
+    .PlanToday .column h2 {
+        color: #ffbd14 !important
+    }
+
+.PlanToday .innerdiv {
+    padding: 15px
+}
+
+.PlanToday button {
+    width: 100%;
+    padding-block: 0 !important;
+    margin-top: 25px !important;
+    margin-bottom: 0 !important
+}
+
+.PlanToday h2 {
+    padding: 0 !important
+}
+
+.newfooter form {
+    gap: 5px
+}
+
+    .newfooter form button {
+        width: fit-content !important
+    }
+
+.newfooter .mainfooter {
+    width: 90%;
+    padding: 40px 20px 0 !important;
+    margin: auto !important
+}
+
+    .newfooter .mainfooter .newsocial {
+        justify-content: end
+    }
+
+        .newfooter .mainfooter .newsocial i {
+            background-color: var(--fourth-color);
+            color: var(--secondary-color);
+            padding: 10px !important;
+            border-radius: 50px
+        }
+
+            .newfooter .mainfooter .newsocial i:hover {
+                background-color: var(--primary-color);
+                color: var(--fourth-color)
+            }
+
+        .newfooter .mainfooter .newsocial div {
+            gap: 12px
+        }
+
+    .newfooter .mainfooter .links {
+        border-top: 1px solid var(--fourth-color);
+        border-bottom: 1px solid var(--fourth-color);
+        padding: 20px 0 !important;
+        margin-top: 20px !important
+    }
+
+        .newfooter .mainfooter .links a::before {
+            content: "\f105";
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            margin-right: 5px
+        }
+
+    .newfooter .mainfooter .column b {
+        font-size: 18px
+    }
+
+    .newfooter .mainfooter .column a:hover {
+        text-decoration: underline dashed !important
+    }
+
+    .newfooter .mainfooter img {
+        width: 200px !important
+    }
+
+.newfooter .foot {
+    width: 90%;
+    padding: 15px 20px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    color: var(--fourth-color) !important
+}
+
+.bookingpopup .column .detail {
+    padding: 15px !important
+}
+
+    .bookingpopup .column .detail h2 {
+        line-height: 1 !important;
+        margin: 0 !important;
+        padding: 0 !important
+    }
+
+    .bookingpopup .column .detail p {
+        line-height: 1.5 !important
+    }
+
+    .bookingpopup .column .detail div {
+        flex: 1 !important;
+        margin: auto 0 !important
+    }
+
+.bookingpopup .loading {
+    width: 75px !important
+}
+
+.bookingpopup .call {
+    background-color: var(--primary-color);
+    border-radius: 0 0 10px 10px;
+    padding: 10px !important
+}
+
+.bookingpopup .img {
+    background-color: var(--third-color);
+    border-radius: 10px 10px 0 0;
+    padding: 15px !important
+}
+
+    .bookingpopup .img img {
+        width: 30%
+    }
+
+.bookingpopup .center {
+    box-shadow: 0 0 5px 5px rgba(20,20,20,.2);
+    width: 30%;
+    margin: auto !important;
+    background-color: var(--fourth-color);
+    border-radius: 10px
+}
+
+@media only screen and (max-width:1024px) {
+    .CustomerThanks {
+        width: 90%;
+        top: 5%;
+        right: 5%;
+        padding: 40px 20px
+    }
+
+    .flighthead {
+        border-radius: 10px 10px 0 0 !important
+    }
+
+    .CustomerContactForm {
+        height: fit-content;
+        background-color: #fff;
+        width: 95%;
+        right: 2.5%;
+        left: 2.5%;
+        top: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px 5px rgba(20,20,20,.3)
+    }
+
+        .CustomerContactForm .grid {
+            grid-template-columns: repeat(1,1fr)
+        }
+
+        .CustomerContactForm form {
+            box-shadow: none;
+            width: 100%;
+            padding-top: 45px;
+            margin-top: 0
+        }
+
+        .CustomerContactForm .fa-xmark {
+            position: absolute;
+            right: 45%;
+            top: 5px;
+            border-radius: 50%;
+            font-size: 20px
+        }
+
+    .row1, .row1 img {
+        width: 100% !important
+    }
+
+        .row1 .column {
+            margin-top: 20% !important
+        }
+}
+
+@media screen and (max-width:600px) {
+    .dis-visible {
+        display: block
+    }
+
+    #sidebar ul {
+        display: block !important
+    }
+
+        #sidebar ul li a {
+            display: block;
+            padding: 15px;
+            font-size: 16px;
+            color: #fff;
+            border-bottom: 2px solid #fff;
+            width: 100%
+        }
+
+            #sidebar ul li a:hover {
+                color: #fff;
+                background-color: #000
+            }
+
+    .trustpilot-widget {
+        display: none
+    }
+
+    .banner .container {
+        position: absolute;
+        padding-top: 0
+    }
+
+    .home-searchbg {
+        min-height: 445px;
+        padding: 15px 0
+    }
+
+    .other-option {
+        width: 290px
+    }
+
+    .promo-banner {
+        width: 100%;
+        padding-bottom: 0
+    }
+
+        .promo-banner .item {
+            position: relative;
+            width: -webkit-fill-available;
+            margin-left: 0
+        }
+
+            .promo-banner .item img {
+                width: 100%;
+                border-radius: 5px;
+                height: 190px
+            }
+
+            .promo-banner .item .detail {
+                position: absolute;
+                left: 21px;
+                top: 5px;
+                width: 100%
+            }
+
+                .promo-banner .item .detail h3 {
+                    font-size: 15px;
+                    margin-top: 10px;
+                    margin-bottom: 10px
+                }
+
+                    .promo-banner .item .detail h3 span {
+                        font-size: 18px;
+                        padding-top: 5px
+                    }
+
+                .promo-banner .item .detail .promo {
+                    font-size: 15px;
+                    padding: 8px 0
+                }
+
+    .yellow-btn {
+        width: 110px;
+        padding: 7px 0;
+        font-size: 14px
+    }
+}
+
+.mobfoot .newfaqhead {
+    cursor: pointer
+}
+
+.mobfoot .newfaqdetails {
+    border-block: 1px solid #fff
+}
+
+.NewFLightLoader {
+    position: fixed;
+    top: calc((100vh - 260px) / 2);
+    background: #fff;
+    box-shadow: 0 0 5px 5px rgba(20, 20, 20, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    left: calc((100% - 320px) / 2);
+    align-items: center;
+    margin: auto;
+    z-index: 99;
+    width: 320px;
+    height: 260px;
+}
+
+.TravelProtect {
+    box-shadow: 0 0 4px 4px rgba(20,20,20,.1);
+    margin-bottom: 15px
+}
+
+.NewFLightLoader img {
+    width: 100px !important
+}
+
+.NewFLightLoader p, .NewFLightLoader h4 {
+    text-align: center !important;
+    color: var(--secondary-color) !important
+}
+
+.bg1 .col3 input {
+    padding: 10px !important;
+    border: 1px solid #b1b3be !important;
+    border-radius: 0 5px 5px 0 !important;
+    border-left: 0 !important;
+    height: 50px;
+    width: 100%
+}
+
+.bg1 .col3 li:focus {
+    background: red
+}
+
+.autocomplete-result.highlight {
+    background-color: #1c7cde !important;
+    color: #fff !important;
+    font-weight: 700 !important
+}
+
+.bg1 .col3 i {
+    border: 1px solid #b1b3be;
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+    padding-block: 15px;
+    padding-left: 10px;
+    height: 50px
+}
+
+.TravelProtect {
+    border-radius: 10px;
+    padding: 20px;
+    gap: 15px !important
+}
+
+    .TravelProtect img {
+        width: 50px
+    }
+
+    .TravelProtect .grid2 {
+        gap: 0 !important
+    }
+
+    .TravelProtect i {
+        color: green
+    }
+
+    .TravelProtect .ProtectCheck {
+        background: var(--secondary-color);
+        border-radius: 5px;
+        padding: 5px 15px;
+        display: flex;
+        gap: 10px;
+        min-width: 220px;
+        margin: auto 0
+    }
+
+        .TravelProtect .ProtectCheck label {
+            color: #fff;
+            font-size: 15px;
+            line-height: 2
+        }
+
+    .NewAirlinesDesign p, .TravelProtect .TravelPrice p {
+        line-height: 1 !important;
+        font-size: 13px !important
+    }
+
+    .TravelProtect .TravelPrice {
+        min-width: 130px
+    }
+
+#flight_results_container .tabs {
+    margin: 0 0 15px;
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    display: flex
+}
+
+#flight_results_container .tab-btn {
+    flex: 1;
+    text-align: left;
+    padding: 10px 20px !important;
+    background-color: var(--fourth-color) !important;
+    border-bottom: 2px solid #fff !important;
+    cursor: pointer !important;
+    transition: background-color .3s;
+    color: var(--third-color) !important;
+    line-height: 1.5 !important;
+    font-size: 15px !important;
+    border-radius: 0 !important;
+    margin: 0 !important
+}
+
+    #flight_results_container .tab-btn:nth-child(2n) {
+        border-inline: 1px solid #cacaca !important
+    }
+
+    #flight_results_container .tab-btn:first-child {
+        border-radius: 10px 0 0 10px !important
+    }
+
+    #flight_results_container .tab-btn:last-child {
+        border-radius: 0 10px 10px 0 !important
+    }
+
+    #flight_results_container .tab-btn.active {
+        border-color: var(--secondary-color) !important
+    }
+
+#flight_results_container .tab-content {
+    display: flex;
+    border-radius: 0 0 10px 10px;
+    background-color: var(--fourth-color)
+}
+
+#flight_results_container .tab-panel {
+    display: none;
+    width: 100%
+}
+
+.NewAirlinesDesign {
+    display: flex;
+    border-radius: 10px;
+    gap: 5px !important;
+    cursor: pointer;
+    margin-bottom: 15px;
+
+    .slider-container4 {
+        position: relative;
+        overflow: hidden;
+        width:100%;
+        display:flex;
+        gap: 10px;
+    }
+
+    .slider4 {
+        flex: 1;
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        gap: 5px;
+        width: 94%;
+    }
+
+    .slider4BTN {
+        border: 1px solid #cacaca;
+    border-radius: 5px;
+    padding: 5px;
+    background: #fff;
+    z-index:9;
+    }
+
+    .slide4, .slider4 .CustomCol {
+        min-width: 150px;
+    }
+
+    .prev-btn4,
+    .next-btn4 {
+        padding: 10px 7px !important;
+        margin: 0 !important;
+    }
+}
+
+    .NewAirlinesDesign label {
+        text-align: center;
+        width: 100%;
+        cursor: pointer
+    }
+
+    .NewAirlinesDesign .CustomCol {
+        min-width: 100px;
+        max-width: 100px;
+        cursor: pointer;
+        border: 1px solid #cacaca;
+        border-radius: 5px;
+    }
+
+    .NewAirlinesDesign .AirlinesHead {
+        padding: 10px 5px;
+        border-bottom: 1px solid #cacaca;
+        cursor: pointer
+    }
+
+    .NewAirlinesDesign .CustomFooter {
+        padding: 10px 5px;
+        cursor: pointer
+    }
+
+    .CustomFooter:hover, .NewAirlinesDesign .AirlinesHead:hover {
+        background: #cacaca
+    }
+
+    .NewAirlinesDesign .CustomFooter:last-child {
+        border-top: 1px solid #cacaca
+    }
+
+    .NewAirlinesDesign p {
+        text-align: center !important;
+        cursor: pointer
+    }
+
+.CustomCol label.selected {
+    border: 2px solid #ff6600;
+    background-color: #fff7e6;
+}
+
+#mySelect:hover, #mySelect1:hover {
+    .tripdrop, .Classdrop {
+                  display:block;
+              }
+}
+
+.bg1 .bottom-section {
+    width: 110px;
+}
+
+.loadingloader {
+    background-image: url(/fmimages/airplane.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75px;
+}
+
+.loadingloader img {
+  animation: spin 1s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-inline: 3px !important;
+}

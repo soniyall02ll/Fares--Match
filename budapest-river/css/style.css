@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo');
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    width: 100%;
+    max-width: 100%;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #6600cc;
+    --secondary-color: #e5006c;
+    --third-color: #015FDD;
+    --fourth-color: #ffffff;
+    --fifth-color: #141414;
+    /*fonts*/
+    --primary-font: Chivo;
+    --secondary-font: Lato;
+}
+
+#off,
+#on {
+    display: none;
+}
+
+.row1 {
+    width: 1200px;
+    margin: auto;
+    padding: 80px 20px;
+}
+
+.column {
+    flex: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+p,
+li,
+a {
+    font-family: var(--secondary-font);
+    line-height: 2;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--primary-font) !important;
+    line-height: 1.35 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: var(--third-color);
+}
+
+h1 {
+    font-size: 42px !important;
+    font-weight: 700 !important;
+    text-shadow: 0 5px 5px rgba(20, 20, 20) !important;
+}
+
+h2 {
+    font-size: 32px !important;
+    font-weight: 400 !important;
+    color: var(--fifth-color) !important;
+}
+
+h3 {
+    font-size: 22px !important;
+    font-weight: 400 !important;
+}
+
+h4 {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    padding: 5px 0 !important;
+    color: var(--fifth-color) !important;
+}
+
+a {
+    color: var(--fifth-color);
+    text-decoration: underline;
+}
+
+.button {
+    font-family: var(--secondary-font);
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 6px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--fourth-color);
+    background-color: var(--primary-color);
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: var(--secondary-color);
+}
+
+.gap {
+    gap: 40px;
+}
+
+.gap1 {
+    gap: 15px;
+}
+
+.gap2 {
+    gap: 15px;
+}
+
+.gap3 {
+    gap: 25px;
+}
+
+ul#ui-id-2 {
+    background-color: #fff;
+    padding: 5px;
+}
+
+ul#ui-id-1 {
+    background-color: #fff;
+    padding: 5px;
+}
+
+.newfooter {
+    .foot {
+        width: 1200px;
+        padding: 20px;
+        margin: auto;
+        p, a {
+        font-size: 13px !important;
+        }
+    }
+
+    a:hover {
+        color: var(--secondary-color);
+        text-decoration: underline !important;
+    }
+
+    .mainfooter {
+        width: 1200px;
+        padding: 60px 20px;
+        margin: auto;
+    }
+
+    i {
+        color: var(--fourth-color) !important;
+        font-size: 22px !important;
+        padding-inline: 15px;
+        margin-block: 20px;
+    }
+}
